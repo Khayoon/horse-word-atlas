@@ -6,7 +6,7 @@
       "form": "*h₁éḱwos",
       "gloss": "horse",
       "color": "#d8ad97",
-      "description": "The inherited Indo-European horse word survives here in Scottish Gaelic each and the Iranian asp/asb/hesp set. Their sound histories differ. Modern English horse and Romance caballus words do not descend from this noun. Proposed connections to Finnic and Caucasian forms are not treated as established here.",
+      "description": "The PIE horse noun *h₁éḱwos is shown with separate Celtic and Iranian routes and colours. Scottish Gaelic each continues Proto-Celtic *ekʷos through Old Irish ech; Iranian asp/asb/hesp words continue Proto-Iranian *Hácwah through different histories, including Iranian-internal borrowing. These are the two lineages represented by the map’s selected labels, not the only surviving reflexes. Greek ίππος and Latin equus also continue this PIE noun; the selected Greek άλογο and Romance caballus words have other origins. Proposed Finnic and Caucasian links remain unresolved.",
       "sources": [
         {
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos",
@@ -15,6 +15,38 @@
         {
           "title": "Encyclopaedia Iranica: ASB i., Iranian horse terminology",
           "url": "https://www.iranicaonline.org/articles/asb-pre-islamic-iran/"
+        },
+        {
+          "title": "Wiktionary: Scottish Gaelic each, via Old Irish ech and Proto-Celtic *ekʷos",
+          "url": "https://en.wiktionary.org/wiki/each#Scottish_Gaelic"
+        },
+        {
+          "title": "Wiktionary: Greek ίππος, another surviving PIE horse-word reflex",
+          "url": "https://en.wiktionary.org/wiki/%CE%AF%CF%80%CF%80%CE%BF%CF%82#Greek"
+        },
+        {
+          "title": "Wiktionary: Latin equus, inherited PIE horse noun",
+          "url": "https://en.wiktionary.org/wiki/equus#Latin"
+        }
+      ],
+      "routes": [
+        {
+          "id": "pie-celtic",
+          "label": "Celtic route",
+          "form": "*ekʷos",
+          "gloss": "horse",
+          "legend": "Celtic *ekʷos · “horse” → each",
+          "color": "#7da8ad",
+          "description": "PIE *h₁éḱwos → Proto-Celtic *ekʷos → Old Irish ech → Scottish Gaelic each."
+        },
+        {
+          "id": "pie-iranian",
+          "label": "Iranian route",
+          "form": "*Hácwah",
+          "gloss": "horse",
+          "legend": "Iranian *Hácwah · “horse” → asb / hesp",
+          "color": "#d8ad97",
+          "description": "PIE *h₁éḱwos → Proto-Indo-Iranian *Háćwas → Proto-Iranian *Hácwah → the selected asp/asb/hesp forms. Individual histories include Iranian-internal borrowing."
         }
       ]
     },
@@ -1772,13 +1804,18 @@
         },
         {
           "label": "Proto-Celtic",
-          "form": "*ekwos"
+          "form": "*ekʷos"
+        },
+        {
+          "label": "Old Irish",
+          "form": "ech"
         },
         {
           "label": "Scottish Gaelic",
           "form": "each"
         }
-      ]
+      ],
+      "etymologyBranch": "pie-celtic"
     },
     {
       "id": "glv",
@@ -1995,10 +2032,15 @@
           "form": "*Háćwas"
         },
         {
+          "label": "Proto-Iranian",
+          "form": "*Hácwah"
+        },
+        {
           "label": "Persian",
           "form": "اسب"
         }
-      ]
+      ],
+      "etymologyBranch": "pie-iranian"
     },
     {
       "id": "kmr",
@@ -2026,10 +2068,15 @@
           "form": "*Háćwas"
         },
         {
+          "label": "Proto-Iranian",
+          "form": "*Hácwah"
+        },
+        {
           "label": "Northern Kurdish",
           "form": "hesp"
         }
-      ]
+      ],
+      "etymologyBranch": "pie-iranian"
     },
     {
       "id": "oss",
@@ -3234,10 +3281,15 @@
           "form": "*Háćwas"
         },
         {
+          "label": "Proto-Iranian",
+          "form": "*Hácwah"
+        },
+        {
           "label": "Balochi",
           "form": "اسپ"
         }
-      ]
+      ],
+      "etymologyBranch": "pie-iranian"
     },
     {
       "id": "lrc",
@@ -3265,10 +3317,15 @@
           "form": "*Háćwas"
         },
         {
+          "label": "Proto-Iranian",
+          "form": "*Hácwah"
+        },
+        {
           "label": "Northern Luri",
           "form": "اسپ"
         }
-      ]
+      ],
+      "etymologyBranch": "pie-iranian"
     },
     {
       "id": "luz",
@@ -3296,10 +3353,15 @@
           "form": "*Háćwas"
         },
         {
+          "label": "Proto-Iranian",
+          "form": "*Hácwah"
+        },
+        {
           "label": "Southern Luri",
           "form": "اسپ"
         }
-      ]
+      ],
+      "etymologyBranch": "pie-iranian"
     },
     {
       "id": "bqi",
@@ -3327,10 +3389,15 @@
           "form": "*Háćwas"
         },
         {
+          "label": "Proto-Iranian",
+          "form": "*Hácwah"
+        },
+        {
           "label": "Bakhtiari",
           "form": "اسب"
         }
-      ]
+      ],
+      "etymologyBranch": "pie-iranian"
     },
     {
       "id": "ckb",
@@ -3358,10 +3425,15 @@
           "form": "*Háćwas"
         },
         {
+          "label": "Proto-Iranian",
+          "form": "*Hácwah"
+        },
+        {
           "label": "Central Kurdish",
           "form": "ئەسپ"
         }
-      ]
+      ],
+      "etymologyBranch": "pie-iranian"
     },
     {
       "id": "kal",
@@ -3510,7 +3582,7 @@
     "title": "Lexical and etymological method",
     "asOf": "2026-10-18",
     "scope": "105 selected horse words across Europe and neighbouring regions. The same generalized language geography as the snow map is reused. A representative common noun is selected, with important male-horse, collective and regional distinctions noted.",
-    "comparison": "Default colours follow shared word ancestry across language families, including borrowings. Root sets are compared at the deepest level supported with confidence; several sets stop at a Germanic, Finnic, Slavic or attested local stage. Neither membership in Indo-European nor resemblance proves a shared PIE origin.",
+    "comparison": "Colours follow supported word ancestry and selected historical routes. The PIE *h₁éḱwos category has separate Celtic and Iranian subgroups, with distinct swatches and colours beneath the common ancestor. These are the lineages represented by the chosen labels, not an exhaustive list of all PIE horse-word reflexes. Borrowing remains distinct from language-family metadata; uncertain deeper origins remain unresolved.",
     "chains": "Chains are schematic, not complete dated sound histories. Borrowing and derivation are noted; shared colour does not imply direct inheritance. Asterisks mark reconstructed, unattested forms.",
     "uncertainty": "The origin of caballus/*kaballos and the deeper origin of English horse are disputed. Finnic *hëpo is not automatically merged with PIE *h₁éḱwos. Early Iranian relationships proposed for Caucasian horse words remain marked as proposals. No indigenous Canarian horse word was verified; that label and its historical island-reference fill are omitted, leaving the modern Spanish reference layer. The former snow gloss tener? is not reused.",
     "standards": "Non-Latin labels retain native scripts with a parenthesized romanized reading beneath. Scholarly Latin transcriptions are used where no reliable native spelling was checked. Romanizations are not IPA. Northern Luri uses a local speaker wordlist; the Iraqi reference ḥiṣān is also attested in a Baghdadi Arabic study, without asserting uniform regional vowels. Mandaic is literary/liturgical.",

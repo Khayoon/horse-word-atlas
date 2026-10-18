@@ -9,8 +9,9 @@ from fontTools.pens.boundsPen import BoundsPen
 site=ROOT;vendor=site/'dist/vendor'
 lex=json.loads((site/'dist/data/lexicon.json').read_text(encoding='utf-8'))
 source=(site/'dist/app.js').read_text(encoding='utf-8')
-strings={'Etymology','Language branches','*h₁éḱwos','Proto-Indo-European · “horse”','Scottish Gaelic & Iranian descendants','Shared colour includes borrowed words'}
+strings={'Etymology','Language branches','*h₁éḱwos','Proto-Indo-European · “horse”'}
 strings.update(r['legend'] for r in lex['roots'] if 'legend' in r)
+strings.update(route['legend'] for root in lex['roots'] for route in root.get('routes',[]))
 branches=re.findall(r"(\w+):'[^']+'",source.split('const branchColors={')[1].split('};')[0])
 strings.update(branches)
 for l in lex['languages']:strings.update([l.get('branch',''),l.get('family','')])
