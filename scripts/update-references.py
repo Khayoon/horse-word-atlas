@@ -32,6 +32,7 @@ for item in catalog['geography']:
  geomd.append(f'- **{title}** — {item["usedFor"]} '+ ' · '.join(f'[{x["label"]}]({x["url"]})' for x in item['urls']))
 notes=[
 'The PIE horse noun *h₁éḱwos heads two separate colour rows: Celtic *ekʷos → Scottish Gaelic each, and Iranian *Hácwah → asb/asp/hesp. They share an earlier ancestor but follow separate branches. These are the two lineages represented by the selected labels, not the only surviving descendants: Greek ίππος also continues that noun, while this map selects everyday άλογο. Other colours follow word ancestry, including borrowings; uncertain deep links remain separate.',
+'The caballus / *kaballos family has a shared heading and three separate route colours: Romance, Celtic and Albanian. Romance words continue Latin caballus; Albanian kalë is a Latin loan. The related Celtic terms retain their individual histories and disputed early borrowing directions in the entry notes.',
 'The same generalized, overlapping language footprints as the snow atlas are retained. A complete Natural Earth country reference layer fills the land beneath them; this is not a census or a claim of exclusive language use. Kurdish supplements retain their published 1750 reference epoch.',
 'Romanizations under non-Latin words are reading aids, not IPA. Maaloula uses Arnold’s attested scholarly sūsča; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.',
 'No reliable indigenous Canarian horse term was verified. The earlier snow word tener? is not reused: this version retains the modern Spanish reference on the islands.',
@@ -61,8 +62,8 @@ A flat landscape linguistic map of words for **horse** across Europe and its nei
 
 {chr(10).join('- '+n for n in notes)}
 - Common representative nouns are selected. Russian лошадь is used alongside neighbouring Slavic konj/koń forms; Russian конь remains a noted alternative. Irish capall and Scottish Gaelic each intentionally illustrate different histories.
-- Colour groups follow the ancestry and routes shown in the legend, including loans; shared colour is not proof of direct inheritance. The PIE horse noun has separate Celtic and Iranian route colours. English horse, German Pferd, Scandinavian hest and Romance caballo/cheval are separate sets. An asterisk marks a reconstructed form; a question mark marks an unresolved deeper origin or borrowing.
-- The caballus/*kaballos group includes related Celtic terms without making every Celtic word a direct Latin loan. Finnic and Caucasian proposed Indo-European links remain unresolved. Some origin sets stop at an attested local word.
+- Colour groups follow the ancestry and routes shown in the legend, including loans; shared colour is not proof of direct inheritance. The PIE horse noun has separate Celtic and Iranian route colours. English horse, German Pferd, Scandinavian hest and Romance caballo/cheval are separate sets. An asterisk marks a reconstructed form; “loan ?” marks a possible borrowing. Other unresolved histories are explained in the entry notes.
+- The caballus/*kaballos group has separate Romance, Celtic and Albanian route colours without making every Celtic word a direct Latin loan. Finnic and Caucasian proposed Indo-European links remain unresolved. Some origin sets stop at an attested local word.
 - The Syriac, Mandaic and Tifinagh labels and the full legend are shaped to vector outlines for reliable PNG/SVG export. Other words remain editable SVG text. Non-Latin words retain parenthesized romanized readings.
 
 ## Run and export

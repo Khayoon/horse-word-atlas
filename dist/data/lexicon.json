@@ -56,7 +56,7 @@
       "form": "caballus / *kaballos",
       "gloss": "pack horse; nag",
       "color": "#e7b39f",
-      "description": "Romance words and Albanian kalë are traced through Latin caballus. Irish capall, Manx cabbyl and Welsh ceffyl belong to the related caballos word-family. Early borrowing directions and the deeper origin are disputed; the Celtic entries are not all presented as direct Latin descendants. This set is distinct from Latin equus, the regular PIE horse-word reflex.",
+      "description": "The caballus / *kaballos word-family is shown under one shared heading with three separately coloured routes. Romance words continue Latin caballus; Albanian kalë is borrowed through Latin. Irish capall, Manx cabbyl and Welsh ceffyl belong to the related Celtic word-family, with disputed early borrowing directions and deeper origin. The shared heading does not assert that every Celtic term descends directly from Latin. This family is distinct from Latin equus, the inherited PIE horse noun.",
       "sources": [
         {
           "title": "Wiktionary: caballus",
@@ -75,13 +75,42 @@
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=caballus"
         }
       ],
-      "legend": "caballus / *kaballos · “pack horse; nag”"
+      "legend": "caballus / *kaballos · “pack horse; nag”",
+      "routes": [
+        {
+          "id": "caballus-romance",
+          "label": "Romance route",
+          "form": "caballus",
+          "gloss": "pack horse; nag",
+          "color": "#e7b39f",
+          "legend": "Latin → Romance · caballo / cheval",
+          "description": "Latin caballus → the Romance horse words shown here, including Spanish caballo, French cheval and Italian cavallo."
+        },
+        {
+          "id": "caballus-celtic",
+          "label": "Celtic route",
+          "form": "*kaballos",
+          "gloss": "horse",
+          "color": "#a6bfce",
+          "legend": "Celtic · capall / cabbyl / ceffyl",
+          "description": "The related caballos word-family in Celtic: Irish capall, Manx cabbyl and Welsh ceffyl. Early forms and borrowing directions differ by word and remain disputed; this row does not make all three direct descendants of Latin caballus."
+        },
+        {
+          "id": "caballus-albanian",
+          "label": "Albanian route",
+          "form": "caballus → *kəβal",
+          "gloss": "horse",
+          "color": "#c49fc5",
+          "legend": "Latin → Albanian · kalë",
+          "description": "A Latin loan into Albanian: caballus → Proto-Albanian *kəβal → Albanian kalë."
+        }
+      ]
     },
     {
       "id": "germanic-horse",
       "label": "Germanic",
       "form": "*hrussą",
-      "gloss": "horse; deeper origin ?",
+      "gloss": "horse",
       "color": "#96c8d4",
       "description": "English horse and Scots horse descend through Old English hors from Germanic *hrussą (also reconstructed *hursą). Proposed deeper derivations exist, including a connection with running, but are not certain. This is not *h₁éḱwos.",
       "sources": [
@@ -94,7 +123,7 @@
           "url": "https://en.wiktionary.org/wiki/horse#English"
         }
       ],
-      "legend": "Germanic *hrussą · “horse”; origin ?"
+      "legend": "Germanic *hrussą · “horse”"
     },
     {
       "id": "post-horse",
@@ -167,7 +196,7 @@
           "url": "https://en.wiktionary.org/wiki/%D0%BA%D1%96%D0%BD%D1%8C#Ukrainian"
         }
       ],
-      "legend": "Slavic *kòňь · “horse”; origin ?"
+      "legend": "Slavic *kòňь · “horse”"
     },
     {
       "id": "russian-turkic",
@@ -267,7 +296,7 @@
       "id": "ossetian-horse",
       "label": "Ossetian",
       "form": "bæx",
-      "gloss": "horse; deeper origin ?",
+      "gloss": "horse",
       "color": "#c5bec9",
       "description": "Ossetian бӕх continues Alanic *bæx. Its deeper ancestry is unresolved here; belonging to Iranian does not make this noun a descendant of the asp/asb horse set.",
       "sources": [
@@ -276,13 +305,13 @@
           "url": "https://en.wiktionary.org/wiki/%D0%B1%D3%95%D1%85#Ossetian"
         }
       ],
-      "legend": "Ossetian bæx · “horse”; origin ?"
+      "legend": "Ossetian bæx · “horse”"
     },
     {
       "id": "finnic-horse",
       "label": "Finnic",
       "form": "*hëpo",
-      "gloss": "horse; deeper origin ?",
+      "gloss": "horse",
       "color": "#e6cf87",
       "description": "Finnish hevonen and Estonian hobune continue diminutive formations of the Finnic horse word *hëpo; Karelian and Veps hebo continue the shorter form. A Germanic or other Indo-European source has been proposed, but no secure deeper link is asserted.",
       "sources": [
@@ -295,7 +324,7 @@
           "url": "https://en.wiktionary.org/wiki/hevonen#Finnish"
         }
       ],
-      "legend": "Finnic *hëpo · “horse”; origin ?"
+      "legend": "Finnic *hëpo · “horse”"
     },
     {
       "id": "ugric-horse",
@@ -377,7 +406,7 @@
       "id": "basque-horse",
       "label": "Basque",
       "form": "zaldi",
-      "gloss": "horse; deeper origin ?",
+      "gloss": "horse",
       "color": "#dd9990",
       "description": "Basque zaldi is an old Basque horse word. Its remote origin is not resolved by the present comparison and no shared PIE ancestry is asserted.",
       "sources": [
@@ -386,7 +415,7 @@
           "url": "https://en.wiktionary.org/wiki/zaldi#Basque"
         }
       ],
-      "legend": "Basque zaldi · “horse”; origin ?"
+      "legend": "Basque zaldi · “horse”"
     },
     {
       "id": "arabic-hisan",
@@ -574,7 +603,7 @@
       "id": "avar-horse",
       "label": "Avar",
       "form": "ču",
-      "gloss": "horse; deeper link ?",
+      "gloss": "horse",
       "color": "#8f9dbc",
       "description": "Avar чу is the documented horse noun. Proposed early Indo-Iranian connections in Caucasian horse terminology are not treated as settled by this map.",
       "sources": [
@@ -583,13 +612,13 @@
           "url": "https://en.wiktionary.org/wiki/%D1%87%D1%83#Avar"
         }
       ],
-      "legend": "Avar ču · “horse”; deeper link ?"
+      "legend": "Avar ču · “horse”"
     },
     {
       "id": "dargwa-horse",
       "label": "Dargwa",
       "form": "urči",
-      "gloss": "horse; deeper link ?",
+      "gloss": "horse",
       "color": "#b3a58e",
       "description": "Dargwa урчи is the documented horse noun. An early Iranian source is proposed in the cited etymological material, but its chronology and relationship to neighbouring Caucasian words are left unresolved here.",
       "sources": [
@@ -598,13 +627,13 @@
           "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D1%87%D0%B8#Dargwa"
         }
       ],
-      "legend": "Dargwa urči · “horse”; deeper link ?"
+      "legend": "Dargwa urči · “horse”"
     },
     {
       "id": "lezgian-horse",
       "label": "Lezgian",
       "form": "šiv",
-      "gloss": "horse; deeper link ?",
+      "gloss": "horse",
       "color": "#b0b787",
       "description": "Lezgian шив is an attested horse noun. Its remote relationship to other Caucasian and Iranian words is not established here.",
       "sources": [
@@ -613,13 +642,13 @@
           "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B8%D0%B2#Lezgi"
         }
       ],
-      "legend": "Lezgian šiv · “horse”; deeper link ?"
+      "legend": "Lezgian šiv · “horse”"
     },
     {
       "id": "lak-horse",
       "label": "Lak",
       "form": "čvu",
-      "gloss": "horse; deeper link ?",
+      "gloss": "horse",
       "color": "#9eada0",
       "description": "Lak чву is an attested horse noun. It is shown as a local comparison set rather than assigned an unsupported deep ancestor.",
       "sources": [
@@ -628,7 +657,7 @@
           "url": "https://en.wiktionary.org/wiki/%D1%87%D0%B2%D1%83#Lak"
         }
       ],
-      "legend": "Lak čvu · “horse”; deeper link ?"
+      "legend": "Lak čvu · “horse”"
     },
     {
       "id": "mongolic-horse",
@@ -969,7 +998,8 @@
           "label": "Spanish",
           "form": "caballo"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "por",
@@ -996,7 +1026,8 @@
           "label": "Portuguese",
           "form": "cavalo"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "glg",
@@ -1023,7 +1054,8 @@
           "label": "Galician",
           "form": "cabalo"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "cat",
@@ -1050,7 +1082,8 @@
           "label": "Catalan",
           "form": "cavall"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "oci",
@@ -1077,7 +1110,8 @@
           "label": "Occitan",
           "form": "caval"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "ita",
@@ -1104,7 +1138,8 @@
           "label": "Italian",
           "form": "cavallo"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "scn",
@@ -1131,7 +1166,8 @@
           "label": "Sicilian",
           "form": "cavaddu"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "srd",
@@ -1158,7 +1194,8 @@
           "label": "Sardinian",
           "form": "cabaddu"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "vec",
@@ -1185,7 +1222,8 @@
           "label": "Venetian",
           "form": "cavało"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "fur",
@@ -1212,7 +1250,8 @@
           "label": "Friulian",
           "form": "cjaval"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "roh",
@@ -1239,7 +1278,8 @@
           "label": "Romansh",
           "form": "chaval"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "ast",
@@ -1266,7 +1306,8 @@
           "label": "Asturian",
           "form": "caballu"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "arg",
@@ -1293,7 +1334,8 @@
           "label": "Aragonese",
           "form": "caballo"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "fra",
@@ -1320,7 +1362,8 @@
           "label": "French",
           "form": "cheval"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "ron",
@@ -1347,7 +1390,8 @@
           "label": "Romanian",
           "form": "cal"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-romance"
     },
     {
       "id": "rus",
@@ -1779,7 +1823,8 @@
           "label": "Irish",
           "form": "capall"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-celtic"
     },
     {
       "id": "gla",
@@ -1842,7 +1887,8 @@
           "label": "Manx",
           "form": "cabbyl"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-celtic"
     },
     {
       "id": "cym",
@@ -1869,7 +1915,8 @@
           "label": "Welsh",
           "form": "ceffyl"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-celtic"
     },
     {
       "id": "bre",
@@ -2004,7 +2051,8 @@
           "label": "Albanian",
           "form": "kalë"
         }
-      ]
+      ],
+      "etymologyBranch": "caballus-albanian"
     },
     {
       "id": "pes",
@@ -3582,9 +3630,9 @@
     "title": "Lexical and etymological method",
     "asOf": "2026-10-18",
     "scope": "105 selected horse words across Europe and neighbouring regions. The same generalized language geography as the snow map is reused. A representative common noun is selected, with important male-horse, collective and regional distinctions noted.",
-    "comparison": "Colours follow supported word ancestry and selected historical routes. The PIE *h₁éḱwos category has separate Celtic and Iranian subgroups, with distinct swatches and colours beneath the common ancestor. These are the lineages represented by the chosen labels, not an exhaustive list of all PIE horse-word reflexes. Borrowing remains distinct from language-family metadata; uncertain deeper origins remain unresolved.",
+    "comparison": "Colours follow the displayed etymological routes. The PIE horse noun has separate Celtic and Iranian routes under its common ancestor. The caballus / *kaballos word-family likewise has separate Romance, Celtic and Albanian routes under a shared heading; Celtic borrowing directions are not presented as settled. Language branch colouring remains available as a comparison.",
     "chains": "Chains are schematic, not complete dated sound histories. Borrowing and derivation are noted; shared colour does not imply direct inheritance. Asterisks mark reconstructed, unattested forms.",
-    "uncertainty": "The origin of caballus/*kaballos and the deeper origin of English horse are disputed. Finnic *hëpo is not automatically merged with PIE *h₁éḱwos. Early Iranian relationships proposed for Caucasian horse words remain marked as proposals. No indigenous Canarian horse word was verified; that label and its historical island-reference fill are omitted, leaving the modern Spanish reference layer. The former snow gloss tener? is not reused.",
+    "uncertainty": "An asterisk marks a reconstructed form. The legend uses “loan ?” for a possible borrowing. Other uncertainties, including disputed deeper origins and early borrowing directions, are explained in the entry notes rather than abbreviated in the legend. The origin of caballus/*kaballos and the deeper origin of English horse are disputed. Finnic *hëpo is not automatically merged with PIE *h₁éḱwos. Early Iranian relationships proposed for Caucasian horse words remain proposals. No indigenous Canarian horse word was verified; that label and its historical island-reference fill are omitted, leaving the modern Spanish reference layer. The former snow gloss tener? is not reused.",
     "standards": "Non-Latin labels retain native scripts with a parenthesized romanized reading beneath. Scholarly Latin transcriptions are used where no reliable native spelling was checked. Romanizations are not IPA. Northern Luri uses a local speaker wordlist; the Iraqi reference ḥiṣān is also attested in a Baghdadi Arabic study, without asserting uniform regional vowels. Mandaic is literary/liturgical.",
     "sources": "Wiktionary is a community-edited secondary reference. Entries are linked individually, with institutional and primary lexical sources for key unusual varieties. Research records and the source catalog retain the distinction between checked forms and unresolved deeper histories.",
     "license": "Brief lexical facts and original explanatory summaries with attribution. Wiktionary is CC BY-SA 4.0; third-party dictionaries and research retain their own terms."
