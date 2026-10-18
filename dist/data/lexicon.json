@@ -1,0 +1,3520 @@
+{
+  "roots": [
+    {
+      "id": "pie-horse",
+      "label": "PIE horse word",
+      "form": "*h₁éḱwos",
+      "gloss": "horse",
+      "color": "#d8ad97",
+      "description": "The inherited Indo-European horse word survives here in Scottish Gaelic each and the Iranian asp/asb/hesp set. Their sound histories differ. Modern English horse and Romance caballus words do not descend from this noun. Proposed connections to Finnic and Caucasian forms are not treated as established here.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fh%E2%82%81%C3%A9%E1%B8%B1wos"
+        },
+        {
+          "title": "Encyclopaedia Iranica: ASB i., Iranian horse terminology",
+          "url": "https://www.iranicaonline.org/articles/asb-pre-islamic-iran/"
+        }
+      ]
+    },
+    {
+      "id": "caballus",
+      "label": "Caballus word-family",
+      "form": "caballus / *kaballos",
+      "gloss": "pack horse; nag",
+      "color": "#e7b39f",
+      "description": "Romance words and Albanian kalë are traced through Latin caballus. Irish capall, Manx cabbyl and Welsh ceffyl belong to the related caballos word-family. Early borrowing directions and the deeper origin are disputed; the Celtic entries are not all presented as direct Latin descendants. This set is distinct from Latin equus, the regular PIE horse-word reflex.",
+      "sources": [
+        {
+          "title": "Wiktionary: caballus",
+          "url": "https://en.wiktionary.org/wiki/caballus"
+        },
+        {
+          "title": "Wiktionary: capall (Irish)",
+          "url": "https://en.wiktionary.org/wiki/capall#Irish"
+        },
+        {
+          "title": "Wiktionary: ceffyl (Welsh)",
+          "url": "https://en.wiktionary.org/wiki/ceffyl#Welsh"
+        },
+        {
+          "title": "Lewis & Short, A Latin Dictionary: caballus",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=caballus"
+        }
+      ],
+      "legend": "caballus / *kaballos · “pack horse; nag”"
+    },
+    {
+      "id": "germanic-horse",
+      "label": "Germanic",
+      "form": "*hrussą",
+      "gloss": "horse; deeper origin ?",
+      "color": "#96c8d4",
+      "description": "English horse and Scots horse descend through Old English hors from Germanic *hrussą (also reconstructed *hursą). Proposed deeper derivations exist, including a connection with running, but are not certain. This is not *h₁éḱwos.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Germanic/hrussą",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Germanic%2Fhruss%C4%85"
+        },
+        {
+          "title": "Wiktionary: horse (English)",
+          "url": "https://en.wiktionary.org/wiki/horse#English"
+        }
+      ],
+      "legend": "Germanic *hrussą · “horse”; origin ?"
+    },
+    {
+      "id": "post-horse",
+      "label": "Late Latin",
+      "form": "paraverēdus",
+      "gloss": "spare post horse",
+      "color": "#b49bb7",
+      "description": "German Pferd, Dutch paard and Luxembourgish Päerd continue a borrowing of Late Latin paraverēdus, a substitute post horse. It combines Greek para- with Latin verēdus, a Gaulish loan. The whole word is not the ordinary inherited Germanic horse noun.",
+      "sources": [
+        {
+          "title": "Wiktionary: paraveredus",
+          "url": "https://en.wiktionary.org/wiki/paraveredus"
+        },
+        {
+          "title": "Wiktionary: Pferd (German)",
+          "url": "https://en.wiktionary.org/wiki/Pferd#German"
+        },
+        {
+          "title": "Wiktionary: paard (Dutch)",
+          "url": "https://en.wiktionary.org/wiki/paard#Dutch"
+        }
+      ],
+      "legend": "Latin paraverēdus · “spare post horse”"
+    },
+    {
+      "id": "germanic-stallion",
+      "label": "Germanic",
+      "form": "*hangistaz",
+      "gloss": "horse; stallion",
+      "color": "#a5c9ba",
+      "description": "The Scandinavian hest/häst/hestur set descends from Germanic *hangistaz / *hanhistaz. West Frisian hynder is a compound based on the cognate hynst plus dier. Northern Sámi heasta and Greenlandic hiisti are Scandinavian borrowings. Their shared colour follows the word history rather than language family.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Germanic/hangistaz",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Germanic%2Fhangistaz"
+        },
+        {
+          "title": "Wiktionary: hynder (West Frisian)",
+          "url": "https://en.wiktionary.org/wiki/hynder#West_Frisian"
+        },
+        {
+          "title": "Wiktionary: hiisti (Greenlandic)",
+          "url": "https://en.wiktionary.org/wiki/hiisti#Greenlandic"
+        },
+        {
+          "title": "Matsumoto Ryo, Horse in Uralic, Linguistic Atlas of Asia and Africa, p.147",
+          "url": "https://geolinguistics.sakura.ne.jp/Monograph/SiG-mono3-LAAA-1-ebook.pdf"
+        }
+      ],
+      "legend": "Germanic *hangistaz · “stallion”"
+    },
+    {
+      "id": "slavic-horse",
+      "label": "Slavic",
+      "form": "*kòňь",
+      "gloss": "horse",
+      "color": "#acb6d5",
+      "description": "The selected Slavic konj/koń/kinʹ forms belong to the inherited Proto-Slavic horse set. Its deeper origin is debated, so no definite connection to the PIE *h₁éḱwos set is drawn. Russian also has конь; the common generic лошадь is selected separately.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Slavic/koňь",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Slavic%2Fko%C5%88%D1%8C"
+        },
+        {
+          "title": "Wiktionary: konj (Serbo-Croatian)",
+          "url": "https://en.wiktionary.org/wiki/konj#Serbo-Croatian"
+        },
+        {
+          "title": "Wiktionary: кінь (Ukrainian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BA%D1%96%D0%BD%D1%8C#Ukrainian"
+        }
+      ],
+      "legend": "Slavic *kòňь · “horse”; origin ?"
+    },
+    {
+      "id": "russian-turkic",
+      "label": "Turkic → Russian",
+      "form": "лоша / alaša",
+      "gloss": "horse; pack horse",
+      "color": "#baad86",
+      "description": "Russian лошадь comes through Old East Slavic лоша from a Turkic source, compared with Tatar алаша and Chuvash лаша. The donor variety and deeper history are not fixed here. This set is distinct from Turkic at.",
+      "sources": [
+        {
+          "title": "Wiktionary: лошадь (Russian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D1%88%D0%B0%D0%B4%D1%8C#Russian"
+        }
+      ],
+      "legend": "Turkic → Russian loša · “horse”"
+    },
+    {
+      "id": "lithuanian-plough",
+      "label": "Lithuanian",
+      "form": "arklas → arklys",
+      "gloss": "plough → horse",
+      "color": "#c0ce95",
+      "description": "Lithuanian arklys is an agentive derivative connected with arklas, plough: a ploughing animal. It is not the same selected word as Latvian zirgs, although Lithuanian also has the cognate žirgas.",
+      "sources": [
+        {
+          "title": "Wiktionary: arklys (Lithuanian)",
+          "url": "https://en.wiktionary.org/wiki/arklys#Lithuanian"
+        }
+      ],
+      "legend": "Lithuanian arklas · “plough” → arklys"
+    },
+    {
+      "id": "baltic-steed",
+      "label": "Baltic",
+      "form": "*źirˀgás",
+      "gloss": "horse; steed",
+      "color": "#b7c990",
+      "description": "Latvian zirgs continues a Baltic horse word, cognate with Lithuanian žirgas. The map selects Lithuanian arklys separately rather than merging the two countries by family.",
+      "sources": [
+        {
+          "title": "Wiktionary: zirgs (Latvian)",
+          "url": "https://en.wiktionary.org/wiki/zirgs#Latvian"
+        }
+      ],
+      "legend": "Baltic *źirˀgás · “horse; steed”"
+    },
+    {
+      "id": "celtic-markos",
+      "label": "Celtic",
+      "form": "*markos",
+      "gloss": "horse",
+      "color": "#9fc9b0",
+      "description": "Breton marc’h and Cornish margh continue Celtic *markos. Its relationship to Germanic *marhaz and its deeper origin are debated. It is distinct from Celtic *ekwos, which survives in Scottish Gaelic each.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Celtic/markos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Celtic%2Fmarkos"
+        }
+      ],
+      "legend": "Celtic *markos · “horse”"
+    },
+    {
+      "id": "greek-speechless",
+      "label": "Greek",
+      "form": "álogos",
+      "gloss": "unreasoning; speechless",
+      "color": "#c9abd5",
+      "description": "Modern Greek άλογο comes from the neuter of Ancient Greek ἄλογος, unreasoning or speechless, through its use for horse. Greek also has ίππος from the PIE horse word, but that is not the common label selected here.",
+      "sources": [
+        {
+          "title": "Wiktionary: άλογο (Greek)",
+          "url": "https://en.wiktionary.org/wiki/%CE%AC%CE%BB%CE%BF%CE%B3%CE%BF#Greek"
+        }
+      ],
+      "legend": "Greek álogos · “unreasoning; speechless”"
+    },
+    {
+      "id": "armenian-steed",
+      "label": "Armenian",
+      "form": "*ǵʰéyos",
+      "gloss": "horse; “drive” root",
+      "color": "#baa8ce",
+      "description": "Armenian ձի continues Old Armenian ji, compared with Vedic háya, horse, from a proposed Indo-European formation *ǵʰéyos associated with driving or impelling. It is kept separate from the regular *h₁éḱwos horse noun.",
+      "sources": [
+        {
+          "title": "Wiktionary: ձի (Old Armenian)",
+          "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB#Old_Armenian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Indo-European/ǵʰéyos",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2F%C7%B5%CA%B0%C3%A9yos"
+        }
+      ],
+      "legend": "Armenian *ǵʰéyos · “horse; steed”"
+    },
+    {
+      "id": "ossetian-horse",
+      "label": "Ossetian",
+      "form": "bæx",
+      "gloss": "horse; deeper origin ?",
+      "color": "#c5bec9",
+      "description": "Ossetian бӕх continues Alanic *bæx. Its deeper ancestry is unresolved here; belonging to Iranian does not make this noun a descendant of the asp/asb horse set.",
+      "sources": [
+        {
+          "title": "Wiktionary: бӕх (Ossetian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B1%D3%95%D1%85#Ossetian"
+        }
+      ],
+      "legend": "Ossetian bæx · “horse”; origin ?"
+    },
+    {
+      "id": "finnic-horse",
+      "label": "Finnic",
+      "form": "*hëpo",
+      "gloss": "horse; deeper origin ?",
+      "color": "#e6cf87",
+      "description": "Finnish hevonen and Estonian hobune continue diminutive formations of the Finnic horse word *hëpo; Karelian and Veps hebo continue the shorter form. A Germanic or other Indo-European source has been proposed, but no secure deeper link is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Finnic/hëpo",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Finnic%2Fh%C3%ABpo"
+        },
+        {
+          "title": "Wiktionary: hevonen (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/hevonen#Finnish"
+        }
+      ],
+      "legend": "Finnic *hëpo · “horse”; origin ?"
+    },
+    {
+      "id": "ugric-horse",
+      "label": "Ugric",
+      "form": "*luɣǝ",
+      "gloss": "horse",
+      "color": "#d9b66c",
+      "description": "Hungarian ló belongs with the Ugric horse set. An early Tocharian connection has been proposed, but is not made a settled origin on this map.",
+      "sources": [
+        {
+          "title": "Wiktionary: ló (Hungarian)",
+          "url": "https://en.wiktionary.org/wiki/l%C3%B3#Hungarian"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Ugric/luɣǝ",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Ugric%2Flu%C9%A3%C7%9D"
+        }
+      ],
+      "legend": "Ugric *luɣǝ · “horse”"
+    },
+    {
+      "id": "permic-horse",
+      "label": "Permic",
+      "form": "*vɔ̇l",
+      "gloss": "horse",
+      "color": "#e3ce91",
+      "description": "Udmurt вал and Komi вӧв are cognates continuing Permic *vɔ̇l, compared with a wider *wälɜ animal-word set. No direct connection with Hungarian ló or Finnic *hëpo is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: вал (Udmurt)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B2%D0%B0%D0%BB#Udmurt"
+        },
+        {
+          "title": "Wiktionary: вӧв (Komi-Zyrian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B2%D3%A7%D0%B2#Komi-Zyrian"
+        }
+      ],
+      "legend": "Permic *vɔ̇l · “horse”"
+    },
+    {
+      "id": "mari-horse",
+      "label": "Mari",
+      "form": "imne / imni",
+      "gloss": "horse",
+      "color": "#d6c49b",
+      "description": "Meadow Mari имне is cognate with Hill Mari имни. This attested Mari set is shown without an invented common Uralic horse root.",
+      "sources": [
+        {
+          "title": "Wiktionary: имне (Eastern Mari)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B8%D0%BC%D0%BD%D0%B5#Eastern_Mari"
+        },
+        {
+          "title": "Matsumoto Ryo, Horse in Uralic, p.147",
+          "url": "https://geolinguistics.sakura.ne.jp/Monograph/SiG-mono3-LAAA-1-ebook.pdf"
+        }
+      ],
+      "legend": "Mari imne / imni · “horse”"
+    },
+    {
+      "id": "nenets-horse",
+      "label": "Turkic → Samoyedic",
+      "form": "*juntå",
+      "gloss": "horse",
+      "color": "#a5b8a1",
+      "description": "Tundra Nenets юно continues the Samoyedic *juntå horse set, traced to Old Turkic yunt. It is distinct from the Turkic at and yïlkï sets. Forest Nenets has a different Ugric loan; this map uses a Tundra Nenets reference.",
+      "sources": [
+        {
+          "title": "COPIUS, Samoyedic historical phonology: *juntå → Tundra Nenets juna/juno",
+          "url": "https://copius.univie.ac.at/etymology/slides_13_samo.pdf"
+        },
+        {
+          "title": "Matsumoto Ryo, Horse in Uralic, p.147",
+          "url": "https://geolinguistics.sakura.ne.jp/Monograph/SiG-mono3-LAAA-1-ebook.pdf"
+        }
+      ],
+      "legend": "Turkic → Samoyedic *juntå · “horse”"
+    },
+    {
+      "id": "basque-horse",
+      "label": "Basque",
+      "form": "zaldi",
+      "gloss": "horse; deeper origin ?",
+      "color": "#dd9990",
+      "description": "Basque zaldi is an old Basque horse word. Its remote origin is not resolved by the present comparison and no shared PIE ancestry is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: zaldi (Basque)",
+          "url": "https://en.wiktionary.org/wiki/zaldi#Basque"
+        }
+      ],
+      "legend": "Basque zaldi · “horse”; origin ?"
+    },
+    {
+      "id": "arabic-hisan",
+      "label": "Arabic",
+      "form": "ḥiṣān",
+      "gloss": "horse; stallion",
+      "color": "#e8c69a",
+      "description": "The selected Arabic citation form حصان means horse or stallion and belongs to the root ḥ-ṣ-n. It is distinct from the sus/susya set in Hebrew and Aramaic. Regional vowels vary; these labels are representative forms, not an inventory of all local synonyms.",
+      "sources": [
+        {
+          "title": "Wiktionary: حصان (Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic"
+        }
+      ],
+      "legend": "Arabic ḥiṣān · “horse; stallion”"
+    },
+    {
+      "id": "semitic-sus",
+      "label": "Hebrew & Aramaic",
+      "form": "sūs / sūsyā",
+      "gloss": "horse",
+      "color": "#e5bb82",
+      "description": "Hebrew sus and the selected Aramaic and Mandaic words belong to the old sūs/sūsyā horse-word set, also compared with Akkadian sīsû. Early borrowing and ultimate origins are disputed; they are not linked automatically to Arabic ḥiṣān or PIE *h₁éḱwos.",
+      "sources": [
+        {
+          "title": "Wiktionary: סוס (Hebrew)",
+          "url": "https://en.wiktionary.org/wiki/%D7%A1%D7%95%D7%A1#Hebrew"
+        },
+        {
+          "title": "Wiktionary: ܣܘܣܝܐ (Classical Syriac)",
+          "url": "https://en.wiktionary.org/wiki/%DC%A3%DC%98%DC%A3%DC%9D%DC%90#Classical_Syriac"
+        },
+        {
+          "title": "Comprehensive Aramaic Lexicon, swsy horse",
+          "url": "https://cal.huc.edu/oneentry.php?lemma=swsy%20N&cits=all"
+        }
+      ],
+      "legend": "Hebrew–Aramaic sūs / sūsyā · “horse”"
+    },
+    {
+      "id": "maltese-horse",
+      "label": "Arabic → Maltese",
+      "form": "zāmil",
+      "gloss": "horse; pack animal",
+      "color": "#dfc29b",
+      "description": "Maltese żiemel comes from Arabic zāmil, horse or wild ass, related to zāmila, a load-carrying she-camel. The semantic history involves a pack animal; this is not a reflex of the sus or ḥiṣān sets.",
+      "sources": [
+        {
+          "title": "Wiktionary: żiemel (Maltese)",
+          "url": "https://en.wiktionary.org/wiki/%C5%BCiemel#Maltese"
+        }
+      ],
+      "legend": "Arabic zāmil · “horse; pack animal”"
+    },
+    {
+      "id": "kabyle-horse",
+      "label": "Kabyle",
+      "form": "aɛudiw",
+      "gloss": "horse; loan history ?",
+      "color": "#d5b5a1",
+      "description": "Kabyle aɛudiw is the selected dictionary horse term. North African Arabic ʿawd is often compared, but the exact early derivation is not settled here; this group is not merged with Berber ayis on visual or family similarity.",
+      "sources": [
+        {
+          "title": "Centre de Recherche Berbère, Aures: comparison of Chaoui yis and Kabyle aɛudiw",
+          "url": "https://centrederechercheberbere.fr/aures.html"
+        },
+        {
+          "title": "Amawal, Kabyle dictionary: aɛawdiw / aɛudiw",
+          "url": "https://amawal.numidya.net/amawal/a/Goi4tKpe/a%C9%9Bawdiw"
+        }
+      ],
+      "legend": "Kabyle aɛudiw · “horse”; loan ?"
+    },
+    {
+      "id": "berber-horse",
+      "label": "Berber",
+      "form": "ayis / ayyis",
+      "gloss": "horse",
+      "color": "#e3b17f",
+      "description": "Central Atlas Tamazight ayis and Tachelhit ayyis belong to a shared Berber horse-word set. Deeper Indo-European connections have been proposed in scholarship, but are not established by the present map.",
+      "sources": [
+        {
+          "title": "Wiktionary: ⴰⵢⵉⵙ (Central Atlas Tamazight)",
+          "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B5%A2%E2%B5%89%E2%B5%99#Central_Atlas_Tamazight"
+        },
+        {
+          "title": "Wiktionary: ayyis (Tashelhit)",
+          "url": "https://en.wiktionary.org/wiki/ayyis#Tashelhit"
+        },
+        {
+          "title": "Tamazight–English Dictionary, horse: ayyis",
+          "url": "https://www.temehu.com/imazighen/dictionaries/Amawals/tamazight-english-dictionary-acf.pdf"
+        }
+      ],
+      "legend": "Berber ayis / ayyis · “horse”"
+    },
+    {
+      "id": "turkic-at",
+      "label": "Turkic",
+      "form": "*at",
+      "gloss": "horse",
+      "color": "#b2d0ba",
+      "description": "The at/ot set continues the Common Turkic horse word. Uzbek ot reflects the same set. Kazakh has at too, but the common species/livestock noun жылқы is selected separately.",
+      "sources": [
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Turkic/at",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Turkic%2Fat"
+        },
+        {
+          "title": "Wiktionary: at (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/at#Turkish"
+        }
+      ],
+      "legend": "Turkic *at · “horse”"
+    },
+    {
+      "id": "turkic-livestock",
+      "label": "Turkic",
+      "form": "*yïlkï",
+      "gloss": "livestock; horses",
+      "color": "#a6c4a2",
+      "description": "Kazakh жылқы continues the Turkic yïlkï livestock/horse-herd term, related to the word for year or age in the cited analysis. It is a different lexical origin from at.",
+      "sources": [
+        {
+          "title": "Wiktionary: жылқы (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B6%D1%8B%D0%BB%D2%9B%D1%8B#Kazakh"
+        }
+      ],
+      "legend": "Turkic *yïlkï · “livestock; horses”"
+    },
+    {
+      "id": "kartvelian-horse",
+      "label": "Kartvelian",
+      "form": "*cxen-",
+      "gloss": "horse",
+      "color": "#bea1ca",
+      "description": "Georgian ცხენი continues Old Georgian ცხენი and is compared with Mingrelian and Laz forms in the Kartvelian *cxen- set. No PIE horse etymology is asserted.",
+      "sources": [
+        {
+          "title": "Wiktionary: ცხენი (Georgian)",
+          "url": "https://en.wiktionary.org/wiki/%E1%83%AA%E1%83%AE%E1%83%94%E1%83%9C%E1%83%98#Georgian"
+        }
+      ],
+      "legend": "Kartvelian *cxen- · “horse”"
+    },
+    {
+      "id": "nakh-horse",
+      "label": "Nakh",
+      "form": "*gabr",
+      "gloss": "horse",
+      "color": "#bda8a0",
+      "description": "Chechen and Ingush говр continue a Nakh horse-word set. The deeper history is not resolved here.",
+      "sources": [
+        {
+          "title": "Wiktionary: говр (Chechen)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D0%B2%D1%80#Chechen"
+        },
+        {
+          "title": "Wiktionary: говр (Ingush)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D0%B2%D1%80#Ingush"
+        }
+      ],
+      "legend": "Nakh *gabr · “horse”"
+    },
+    {
+      "id": "circassian-horse",
+      "label": "Circassian",
+      "form": "*čǝ",
+      "gloss": "horse",
+      "color": "#9eb6bb",
+      "description": "Adyghe and Kabardian шы continue the Circassian horse-word set. It is kept separate from the selected Northeast Caucasian words.",
+      "sources": [
+        {
+          "title": "Wiktionary: шы (East Circassian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%88%D1%8B#East_Circassian"
+        },
+        {
+          "title": "Wiktionary: шы (West Circassian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%88%D1%8B#West_Circassian"
+        }
+      ],
+      "legend": "Circassian *čǝ · “horse”"
+    },
+    {
+      "id": "avar-horse",
+      "label": "Avar",
+      "form": "ču",
+      "gloss": "horse; deeper link ?",
+      "color": "#8f9dbc",
+      "description": "Avar чу is the documented horse noun. Proposed early Indo-Iranian connections in Caucasian horse terminology are not treated as settled by this map.",
+      "sources": [
+        {
+          "title": "Wiktionary: чу (Avar)",
+          "url": "https://en.wiktionary.org/wiki/%D1%87%D1%83#Avar"
+        }
+      ],
+      "legend": "Avar ču · “horse”; deeper link ?"
+    },
+    {
+      "id": "dargwa-horse",
+      "label": "Dargwa",
+      "form": "urči",
+      "gloss": "horse; deeper link ?",
+      "color": "#b3a58e",
+      "description": "Dargwa урчи is the documented horse noun. An early Iranian source is proposed in the cited etymological material, but its chronology and relationship to neighbouring Caucasian words are left unresolved here.",
+      "sources": [
+        {
+          "title": "Wiktionary: урчи (Dargwa)",
+          "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D1%87%D0%B8#Dargwa"
+        }
+      ],
+      "legend": "Dargwa urči · “horse”; deeper link ?"
+    },
+    {
+      "id": "lezgian-horse",
+      "label": "Lezgian",
+      "form": "šiv",
+      "gloss": "horse; deeper link ?",
+      "color": "#b0b787",
+      "description": "Lezgian шив is an attested horse noun. Its remote relationship to other Caucasian and Iranian words is not established here.",
+      "sources": [
+        {
+          "title": "Wiktionary: шив (Lezgi)",
+          "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B8%D0%B2#Lezgi"
+        }
+      ],
+      "legend": "Lezgian šiv · “horse”; deeper link ?"
+    },
+    {
+      "id": "lak-horse",
+      "label": "Lak",
+      "form": "čvu",
+      "gloss": "horse; deeper link ?",
+      "color": "#9eada0",
+      "description": "Lak чву is an attested horse noun. It is shown as a local comparison set rather than assigned an unsupported deep ancestor.",
+      "sources": [
+        {
+          "title": "Wiktionary: чву (Lak)",
+          "url": "https://en.wiktionary.org/wiki/%D1%87%D0%B2%D1%83#Lak"
+        }
+      ],
+      "legend": "Lak čvu · “horse”; deeper link ?"
+    },
+    {
+      "id": "mongolic-horse",
+      "label": "Mongolic",
+      "form": "*morin",
+      "gloss": "horse",
+      "color": "#d9c59e",
+      "description": "Kalmyk мөрн in the horse sense continues Mongolic *morin. A homograph means river and has a different origin; that river etymology does not apply to this map.",
+      "sources": [
+        {
+          "title": "Wiktionary: мөрн (Kalmyk)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D1%80%D0%BD#Kalmyk"
+        }
+      ],
+      "legend": "Mongolic *morin · “horse”"
+    }
+  ],
+  "languages": [
+    {
+      "id": "eng",
+      "name": "English",
+      "native": "English",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "word": "horse",
+      "romanization": "",
+      "root": "germanic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: horse (English)",
+          "url": "https://en.wiktionary.org/wiki/horse#English"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hrussą"
+        },
+        {
+          "label": "English",
+          "form": "horse"
+        }
+      ]
+    },
+    {
+      "id": "sco",
+      "name": "Scots",
+      "native": "Scots",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "word": "horse",
+      "romanization": "",
+      "root": "germanic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: horse (Scots)",
+          "url": "https://en.wiktionary.org/wiki/horse#Scots"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hrussą"
+        },
+        {
+          "label": "Scots",
+          "form": "horse"
+        }
+      ]
+    },
+    {
+      "id": "deu",
+      "name": "German",
+      "native": "Deutsch",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "word": "Pferd",
+      "romanization": "",
+      "root": "post-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: Pferd (German)",
+          "url": "https://en.wiktionary.org/wiki/Pferd#German"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "paraverēdus"
+        },
+        {
+          "label": "German",
+          "form": "Pferd"
+        }
+      ]
+    },
+    {
+      "id": "nld",
+      "name": "Dutch",
+      "native": "Nederlands",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "word": "paard",
+      "romanization": "",
+      "root": "post-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: paard (Dutch)",
+          "url": "https://en.wiktionary.org/wiki/paard#Dutch"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "paraverēdus"
+        },
+        {
+          "label": "Dutch",
+          "form": "paard"
+        }
+      ]
+    },
+    {
+      "id": "fry",
+      "name": "West Frisian",
+      "native": "Frysk",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "word": "hynder",
+      "romanization": "",
+      "root": "germanic-stallion",
+      "sources": [
+        {
+          "title": "Wiktionary: hynder (West Frisian)",
+          "url": "https://en.wiktionary.org/wiki/hynder#West_Frisian"
+        }
+      ],
+      "notes": "Hynder combines hynst (stallion, cognate with the hest set) and dier (animal). The full word is a Frisian compound.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hangistaz"
+        },
+        {
+          "label": "West Frisian",
+          "form": "hynder"
+        }
+      ]
+    },
+    {
+      "id": "ltz",
+      "name": "Luxembourgish",
+      "native": "Lëtzebuergesch",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "word": "Päerd",
+      "romanization": "",
+      "root": "post-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: Päerd (Luxembourgish)",
+          "url": "https://en.wiktionary.org/wiki/P%C3%A4erd#Luxembourgish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "paraverēdus"
+        },
+        {
+          "label": "Luxembourgish",
+          "form": "Päerd"
+        }
+      ]
+    },
+    {
+      "id": "dan",
+      "name": "Danish",
+      "native": "Dansk",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "word": "hest",
+      "romanization": "",
+      "root": "germanic-stallion",
+      "sources": [
+        {
+          "title": "Wiktionary: hest (Danish)",
+          "url": "https://en.wiktionary.org/wiki/hest#Danish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hangistaz"
+        },
+        {
+          "label": "Danish",
+          "form": "hest"
+        }
+      ]
+    },
+    {
+      "id": "swe",
+      "name": "Swedish",
+      "native": "Svenska",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "word": "häst",
+      "romanization": "",
+      "root": "germanic-stallion",
+      "sources": [
+        {
+          "title": "Wiktionary: häst (Swedish)",
+          "url": "https://en.wiktionary.org/wiki/h%C3%A4st#Swedish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hangistaz"
+        },
+        {
+          "label": "Swedish",
+          "form": "häst"
+        }
+      ]
+    },
+    {
+      "id": "nor",
+      "name": "Norwegian",
+      "native": "Norsk",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "word": "hest",
+      "romanization": "",
+      "root": "germanic-stallion",
+      "sources": [
+        {
+          "title": "Wiktionary: hest (Norwegian Bokmål)",
+          "url": "https://en.wiktionary.org/wiki/hest#Norwegian_Bokmål"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hangistaz"
+        },
+        {
+          "label": "Norwegian",
+          "form": "hest"
+        }
+      ]
+    },
+    {
+      "id": "isl",
+      "name": "Icelandic",
+      "native": "Íslenska",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "word": "hestur",
+      "romanization": "",
+      "root": "germanic-stallion",
+      "sources": [
+        {
+          "title": "Wiktionary: hestur (Icelandic)",
+          "url": "https://en.wiktionary.org/wiki/hestur#Icelandic"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hangistaz"
+        },
+        {
+          "label": "Icelandic",
+          "form": "hestur"
+        }
+      ]
+    },
+    {
+      "id": "fao",
+      "name": "Faroese",
+      "native": "Føroyskt",
+      "family": "Indo-European",
+      "branch": "Germanic · North Germanic",
+      "word": "hestur",
+      "romanization": "",
+      "root": "germanic-stallion",
+      "sources": [
+        {
+          "title": "Wiktionary: hestur (Faroese)",
+          "url": "https://en.wiktionary.org/wiki/hestur#Faroese"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hangistaz"
+        },
+        {
+          "label": "Faroese",
+          "form": "hestur"
+        }
+      ]
+    },
+    {
+      "id": "spa",
+      "name": "Spanish",
+      "native": "Español",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "caballo",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: caballo (Spanish)",
+          "url": "https://en.wiktionary.org/wiki/caballo#Spanish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Spanish",
+          "form": "caballo"
+        }
+      ]
+    },
+    {
+      "id": "por",
+      "name": "Portuguese",
+      "native": "Português",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cavalo",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cavalo (Portuguese)",
+          "url": "https://en.wiktionary.org/wiki/cavalo#Portuguese"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Portuguese",
+          "form": "cavalo"
+        }
+      ]
+    },
+    {
+      "id": "glg",
+      "name": "Galician",
+      "native": "Galego",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cabalo",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cabalo (Galician)",
+          "url": "https://en.wiktionary.org/wiki/cabalo#Galician"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Galician",
+          "form": "cabalo"
+        }
+      ]
+    },
+    {
+      "id": "cat",
+      "name": "Catalan",
+      "native": "Català",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cavall",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cavall (Catalan)",
+          "url": "https://en.wiktionary.org/wiki/cavall#Catalan"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Catalan",
+          "form": "cavall"
+        }
+      ]
+    },
+    {
+      "id": "oci",
+      "name": "Occitan",
+      "native": "Occitan",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "caval",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: caval (Occitan)",
+          "url": "https://en.wiktionary.org/wiki/caval#Occitan"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Occitan",
+          "form": "caval"
+        }
+      ]
+    },
+    {
+      "id": "ita",
+      "name": "Italian",
+      "native": "Italiano",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cavallo",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cavallo (Italian)",
+          "url": "https://en.wiktionary.org/wiki/cavallo#Italian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Italian",
+          "form": "cavallo"
+        }
+      ]
+    },
+    {
+      "id": "scn",
+      "name": "Sicilian",
+      "native": "Sicilianu",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cavaddu",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cavaddu (Sicilian)",
+          "url": "https://en.wiktionary.org/wiki/cavaddu#Sicilian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Sicilian",
+          "form": "cavaddu"
+        }
+      ]
+    },
+    {
+      "id": "srd",
+      "name": "Sardinian",
+      "native": "Sardu",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cabaddu",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: caballus",
+          "url": "https://en.wiktionary.org/wiki/caballus"
+        }
+      ],
+      "notes": "Cabaddu is a selected Logudorese reference. Sardinian varieties also have cavaddu, caddu, cuaddu and other forms; one label does not imply island-wide uniformity.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Sardinian",
+          "form": "cabaddu"
+        }
+      ]
+    },
+    {
+      "id": "vec",
+      "name": "Venetian",
+      "native": "Vèneto",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cavało",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cavało (Venetan)",
+          "url": "https://en.wiktionary.org/wiki/cava%C5%82o#Venetan"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Venetian",
+          "form": "cavało"
+        }
+      ]
+    },
+    {
+      "id": "fur",
+      "name": "Friulian",
+      "native": "Furlan",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cjaval",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cjaval (Friulian)",
+          "url": "https://en.wiktionary.org/wiki/cjaval#Friulian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Friulian",
+          "form": "cjaval"
+        }
+      ]
+    },
+    {
+      "id": "roh",
+      "name": "Romansh",
+      "native": "Rumantsch",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "chaval",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: chaval (Romansh)",
+          "url": "https://en.wiktionary.org/wiki/chaval#Romansh"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Romansh",
+          "form": "chaval"
+        }
+      ]
+    },
+    {
+      "id": "ast",
+      "name": "Asturian",
+      "native": "Asturianu",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "caballu",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: caballu (Asturian)",
+          "url": "https://en.wiktionary.org/wiki/caballu#Asturian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Asturian",
+          "form": "caballu"
+        }
+      ]
+    },
+    {
+      "id": "arg",
+      "name": "Aragonese",
+      "native": "Aragonés",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "caballo",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: caballo (Aragonese)",
+          "url": "https://en.wiktionary.org/wiki/caballo#Aragonese"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Aragonese",
+          "form": "caballo"
+        }
+      ]
+    },
+    {
+      "id": "fra",
+      "name": "French",
+      "native": "Français",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cheval",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cheval (French)",
+          "url": "https://en.wiktionary.org/wiki/cheval#French"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "French",
+          "form": "cheval"
+        }
+      ]
+    },
+    {
+      "id": "ron",
+      "name": "Romanian",
+      "native": "Română",
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "word": "cal",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cal (Romanian)",
+          "url": "https://en.wiktionary.org/wiki/cal#Romanian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Romanian",
+          "form": "cal"
+        }
+      ]
+    },
+    {
+      "id": "rus",
+      "name": "Russian",
+      "native": "Русский",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "лошадь",
+      "romanization": "loshadʹ",
+      "root": "russian-turkic",
+      "sources": [
+        {
+          "title": "Wiktionary: лошадь (Russian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D1%88%D0%B0%D0%B4%D1%8C#Russian"
+        }
+      ],
+      "notes": "The common generic лошадь is selected. Russian конь also exists and belongs with the neighbouring Slavic konj/koń set.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "лоша / alaša"
+        },
+        {
+          "label": "Russian",
+          "form": "лошадь"
+        }
+      ]
+    },
+    {
+      "id": "ukr",
+      "name": "Ukrainian",
+      "native": "Українська",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "кінь",
+      "romanization": "kinʹ",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: кінь (Ukrainian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BA%D1%96%D0%BD%D1%8C#Ukrainian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Ukrainian",
+          "form": "кінь"
+        }
+      ]
+    },
+    {
+      "id": "bel",
+      "name": "Belarusian",
+      "native": "Беларуская",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "конь",
+      "romanization": "konʹ",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: конь (Belarusian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Belarusian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Belarusian",
+          "form": "конь"
+        }
+      ]
+    },
+    {
+      "id": "pol",
+      "name": "Polish",
+      "native": "Polski",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "koń",
+      "romanization": "",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: koń (Polish)",
+          "url": "https://en.wiktionary.org/wiki/ko%C5%84#Polish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Polish",
+          "form": "koń"
+        }
+      ]
+    },
+    {
+      "id": "ces",
+      "name": "Czech",
+      "native": "Čeština",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "kůň",
+      "romanization": "",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: kůň (Czech)",
+          "url": "https://en.wiktionary.org/wiki/k%C5%AF%C5%88#Czech"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Czech",
+          "form": "kůň"
+        }
+      ]
+    },
+    {
+      "id": "slk",
+      "name": "Slovak",
+      "native": "Slovenčina",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "kôň",
+      "romanization": "",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: kôň (Slovak)",
+          "url": "https://en.wiktionary.org/wiki/k%C3%B4%C5%88#Slovak"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Slovak",
+          "form": "kôň"
+        }
+      ]
+    },
+    {
+      "id": "slv",
+      "name": "Slovenian",
+      "native": "Slovenščina",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "konj",
+      "romanization": "",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: konj (Slovene)",
+          "url": "https://en.wiktionary.org/wiki/konj#Slovene"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Slovenian",
+          "form": "konj"
+        }
+      ]
+    },
+    {
+      "id": "hbs",
+      "name": "Serbian–Croatian–Bosnian",
+      "native": "Srpski / hrvatski / bosanski",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "konj / коњ",
+      "romanization": "konj",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: konj (Serbo-Croatian)",
+          "url": "https://en.wiktionary.org/wiki/konj#Serbo-Croatian"
+        }
+      ],
+      "notes": "Konj / коњ are the Latin and Cyrillic spellings of the selected shared horse noun; they are not different etymologies.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Serbian–Croatian–Bosnian",
+          "form": "konj / коњ"
+        }
+      ]
+    },
+    {
+      "id": "bul",
+      "name": "Bulgarian",
+      "native": "Български",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "кон",
+      "romanization": "kon",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: кон (Bulgarian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD#Bulgarian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Bulgarian",
+          "form": "кон"
+        }
+      ]
+    },
+    {
+      "id": "mkd",
+      "name": "Macedonian",
+      "native": "Македонски",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "коњ",
+      "romanization": "konj",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: коњ (Macedonian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D1%9A#Macedonian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Macedonian",
+          "form": "коњ"
+        }
+      ]
+    },
+    {
+      "id": "hsb",
+      "name": "Upper Sorbian",
+      "native": "Hornjoserbšćina",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "kóń",
+      "romanization": "",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: kóń (Upper Sorbian)",
+          "url": "https://en.wiktionary.org/wiki/k%C3%B3%C5%84#Upper_Sorbian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Upper Sorbian",
+          "form": "kóń"
+        }
+      ]
+    },
+    {
+      "id": "dsb",
+      "name": "Lower Sorbian",
+      "native": "Dolnoserbšćina",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "kóń",
+      "romanization": "",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: kóń (Lower Sorbian)",
+          "url": "https://en.wiktionary.org/wiki/k%C3%B3%C5%84#Lower_Sorbian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Lower Sorbian",
+          "form": "kóń"
+        }
+      ]
+    },
+    {
+      "id": "csb",
+      "name": "Kashubian",
+      "native": "Kaszëbsczi",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "word": "kóń",
+      "romanization": "",
+      "root": "slavic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: kóń (Kashubian)",
+          "url": "https://en.wiktionary.org/wiki/k%C3%B3%C5%84#Kashubian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Kashubian",
+          "form": "kóń"
+        }
+      ]
+    },
+    {
+      "id": "lit",
+      "name": "Lithuanian",
+      "native": "Lietuvių",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Baltic",
+      "word": "arklys",
+      "romanization": "",
+      "root": "lithuanian-plough",
+      "sources": [
+        {
+          "title": "Wiktionary: arklys (Lithuanian)",
+          "url": "https://en.wiktionary.org/wiki/arklys#Lithuanian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "arklas → arklys"
+        },
+        {
+          "label": "Lithuanian",
+          "form": "arklys"
+        }
+      ]
+    },
+    {
+      "id": "lav",
+      "name": "Latvian",
+      "native": "Latviešu",
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Baltic",
+      "word": "zirgs",
+      "romanization": "",
+      "root": "baltic-steed",
+      "sources": [
+        {
+          "title": "Wiktionary: zirgs (Latvian)",
+          "url": "https://en.wiktionary.org/wiki/zirgs#Latvian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*źirˀgás"
+        },
+        {
+          "label": "Latvian",
+          "form": "zirgs"
+        }
+      ]
+    },
+    {
+      "id": "gle",
+      "name": "Irish",
+      "native": "Gaeilge",
+      "family": "Indo-European",
+      "branch": "Celtic · Goidelic",
+      "word": "capall",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: capall (Irish)",
+          "url": "https://en.wiktionary.org/wiki/capall#Irish"
+        }
+      ],
+      "notes": "The common capall is selected. Irish each is another horse noun and belongs to the PIE *h₁éḱwos set, as does Scottish Gaelic each.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Irish",
+          "form": "capall"
+        }
+      ]
+    },
+    {
+      "id": "gla",
+      "name": "Scottish Gaelic",
+      "native": "Gàidhlig",
+      "family": "Indo-European",
+      "branch": "Celtic · Goidelic",
+      "word": "each",
+      "romanization": "",
+      "root": "pie-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: each (Scottish Gaelic)",
+          "url": "https://en.wiktionary.org/wiki/each#Scottish_Gaelic"
+        }
+      ],
+      "notes": "Each is the selected common Scottish Gaelic horse noun; it continues Old Irish ech and PIE *h₁éḱwos.",
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Proto-Celtic",
+          "form": "*ekwos"
+        },
+        {
+          "label": "Scottish Gaelic",
+          "form": "each"
+        }
+      ]
+    },
+    {
+      "id": "glv",
+      "name": "Manx",
+      "native": "Gaelg",
+      "family": "Indo-European",
+      "branch": "Celtic · Goidelic",
+      "word": "cabbyl",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: cabbyl (Manx)",
+          "url": "https://en.wiktionary.org/wiki/cabbyl#Manx"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Manx",
+          "form": "cabbyl"
+        }
+      ]
+    },
+    {
+      "id": "cym",
+      "name": "Welsh",
+      "native": "Cymraeg",
+      "family": "Indo-European",
+      "branch": "Celtic · Brythonic",
+      "word": "ceffyl",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: ceffyl (Welsh)",
+          "url": "https://en.wiktionary.org/wiki/ceffyl#Welsh"
+        }
+      ],
+      "notes": "Ceffyl belongs to the caballos word-family; its Celtic stages are not represented as simple inheritance from Latin.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Welsh",
+          "form": "ceffyl"
+        }
+      ]
+    },
+    {
+      "id": "bre",
+      "name": "Breton",
+      "native": "Brezhoneg",
+      "family": "Indo-European",
+      "branch": "Celtic · Brythonic",
+      "word": "marc’h",
+      "romanization": "",
+      "root": "celtic-markos",
+      "sources": [
+        {
+          "title": "Wiktionary: marc’h (Breton)",
+          "url": "https://en.wiktionary.org/wiki/marc%27h#Breton"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*markos"
+        },
+        {
+          "label": "Breton",
+          "form": "marc’h"
+        }
+      ]
+    },
+    {
+      "id": "cor",
+      "name": "Cornish",
+      "native": "Kernewek",
+      "family": "Indo-European",
+      "branch": "Celtic · Brythonic",
+      "word": "margh",
+      "romanization": "",
+      "root": "celtic-markos",
+      "sources": [
+        {
+          "title": "Wiktionary: margh (Cornish)",
+          "url": "https://en.wiktionary.org/wiki/margh#Cornish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*markos"
+        },
+        {
+          "label": "Cornish",
+          "form": "margh"
+        }
+      ]
+    },
+    {
+      "id": "ell",
+      "name": "Greek",
+      "native": "Ελληνικά",
+      "family": "Indo-European",
+      "branch": "Hellenic",
+      "word": "άλογο",
+      "romanization": "álogo",
+      "root": "greek-speechless",
+      "sources": [
+        {
+          "title": "Wiktionary: άλογο (Greek)",
+          "url": "https://en.wiktionary.org/wiki/%CE%AC%CE%BB%CE%BF%CE%B3%CE%BF#Greek"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "álogos"
+        },
+        {
+          "label": "Greek",
+          "form": "άλογο"
+        }
+      ]
+    },
+    {
+      "id": "hye",
+      "name": "Armenian",
+      "native": "Հայերեն",
+      "family": "Indo-European",
+      "branch": "Armenian",
+      "word": "ձի",
+      "romanization": "dzi",
+      "root": "armenian-steed",
+      "sources": [
+        {
+          "title": "Wiktionary: ձի (Armenian)",
+          "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB#Armenian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented. Eastern Armenian reading dzi; scholarly transliteration ji; Western Armenian pronunciation differs.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*ǵʰéyos"
+        },
+        {
+          "label": "Armenian",
+          "form": "ձի"
+        }
+      ]
+    },
+    {
+      "id": "sqi",
+      "name": "Albanian",
+      "native": "Shqip",
+      "family": "Indo-European",
+      "branch": "Albanian",
+      "word": "kalë",
+      "romanization": "",
+      "root": "caballus",
+      "sources": [
+        {
+          "title": "Wiktionary: kalë (Albanian)",
+          "url": "https://en.wiktionary.org/wiki/kal%C3%AB#Albanian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "caballus / *kaballos"
+        },
+        {
+          "label": "Albanian",
+          "form": "kalë"
+        }
+      ]
+    },
+    {
+      "id": "pes",
+      "name": "Persian",
+      "native": "فارسی",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "word": "اسب",
+      "romanization": "asb",
+      "root": "pie-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: اسب (Persian)",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%A8#Persian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Proto-Indo-Iranian",
+          "form": "*Háćwas"
+        },
+        {
+          "label": "Persian",
+          "form": "اسب"
+        }
+      ]
+    },
+    {
+      "id": "kmr",
+      "name": "Northern Kurdish",
+      "native": "Kurmancî",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "word": "hesp",
+      "romanization": "",
+      "root": "pie-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: hesp (Northern Kurdish)",
+          "url": "https://en.wiktionary.org/wiki/hesp#Northern_Kurdish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Proto-Indo-Iranian",
+          "form": "*Háćwas"
+        },
+        {
+          "label": "Northern Kurdish",
+          "form": "hesp"
+        }
+      ]
+    },
+    {
+      "id": "oss",
+      "name": "Ossetian",
+      "native": "Ирон",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "word": "бӕх",
+      "romanization": "bækh",
+      "root": "ossetian-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: бӕх (Ossetian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B1%D3%95%D1%85#Ossetian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "bæx"
+        },
+        {
+          "label": "Ossetian",
+          "form": "бӕх"
+        }
+      ]
+    },
+    {
+      "id": "fin",
+      "name": "Finnish",
+      "native": "Suomi",
+      "family": "Uralic",
+      "branch": "Finnic",
+      "word": "hevonen",
+      "romanization": "",
+      "root": "finnic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: hevonen (Finnish)",
+          "url": "https://en.wiktionary.org/wiki/hevonen#Finnish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hëpo"
+        },
+        {
+          "label": "Finnish",
+          "form": "hevonen"
+        }
+      ]
+    },
+    {
+      "id": "est",
+      "name": "Estonian",
+      "native": "Eesti",
+      "family": "Uralic",
+      "branch": "Finnic",
+      "word": "hobune",
+      "romanization": "",
+      "root": "finnic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: hobune (Estonian)",
+          "url": "https://en.wiktionary.org/wiki/hobune#Estonian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hëpo"
+        },
+        {
+          "label": "Estonian",
+          "form": "hobune"
+        }
+      ]
+    },
+    {
+      "id": "krl",
+      "name": "Karelian",
+      "native": "Karjala",
+      "family": "Uralic",
+      "branch": "Finnic",
+      "word": "hebo",
+      "romanization": "",
+      "root": "finnic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: hebo (Karelian)",
+          "url": "https://en.wiktionary.org/wiki/hebo#Karelian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hëpo"
+        },
+        {
+          "label": "Karelian",
+          "form": "hebo"
+        }
+      ]
+    },
+    {
+      "id": "vep",
+      "name": "Veps",
+      "native": "Vepsän kel'",
+      "family": "Uralic",
+      "branch": "Finnic",
+      "word": "hebo",
+      "romanization": "",
+      "root": "finnic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: hebo (Veps)",
+          "url": "https://en.wiktionary.org/wiki/hebo#Veps"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hëpo"
+        },
+        {
+          "label": "Veps",
+          "form": "hebo"
+        }
+      ]
+    },
+    {
+      "id": "hun",
+      "name": "Hungarian",
+      "native": "Magyar",
+      "family": "Uralic",
+      "branch": "Ugric",
+      "word": "ló",
+      "romanization": "",
+      "root": "ugric-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: ló (Hungarian)",
+          "url": "https://en.wiktionary.org/wiki/l%C3%B3#Hungarian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*luɣǝ"
+        },
+        {
+          "label": "Hungarian",
+          "form": "ló"
+        }
+      ]
+    },
+    {
+      "id": "sme",
+      "name": "Northern Sámi",
+      "native": "Davvisámegiella",
+      "family": "Uralic",
+      "branch": "Sámi",
+      "word": "heasta",
+      "romanization": "",
+      "root": "germanic-stallion",
+      "sources": [
+        {
+          "title": "Matsumoto Ryo, Horse in Uralic, p.147: Sámi heasta",
+          "url": "https://geolinguistics.sakura.ne.jp/Monograph/SiG-mono3-LAAA-1-ebook.pdf"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hangistaz"
+        },
+        {
+          "label": "Northern Sámi",
+          "form": "heasta"
+        }
+      ]
+    },
+    {
+      "id": "mhr",
+      "name": "Meadow Mari",
+      "native": "Олык марий",
+      "family": "Uralic",
+      "branch": "Mari",
+      "word": "имне",
+      "romanization": "imne",
+      "root": "mari-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: имне (Eastern Mari)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B8%D0%BC%D0%BD%D0%B5#Eastern_Mari"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "imne / imni"
+        },
+        {
+          "label": "Meadow Mari",
+          "form": "имне"
+        }
+      ]
+    },
+    {
+      "id": "udm",
+      "name": "Udmurt",
+      "native": "Удмурт",
+      "family": "Uralic",
+      "branch": "Permic",
+      "word": "вал",
+      "romanization": "val",
+      "root": "permic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: вал (Udmurt)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B2%D0%B0%D0%BB#Udmurt"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*vɔ̇l"
+        },
+        {
+          "label": "Udmurt",
+          "form": "вал"
+        }
+      ]
+    },
+    {
+      "id": "eus",
+      "name": "Basque",
+      "native": "Euskara",
+      "family": "Language isolate",
+      "branch": "Basque",
+      "word": "zaldi",
+      "romanization": "",
+      "root": "basque-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: zaldi (Basque)",
+          "url": "https://en.wiktionary.org/wiki/zaldi#Basque"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "zaldi"
+        },
+        {
+          "label": "Basque",
+          "form": "zaldi"
+        }
+      ]
+    },
+    {
+      "id": "arb",
+      "name": "Arabic (standard reference)",
+      "native": "العربية",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "حصان",
+      "romanization": "ḥiṣān",
+      "root": "arabic-hisan",
+      "sources": [
+        {
+          "title": "Wiktionary: حصان (Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ḥiṣān"
+        },
+        {
+          "label": "Arabic (standard reference)",
+          "form": "حصان"
+        }
+      ]
+    },
+    {
+      "id": "heb",
+      "name": "Hebrew",
+      "native": "עברית",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Northwest Semitic",
+      "word": "סוס",
+      "romanization": "sus",
+      "root": "semitic-sus",
+      "sources": [
+        {
+          "title": "Wiktionary: סוס (Hebrew)",
+          "url": "https://en.wiktionary.org/wiki/%D7%A1%D7%95%D7%A1#Hebrew"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "sūs / sūsyā"
+        },
+        {
+          "label": "Hebrew",
+          "form": "סוס"
+        }
+      ]
+    },
+    {
+      "id": "mlt",
+      "name": "Maltese",
+      "native": "Malti",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Maltese",
+      "word": "żiemel",
+      "romanization": "",
+      "root": "maltese-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: żiemel (Maltese)",
+          "url": "https://en.wiktionary.org/wiki/%C5%BCiemel#Maltese"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "zāmil"
+        },
+        {
+          "label": "Maltese",
+          "form": "żiemel"
+        }
+      ]
+    },
+    {
+      "id": "aeb",
+      "name": "Tunisian Arabic",
+      "native": "تونسي",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "حصان",
+      "romanization": "ḥṣān",
+      "root": "arabic-hisan",
+      "sources": [
+        {
+          "title": "Wiktionary: حصان (Tunisian Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Tunisian_Arabic"
+        }
+      ],
+      "notes": "Ḥṣān is a Tunisian citation form. Other regional terms and the collective khēl are not exhaustively mapped.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ḥiṣān"
+        },
+        {
+          "label": "Tunisian Arabic",
+          "form": "حصان"
+        }
+      ]
+    },
+    {
+      "id": "arz",
+      "name": "Egyptian Arabic",
+      "native": "مصري",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "حصان",
+      "romanization": "ḥoṣān",
+      "root": "arabic-hisan",
+      "sources": [
+        {
+          "title": "Wiktionary: حصان (Egyptian Arabic)",
+          "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Egyptian_Arabic"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ḥiṣān"
+        },
+        {
+          "label": "Egyptian Arabic",
+          "form": "حصان"
+        }
+      ]
+    },
+    {
+      "id": "apc",
+      "name": "Syrian Arabic",
+      "native": "عربي سوري",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "حصان",
+      "romanization": "ḥṣān",
+      "root": "arabic-hisan",
+      "sources": [
+        {
+          "title": "Wiktionary: horse (English)",
+          "url": "https://en.wiktionary.org/wiki/horse#English"
+        }
+      ],
+      "notes": "Ḥṣān is a North Levantine/Syrian reference from the comparative translation list; local readings vary.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ḥiṣān"
+        },
+        {
+          "label": "Syrian Arabic",
+          "form": "حصان"
+        }
+      ]
+    },
+    {
+      "id": "acm",
+      "name": "Mesopotamian Arabic",
+      "native": "عراقي",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "حصان",
+      "romanization": "ḥiṣān",
+      "root": "arabic-hisan",
+      "sources": [
+        {
+          "title": "Iraqi Arabic reference: ḥṣān horse, with Standard Arabic citation comparison",
+          "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic"
+        },
+        {
+          "title": "AIDA16 Booklet of Abstracts (2026), Baghdadi Arabic plant names: il-ḥiṣān in horse-tail, p.60",
+          "url": "https://aidacatania.unict.it/AIDA16_Booklet_of_Abstracts_09_06_2026_DEF.pdf"
+        }
+      ],
+      "notes": "The reading ḥiṣān is also attested in the cited Baghdadi Arabic plant-name study (ḏēl il-ḥiṣān, horse’s tail). Other Iraqi dialects and local vowels vary; one label is a representative form, not an exhaustive dialect inventory.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ḥiṣān"
+        },
+        {
+          "label": "Mesopotamian Arabic",
+          "form": "حصان"
+        }
+      ]
+    },
+    {
+      "id": "tur",
+      "name": "Turkish",
+      "native": "Türkçe",
+      "family": "Turkic",
+      "branch": "Common Turkic · Oghuz",
+      "word": "at",
+      "romanization": "",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: at (Turkish)",
+          "url": "https://en.wiktionary.org/wiki/at#Turkish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Turkish",
+          "form": "at"
+        }
+      ]
+    },
+    {
+      "id": "aze",
+      "name": "Azerbaijani",
+      "native": "Azərbaycanca",
+      "family": "Turkic",
+      "branch": "Common Turkic · Oghuz",
+      "word": "at",
+      "romanization": "",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: at (Azerbaijani)",
+          "url": "https://en.wiktionary.org/wiki/at#Azerbaijani"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Azerbaijani",
+          "form": "at"
+        }
+      ]
+    },
+    {
+      "id": "kaz",
+      "name": "Kazakh",
+      "native": "Қазақша",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "word": "жылқы",
+      "romanization": "zhylqy",
+      "root": "turkic-livestock",
+      "sources": [
+        {
+          "title": "Wiktionary: жылқы (Kazakh)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B6%D1%8B%D0%BB%D2%9B%D1%8B#Kazakh"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*yïlkï"
+        },
+        {
+          "label": "Kazakh",
+          "form": "жылқы"
+        }
+      ]
+    },
+    {
+      "id": "tat",
+      "name": "Tatar",
+      "native": "Татарча",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "word": "ат",
+      "romanization": "at",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: ат (Tatar)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%82#Tatar"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Tatar",
+          "form": "ат"
+        }
+      ]
+    },
+    {
+      "id": "bak",
+      "name": "Bashkir",
+      "native": "Башҡортса",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "word": "ат",
+      "romanization": "at",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: ат (Bashkir)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%82#Bashkir"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Bashkir",
+          "form": "ат"
+        }
+      ]
+    },
+    {
+      "id": "crh",
+      "name": "Crimean Tatar",
+      "native": "Qırımtatarca",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "word": "at",
+      "romanization": "",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: at (Crimean Tatar)",
+          "url": "https://en.wiktionary.org/wiki/at#Crimean_Tatar"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Crimean Tatar",
+          "form": "at"
+        }
+      ]
+    },
+    {
+      "id": "kir",
+      "name": "Kyrgyz",
+      "native": "Кыргызча",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "word": "ат",
+      "romanization": "at",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: ат (Kyrgyz)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%82#Kyrgyz"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Kyrgyz",
+          "form": "ат"
+        }
+      ]
+    },
+    {
+      "id": "uzb",
+      "name": "Uzbek",
+      "native": "Oʻzbekcha",
+      "family": "Turkic",
+      "branch": "Common Turkic · Karluk",
+      "word": "ot",
+      "romanization": "",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: horse (English)",
+          "url": "https://en.wiktionary.org/wiki/horse#English"
+        },
+        {
+          "title": "Wiktionary: Reconstruction:Proto-Turkic/at",
+          "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Turkic%2Fat"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Uzbek",
+          "form": "ot"
+        }
+      ]
+    },
+    {
+      "id": "kat",
+      "name": "Georgian",
+      "native": "ქართული",
+      "family": "Kartvelian",
+      "branch": "Georgian",
+      "word": "ცხენი",
+      "romanization": "tskheni",
+      "root": "kartvelian-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: ცხენი (Georgian)",
+          "url": "https://en.wiktionary.org/wiki/%E1%83%AA%E1%83%AE%E1%83%94%E1%83%9C%E1%83%98#Georgian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*cxen-"
+        },
+        {
+          "label": "Georgian",
+          "form": "ცხენი"
+        }
+      ]
+    },
+    {
+      "id": "kab",
+      "name": "Kabyle",
+      "native": "Taqbaylit",
+      "family": "Afro-Asiatic",
+      "branch": "Berber · Kabyle",
+      "word": "aɛudiw",
+      "romanization": "",
+      "root": "kabyle-horse",
+      "sources": [
+        {
+          "title": "Centre de Recherche Berbère, Aures: comparison of Chaoui yis and Kabyle aɛudiw",
+          "url": "https://centrederechercheberbere.fr/aures.html"
+        },
+        {
+          "title": "Amawal, Kabyle dictionary: aɛawdiw / aɛudiw",
+          "url": "https://amawal.numidya.net/amawal/a/Goi4tKpe/a%C9%9Bawdiw"
+        }
+      ],
+      "notes": "The selected aɛudiw is a common Kabyle term documented by the Centre de Recherche Berbère. Agmar is not substituted merely because it occurs in other Berber languages.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "aɛudiw"
+        },
+        {
+          "label": "Kabyle",
+          "form": "aɛudiw"
+        }
+      ]
+    },
+    {
+      "id": "tzm",
+      "name": "Central Atlas Tamazight",
+      "native": "Tamaziɣt",
+      "family": "Afro-Asiatic",
+      "branch": "Berber · Atlas",
+      "word": "ⴰⵢⵉⵙ",
+      "romanization": "ayis",
+      "root": "berber-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: ⴰⵢⵉⵙ (Central Atlas Tamazight)",
+          "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B5%A2%E2%B5%89%E2%B5%99#Central_Atlas_Tamazight"
+        }
+      ],
+      "notes": "Ayis is selected; ayyis and yis are recorded variants. The Tifinagh spelling follows the cited Central Atlas Tamazight entry.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ayis / ayyis"
+        },
+        {
+          "label": "Central Atlas Tamazight",
+          "form": "ⴰⵢⵉⵙ"
+        }
+      ]
+    },
+    {
+      "id": "shi",
+      "name": "Tachelhit",
+      "native": "Tašlḥiyt",
+      "family": "Afro-Asiatic",
+      "branch": "Berber · Atlas",
+      "word": "ayyis",
+      "romanization": "",
+      "root": "berber-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: ayyis (Tashelhit)",
+          "url": "https://en.wiktionary.org/wiki/ayyis#Tashelhit"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ayis / ayyis"
+        },
+        {
+          "label": "Tachelhit",
+          "form": "ayyis"
+        }
+      ]
+    },
+    {
+      "id": "che",
+      "name": "Chechen",
+      "native": "Нохчийн",
+      "family": "Northeast Caucasian",
+      "branch": "Nakh",
+      "word": "говр",
+      "romanization": "govr",
+      "root": "nakh-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: говр (Chechen)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D0%B2%D1%80#Chechen"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*gabr"
+        },
+        {
+          "label": "Chechen",
+          "form": "говр"
+        }
+      ]
+    },
+    {
+      "id": "tuk",
+      "name": "Turkmen",
+      "native": "Turkmen",
+      "family": "Turkic",
+      "branch": "Common Turkic · Oghuz",
+      "word": "at",
+      "romanization": "",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: at (Turkmen)",
+          "url": "https://en.wiktionary.org/wiki/at#Turkmen"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Turkmen",
+          "form": "at"
+        }
+      ]
+    },
+    {
+      "id": "kpv",
+      "name": "Komi-Zyrian",
+      "native": "Komi-Zyrian",
+      "family": "Uralic",
+      "branch": "Permic · Komi",
+      "word": "вӧв",
+      "romanization": "vöv",
+      "root": "permic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: вӧв (Komi-Zyrian)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B2%D3%A7%D0%B2#Komi-Zyrian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*vɔ̇l"
+        },
+        {
+          "label": "Komi-Zyrian",
+          "form": "вӧв"
+        }
+      ]
+    },
+    {
+      "id": "yrk",
+      "name": "Tundra Nenets",
+      "native": "Tundra Nenets",
+      "family": "Uralic",
+      "branch": "Samoyedic · Nenets",
+      "word": "юно",
+      "romanization": "yuno",
+      "root": "nenets-horse",
+      "sources": [
+        {
+          "title": "COPIUS Samoyedic historical phonology: NenT juna, juno",
+          "url": "https://copius.univie.ac.at/etymology/slides_13_samo.pdf"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*juntå"
+        },
+        {
+          "label": "Tundra Nenets",
+          "form": "юно"
+        }
+      ]
+    },
+    {
+      "id": "ava",
+      "name": "Avar",
+      "native": "Avar",
+      "family": "Northeast Caucasian",
+      "branch": "Avar-Andic · Avar",
+      "word": "чу",
+      "romanization": "chu",
+      "root": "avar-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: чу (Avar)",
+          "url": "https://en.wiktionary.org/wiki/%D1%87%D1%83#Avar"
+        }
+      ],
+      "notes": "The listed early Indo-Iranian etymology is a proposal, not sufficient evidence for automatically merging every Caucasian horse word with the PIE set.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ču"
+        },
+        {
+          "label": "Avar",
+          "form": "чу"
+        }
+      ]
+    },
+    {
+      "id": "dar",
+      "name": "Dargwa",
+      "native": "Dargwa",
+      "family": "Northeast Caucasian",
+      "branch": "Dargwa",
+      "word": "урчи",
+      "romanization": "urchi",
+      "root": "dargwa-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: урчи (Dargwa)",
+          "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D1%87%D0%B8#Dargwa"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "urči"
+        },
+        {
+          "label": "Dargwa",
+          "form": "урчи"
+        }
+      ]
+    },
+    {
+      "id": "lez",
+      "name": "Lezgian",
+      "native": "Lezgian",
+      "family": "Northeast Caucasian",
+      "branch": "Lezgic · Lezgian",
+      "word": "шив",
+      "romanization": "shiv",
+      "root": "lezgian-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: шив (Lezgi)",
+          "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B8%D0%B2#Lezgi"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "šiv"
+        },
+        {
+          "label": "Lezgian",
+          "form": "шив"
+        }
+      ]
+    },
+    {
+      "id": "lbe",
+      "name": "Lak",
+      "native": "Lak",
+      "family": "Northeast Caucasian",
+      "branch": "Lak",
+      "word": "чву",
+      "romanization": "chvu",
+      "root": "lak-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: чву (Lak)",
+          "url": "https://en.wiktionary.org/wiki/%D1%87%D0%B2%D1%83#Lak"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "čvu"
+        },
+        {
+          "label": "Lak",
+          "form": "чву"
+        }
+      ]
+    },
+    {
+      "id": "inh",
+      "name": "Ingush",
+      "native": "Ingush",
+      "family": "Northeast Caucasian",
+      "branch": "Nakh",
+      "word": "говр",
+      "romanization": "govr",
+      "root": "nakh-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: говр (Ingush)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D0%B2%D1%80#Ingush"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*gabr"
+        },
+        {
+          "label": "Ingush",
+          "form": "говр"
+        }
+      ]
+    },
+    {
+      "id": "kbd",
+      "name": "Kabardian",
+      "native": "Kabardian",
+      "family": "Northwest Caucasian",
+      "branch": "Circassian · East Circassian",
+      "word": "шы",
+      "romanization": "shy",
+      "root": "circassian-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: шы (Kabardian)",
+          "url": "https://en.wiktionary.org/wiki/%D1%88%D1%8B#East_Circassian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*čǝ"
+        },
+        {
+          "label": "Kabardian",
+          "form": "шы"
+        }
+      ]
+    },
+    {
+      "id": "ady",
+      "name": "Adyghe",
+      "native": "Adyghe",
+      "family": "Northwest Caucasian",
+      "branch": "Circassian · West Circassian",
+      "word": "шы",
+      "romanization": "shy",
+      "root": "circassian-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: шы (Adyghe)",
+          "url": "https://en.wiktionary.org/wiki/%D1%88%D1%8B#West_Circassian"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*čǝ"
+        },
+        {
+          "label": "Adyghe",
+          "form": "шы"
+        }
+      ]
+    },
+    {
+      "id": "krc",
+      "name": "Karachay-Balkar",
+      "native": "Karachay-Balkar",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "word": "ат",
+      "romanization": "at",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary (Russian), ат: Karachay-Balkar horse noun",
+          "url": "https://ru.wiktionary.org/wiki/%D0%B0%D1%82#%D0%9A%D0%B0%D1%80%D0%B0%D1%87%D0%B0%D0%B5%D0%B2%D0%BE-%D0%B1%D0%B0%D0%BB%D0%BA%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9"
+        },
+        {
+          "title": "Ethnocultural study of ат, horse, in Karachay-Balkar phraseology",
+          "url": "https://www.elbrusoid.net/articles/poznat/393388/"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Karachay-Balkar",
+          "form": "ат"
+        }
+      ]
+    },
+    {
+      "id": "kum",
+      "name": "Kumyk",
+      "native": "Kumyk",
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "word": "ат",
+      "romanization": "at",
+      "root": "turkic-at",
+      "sources": [
+        {
+          "title": "Wiktionary: ат (Kumyk)",
+          "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%82#Kumyk"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*at"
+        },
+        {
+          "label": "Kumyk",
+          "form": "ат"
+        }
+      ]
+    },
+    {
+      "id": "xal",
+      "name": "Kalmyk",
+      "native": "Kalmyk",
+      "family": "Mongolic",
+      "branch": "Oirat · Kalmyk",
+      "word": "мөрн",
+      "romanization": "mörn",
+      "root": "mongolic-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: мөрн (Kalmyk)",
+          "url": "https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D1%80%D0%BD#Kalmyk"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*morin"
+        },
+        {
+          "label": "Kalmyk",
+          "form": "мөрн"
+        }
+      ]
+    },
+    {
+      "id": "bal",
+      "name": "Balochi",
+      "native": "Balochi",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "word": "اسپ",
+      "romanization": "asp",
+      "root": "pie-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: اسپ (Baluchi)",
+          "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%BE#Baluchi"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Proto-Indo-Iranian",
+          "form": "*Háćwas"
+        },
+        {
+          "label": "Balochi",
+          "form": "اسپ"
+        }
+      ]
+    },
+    {
+      "id": "lrc",
+      "name": "Northern Luri",
+      "native": "Northern Luri",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Southwestern Iranian",
+      "word": "اسپ",
+      "romanization": "asp",
+      "root": "pie-horse",
+      "sources": [
+        {
+          "title": "Northern Luri/Feyli speaker word comparison: اسپ = horse",
+          "url": "https://lori-shomali.blogfa.com/post/36"
+        }
+      ],
+      "notes": "Asp is attested in the linked Northern Luri/Feyli speaker comparison. This local source is less authoritative than a critical dictionary; spelling and subregional vowels vary.",
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Proto-Indo-Iranian",
+          "form": "*Háćwas"
+        },
+        {
+          "label": "Northern Luri",
+          "form": "اسپ"
+        }
+      ]
+    },
+    {
+      "id": "luz",
+      "name": "Southern Luri",
+      "native": "Southern Luri",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Southwestern Iranian",
+      "word": "اسپ",
+      "romanization": "asp",
+      "root": "pie-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: 𐎠𐎿𐎱 (Old Persian)",
+          "url": "https://en.wiktionary.org/wiki/%F0%90%8E%A0%F0%90%8E%BF%F0%90%8E%B1#Old_Persian"
+        }
+      ],
+      "notes": "The source records Southern Luri asp with Persian contact in the chain. Shared Iranian word ancestry does not settle direct inheritance versus later borrowing.",
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Proto-Indo-Iranian",
+          "form": "*Háćwas"
+        },
+        {
+          "label": "Southern Luri",
+          "form": "اسپ"
+        }
+      ]
+    },
+    {
+      "id": "bqi",
+      "name": "Bakhtiari",
+      "native": "Bakhtiari",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Southwestern Iranian",
+      "word": "اسب",
+      "romanization": "asb",
+      "root": "pie-horse",
+      "sources": [
+        {
+          "title": "Vajehyab, Bakhtiari dictionary: اسب /asb/",
+          "url": "https://vajehyab.com/bakhtiari/%D8%A7%D8%B3%D8%A8"
+        }
+      ],
+      "notes": "The linked Bakhtiari dictionary records asb; asp also occurs in historical comparative lists. The selected noun uses the checked dictionary reading.",
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Proto-Indo-Iranian",
+          "form": "*Háćwas"
+        },
+        {
+          "label": "Bakhtiari",
+          "form": "اسب"
+        }
+      ]
+    },
+    {
+      "id": "ckb",
+      "name": "Central Kurdish",
+      "native": "Central Kurdish",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "word": "ئەسپ",
+      "romanization": "esp",
+      "root": "pie-horse",
+      "sources": [
+        {
+          "title": "Wiktionary: ئەسپ (Central Kurdish)",
+          "url": "https://en.wiktionary.org/wiki/%D8%A6%DB%95%D8%B3%D9%BE#Central_Kurdish"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Proto-Indo-Iranian",
+          "form": "*Háćwas"
+        },
+        {
+          "label": "Central Kurdish",
+          "form": "ئەسپ"
+        }
+      ]
+    },
+    {
+      "id": "kal",
+      "name": "Greenlandic",
+      "native": "Greenlandic",
+      "family": "Inuit–Yupik–Unangan",
+      "branch": "Inuit · Greenlandic",
+      "word": "hiisti",
+      "romanization": "",
+      "root": "germanic-stallion",
+      "sources": [
+        {
+          "title": "Wiktionary: hiisti (Greenlandic)",
+          "url": "https://en.wiktionary.org/wiki/hiisti#Greenlandic"
+        }
+      ],
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*hangistaz"
+        },
+        {
+          "label": "Greenlandic",
+          "form": "hiisti"
+        }
+      ]
+    },
+    {
+      "id": "amw",
+      "name": "Western Neo-Aramaic (Maaloula)",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Western Aramaic",
+      "mapPoint": true,
+      "word": "sūsča",
+      "romanization": "",
+      "root": "semitic-sus",
+      "sources": [
+        {
+          "title": "Werner Arnold (2025), Animals in the Western Neo-Aramaic Proverbs of Maʿlūla, appendix: horse (sūsča)",
+          "url": "https://books.openbookpublishers.com/10.11647/obp.0464.31.pdf"
+        }
+      ],
+      "notes": "Arnold’s Maaloula fieldwork appendix gives sūsča. The scholarly Latin transcription is retained; no unverified native-script spelling is invented.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "sūs / sūsyā"
+        },
+        {
+          "label": "Western Neo-Aramaic (Maaloula)",
+          "form": "sūsča"
+        }
+      ]
+    },
+    {
+      "id": "aii",
+      "name": "Assyrian Neo-Aramaic",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Northeastern Neo-Aramaic",
+      "mapPoint": true,
+      "word": "ܣܘܼܣܵܐ",
+      "romanization": "sūsā",
+      "root": "semitic-sus",
+      "sources": [
+        {
+          "title": "Wiktionary: ܣܘܣܐ (Assyrian Neo-Aramaic)",
+          "url": "https://en.wiktionary.org/wiki/%DC%A3%DC%98%DC%A3%DC%90#Assyrian_Neo-Aramaic"
+        }
+      ],
+      "notes": "The Urmian reading sūsā and its pointed spelling are selected. Other Assyrian standards have sūsē; this is not a claim of one uniform pronunciation.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "sūs / sūsyā"
+        },
+        {
+          "label": "Assyrian Neo-Aramaic",
+          "form": "ܣܘܼܣܵܐ"
+        }
+      ]
+    },
+    {
+      "id": "tru",
+      "name": "Turoyo / Surayt",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Central Neo-Aramaic",
+      "word": "ܣܘܣܝܐ",
+      "romanization": "susyo",
+      "root": "semitic-sus",
+      "sources": [
+        {
+          "title": "Barsky, Kalinin & Loesov (2018), The Basic Lexicon of Mlaḥsô: A Comparative Study, p.228, Turoyo susyo",
+          "url": "https://www.ub.edu/ipoa/wp-content/uploads/2021/07/20182AuOrBarsky.pdf"
+        },
+        {
+          "title": "Sfar Mele, Turoyo learning vocabulary: Horse (Pferd), Susyo",
+          "url": "https://sfarmele.de/?page=lernen"
+        }
+      ],
+      "notes": "The Turoyo reference is susyo, contrasted with Mlaḥsô in the comparative source. Syriac ܣܘܣܝܐ is shown unpointed; the reading underneath specifies the variety.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "sūs / sūsyā"
+        },
+        {
+          "label": "Turoyo / Surayt",
+          "form": "ܣܘܣܝܐ"
+        }
+      ]
+    },
+    {
+      "id": "myz",
+      "name": "Mandaic (Mandaean liturgical reference)",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Eastern Aramaic · Mandaic",
+      "mapPoint": true,
+      "word": "ࡎࡅࡎࡉࡀ",
+      "romanization": "susia",
+      "root": "semitic-sus",
+      "sources": [
+        {
+          "title": "Qais Al-Saadi (2012), Nhura dictionary, printed p.91: Horse [susia]",
+          "url": "https://qadaha.wordpress.com/wp-content/uploads/2021/03/nhura-dictionary-mandaic-english-mandaic.pdf#page=92"
+        },
+        {
+          "title": "Glosbe, Mandaic Professional entry: ࡎࡅࡎࡉࡀ",
+          "url": "https://glosbe.com/en/mid/horse"
+        }
+      ],
+      "notes": "Literary/liturgical Mandaic reference near the historical Basra community, not a claim of uniform present-day everyday Mandaic speech in southern Iraq.",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "sūs / sūsyā"
+        },
+        {
+          "label": "Mandaic (Mandaean liturgical reference)",
+          "form": "ࡎࡅࡎࡉࡀ"
+        }
+      ]
+    }
+  ],
+  "methodology": {
+    "title": "Lexical and etymological method",
+    "asOf": "2026-10-18",
+    "scope": "105 selected horse words across Europe and neighbouring regions. The same generalized language geography as the snow map is reused. A representative common noun is selected, with important male-horse, collective and regional distinctions noted.",
+    "comparison": "Default colours follow shared word ancestry across language families, including borrowings. Root sets are compared at the deepest level supported with confidence; several sets stop at a Germanic, Finnic, Slavic or attested local stage. Neither membership in Indo-European nor resemblance proves a shared PIE origin.",
+    "chains": "Chains are schematic, not complete dated sound histories. Borrowing and derivation are noted; shared colour does not imply direct inheritance. Asterisks mark reconstructed, unattested forms.",
+    "uncertainty": "The origin of caballus/*kaballos and the deeper origin of English horse are disputed. Finnic *hëpo is not automatically merged with PIE *h₁éḱwos. Early Iranian relationships proposed for Caucasian horse words remain marked as proposals. No indigenous Canarian horse word was verified; that label and its historical island-reference fill are omitted, leaving the modern Spanish reference layer. The former snow gloss tener? is not reused.",
+    "standards": "Non-Latin labels retain native scripts with a parenthesized romanized reading beneath. Scholarly Latin transcriptions are used where no reliable native spelling was checked. Romanizations are not IPA. Northern Luri uses a local speaker wordlist; the Iraqi reference ḥiṣān is also attested in a Baghdadi Arabic study, without asserting uniform regional vowels. Mandaic is literary/liturgical.",
+    "sources": "Wiktionary is a community-edited secondary reference. Entries are linked individually, with institutional and primary lexical sources for key unusual varieties. Research records and the source catalog retain the distinction between checked forms and unresolved deeper histories.",
+    "license": "Brief lexical facts and original explanatory summaries with attribution. Wiktionary is CC BY-SA 4.0; third-party dictionaries and research retain their own terms."
+  }
+}
