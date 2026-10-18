@@ -32,7 +32,7 @@ for weight in ['regular','bold']:
   out['texts'].setdefault(text,{})[weight]={'path':s['path'],'width':s['width']}
 (vendor/'legend-font.json').write_text(json.dumps(out,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
 native={}
-for ident,font in {'aii':'NotoSansSyriac','tru':'NotoSansSyriac','myz':'NotoSansMandaic','tzm':'NotoSansTifinagh'}.items():
+for ident,font in {'amw':'NotoSansSyriac','aii':'NotoSansSyriac','tru':'NotoSansSyriac','myz':'NotoSansMandaic','tzm':'NotoSansTifinagh'}.items():
  word=next(l['word'] for l in lex['languages'] if l['id']==ident)
  native[ident]=shape(vendor/(font+'-Regular.ttf'),word,True);native[ident]['word']=word;native[ident]['coordinateSystem']='SVG y-down; baseline y=0'
 (vendor/'native-word-outlines.json').write_text(json.dumps(native,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')

@@ -8,14 +8,14 @@ A flat landscape linguistic map of words for **horse** across Europe and its nei
 
 ## Reading the map
 
-- The PIE horse noun *h₁éḱwos heads two separate colour rows: Celtic *ekʷos → Scottish Gaelic each, and Iranian *Hácwah → asb/asp/hesp. They share an earlier ancestor but follow separate branches. These are the two lineages represented by the selected labels, not the only surviving descendants: Greek ίππος also continues that noun, while this map selects everyday άλογο. Other colours follow word ancestry, including borrowings; uncertain deep links remain separate.
+- The PIE horse noun *h₁éḱwos heads two separate colour rows: Scottish Gaelic each via Proto-Celtic *ekʷos, and Iranian *Hácwah → asb/asp/hesp. They share an earlier ancestor but follow separate branches. These are the two lineages represented by the selected labels, not the only surviving descendants: Greek ίππος also continues that noun, while this map selects everyday άλογο. Other colours follow word ancestry, including borrowings; uncertain deep links remain separate.
 - The caballus / *kaballos family has a shared heading and three separate route colours: Romance, Celtic and Albanian. Romance words continue Latin caballus; Albanian kalë is a Latin loan. The related Celtic terms retain their individual histories and disputed early borrowing directions in the entry notes.
 - The same generalized, overlapping language footprints as the snow atlas are retained. A complete Natural Earth country reference layer fills the land beneath them; this is not a census or a claim of exclusive language use. Kurdish supplements retain their published 1750 reference epoch.
-- Romanizations under non-Latin words are reading aids, not IPA. Maaloula uses Arnold’s attested scholarly sūsča; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.
+- Romanizations under non-Latin words are reading aids, not IPA. Maaloula shows ܣܘܣܬ̤ܐ with (sūsča), an editorial Syriac rendering of Arnold’s attested transcription using the documented ܬ̤ = č convention. This is a script choice, not a directly quoted native spelling or a universal Maaloula standard; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.
 - No reliable indigenous Canarian horse term was verified. The earlier snow word tener? is not reused: this version retains the modern Spanish reference on the islands.
 - Northern Luri asp is supported by a local speaker comparison rather than a critical dictionary. The Iraqi Arabic reading ḥiṣān also appears in a Baghdadi Arabic plant-name study; regional vowels vary. Entry notes retain these source limitations.
 - Common representative nouns are selected. Russian лошадь is used alongside neighbouring Slavic konj/koń forms; Russian конь remains a noted alternative. Irish capall and Scottish Gaelic each intentionally illustrate different histories.
-- Colour groups follow the ancestry and routes shown in the legend, including loans; shared colour is not proof of direct inheritance. The PIE horse noun has separate Celtic and Iranian route colours. English horse, German Pferd, Scandinavian hest and Romance caballo/cheval are separate sets. An asterisk marks a reconstructed form; “loan ?” marks a possible borrowing. Other unresolved histories are explained in the entry notes.
+- Colour groups follow the ancestry and routes shown in the legend, including loans; shared colour is not proof of direct inheritance. The PIE horse noun has separate Scottish Gaelic and Iranian route colours; *ekʷos is the reconstructed Proto-Celtic ancestor of Gaelic each. English horse, German Pferd, Scandinavian hest and Romance caballo/cheval are separate sets. An asterisk marks a reconstructed form; “loan ?” marks a possible borrowing. Other unresolved histories are explained in the entry notes.
 - The caballus/*kaballos group has separate Romance, Celtic and Albanian route colours without making every Celtic word a direct Latin loan. Finnic and Caucasian proposed Indo-European links remain unresolved. Some origin sets stop at an attested local word.
 - The Syriac, Mandaic and Tifinagh labels and the full legend are shaped to vector outlines for reliable PNG/SVG export. Other words remain editable SVG text. Non-Latin words retain parenthesized romanized readings.
 
@@ -51,7 +51,7 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 ### Lexical and historical references
 
 <details>
-<summary>All 125 references</summary>
+<summary>All 128 references</summary>
 
 - [Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fh%E2%82%81%C3%A9%E1%B8%B1wos) — PIE horse word.
 - [Encyclopaedia Iranica: ASB i., Iranian horse terminology](https://www.iranicaonline.org/articles/asb-pre-islamic-iran/) — PIE horse word.
@@ -173,6 +173,9 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Vajehyab, Bakhtiari dictionary: اسب /asb/](https://vajehyab.com/bakhtiari/%D8%A7%D8%B3%D8%A8) — Bakhtiari.
 - [Wiktionary: ئەسپ (Central Kurdish)](https://en.wiktionary.org/wiki/%D8%A6%DB%95%D8%B3%D9%BE#Central_Kurdish) — Central Kurdish.
 - [Werner Arnold (2025), Animals in the Western Neo-Aramaic Proverbs of Maʿlūla, appendix: horse (sūsča)](https://books.openbookpublishers.com/10.11647/obp.0464.31.pdf) — Western Neo-Aramaic (Maaloula).
+- [Western Neo-Aramaic writing systems: Syriac alphabet and ܬ̤ / č correspondence](https://en.wikipedia.org/wiki/Western_Neo-Aramaic#Syriac_and_Arabic_alphabet) — Western Neo-Aramaic (Maaloula).
+- [Wiktionary: Western Neo-Aramaic ܒܪܬ̤ܐ (berča), parallel use of ܬ̤ for č](https://en.wiktionary.org/wiki/%DC%92%DC%AA%DC%AC%CC%A4%DC%90) — Western Neo-Aramaic (Maaloula).
+- [Ma’luli New Testament (2018), Syriac and Arabic scripts; Revelation 6:2, printed p. 1274 (PDF p. 1282)](https://scriptureearth.org/data/amw/PDF/amwMaLuliNT-web.pdf#page=1282) — Western Neo-Aramaic (Maaloula).
 - [Wiktionary: ܣܘܣܐ (Assyrian Neo-Aramaic)](https://en.wiktionary.org/wiki/%DC%A3%DC%98%DC%A3%DC%90#Assyrian_Neo-Aramaic) — Assyrian Neo-Aramaic.
 - [Barsky, Kalinin & Loesov (2018), The Basic Lexicon of Mlaḥsô: A Comparative Study, p.228, Turoyo susyo](https://www.ub.edu/ipoa/wp-content/uploads/2021/07/20182AuOrBarsky.pdf) — Turoyo / Surayt.
 - [Sfar Mele, Turoyo learning vocabulary: Horse (Pferd), Susyo](https://sfarmele.de/?page=lernen) — Turoyo / Surayt.

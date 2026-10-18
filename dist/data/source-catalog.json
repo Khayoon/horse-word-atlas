@@ -5,7 +5,7 @@
   "counts": {
     "languages": 105,
     "wordOriginSets": 34,
-    "lexicalCanonicalSources": 125,
+    "lexicalCanonicalSources": 128,
     "languageAreaFeatures": 180,
     "documentedLexicalJoins": 89,
     "displayedOriginGroups": 37
@@ -1795,6 +1795,42 @@
     },
     {
       "id": "L121",
+      "url": "https://en.wikipedia.org/wiki/Western_Neo-Aramaic#Syriac_and_Arabic_alphabet",
+      "title": "Western Neo-Aramaic writing systems: Syriac alphabet and ܬ̤ / č correspondence",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "amw",
+          "name": "Western Neo-Aramaic (Maaloula)"
+        }
+      ]
+    },
+    {
+      "id": "L122",
+      "url": "https://en.wiktionary.org/wiki/%DC%92%DC%AA%DC%AC%CC%A4%DC%90",
+      "title": "Wiktionary: Western Neo-Aramaic ܒܪܬ̤ܐ (berča), parallel use of ܬ̤ for č",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "amw",
+          "name": "Western Neo-Aramaic (Maaloula)"
+        }
+      ]
+    },
+    {
+      "id": "L123",
+      "url": "https://scriptureearth.org/data/amw/PDF/amwMaLuliNT-web.pdf#page=1282",
+      "title": "Ma’luli New Testament (2018), Syriac and Arabic scripts; Revelation 6:2, printed p. 1274 (PDF p. 1282)",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "amw",
+          "name": "Western Neo-Aramaic (Maaloula)"
+        }
+      ]
+    },
+    {
+      "id": "L124",
       "url": "https://en.wiktionary.org/wiki/%DC%A3%DC%98%DC%A3%DC%90#Assyrian_Neo-Aramaic",
       "title": "Wiktionary: ܣܘܣܐ (Assyrian Neo-Aramaic)",
       "rootUses": [],
@@ -1806,7 +1842,7 @@
       ]
     },
     {
-      "id": "L122",
+      "id": "L125",
       "url": "https://www.ub.edu/ipoa/wp-content/uploads/2021/07/20182AuOrBarsky.pdf",
       "title": "Barsky, Kalinin & Loesov (2018), The Basic Lexicon of Mlaḥsô: A Comparative Study, p.228, Turoyo susyo",
       "rootUses": [],
@@ -1818,7 +1854,7 @@
       ]
     },
     {
-      "id": "L123",
+      "id": "L126",
       "url": "https://sfarmele.de/?page=lernen",
       "title": "Sfar Mele, Turoyo learning vocabulary: Horse (Pferd), Susyo",
       "rootUses": [],
@@ -1830,7 +1866,7 @@
       ]
     },
     {
-      "id": "L124",
+      "id": "L127",
       "url": "https://qadaha.wordpress.com/wp-content/uploads/2021/03/nhura-dictionary-mandaic-english-mandaic.pdf#page=92",
       "title": "Qais Al-Saadi (2012), Nhura dictionary, printed p.91: Horse [susia]",
       "rootUses": [],
@@ -1842,7 +1878,7 @@
       ]
     },
     {
-      "id": "L125",
+      "id": "L128",
       "url": "https://glosbe.com/en/mid/horse",
       "title": "Glosbe, Mandaic Professional entry: ࡎࡅࡎࡉࡀ",
       "rootUses": [],

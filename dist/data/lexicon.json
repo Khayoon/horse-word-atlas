@@ -32,12 +32,12 @@
       "routes": [
         {
           "id": "pie-celtic",
-          "label": "Celtic route",
+          "label": "Scottish Gaelic route",
           "form": "*ekʷos",
           "gloss": "horse",
-          "legend": "Celtic *ekʷos · “horse” → each",
+          "legend": "Celtic *ekʷos → Scottish Gaelic each",
           "color": "#7da8ad",
-          "description": "PIE *h₁éḱwos → Proto-Celtic *ekʷos → Old Irish ech → Scottish Gaelic each."
+          "description": "The displayed modern word each is Scottish Gaelic. Its ancestor *ekʷos is reconstructed Proto-Celtic, not a Scottish Gaelic word: PIE *h₁éḱwos → Proto-Celtic *ekʷos → Old Irish ech → Scottish Gaelic each."
         },
         {
           "id": "pie-iranian",
@@ -3516,16 +3516,28 @@
       "family": "Afro-Asiatic",
       "branch": "Semitic · Western Aramaic",
       "mapPoint": true,
-      "word": "sūsča",
-      "romanization": "",
+      "word": "ܣܘܣܬ̤ܐ",
+      "romanization": "sūsča",
       "root": "semitic-sus",
       "sources": [
         {
           "title": "Werner Arnold (2025), Animals in the Western Neo-Aramaic Proverbs of Maʿlūla, appendix: horse (sūsča)",
           "url": "https://books.openbookpublishers.com/10.11647/obp.0464.31.pdf"
+        },
+        {
+          "title": "Western Neo-Aramaic writing systems: Syriac alphabet and ܬ̤ / č correspondence",
+          "url": "https://en.wikipedia.org/wiki/Western_Neo-Aramaic#Syriac_and_Arabic_alphabet"
+        },
+        {
+          "title": "Wiktionary: Western Neo-Aramaic ܒܪܬ̤ܐ (berča), parallel use of ܬ̤ for č",
+          "url": "https://en.wiktionary.org/wiki/%DC%92%DC%AA%DC%AC%CC%A4%DC%90"
+        },
+        {
+          "title": "Ma’luli New Testament (2018), Syriac and Arabic scripts; Revelation 6:2, printed p. 1274 (PDF p. 1282)",
+          "url": "https://scriptureearth.org/data/amw/PDF/amwMaLuliNT-web.pdf#page=1282"
         }
       ],
-      "notes": "Arnold’s Maaloula fieldwork appendix gives sūsča. The scholarly Latin transcription is retained; no unverified native-script spelling is invented.",
+      "notes": "Arnold’s 2025 Maaloula fieldwork appendix gives sūsča for horse. This map renders that attested pronunciation as ܣܘܣܬ̤ܐ in Syriac letters, using the documented Western Neo-Aramaic convention ܬ̤ for č. The complete Syriac spelling is an editorial transliteration, not a native-script quotation from Arnold or a claim of one universally standardized Maaloula orthography. The Maalouli New Testament also attests the related masculine sūsa in Syriac and Arabic scripts (Revelation 6:2, printed p. 1274); its form is not substituted for Arnold’s selected sūsča.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -3533,9 +3545,12 @@
         },
         {
           "label": "Western Neo-Aramaic (Maaloula)",
-          "form": "sūsča"
+          "form": "ܣܘܣܬ̤ܐ (sūsča)"
         }
-      ]
+      ],
+      "mapRomanization": "sūsča",
+      "script": "Syriac",
+      "orthographyStatus": "Editorial Syriac-script rendering of an attested scholarly transcription"
     },
     {
       "id": "aii",
@@ -3633,7 +3648,7 @@
     "comparison": "Colours follow the displayed etymological routes. The PIE horse noun has separate Celtic and Iranian routes under its common ancestor. The caballus / *kaballos word-family likewise has separate Romance, Celtic and Albanian routes under a shared heading; Celtic borrowing directions are not presented as settled. Language branch colouring remains available as a comparison.",
     "chains": "Chains are schematic, not complete dated sound histories. Borrowing and derivation are noted; shared colour does not imply direct inheritance. Asterisks mark reconstructed, unattested forms.",
     "uncertainty": "An asterisk marks a reconstructed form. The legend uses “loan ?” for a possible borrowing. Other uncertainties, including disputed deeper origins and early borrowing directions, are explained in the entry notes rather than abbreviated in the legend. The origin of caballus/*kaballos and the deeper origin of English horse are disputed. Finnic *hëpo is not automatically merged with PIE *h₁éḱwos. Early Iranian relationships proposed for Caucasian horse words remain proposals. No indigenous Canarian horse word was verified; that label and its historical island-reference fill are omitted, leaving the modern Spanish reference layer. The former snow gloss tener? is not reused.",
-    "standards": "Non-Latin labels retain native scripts with a parenthesized romanized reading beneath. Scholarly Latin transcriptions are used where no reliable native spelling was checked. Romanizations are not IPA. Northern Luri uses a local speaker wordlist; the Iraqi reference ḥiṣān is also attested in a Baghdadi Arabic study, without asserting uniform regional vowels. Mandaic is literary/liturgical.",
+    "standards": "Non-Latin labels retain native scripts with a parenthesized romanized reading beneath. Scholarly Latin transcriptions are used where no reliable native spelling was checked. Romanizations are not IPA. Northern Luri uses a local speaker wordlist; the Iraqi reference ḥiṣān is also attested in a Baghdadi Arabic study, without asserting uniform regional vowels. Mandaic is literary/liturgical. The Maaloula label uses an editorial Syriac rendering of Arnold’s attested sūsča, with the spelling convention and its limits documented in that entry.",
     "sources": "Wiktionary is a community-edited secondary reference. Entries are linked individually, with institutional and primary lexical sources for key unusual varieties. Research records and the source catalog retain the distinction between checked forms and unresolved deeper histories.",
     "license": "Brief lexical facts and original explanatory summaries with attribution. Wiktionary is CC BY-SA 4.0; third-party dictionaries and research retain their own terms."
   }
