@@ -4,18 +4,20 @@
 
 ![Horse word map](dist/assets/horse-map-preview.png)
 
-A flat landscape linguistic map of words for **horse** across Europe and its neighbours: **105 selected language/variety entries** and **34 word-origin sets**. It reuses the snow atlas’s language geography, compact Gentium Plus legend and high-resolution export layout.
+A flat landscape linguistic map of words for **horse** across Europe and its neighbours: **112 selected language/variety entries** and **35 word-origin sets**. It reuses the snow atlas’s language geography, compact Gentium Plus legend and high-resolution export layout.
 
 ## Reading the map
 
-- The PIE horse noun *h₁éḱwos heads two separate colour rows: Scottish Gaelic each via Proto-Celtic *ekʷos, and Iranian *Hácwah → asb/asp/hesp. They share an earlier ancestor but follow separate branches. These are the two lineages represented by the selected labels, not the only surviving descendants: Greek ίππος also continues that noun, while this map selects everyday άλογο. Other colours follow word ancestry, including borrowings; uncertain deep links remain separate.
+- The PIE horse noun *h₁éḱwos has separate Scottish Gaelic, Iranian and Greek route colours. Greek learned ίππος (Ancient ἵππος, híppos) is displayed alongside everyday άλογο. These are selected surviving lineages, not an exhaustive list: Latin equus is another.
 - The caballus / *kaballos family has a shared heading and three separate route colours: Romance, Celtic and Albanian. Romance words continue Latin caballus; Albanian kalë is a Latin loan. The related Celtic terms retain their individual histories and disputed early borrowing directions in the entry notes.
-- The same generalized, overlapping language footprints as the snow atlas are retained. A complete Natural Earth country reference layer fills the land beneath them; this is not a census or a claim of exclusive language use. Kurdish supplements retain their published 1750 reference epoch.
+- Published overlapping footprints remain above a complete Natural Earth reference fill. Inside Romania, the old Hungarian atlas area is replaced by INS RPL 2021 data mapped by ISPMN: administrative units above 50% Hungarian mother tongue among known responses. This separates the Székely enclave from smaller western pockets, and does not claim speakers below that threshold are absent. The exact selection is in data/romanian-hungarian-2021.json. Other features retain their original source epochs, including the Kurdish 1750 supplements.
+- Greece, Russia and Kazakhstan show coexisting words with different origins using diagonal stripes and colour bars beneath the words. Stripe widths are decorative, not population or usage proportions. Russian конь is displayed alongside лошадь; Sardinian cuaddu supplements Nuorese cabaddu; Flemish peerd / peird supplements standard Dutch paard. Algeria now uses عود (ʿūd, Arabizi 3oud) rather than the standard-Arabic ḥiṣān reference.
+- Kazakh жылқы is a general species / livestock term and occurs in жылқы еті, horse meat. Ат is especially a riding or working horse, traditionally male / gelded. These are usage tendencies, not a strict meat-versus-riding opposition.
 - Romanizations under non-Latin words are reading aids, not IPA. Maaloula shows ܣܘܣܬ̤ܐ with (sūsča), an editorial Syriac rendering of Arnold’s attested transcription using the documented ܬ̤ = č convention. This is a script choice, not a directly quoted native spelling or a universal Maaloula standard; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.
 - No reliable indigenous Canarian horse term was verified. The earlier snow word tener? is not reused: this version retains the modern Spanish reference on the islands.
 - Northern Luri asp is supported by a local speaker comparison rather than a critical dictionary. The Iraqi Arabic reading ḥiṣān also appears in a Baghdadi Arabic plant-name study; regional vowels vary. Entry notes retain these source limitations.
-- Common representative nouns are selected. Russian лошадь is used alongside neighbouring Slavic konj/koń forms; Russian конь remains a noted alternative. Irish capall and Scottish Gaelic each intentionally illustrate different histories.
-- Colour groups follow the ancestry and routes shown in the legend, including loans; shared colour is not proof of direct inheritance. The PIE horse noun has separate Scottish Gaelic and Iranian route colours; *ekʷos is the reconstructed Proto-Celtic ancestor of Gaelic each. English horse, German Pferd, Scandinavian hest and Romance caballo/cheval are separate sets. An asterisk marks a reconstructed form; “loan ?” marks a possible borrowing. Other unresolved histories are explained in the entry notes.
+- Common nouns and important alternatives are selected. Both Russian лошадь and конь are now displayed, with their different word origins. Irish capall and Scottish Gaelic each intentionally illustrate different histories.
+- Colour groups follow the ancestry and routes shown in the legend, including loans; shared colour is not proof of direct inheritance. The PIE horse noun has separate Scottish Gaelic, Iranian and Greek route colours; *ekʷos is the reconstructed Proto-Celtic ancestor of Gaelic each. English horse, German Pferd, Scandinavian hest and Romance caballo/cheval are separate sets. An asterisk marks a reconstructed form; “loan ?” marks a possible borrowing. Other unresolved histories are explained in the entry notes.
 - The caballus/*kaballos group has separate Romance, Celtic and Albanian route colours without making every Celtic word a direct Latin loan. Finnic and Caucasian proposed Indo-European links remain unresolved. Some origin sets stop at an attested local word.
 - The Syriac, Mandaic and Tifinagh labels and the full legend are shaped to vector outlines for reliable PNG/SVG export. Other words remain editable SVG text. Non-Latin words retain parenthesized romanized readings.
 
@@ -28,10 +30,11 @@ Export PNG at 6,000, 9,000 or 12,000 pixels wide or save SVG. Default compositio
 ## Data
 
 - `dist/data/lexicon.json`: selected nouns, romanizations, origin sets, schematic chains, references and uncertainty notes.
-- `dist/data/territories.geojson`: 180 generalized geometry features with provenance. The historical La Palma reference fill from the snow map is omitted.
+- `dist/data/territories.geojson`: the generalized geometry features and the explicitly attributed Romanian census supplement. The historical La Palma reference fill from the snow map is omitted.
 - `dist/data/land-reference.geojson`: complete country-reference layer below the language footprints.
 - `dist/data/geometry-sources.json` and `map-coverage.json`: source epochs, geography and inherited continuous-coverage method. Geography comes from the attributed snow-atlas build; it is not new fieldwork.
 - `dist/data/source-catalog.json`: complete linked source list.
+- `dist/data/romanian-hungarian-2021.json`: selected census units, language shares, denominator, threshold and source attribution.
 - `dist/vendor/`: D3, Gentium Plus and Noto fonts, vector typography and licenses.
 
 ## GitHub Pages
@@ -47,18 +50,19 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - **Rantanen, T., Vesakoski, O., Ylikoski, J., & Tolvanen, H. (2021). Geographical database of the Uralic languages (v1.0). Zenodo.** — Traditional Northern Sámi and Veps areas, approximately the widest known at the beginning of the 20th century. [Dataset repository](https://github.com/Glottography/rantanen2021uralic) · [Original dataset DOI](https://doi.org/10.5281/zenodo.4784188) · [Derived dataset DOI](https://doi.org/10.5281/zenodo.18643660) · [Methods paper](https://doi.org/10.1371/journal.pone.0269648)
 - **Natural Earth 1:50m Admin 0 – Countries** — Complete reference-language land fill underneath language polygons; country boundaries are not linguistic boundaries. [Source download](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/) · [Terms of use](https://www.naturalearthdata.com/about/terms-of-use/)
 - **Glottolog 5.3: language reference locations** — Reference points for Maaloula Western Neo-Aramaic and Assyrian Neo-Aramaic; locations do not define speaker-area boundaries. [Western Neo-Aramaic](https://glottolog.org/resource/languoid/id/west2763) · [Assyrian Neo-Aramaic](https://glottolog.org/resource/languoid/id/assy1241)
+- **Romanian INS RPL 2021 mother-tongue data, table 2.03.2, mapped by ISPMN** — Replacement Hungarian footprint within Romania: 202 administrative units with >50% Hungarian mother tongue among known responses; Székely enclave and smaller western pockets. [ISPMN census map and methodology](https://www.ispmn.gov.ro/maps2022) · [Exact map geometry and census attributes](https://ispmn.gov.ro/maps_2022/data/uat_merged_simp02.json) · [Romanian census definitive results](https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive/)
 
 ### Lexical and historical references
 
 <details>
-<summary>All 128 references</summary>
+<summary>All 143 references</summary>
 
 - [Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fh%E2%82%81%C3%A9%E1%B8%B1wos) — PIE horse word.
 - [Encyclopaedia Iranica: ASB i., Iranian horse terminology](https://www.iranicaonline.org/articles/asb-pre-islamic-iran/) — PIE horse word.
 - [Wiktionary: Scottish Gaelic each, via Old Irish ech and Proto-Celtic *ekʷos](https://en.wiktionary.org/wiki/each#Scottish_Gaelic) — Scottish Gaelic; PIE horse word.
-- [Wiktionary: Greek ίππος, another surviving PIE horse-word reflex](https://en.wiktionary.org/wiki/%CE%AF%CF%80%CF%80%CE%BF%CF%82#Greek) — PIE horse word.
+- [Wiktionary: Greek ίππος, another surviving PIE horse-word reflex](https://en.wiktionary.org/wiki/%CE%AF%CF%80%CF%80%CE%BF%CF%82#Greek) — Greek (learned ίππος); PIE horse word.
 - [Wiktionary: Latin equus, inherited PIE horse noun](https://en.wiktionary.org/wiki/equus#Latin) — PIE horse word.
-- [Wiktionary: caballus](https://en.wiktionary.org/wiki/caballus) — Sardinian; Caballus word-family.
+- [Wiktionary: caballus](https://en.wiktionary.org/wiki/caballus) — Caballus word-family.
 - [Wiktionary: capall (Irish)](https://en.wiktionary.org/wiki/capall#Irish) — Irish; Caballus word-family.
 - [Wiktionary: ceffyl (Welsh)](https://en.wiktionary.org/wiki/ceffyl#Welsh) — Welsh; Caballus word-family.
 - [Lewis & Short, A Latin Dictionary: caballus](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059:entry=caballus) — Caballus word-family.
@@ -92,6 +96,8 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [COPIUS, Samoyedic historical phonology: *juntå → Tundra Nenets juna/juno](https://copius.univie.ac.at/etymology/slides_13_samo.pdf) — Tundra Nenets; Turkic → Samoyedic.
 - [Wiktionary: zaldi (Basque)](https://en.wiktionary.org/wiki/zaldi#Basque) — Basque; Basque.
 - [Wiktionary: حصان (Arabic)](https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic) — Arabic (standard reference); Mesopotamian Arabic; Arabic.
+- [Lameen Souag (2002), The Algerian Arabic of Dellys: ʕud / ʕwad, horse, appendix p. 33](https://journals.uco.es/index.php/edna/article/download/8302/7778) — Algerian Arabic; Arabic ʕawd horse word.
+- [Wiktionary: Algerian Arabic عود, from Arabic ʕawd, a camel trained for riding](https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%AF#Algerian_Arabic) — Algerian Arabic; Arabic ʕawd horse word.
 - [Wiktionary: סוס (Hebrew)](https://en.wiktionary.org/wiki/%D7%A1%D7%95%D7%A1#Hebrew) — Hebrew; Hebrew & Aramaic.
 - [Wiktionary: ܣܘܣܝܐ (Classical Syriac)](https://en.wiktionary.org/wiki/%DC%A3%DC%98%DC%A3%DC%9D%DC%90#Classical_Syriac) — Hebrew & Aramaic.
 - [Comprehensive Aramaic Lexicon, swsy horse](https://cal.huc.edu/oneentry.php?lemma=swsy%20N&cits=all) — Hebrew & Aramaic.
@@ -115,6 +121,9 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: чву (Lak)](https://en.wiktionary.org/wiki/%D1%87%D0%B2%D1%83#Lak) — Lak; Lak.
 - [Wiktionary: мөрн (Kalmyk)](https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D1%80%D0%BD#Kalmyk) — Kalmyk; Mongolic.
 - [Wiktionary: horse (Scots)](https://en.wiktionary.org/wiki/horse#Scots) — Scots.
+- [Vlaams Woordenboek: peerd, with peird and regional pronunciation variants](https://www.vlaamswoordenboek.be/woordenboek-artikel/10184) — Dutch; Flemish Dutch regional forms.
+- [Vlaams Woordenboek: peird, with Antwerp, Hageland and other regional forms](https://www.vlaamswoordenboek.be/woordenboek-artikel/4021) — Dutch; Flemish Dutch regional forms.
+- [Devos and Vandekerckhove, West-Vlaams: regional peerd forms](https://dev.dialectloket.be/wp-content/uploads/2014/05/devo007west01_01.pdf) — Dutch; Flemish Dutch regional forms.
 - [Wiktionary: Päerd (Luxembourgish)](https://en.wiktionary.org/wiki/P%C3%A4erd#Luxembourgish) — Luxembourgish.
 - [Wiktionary: hest (Danish)](https://en.wiktionary.org/wiki/hest#Danish) — Danish.
 - [Wiktionary: häst (Swedish)](https://en.wiktionary.org/wiki/h%C3%A4st#Swedish) — Swedish.
@@ -128,6 +137,8 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: caval (Occitan)](https://en.wiktionary.org/wiki/caval#Occitan) — Occitan.
 - [Wiktionary: cavallo (Italian)](https://en.wiktionary.org/wiki/cavallo#Italian) — Italian.
 - [Wiktionary: cavaddu (Sicilian)](https://en.wiktionary.org/wiki/cavaddu#Sicilian) — Sicilian.
+- [Wiktionary: cabaddu, Nuorese form; Campidanese cuaddu and other regional variants](https://en.wiktionary.org/wiki/cabaddu) — Sardinian (Nuorese reference); Sardinian (Campidanese reference).
+- [Sardinian regional cultural portal: cuaddu in Quartu Sant’Elena usage](https://www.sardegnacultura.it/sc/articulu/celebrazioni-in-onore-di-sant-elena-a-quartu-sant-elena) — Sardinian (Nuorese reference); Sardinian (Campidanese reference).
 - [Wiktionary: cavało (Venetan)](https://en.wiktionary.org/wiki/cava%C5%82o#Venetan) — Venetian.
 - [Wiktionary: cjaval (Friulian)](https://en.wiktionary.org/wiki/cjaval#Friulian) — Friulian.
 - [Wiktionary: chaval (Romansh)](https://en.wiktionary.org/wiki/chaval#Romansh) — Romansh.
@@ -135,6 +146,7 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: caballo (Aragonese)](https://en.wiktionary.org/wiki/caballo#Aragonese) — Aragonese.
 - [Wiktionary: cheval (French)](https://en.wiktionary.org/wiki/cheval#French) — French.
 - [Wiktionary: cal (Romanian)](https://en.wiktionary.org/wiki/cal#Romanian) — Romanian.
+- [Gramota: конь, riding horse, male horse and poetic/specialist uses](https://gramota.ru/poisk?dicts%5B0%5D=48&mode=slovari&query=%D0%BA%D0%BE%D0%BD%D1%8C&simple=0) — Russian; Russian (конь).
 - [Wiktionary: конь (Belarusian)](https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Belarusian) — Belarusian.
 - [Wiktionary: koń (Polish)](https://en.wiktionary.org/wiki/ko%C5%84#Polish) — Polish.
 - [Wiktionary: kůň (Czech)](https://en.wiktionary.org/wiki/k%C5%AF%C5%88#Czech) — Czech.
@@ -148,6 +160,7 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: cabbyl (Manx)](https://en.wiktionary.org/wiki/cabbyl#Manx) — Manx.
 - [Wiktionary: marc’h (Breton)](https://en.wiktionary.org/wiki/marc%27h#Breton) — Breton.
 - [Wiktionary: margh (Cornish)](https://en.wiktionary.org/wiki/margh#Cornish) — Cornish.
+- [Centre for the Greek Language: Triantafyllidis, ιππο- and learned compounds](https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html?lq=%CE%B9%CF%80%CF%80%CE%BF) — Greek; Greek (learned ίππος).
 - [Wiktionary: ձի (Armenian)](https://en.wiktionary.org/wiki/%D5%B1%D5%AB#Armenian) — Armenian.
 - [Wiktionary: kalë (Albanian)](https://en.wiktionary.org/wiki/kal%C3%AB#Albanian) — Albanian.
 - [Wiktionary: اسب (Persian)](https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%A8#Persian) — Persian.
@@ -159,6 +172,9 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: حصان (Egyptian Arabic)](https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Egyptian_Arabic) — Egyptian Arabic.
 - [AIDA16 Booklet of Abstracts (2026), Baghdadi Arabic plant names: il-ḥiṣān in horse-tail, p.60](https://aidacatania.unict.it/AIDA16_Booklet_of_Abstracts_09_06_2026_DEF.pdf) — Mesopotamian Arabic.
 - [Wiktionary: at (Azerbaijani)](https://en.wiktionary.org/wiki/at#Azerbaijani) — Azerbaijani.
+- [Sozdikqor / Қазақ әдеби тілінің сөздігі: ат, a male riding or working horse](https://sozdikqor.kz/soz?a=AT1&id=114416) — Kazakh; Kazakh (riding / working ат).
+- [Sozdikqor / Қазақ әдеби тілінің сөздігі: жылқы еті, horse meat](https://sozdikqor.kz/soz?a=Jylqy+eti&id=405726) — Kazakh; Kazakh (riding / working ат).
+- [Berdibek, Kazakh toponymic lexicon: жылқы as an equine livestock species](https://atau.kz/docs/3003.pdf) — Kazakh; Kazakh (riding / working ат).
 - [Wiktionary: ат (Tatar)](https://en.wiktionary.org/wiki/%D0%B0%D1%82#Tatar) — Tatar.
 - [Wiktionary: ат (Bashkir)](https://en.wiktionary.org/wiki/%D0%B0%D1%82#Bashkir) — Bashkir.
 - [Wiktionary: at (Crimean Tatar)](https://en.wiktionary.org/wiki/at#Crimean_Tatar) — Crimean Tatar.
@@ -181,6 +197,9 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Sfar Mele, Turoyo learning vocabulary: Horse (Pferd), Susyo](https://sfarmele.de/?page=lernen) — Turoyo / Surayt.
 - [Qais Al-Saadi (2012), Nhura dictionary, printed p.91: Horse [susia]](https://qadaha.wordpress.com/wp-content/uploads/2021/03/nhura-dictionary-mandaic-english-mandaic.pdf#page=92) — Mandaic (Mandaean liturgical reference).
 - [Glosbe, Mandaic Professional entry: ࡎࡅࡎࡉࡀ](https://glosbe.com/en/mid/horse) — Mandaic (Mandaean liturgical reference).
+- [Centre for the Greek Language: Liddell–Scott, Ancient Greek ἵππος](https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82) — Greek (learned ίππος).
+- [Wiktionary: конь, inherited Slavic horse word](https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Russian) — Russian (конь).
+- [ISPMN / Romanian INS: 2021 census mother-tongue map by administrative unit](https://www.ispmn.gov.ro/maps2022) — Hungarian (Romania, Székely area).
 
 </details>
 
@@ -191,4 +210,4 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [SIL International](http://www.sil.org/) — Copyright holder named in GentiumPlus-OFL.txt, copyright 2003–2022 SIL International..
 - [Noto Sans Syriac, Noto Sans Mandaic and Noto Sans Tifinagh](https://github.com/notofonts/noto-fonts) — SIL Open Font License 1.1.
 
-Wiktionary material is identified as CC BY-SA 4.0. Geography attributed by Glottography is CC BY 4.0; Natural Earth is public domain. Dictionaries, fieldwork and other publications retain their own terms. Original explanatory summaries and brief lexical facts are attributed individually. D3 and font notices remain in `dist/vendor/`. No blanket license is asserted over mixed third-party data.
+Wiktionary material is identified as CC BY-SA 4.0. Geography attributed by Glottography is CC BY 4.0; the Romanian INS/ISPMN supplement is separately attributed with its source terms in the supplement record. Natural Earth is public domain. Dictionaries, fieldwork and other publications retain their own terms. Original explanatory summaries and brief lexical facts are attributed individually. D3 and font notices remain in `dist/vendor/`. No blanket license is asserted over mixed third-party data.

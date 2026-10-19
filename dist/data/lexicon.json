@@ -6,7 +6,7 @@
       "form": "*h₁éḱwos",
       "gloss": "horse",
       "color": "#d8ad97",
-      "description": "The PIE horse noun *h₁éḱwos is shown with separate Scottish Gaelic and Iranian routes and colours. Scottish Gaelic each continues Proto-Celtic *ekʷos through Old Irish ech; Iranian asp/asb/hesp words continue Proto-Iranian *Hácwah through different histories, including Iranian-internal borrowing. These are the two lineages represented by the map’s selected labels, not the only surviving reflexes. Greek ίππος and Latin equus also continue this PIE noun; the selected Greek άλογο and Romance caballus words have other origins. Proposed Finnic and Caucasian links remain unresolved.",
+      "description": "The PIE horse noun *h₁éḱwos is represented by separate Scottish Gaelic, Iranian and Greek route colours. Scottish Gaelic each continues Proto-Celtic *ekʷos via Old Irish ech. Iranian asp/asb/hesp words have their own histories. Greek learned ίππος continues Ancient Greek ἵππος and coexists with everyday άλογο. These selected forms are not an exhaustive list of surviving reflexes; Latin equus is another. Stripes show coexisting word origins rather than separate language territories.",
       "sources": [
         {
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos",
@@ -47,6 +47,15 @@
           "legend": "Iranian *Hácwah · “horse” → asb / hesp",
           "color": "#d8ad97",
           "description": "PIE *h₁éḱwos → Proto-Indo-Iranian *Háćwas → Proto-Iranian *Hácwah → the selected asp/asb/hesp forms. Individual histories include Iranian-internal borrowing."
+        },
+        {
+          "id": "pie-greek",
+          "label": "Greek inherited / learned route",
+          "form": "ἵππος",
+          "gloss": "horse",
+          "legend": "Greek ἵππος · “horse” (learned)",
+          "color": "#b5c8bc",
+          "description": "PIE *h₁éḱwos → Ancient Greek ἵππος (híppos) → learned Modern Greek ίππος. This coexists with everyday άλογο, which has a separate origin."
         }
       ]
     },
@@ -433,6 +442,25 @@
       "legend": "Arabic ḥiṣān · “horse; stallion”"
     },
     {
+      "id": "arabic-awd",
+      "label": "Arabic ʕawd horse word",
+      "form": "ʕawd",
+      "gloss": "camel trained for riding; horse",
+      "legend": "Arabic ʕawd · “riding camel” → ʿūd",
+      "color": "#d0a57a",
+      "description": "Algerian عود is attested as ʕud in the Dellys dialect; ʕawd occurs in other transcriptions. Its proposed earlier Arabic sense is a camel trained for riding. This horse word is separate from ḥiṣān. The possible Kabyle connection remains a separate, explicitly tentative loan comparison.",
+      "sources": [
+        {
+          "title": "Lameen Souag (2002), The Algerian Arabic of Dellys: ʕud / ʕwad, horse, appendix p. 33",
+          "url": "https://journals.uco.es/index.php/edna/article/download/8302/7778"
+        },
+        {
+          "title": "Wiktionary: Algerian Arabic عود, from Arabic ʕawd, a camel trained for riding",
+          "url": "https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%AF#Algerian_Arabic"
+        }
+      ]
+    },
+    {
       "id": "semitic-sus",
       "label": "Hebrew & Aramaic",
       "form": "sūs / sūsyā",
@@ -770,9 +798,21 @@
         {
           "title": "Wiktionary: paard (Dutch)",
           "url": "https://en.wiktionary.org/wiki/paard#Dutch"
+        },
+        {
+          "title": "Vlaams Woordenboek: peerd, with peird and regional pronunciation variants",
+          "url": "https://www.vlaamswoordenboek.be/woordenboek-artikel/10184"
+        },
+        {
+          "title": "Vlaams Woordenboek: peird, with Antwerp, Hageland and other regional forms",
+          "url": "https://www.vlaamswoordenboek.be/woordenboek-artikel/4021"
+        },
+        {
+          "title": "Devos and Vandekerckhove, West-Vlaams: regional peerd forms",
+          "url": "https://dev.dialectloket.be/wp-content/uploads/2014/05/devo007west01_01.pdf"
         }
       ],
-      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "notes": "Paard is the standard Dutch form. In Flanders, peerd, peird and further local forms are documented. A separate regional label shows peerd / peird without inventing a uniform Flemish dialect boundary; these words share the paraverēdus history.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -1171,7 +1211,7 @@
     },
     {
       "id": "srd",
-      "name": "Sardinian",
+      "name": "Sardinian (Nuorese reference)",
       "native": "Sardu",
       "family": "Indo-European",
       "branch": "Italic · Romance",
@@ -1180,11 +1220,15 @@
       "root": "caballus",
       "sources": [
         {
-          "title": "Wiktionary: caballus",
-          "url": "https://en.wiktionary.org/wiki/caballus"
+          "title": "Wiktionary: cabaddu, Nuorese form; Campidanese cuaddu and other regional variants",
+          "url": "https://en.wiktionary.org/wiki/cabaddu"
+        },
+        {
+          "title": "Sardinian regional cultural portal: cuaddu in Quartu Sant’Elena usage",
+          "url": "https://www.sardegnacultura.it/sc/articulu/celebrazioni-in-onore-di-sant-elena-a-quartu-sant-elena"
         }
       ],
-      "notes": "Cabaddu is a selected Logudorese reference. Sardinian varieties also have cavaddu, caddu, cuaddu and other forms; one label does not imply island-wide uniformity.",
+      "notes": "Cabaddu is a Nuorese reference, not a uniform island-wide form. Campidanese cuaddu is separately labelled in southern Sardinia; caddu, cavaddu and other forms also occur. These variants share the Latin caballus history.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -1195,7 +1239,12 @@
           "form": "cabaddu"
         }
       ],
-      "etymologyBranch": "caballus-romance"
+      "etymologyBranch": "caballus-romance",
+      "mapAnchor": [
+        9.0,
+        40.6
+      ],
+      "mapSize": 17
     },
     {
       "id": "vec",
@@ -1391,7 +1440,11 @@
           "form": "cal"
         }
       ],
-      "etymologyBranch": "caballus-romance"
+      "etymologyBranch": "caballus-romance",
+      "mapAnchor": [
+        23.8,
+        44.8
+      ]
     },
     {
       "id": "rus",
@@ -1406,9 +1459,13 @@
         {
           "title": "Wiktionary: лошадь (Russian)",
           "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%BE%D1%88%D0%B0%D0%B4%D1%8C#Russian"
+        },
+        {
+          "title": "Gramota: конь, riding horse, male horse and poetic/specialist uses",
+          "url": "https://gramota.ru/poisk?dicts%5B0%5D=48&mode=slovari&query=%D0%BA%D0%BE%D0%BD%D1%8C&simple=0"
         }
       ],
-      "notes": "The common generic лошадь is selected. Russian конь also exists and belongs with the neighbouring Slavic konj/koń set.",
+      "notes": "Both лошадь and конь are Russian words. Лошадь is a common general noun; конь can mean a riding horse or male horse and is frequent in poetic, equestrian and military usage. The map shows both with their different Turkic-loan and inherited Slavic origins.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -1985,9 +2042,13 @@
         {
           "title": "Wiktionary: άλογο (Greek)",
           "url": "https://en.wiktionary.org/wiki/%CE%AC%CE%BB%CE%BF%CE%B3%CE%BF#Greek"
+        },
+        {
+          "title": "Centre for the Greek Language: Triantafyllidis, ιππο- and learned compounds",
+          "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html?lq=%CE%B9%CF%80%CF%80%CE%BF"
         }
       ],
-      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "notes": "Άλογο (álogo) is the everyday horse word. The learned ίππος (íppos), historically Ancient Greek ἵππος (híppos), remains relevant in compounds, names and technical vocabulary. Both are now shown; they follow different etymological routes.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -2421,6 +2482,10 @@
           "label": "Arabic (standard reference)",
           "form": "حصان"
         }
+      ],
+      "mapAnchor": [
+        17,
+        28.6
       ]
     },
     {
@@ -2656,9 +2721,21 @@
         {
           "title": "Wiktionary: жылқы (Kazakh)",
           "url": "https://en.wiktionary.org/wiki/%D0%B6%D1%8B%D0%BB%D2%9B%D1%8B#Kazakh"
+        },
+        {
+          "title": "Sozdikqor / Қазақ әдеби тілінің сөздігі: ат, a male riding or working horse",
+          "url": "https://sozdikqor.kz/soz?a=AT1&id=114416"
+        },
+        {
+          "title": "Sozdikqor / Қазақ әдеби тілінің сөздігі: жылқы еті, horse meat",
+          "url": "https://sozdikqor.kz/soz?a=Jylqy+eti&id=405726"
+        },
+        {
+          "title": "Berdibek, Kazakh toponymic lexicon: жылқы as an equine livestock species",
+          "url": "https://atau.kz/docs/3003.pdf"
         }
       ],
-      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "notes": "Жылқы is a general species / livestock term, including herd and husbandry contexts; жылқы еті means horse meat. Ат is especially a riding or working horse (traditionally a male / gelding). These are usage tendencies, not a strict edible-versus-ridable division, and жылқы is not restricted to animals raised for meat. Both forms are mapped, with separate *yïlkï and *at histories.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -3639,14 +3716,285 @@
           "form": "ࡎࡅࡎࡉࡀ"
         }
       ]
+    },
+    {
+      "family": "Indo-European",
+      "branch": "Hellenic",
+      "id": "ell-hippos",
+      "name": "Greek (learned ίππος)",
+      "word": "ίππος",
+      "romanization": "íppos",
+      "root": "pie-horse",
+      "variantOf": "ell",
+      "mapAnchor": [
+        24.4,
+        37.0
+      ],
+      "notes": "Modern learned ίππος continues Ancient Greek ἵππος (híppos), from PIE *h₁éḱwos. It appears in learned compounds such as ιππόδρομος and technical vocabulary; it supplements everyday άλογο. The poster uses the modern monotonic spelling and a letter-based romanization; Ancient Greek had initial h, while Modern Greek does not.",
+      "sources": [
+        {
+          "title": "Centre for the Greek Language: Triantafyllidis, ιππο- and learned compounds",
+          "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html?lq=%CE%B9%CF%80%CF%80%CE%BF"
+        },
+        {
+          "title": "Centre for the Greek Language: Liddell–Scott, Ancient Greek ἵππος",
+          "url": "https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82"
+        },
+        {
+          "title": "Wiktionary: ίππος, Greek learned horse word and inherited ancestry",
+          "url": "https://en.wiktionary.org/wiki/%CE%AF%CF%80%CF%80%CE%BF%CF%82#Greek"
+        }
+      ],
+      "chain": [
+        {
+          "label": "Proto-Indo-European",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Ancient Greek",
+          "form": "ἵππος (híppos)"
+        },
+        {
+          "label": "Learned Modern Greek",
+          "form": "ίππος"
+        }
+      ],
+      "etymologyBranch": "pie-greek",
+      "mapSize": 20
+    },
+    {
+      "family": "Indo-European",
+      "branch": "Italic · Romance",
+      "id": "srd-cuaddu",
+      "name": "Sardinian (Campidanese reference)",
+      "word": "cuaddu",
+      "romanization": "",
+      "root": "caballus",
+      "variantOf": "srd",
+      "mapAnchor": [
+        8.9,
+        39.45
+      ],
+      "notes": "Cuaddu is a southern Sardinian / Campidanese form of horse. It shares the caballus origin with Nuorese cabaddu. The word label is a regional reference; no new dialect boundary is invented.",
+      "sources": [
+        {
+          "title": "Wiktionary: cabaddu, Nuorese form; Campidanese cuaddu and other regional variants",
+          "url": "https://en.wiktionary.org/wiki/cabaddu"
+        },
+        {
+          "title": "Sardinian regional cultural portal: cuaddu in Quartu Sant’Elena usage",
+          "url": "https://www.sardegnacultura.it/sc/articulu/celebrazioni-in-onore-di-sant-elena-a-quartu-sant-elena"
+        }
+      ],
+      "chain": [
+        {
+          "label": "Latin",
+          "form": "caballus"
+        },
+        {
+          "label": "Campidanese Sardinian",
+          "form": "cuaddu"
+        }
+      ],
+      "mapSize": 17,
+      "etymologyBranch": "caballus-romance"
+    },
+    {
+      "family": "Indo-European",
+      "branch": "Balto-Slavic · Slavic",
+      "id": "rus-kon",
+      "name": "Russian (конь)",
+      "word": "конь",
+      "romanization": "konʹ",
+      "root": "slavic-horse",
+      "variantOf": "rus",
+      "mapAnchor": [
+        45.0,
+        59.1
+      ],
+      "notes": "Both лошадь and конь are Russian words. Лошадь is a common general noun; конь can mean a riding horse or male horse and is frequent in poetic, equestrian and military usage. The map shows both with their different Turkic-loan and inherited Slavic origins.",
+      "sources": [
+        {
+          "title": "Gramota: конь, riding horse, male horse and poetic/specialist uses",
+          "url": "https://gramota.ru/poisk?dicts%5B0%5D=48&mode=slovari&query=%D0%BA%D0%BE%D0%BD%D1%8C&simple=0"
+        },
+        {
+          "title": "Wiktionary: конь, inherited Slavic horse word",
+          "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Russian"
+        }
+      ],
+      "chain": [
+        {
+          "label": "Proto-Slavic",
+          "form": "*kòňь"
+        },
+        {
+          "label": "Russian",
+          "form": "конь"
+        }
+      ],
+      "mapSize": 25
+    },
+    {
+      "family": "Turkic",
+      "branch": "Common Turkic · Kipchak",
+      "id": "kaz-at",
+      "name": "Kazakh (riding / working ат)",
+      "word": "ат",
+      "romanization": "at",
+      "root": "turkic-at",
+      "variantOf": "kaz",
+      "mapAnchor": [
+        62.1,
+        46.2
+      ],
+      "notes": "Жылқы is a general species / livestock term, including herd and husbandry contexts; жылқы еті means horse meat. Ат is especially a riding or working horse (traditionally a male / gelding). These are usage tendencies, not a strict edible-versus-ridable division, and жылқы is not restricted to animals raised for meat. Both forms are mapped, with separate *yïlkï and *at histories.",
+      "sources": [
+        {
+          "title": "Sozdikqor / Қазақ әдеби тілінің сөздігі: ат, a male riding or working horse",
+          "url": "https://sozdikqor.kz/soz?a=AT1&id=114416"
+        },
+        {
+          "title": "Sozdikqor / Қазақ әдеби тілінің сөздігі: жылқы еті, horse meat",
+          "url": "https://sozdikqor.kz/soz?a=Jylqy+eti&id=405726"
+        },
+        {
+          "title": "Berdibek, Kazakh toponymic lexicon: жылқы as an equine livestock species",
+          "url": "https://atau.kz/docs/3003.pdf"
+        }
+      ],
+      "chain": [
+        {
+          "label": "Proto-Turkic",
+          "form": "*at"
+        },
+        {
+          "label": "Kazakh",
+          "form": "ат"
+        }
+      ],
+      "mapSize": 25
+    },
+    {
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "id": "nld-flemish",
+      "name": "Flemish Dutch regional forms",
+      "word": "peerd / peird",
+      "romanization": "",
+      "root": "post-horse",
+      "variantOf": "nld",
+      "mapAnchor": [
+        3.8,
+        50.95
+      ],
+      "notes": "Paard is the standard Dutch form. In Flanders, peerd, peird and further local forms are documented. A separate regional label shows peerd / peird without inventing a uniform Flemish dialect boundary; these words share the paraverēdus history.",
+      "sources": [
+        {
+          "title": "Vlaams Woordenboek: peerd, with peird and regional pronunciation variants",
+          "url": "https://www.vlaamswoordenboek.be/woordenboek-artikel/10184"
+        },
+        {
+          "title": "Vlaams Woordenboek: peird, with Antwerp, Hageland and other regional forms",
+          "url": "https://www.vlaamswoordenboek.be/woordenboek-artikel/4021"
+        },
+        {
+          "title": "Devos and Vandekerckhove, West-Vlaams: regional peerd forms",
+          "url": "https://dev.dialectloket.be/wp-content/uploads/2014/05/devo007west01_01.pdf"
+        }
+      ],
+      "chain": [
+        {
+          "label": "Late Latin",
+          "form": "paraverēdus"
+        },
+        {
+          "label": "Middle Dutch",
+          "form": "perert / pert"
+        },
+        {
+          "label": "Flemish regional forms",
+          "form": "peerd / peird"
+        }
+      ],
+      "mapSize": 15,
+      "mapPoint": true
+    },
+    {
+      "id": "arq",
+      "name": "Algerian Arabic",
+      "native": "الدارجة الجزائرية",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "عود",
+      "romanization": "ʿūd",
+      "root": "arabic-awd",
+      "mapAnchor": [
+        2.9,
+        31.9
+      ],
+      "mapSize": 27,
+      "sources": [
+        {
+          "title": "Lameen Souag (2002), The Algerian Arabic of Dellys: ʕud / ʕwad, horse, appendix p. 33",
+          "url": "https://journals.uco.es/index.php/edna/article/download/8302/7778"
+        },
+        {
+          "title": "Wiktionary: Algerian Arabic عود, from Arabic ʕawd, a camel trained for riding",
+          "url": "https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%AF#Algerian_Arabic"
+        }
+      ],
+      "notes": "Vernacular عود (ʿūd; Arabizi 3oud) is the Algerian reference on this map. Souag records ʕud with plural ʕwad in Dellys; pronunciations and transcriptions vary, including ʕawd. The former standard-Arabic ḥiṣān fallback has been replaced within Algeria, while the independently mapped Berber language areas remain visible. This is a representative vernacular form, not an assertion that all Algerians use one word.",
+      "chain": [
+        {
+          "label": "Earlier Arabic comparison",
+          "form": "ʕawd — camel trained for riding"
+        },
+        {
+          "label": "Algerian Arabic",
+          "form": "عود (ʿūd)"
+        }
+      ]
+    },
+    {
+      "family": "Uralic",
+      "branch": "Ugric",
+      "id": "hun-ro",
+      "name": "Hungarian (Romania, Székely area)",
+      "word": "ló",
+      "romanization": "",
+      "root": "ugric-horse",
+      "variantOf": "hun",
+      "mapAnchor": [
+        25.6,
+        46.35
+      ],
+      "notes": "The same Hungarian word ló is labelled in the Székely area of Romania. Its new footprint is a census-derived supplement: Romanian administrative units with more than 50% Hungarian mother tongue among known-language responses in the 2021 census. Smaller border communities are retained separately; no continuous corridor from Hungary to the Székely enclave is asserted.",
+      "sources": [
+        {
+          "title": "ISPMN / Romanian INS: 2021 census mother-tongue map by administrative unit",
+          "url": "https://www.ispmn.gov.ro/maps2022"
+        }
+      ],
+      "chain": [
+        {
+          "label": "Proto-Ugric",
+          "form": "*luɣǝ"
+        },
+        {
+          "label": "Hungarian",
+          "form": "ló"
+        }
+      ],
+      "mapSize": 19
     }
   ],
   "methodology": {
     "title": "Lexical and etymological method",
-    "asOf": "2026-10-18",
-    "scope": "105 selected horse words across Europe and neighbouring regions. The same generalized language geography as the snow map is reused. A representative common noun is selected, with important male-horse, collective and regional distinctions noted.",
-    "comparison": "Colours follow the displayed etymological routes. The PIE horse noun has separate Scottish Gaelic and Iranian routes under its common ancestor. The caballus / *kaballos word-family likewise has separate Romance, Celtic and Albanian routes under a shared heading; Celtic borrowing directions are not presented as settled. Language branch colouring remains available as a comparison.",
-    "chains": "Chains are schematic, not complete dated sound histories. Borrowing and derivation are noted; shared colour does not imply direct inheritance. Asterisks mark reconstructed, unattested forms.",
+    "asOf": "2026-10-19",
+    "scope": "112 selected horse word / regional reference entries across Europe and neighbouring regions, including coexisting words with different histories.",
+    "comparison": "Colours follow displayed etymological routes. The PIE horse noun has separate Scottish Gaelic, Iranian and Greek routes. Caballus has separate Romance, Celtic and Albanian routes. In Greece, Russia and Kazakhstan, diagonal stripes show coexisting words with different origins in the same language area; the stripe proportions are decorative, not usage statistics. Small colour bars beneath those word labels identify their respective roots.",
+    "chains": "Chains are schematic, not complete dated sound histories. Borrowing and derivation are noted; shared colour does not imply direct inheritance. Asterisks mark reconstructed, unattested forms. Alternate words keep their own origin chains; geographic coexistence is not a claim of cognacy.",
     "uncertainty": "An asterisk marks a reconstructed form. The legend uses “loan ?” for a possible borrowing. Other uncertainties, including disputed deeper origins and early borrowing directions, are explained in the entry notes rather than abbreviated in the legend. The origin of caballus/*kaballos and the deeper origin of English horse are disputed. Finnic *hëpo is not automatically merged with PIE *h₁éḱwos. Early Iranian relationships proposed for Caucasian horse words remain proposals. No indigenous Canarian horse word was verified; that label and its historical island-reference fill are omitted, leaving the modern Spanish reference layer. The former snow gloss tener? is not reused.",
     "standards": "Non-Latin labels retain native scripts with a parenthesized romanized reading beneath. Scholarly Latin transcriptions are used where no reliable native spelling was checked. Romanizations are not IPA. Northern Luri uses a local speaker wordlist; the Iraqi reference ḥiṣān is also attested in a Baghdadi Arabic study, without asserting uniform regional vowels. Mandaic is literary/liturgical. The Maaloula label uses an editorial Syriac rendering of Arnold’s attested sūsča, with the spelling convention and its limits documented in that entry.",
     "sources": "Wiktionary is a community-edited secondary reference. Entries are linked individually, with institutional and primary lexical sources for key unusual varieties. Research records and the source catalog retain the distinction between checked forms and unresolved deeper histories.",

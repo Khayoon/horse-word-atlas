@@ -22,7 +22,7 @@
   const localSizes={amw:18,aii:18,tru:18,myz:20,gnc:20,sqi:18,mkd:17,kat:20,hye:22,aze:20,oss:16,che:18,ava:16,dar:16,lez:18,lbe:15,inh:16,kbd:16,ady:16,krc:18,kum:17};
   const rootColors={};
   const branchColors={Germanic:'#96c8d4',Romance:'#e7b39f',Slavic:'#acb6d5',Baltic:'#c0ce95',Celtic:'#a5c49b',Uralic:'#e6cf87',Semitic:'#e8c69a',Turkic:'#b2d0ba',Kartvelian:'#bea1ca',Berber:'#e3b17f',Basque:'#dd9990',Hellenic:'#c9abd5',Armenian:'#baa8ce',Albanian:'#dcadaf',Iranian:'#d8ad97',Nakh:'#bda8a0',Circassian:'#9eb6bb',Mongolic:'#d9c59e',Eskimo:'#cadcdb'};
-  let lex,metadata,coverage,lands,features,legendTitles,nativeWords,languages,byId,byRoot,svg,world,labelsLayer,legendLayer,basePaths,areaPaths,countryLines,projection,path,zoom,transform;
+  let lex,metadata,coverage,lands,features,legendTitles,nativeWords,languages,byId,byRoot,variants,svg,world,labelsLayer,legendLayer,basePaths,areaPaths,countryLines,projection,path,zoom,transform;
   let mode='root',opacity=.90,labelScale=1,selected=null,search='',focused=null,exportBusy=false;
   const featureById=new Map(), labelPoints=new Map();
   function branch(l){
@@ -36,12 +36,25 @@
   function originRoute(l){return root(l).routes?.find(r=>r.id===l.etymologyBranch);}
   function key(l){return mode==='branch'?branch(l):originRoute(l)?.id||root(l).id;}
   function color(l){if(!l)return '#c5c6bf';return mode==='branch'?(branchColors[branch(l)]||root(l).color):originRoute(l)?.color||root(l).color;}
+  function wordGroup(l){return l?(variants.get(l.variantOf||l.id)||[l]):[];}
+  function mixedOrigins(l){return new Set(wordGroup(l).map(w=>originRoute(w)?.id||root(w).id)).size>1;}
+  function areaMatches(l){return !focused||wordGroup(l).some(w=>key(w)===focused);}
+  function areaFill(l){return l&&mode==='root'&&mixedOrigins(l)?`url(#word-origins-${l.variantOf||l.id})`:color(l);}
+  function wordPatterns(defs){
+    for(const [id,group]of variants){
+      const origins=[...new Map(group.map(l=>[originRoute(l)?.id||root(l).id,l])).values()];
+      if(origins.length<2)continue;
+      const p=node(defs,'pattern',{id:`word-origins-${id}`,patternUnits:'userSpaceOnUse',width:14,height:14,patternTransform:'rotate(35)'});
+      node(p,'rect',{width:14,height:14,fill:color(origins[0])});
+      origins.slice(1).forEach((l,i)=>node(p,'rect',{x:i*5,y:0,width:4,height:14,fill:color(l)}));
+    }
+  }
   function idOf(f){return aliases[f.properties.id]||f.properties.id;}
   function normalize(f){const g=f.geometry;if(!g)return f;const ps=g.type==='Polygon'?[g.coordinates]:g.type==='MultiPolygon'?g.coordinates:[];ps.forEach(p=>p.forEach((r,i)=>{const a=d3.polygonArea(r);if((!i&&a<0)||(i&&a>0))r.reverse();}));return f;}
   function node(parent,tag,attrs={},text=''){const el=parent.append(tag);for(const [k,v]of Object.entries(attrs))el.attr(k,v);if(text!==undefined)el.text(text);return el;}
   function inRing([x,y],r){let inside=false;for(let i=0,j=r.length-1;i<r.length;j=i++){const[a,b]=r[i],[c,d]=r[j];if((b>y)!==(d>y)&&x<(c-a)*(y-b)/(d-b)+a)inside=!inside;}return inside;}
   function contains(f,p){const g=f.geometry,ps=g.type==='Polygon'?[g.coordinates]:g.type==='MultiPolygon'?g.coordinates:[];return ps.some(poly=>inRing(p,poly[0])&&!poly.slice(1).some(r=>inRing(p,r)));}
-  function anchorsFor(l){if(anchors[l.id])return anchors[l.id];const f=featureById.get(l.id)?.[0];if(f?.properties.label)return f.properties.label;const land=lands.find(f=>idOf(f)===l.id);return land?d3.geoCentroid(land):null;}
+  function anchorsFor(l){if(l.mapAnchor)return l.mapAnchor;if(anchors[l.id])return anchors[l.id];const f=featureById.get(l.id)?.[0];if(f?.properties.label)return f.properties.label;const land=lands.find(f=>idOf(f)===l.id);return land?d3.geoCentroid(land):null;}
   function addText(parent,text,x,y,size=16,attrs={}){return node(parent,'text',{x,y,'font-family':'Georgia, Times New Roman, serif','font-size':size,fill:'#203b40',...attrs},text);}
   function legendShape(text,weight=400){
     const shape=legendTitles.texts[text]?.[weight>=600?'bold':'regular'];
@@ -68,9 +81,9 @@
       legendText(legendLayer,'*h₁éḱwos',17,68,29);
       legendText(legendLayer,'Proto-Indo-European · “horse”',18,89,12,{fill:'#63706b'});
       byRoot.get('pie-horse').routes.forEach((r,i)=>legendRow(r,113+i*21));
-      node(legendLayer,'line',{x1:17,x2:289,y1:150,y2:150,stroke:'#d3d7ca','stroke-width':.7});
+      node(legendLayer,'line',{x1:17,x2:289,y1:171,y2:171,stroke:'#d3d7ca','stroke-width':.7});
     }
-    const start=isBranch?61:174,step=isBranch?26:17.5;
+    const start=isBranch?61:196,step=isBranch?26:17;
     rows.forEach((r,i)=>legendRow(r,start+i*step));
     function legendRow(r,y){
       if(r.groupHeading){
@@ -98,7 +111,7 @@
     const legendHeight=+legendLayer.attr('data-height')||800;
     const occupied=[[22,150,348,168+legendHeight+12],[30,17,470,143],[22,1041,1775,1090]];
     // Reserve the narrow Balkan placements before the automatic collision pass.
-    const balkanOrder=['slv','hbs','sqi','mkd','amw','aii','tru','myz'];
+    const balkanOrder=['slv','hbs','sqi','mkd','amw','aii','tru','myz','nld-flemish','hun-ro','srd-cuaddu','ell-hippos','arq'];
     const rank=id=>balkanOrder.includes(id)?balkanOrder.indexOf(id)-10:important.includes(id)?important.indexOf(id):100;
     const list=languages.filter(l=>anchorsFor(l)).sort((a,b)=>rank(a.id)-rank(b.id));
     const candidates=[[0,0],[0,-20],[0,20],[-22,0],[22,0],[-29,-22],[29,-22],[-29,22],[29,22],[0,-40],[0,40],[-48,-15],[48,-15],[-48,20],[48,20],[-65,-30],[65,-30],[-65,30],[65,30],[0,-60],[0,60],[-80,0],[80,0],[-80,-50],[80,-50],[-80,50],[80,50],[0,-90],[0,90],[-105,0],[105,0]];
@@ -106,7 +119,7 @@
       const a=anchorsFor(l);if(a[0]<-27||a[0]>68||a[1]<25||a[1]>75)continue;
       const raw=transform.apply(projection(a));
       if(raw[0]<345||raw[0]>1780||raw[1]<28||raw[1]>1022)continue;
-      const sz=(localSizes[l.id]||(important.includes(l.id)?25:20))*labelScale;
+      const sz=(l.mapSize||localSizes[l.id]||(important.includes(l.id)?25:20))*labelScale;
       const text=l.word,roman=reading(l),native=nativeWords[l.id],romanSize=Math.max(9.5,sz*.51),romanOffset=Math.max(native?16:12,sz*(native ? .95 : .61)),weight=important.includes(l.id)?600:400;
       const wordWidth=native?native.width*sz/native.unitsPerEm:textWidth(text,sz,weight);
       const estimated=Math.max(23,wordWidth,roman?textWidth(`(${roman})`,romanSize,400,'Arial'):0),height=sz*1.05;
@@ -128,6 +141,7 @@
         const scale=size/native.unitsPerEm;
         node(g,'path',{'class':'word-label native-word-label','aria-label':text,'data-word':text,d:native.path,transform:`translate(${x-native.width*scale/2},${y}) scale(${scale})`,fill:'#203b40','paint-order':'stroke',stroke:'#faf9f2','stroke-width':2.1,'stroke-linejoin':'round','vector-effect':'non-scaling-stroke'});
       }else addText(g,text,x,y,size,{'class':'word-label','text-anchor':'middle',direction:'ltr',style:`font-weight:${important.includes(l.id)?600:400}`,'paint-order':'stroke','stroke':'#faf9f2','stroke-width':2.1,'stroke-linejoin':'round'});
+      if(mixedOrigins(l))node(g,'rect',{'class':'word-origin-key',x:x-wordWidth/2,y:y+3,width:wordWidth,height:2.4,fill:color(l)});
       if(roman)addText(g,`(${roman})`,x,y+romanOffset,romanSize,{'class':'reading-label','font-family':'Arial, sans-serif','text-anchor':'middle',direction:'ltr','font-weight':400,'paint-order':'stroke',stroke:'#faf9f2','stroke-width':1.4,'stroke-linejoin':'round',fill:'#38555b'});
       g.on('click',()=>showWord(l.id)).on('keydown',e=>{if(e.key==='Enter')showWord(l.id);});
       if((focused&&key(l)!==focused)||(search&&!matches(l)))g.attr('opacity',.22);
@@ -135,22 +149,28 @@
   }
   function matches(l){return `${l.name} ${l.native||''} ${l.word} ${l.romanization||''} ${l.id}`.toLowerCase().includes(search);}
   function paint(){
-    basePaths.attr('fill',f=>color(byId.get(idOf(f)))).attr('stroke',f=>color(byId.get(idOf(f))));
-    areaPaths.attr('fill',f=>color(byId.get(idOf(f)))).attr('fill-opacity',f=>{
-      const l=byId.get(idOf(f));return (focused&&key(l)!==focused)||(search&&!matches(l))?.12:$('overlap-toggle').checked?opacity:1;
+    basePaths.attr('fill',f=>areaFill(byId.get(idOf(f)))).attr('stroke',f=>color(byId.get(idOf(f))));
+    areaPaths.attr('fill',f=>areaFill(byId.get(idOf(f)))).attr('fill-opacity',f=>{
+      const l=byId.get(idOf(f));return !areaMatches(l)||(search&&!wordGroup(l).some(matches))?.12:$('overlap-toggle').checked?opacity:1;
     });
-    if(focused||search)basePaths.attr('fill-opacity',f=>{const l=byId.get(idOf(f));return (focused&&key(l)!==focused)||(search&&!matches(l))?.25:1;});else basePaths.attr('fill-opacity',1);
+    if(focused||search)basePaths.attr('fill-opacity',f=>{const l=byId.get(idOf(f));return !areaMatches(l)||(search&&!wordGroup(l).some(matches))?.25:1;});else basePaths.attr('fill-opacity',1);
     countryLines.attr('display',$('borders-toggle').checked?null:'none');labelLayout();
   }
   function showWord(id){
     const l=byId.get(id);if(!l)return;selected=id;
-    const r=root(l),fs=featureById.get(id)||[],isMapped=fs.length>0,caveats=[...new Set(fs.map(f=>f.properties.caveat).filter(Boolean))];
+    const r=root(l),fs=featureById.get(id)||featureById.get(l.variantOf)||[],isMapped=fs.length>0,caveats=[...new Set(fs.map(f=>f.properties.caveat).filter(Boolean))];
     $('inspector').innerHTML=`<p class="inspector-kicker">${esc(l.name)}${l.native&&l.native!==l.name?` · ${esc(l.native)}`:''}</p><h2 class="inspector-word" dir="auto">${esc(l.word)}</h2>${l.romanization?`<p class="inspector-roman">${esc(l.romanization)}</p>`:''}<p class="inspector-family">${esc(l.family)} · ${esc(l.branch||'')}</p><p class="inspector-note">${esc(r.description)}</p><div class="etymology-chain">${(l.chain||[]).map(s=>`<div class="chain-step"><span class="chain-label">${esc(s.label)}</span><strong class="chain-form" dir="auto">${esc(s.form)}</strong></div>`).join('')}</div>${l.notes?`<p class="inspector-note">${esc(l.notes)}</p>`:''}<p class="geometry-note">${fs.some(f=>f.properties.coverageType==='historical island reference fill')?'Historical island reference coastline; no surviving language-area boundary is asserted.':isMapped?'Published language-area geometry, over a continuous country reference layer.':'Word label at a representative location; no separate language-area polygon is asserted.'} ${caveats.map(esc).join(' ')}</p><div class="source-links">${(l.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a>`).join('')}</div>`;
+    const related=wordGroup(l).filter(w=>w.id!==l.id);
+    if(related.length){
+      const box=document.createElement('p');box.className='inspector-note';box.append('Other mapped forms: ');
+      related.forEach((w,i)=>{if(i)box.append(' · ');const button=document.createElement('button');button.type='button';button.className='secondary-button';button.textContent=`${w.word}${w.romanization?` (${w.romanization})`:''}`;button.addEventListener('click',()=>showWord(w.id));box.append(button);});
+      $('inspector').querySelector('.inspector-family').after(box);
+    }
     $('language-select').value=id;$('word-dialog').showModal();
   }
   function populateLanguages(){const list=languages.filter(l=>!search||matches(l));$('language-select').innerHTML='<option value="">Inspect a word…</option>'+list.map(l=>`<option value="${esc(l.id)}">${esc(l.name)} · ${esc(l.word)}</option>`).join('');}
   function showSources(){
-    $('sources-content').innerHTML=`<h3>A poster map, with continuous land coverage</h3><p>The main image uses a flat cylindrical projection and words-only labels. Its colours follow word origins by default: colours group shared lexical ancestry, including borrowings. The PIE horse noun *h₁éḱwos heads separate Scottish Gaelic and Iranian colour rows. The caballus / *kaballos family has its own shared heading with separate Romance, Celtic and Albanian colours. The Celtic row does not settle disputed early borrowing directions. English horse has another history.</p><p>All land is coloured. Published minority-language polygons sit above complete Natural Earth land/country geometry. Gaps between speaker footprints use a selected country reference word; this is an explicit cartographic completion, not a new ethnic-boundary estimate or a claim of uniform language use. Thus northern Russia, Sinai, the Zagros and sparsely populated deserts are not left blank.</p><p>Some small varieties have a word label but no separate polygon. Leader lines connect crowded labels to their anchor. Asterisks mark reconstructed forms. Reconstructions and uncertain deeper histories are explained in individual entries.</p><h3>Geographic sources</h3><p>Asher & Moseley (2007), <em>Atlas of the World's Languages</em>, digitized by <a href="https://github.com/Glottography/asher2007world" target="_blank" rel="noopener">Glottography</a> (CC BY 4.0). Traditional-area supplements: <a href="https://github.com/Glottography/carling2025diacl" target="_blank" rel="noopener">DiACL/TITUS, Carling & Gippert 2025</a>, and <a href="https://github.com/Glottography/rantanen2021uralic" target="_blank" rel="noopener">Rantanen et al., Uralic database 2021</a> (CC BY 4.0). Specific supplements retain their source-epoch notes. Background: <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener">Natural Earth, public domain</a>.</p><p>${languages.length} selected lexical entries; ${featureById.size} lexical joins to source polygons. Source claims are not a 2026 census. Where a source combines varieties, a representative form is used with notes.</p><h3>Download and edit</h3><p><a href="./data/lexicon.json" download>Lexicon and etymologies</a> · <a href="./data/territories.geojson" download>Language footprints</a> · <a href="./data/land-reference.geojson" download>Continuous land references</a> · <a href="./data/map-coverage.json" target="_blank">Coverage method and checks</a> · <a href="./data/geometry-sources.json" target="_blank">Geometry provenance</a></p><p>Lexical facts are primarily cross-checked against Wiktionary, plus the linked dictionaries named in each entry. Wiktionary is a community-edited resource under CC BY-SA 4.0. Unresolved histories are kept separate. All exports include brief attribution; full source links stay in the editable data.</p><p>PNG exports are ${$('export-size').value} pixels wide; SVG retains editable vector geometry and text. The controls and dialogs are excluded from the artwork.</p>`;
+    $('sources-content').innerHTML=`<h3>A poster map, with continuous land coverage</h3><p>The main image uses a flat cylindrical projection and words-only labels. Its colours follow word origins by default: colours group shared lexical ancestry, including borrowings. The PIE horse noun *h₁éḱwos heads separate Scottish Gaelic, Iranian and Greek colour rows. Greek, Russian and Kazakh have multiple selected words: stripes show coexisting origins, with small colour bars beneath the labels. Stripe widths do not encode usage frequency. The caballus / *kaballos family has its own shared heading with separate Romance, Celtic and Albanian colours. The Celtic row does not settle disputed early borrowing directions. English horse has another history.</p><p>All land is coloured. Published minority-language polygons sit above complete Natural Earth land/country geometry. Gaps between speaker footprints use a selected country reference word; this is an explicit cartographic completion, not a new ethnic-boundary estimate or a claim of uniform language use. Thus northern Russia, Sinai, the Zagros and sparsely populated deserts are not left blank.</p><p>Some small varieties have a word label but no separate polygon. Leader lines connect crowded labels to their anchor. Asterisks mark reconstructed forms. Reconstructions and uncertain deeper histories are explained in individual entries.</p><h3>Geographic sources</h3><p>Asher & Moseley (2007), <em>Atlas of the World's Languages</em>, digitized by <a href="https://github.com/Glottography/asher2007world" target="_blank" rel="noopener">Glottography</a> (CC BY 4.0). Traditional-area supplements: <a href="https://github.com/Glottography/carling2025diacl" target="_blank" rel="noopener">DiACL/TITUS, Carling & Gippert 2025</a>, and <a href="https://github.com/Glottography/rantanen2021uralic" target="_blank" rel="noopener">Rantanen et al., Uralic database 2021</a> (CC BY 4.0). Specific supplements retain their source-epoch notes. Background: <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener">Natural Earth, public domain</a>.</p><p>${languages.length} selected lexical entries; ${featureById.size} lexical joins to source polygons. The Romanian Hungarian supplement uses the 2021 mother-tongue census, selecting administrative units above 50% of known responses; the Székely enclave is separate from smaller border communities. Other footprints retain their published source epochs. Where a source combines varieties, a representative form is used with notes.</p><p>Romanian supplement: <a href="https://www.ispmn.gov.ro/maps2022" target="_blank" rel="noopener">INS RPL 2021 / ISPMN</a>; the exact selection and source terms are in the <a href="./data/romanian-hungarian-2021.json" target="_blank">supplement record</a>.</p><h3>Download and edit</h3><p><a href="./data/lexicon.json" download>Lexicon and etymologies</a> · <a href="./data/territories.geojson" download>Language footprints</a> · <a href="./data/land-reference.geojson" download>Continuous land references</a> · <a href="./data/map-coverage.json" target="_blank">Coverage method and checks</a> · <a href="./data/geometry-sources.json" target="_blank">Geometry provenance</a></p><p>Lexical facts are primarily cross-checked against Wiktionary, plus the linked dictionaries named in each entry. Wiktionary is a community-edited resource under CC BY-SA 4.0. Unresolved histories are kept separate. All exports include brief attribution; full source links stay in the editable data.</p><p>PNG exports are ${$('export-size').value} pixels wide; SVG retains editable vector geometry and text. The controls and dialogs are excluded from the artwork.</p>`;
     $('sources-dialog').showModal();
   }
   const exportStyle=`.word-label{font-family:Georgia,'Times New Roman',serif;font-weight:400;fill:#203b40;paint-order:stroke;stroke:#faf9f2;stroke-width:2.1;stroke-linejoin:round;dominant-baseline:alphabetic;letter-spacing:0;stroke-opacity:1}.reading-label{font-family:Arial,sans-serif;font-weight:400;fill:#38555b;paint-order:stroke;stroke:#faf9f2;stroke-width:1.4;stroke-linejoin:round;dominant-baseline:alphabetic}.sea-name{fill:#748e91;font-family:Georgia,serif;font-style:italic;letter-spacing:2px}.poster-legend-row{cursor:default}.graticule{fill:none;stroke:#b5c7c4;stroke-width:.5;opacity:.35}.country-line{fill:none;stroke:#405d61;stroke-width:.55;stroke-opacity:.43;stroke-dasharray:2 2}.source-note{font-family:Arial,sans-serif;fill:#74807a}.language-area{stroke:#fffef8;stroke-width:.65;stroke-linejoin:round}.land-reference{stroke-width:.5;stroke-linejoin:round}`;
@@ -183,6 +203,7 @@
     if(!window.d3)throw new Error('Local map library missing.');
     [lex,metadata,coverage,lands,features,legendTitles,nativeWords]=await Promise.all(['data/lexicon.json','data/geometry-sources.json','data/map-coverage.json','data/land-reference.geojson','data/territories.geojson','vendor/legend-font.json','vendor/native-word-outlines.json'].map(async name=>{const r=await fetch(`./${name}`,{cache:'no-cache'});if(!r.ok)throw new Error(`Cannot load ${name}`);return r.json();}));
     languages=lex.languages;byId=new Map(languages.map(l=>[l.id,l]));byRoot=new Map(lex.roots.map(r=>[r.id,r]));
+    variants=new Map();for(const l of languages){const id=l.variantOf||l.id;if(!variants.has(id))variants.set(id,[]);variants.get(id).push(l);}
     lands=lands.features.map(normalize);features=features.features.filter(f=>byId.has(idOf(f))).map(normalize);
     features.forEach(f=>{const id=idOf(f);if(!featureById.has(id))featureById.set(id,[]);featureById.get(id).push(f);});
     // Linear meridians and parallels: no curved frame or curved southern edge.
@@ -193,7 +214,7 @@
     svg.selectAll('*').remove();
     svg.append('style').text(exportStyle);
     node(svg,'rect',{width:W,height:H,fill:'#edf3f0'});
-    const defs=svg.append('defs');
+    const defs=svg.append('defs');wordPatterns(defs);
     const clip=defs.append('clipPath').attr('id','land-clip');clip.selectAll('path').data(lands).join('path').attr('d',path);
     const frame=defs.append('clipPath').attr('id','map-frame');frame.append('rect').attr('x',0).attr('y',17).attr('width',W).attr('height',1022);
     world=svg.append('g').attr('class','geography').attr('clip-path','url(#map-frame)');
@@ -214,8 +235,8 @@
     addText(title,'HORSE',36,75,64,{'letter-spacing':2,'font-weight':400});
     addText(title,'EUROPE & ITS NEIGHBOURS',41,108,9.5,{'font-family':'Arial, sans-serif','letter-spacing':2,fill:'#77877d'});
     const footer=svg.append('g');node(footer,'rect',{x:0,y:1042,width:W,height:58,fill:'#f8f8f0'});
-    addText(footer,'Parentheses: romanized readings. * Reconstructed form. “loan ?”: possible borrowing. Coloured dots: reference locations. Colours follow the routes in the legend, including loans. Words name selected varieties; areas are generalized.',31,1064,11,{'class':'source-note','font-family':'Arial, sans-serif',fill:'#74807a'});
-    addText(footer,'Areas: Asher & Moseley / DiACL / Rantanen via Glottography (CC BY 4.0). Land: Natural Earth. Gaps use country reference words. Lexical sources: linked atlas data.',31,1084,9.5,{'class':'source-note','font-family':'Arial, sans-serif',fill:'#74807a'});
+    addText(footer,'Parentheses: romanized readings. * Reconstructed. “loan ?”: possible borrowing. Stripes: coexisting word origins; bars below words identify each. Dots: reference locations. Areas are generalized; census selection in Romania: 2021.',31,1064,11,{'class':'source-note','font-family':'Arial, sans-serif',fill:'#74807a'});
+    addText(footer,'Areas: Asher & Moseley / DiACL / Rantanen via Glottography (CC BY 4.0); Romanian Hungarian supplement: INS RPL 2021 / ISPMN. Land: Natural Earth. Full sources: atlas data.',31,1084,9.5,{'class':'source-note','font-family':'Arial, sans-serif',fill:'#74807a'});
     zoom=d3.zoom().scaleExtent([1,7]).extent([[0,0],[W,H]]).on('zoom',e=>{transform=e.transform;world.attr('transform',transform);labelLayout();$('tooltip').hidden=true;});svg.call(zoom).on('dblclick.zoom',null);
     $('zoom-in').addEventListener('click',()=>svg.transition().duration(200).call(zoom.scaleBy,1.3));$('zoom-out').addEventListener('click',()=>svg.transition().duration(200).call(zoom.scaleBy,1/1.3));$('zoom-reset').addEventListener('click',()=>{search='';focused=null;$('search').value='';populateLanguages();drawLegend();paint();svg.transition().duration(300).call(zoom.transform,d3.zoomIdentity);});
     $('color-mode').addEventListener('change',e=>{mode=e.target.value;focused=null;drawLegend();paint();});

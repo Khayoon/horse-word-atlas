@@ -14,9 +14,13 @@ for kind,items in [('rootUses',lex['roots']),('languageUses',lex['languages'])]:
    if ref not in records[url][kind]:records[url][kind].append(ref)
 catalog['lexical']=list(records.values())
 catalog['title']='Horse map source catalog';catalog['generatedFrom']='Horse lexicon and reused, attributed snow-atlas geometry'
-catalog['publicationDate']='2026-10-18'
-catalog['provenanceNotes']=[lex['methodology']['comparison'],lex['methodology']['sources'],lex['methodology']['uncertainty'],'Language-area geography is reused from the snow atlas with its original source epochs and provenance; lexical research was performed separately for horse on 2026-10-18.']
-catalog['counts']={'languages':len(lex['languages']),'wordOriginSets':len(lex['roots']),'lexicalCanonicalSources':len(records),'languageAreaFeatures':180,'documentedLexicalJoins':89}
+catalog['publicationDate']='2026-10-19'
+catalog['provenanceNotes']=[lex['methodology']['comparison'],lex['methodology']['sources'],lex['methodology']['uncertainty'],'Most language-area geography is reused from the snow atlas. The Hungarian footprint inside Romania is replaced by an explicitly selected 2021 mother-tongue census supplement, and Algeria has a country-specific vernacular lexical join. Community corrections and their sources were checked on 2026-10-19.']
+catalog['counts']={'languages':len(lex['languages']),'wordOriginSets':len(lex['roots']),'lexicalCanonicalSources':len(records),'languageAreaFeatures':len(json.loads((DATA/'territories.geojson').read_text(encoding='utf-8'))['features']),'documentedLexicalJoins':len({f['properties']['id'] for f in json.loads((DATA/'territories.geojson').read_text(encoding='utf-8'))['features']})}
+source_ids={f['properties']['id'] for f in json.loads((DATA/'territories.geojson').read_text(encoding='utf-8'))['features']}
+app=(ROOT/'dist/app.js').read_text(encoding='utf-8')
+aliases=dict(re.findall(r"(\w+):'([^']+)'",app.split('const aliases={')[1].split('};')[0]))
+catalog['counts']['documentedLexicalJoins']=len({aliases.get(i,i) for i in source_ids if aliases.get(i,i) in {l['id'] for l in lex['languages']}})
 catalog['counts']['displayedOriginGroups']=len(lex['roots'])+sum(len(r['routes'])-1 for r in lex['roots'] if r.get('routes'))
 catalog['typographySoftwareLicense']=[x for x in catalog['typographySoftwareLicense'] if x.get('category')!='license']
 for x in catalog['typographySoftwareLicense']:
@@ -31,9 +35,11 @@ for item in catalog['geography']:
  geo.append(f'<li><strong>{e(title)}</strong><p>{e(item["usedFor"])} {e(item.get("license",""))}</p><p>{refs}</p></li>')
  geomd.append(f'- **{title}** — {item["usedFor"]} '+ ' · '.join(f'[{x["label"]}]({x["url"]})' for x in item['urls']))
 notes=[
-'The PIE horse noun *h₁éḱwos heads two separate colour rows: Scottish Gaelic each via Proto-Celtic *ekʷos, and Iranian *Hácwah → asb/asp/hesp. They share an earlier ancestor but follow separate branches. These are the two lineages represented by the selected labels, not the only surviving descendants: Greek ίππος also continues that noun, while this map selects everyday άλογο. Other colours follow word ancestry, including borrowings; uncertain deep links remain separate.',
+'The PIE horse noun *h₁éḱwos has separate Scottish Gaelic, Iranian and Greek route colours. Greek learned ίππος (Ancient ἵππος, híppos) is displayed alongside everyday άλογο. These are selected surviving lineages, not an exhaustive list: Latin equus is another.',
 'The caballus / *kaballos family has a shared heading and three separate route colours: Romance, Celtic and Albanian. Romance words continue Latin caballus; Albanian kalë is a Latin loan. The related Celtic terms retain their individual histories and disputed early borrowing directions in the entry notes.',
-'The same generalized, overlapping language footprints as the snow atlas are retained. A complete Natural Earth country reference layer fills the land beneath them; this is not a census or a claim of exclusive language use. Kurdish supplements retain their published 1750 reference epoch.',
+'Published overlapping footprints remain above a complete Natural Earth reference fill. Inside Romania, the old Hungarian atlas area is replaced by INS RPL 2021 data mapped by ISPMN: administrative units above 50% Hungarian mother tongue among known responses. This separates the Székely enclave from smaller western pockets, and does not claim speakers below that threshold are absent. The exact selection is in data/romanian-hungarian-2021.json. Other features retain their original source epochs, including the Kurdish 1750 supplements.',
+'Greece, Russia and Kazakhstan show coexisting words with different origins using diagonal stripes and colour bars beneath the words. Stripe widths are decorative, not population or usage proportions. Russian конь is displayed alongside лошадь; Sardinian cuaddu supplements Nuorese cabaddu; Flemish peerd / peird supplements standard Dutch paard. Algeria now uses عود (ʿūd, Arabizi 3oud) rather than the standard-Arabic ḥiṣān reference.',
+'Kazakh жылқы is a general species / livestock term and occurs in жылқы еті, horse meat. Ат is especially a riding or working horse, traditionally male / gelded. These are usage tendencies, not a strict meat-versus-riding opposition.',
 'Romanizations under non-Latin words are reading aids, not IPA. Maaloula shows ܣܘܣܬ̤ܐ with (sūsča), an editorial Syriac rendering of Arnold’s attested transcription using the documented ܬ̤ = č convention. This is a script choice, not a directly quoted native spelling or a universal Maaloula standard; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.',
 'No reliable indigenous Canarian horse term was verified. The earlier snow word tener? is not reused: this version retains the modern Spanish reference on the islands.',
 'Northern Luri asp is supported by a local speaker comparison rather than a critical dictionary. The Iraqi Arabic reading ḥiṣān also appears in a Baghdadi Arabic plant-name study; regional vowels vary. Entry notes retain these source limitations.'
@@ -45,7 +51,7 @@ section=f'''<section id="sources" class="source-section" aria-labelledby="source
 {''.join(f'<p class="source-intro">{e(n)}</p>' for n in notes)}
 <div class="source-columns"><div><h3>Geography</h3><ol class="geographic-references">{''.join(geo)}</ol></div><div><h3>Words and etymologies</h3><p>{len(lex['languages'])} selected entries; {len(records)} linked lexical and historical references. Wiktionary is community edited; primary dictionaries and field studies are identified individually.</p>
 <details class="reference-details"><summary>All {len(records)} dictionary, reconstruction and historical references</summary><ol class="lexical-references">{lexhtml}</ol></details>
-<h3>Typography and software</h3><ul>{typehtml}</ul><p>Geometry is attributed under CC BY 4.0; Natural Earth is public domain. Wiktionary is CC BY-SA 4.0. Other works retain their own terms; lexical facts and original explanatory summaries are used with attribution. Font and D3 license notices are bundled.</p>
+<h3>Typography and software</h3><ul>{typehtml}</ul><p>Glottography geometry is CC BY 4.0; the Romanian INS/ISPMN supplement is separately attributed with its source terms in the supplement record. Natural Earth is public domain. Wiktionary is CC BY-SA 4.0. Other works retain their own terms; lexical facts and original explanatory summaries are used with attribution. Font and D3 license notices are bundled.</p>
 <p>{a('./data/source-catalog.json','Source catalog (JSON)')} · {a('./data/geometry-sources.json','Geographic provenance')} · {a('./data/lexicon.json','Lexicon')} · {a('https://github.com/Khayoon/horse-word-atlas#readme','README')}</p></div></div>
 <p>Poster downloads: <a href="./downloads/horse-map-landscape-6000px.png" download>6,000px PNG</a> · <a href="./downloads/horse-map-landscape.svg" download>SVG</a>. The controls above export the current composition.</p>
 </section>'''
@@ -61,8 +67,8 @@ A flat landscape linguistic map of words for **horse** across Europe and its nei
 ## Reading the map
 
 {chr(10).join('- '+n for n in notes)}
-- Common representative nouns are selected. Russian лошадь is used alongside neighbouring Slavic konj/koń forms; Russian конь remains a noted alternative. Irish capall and Scottish Gaelic each intentionally illustrate different histories.
-- Colour groups follow the ancestry and routes shown in the legend, including loans; shared colour is not proof of direct inheritance. The PIE horse noun has separate Scottish Gaelic and Iranian route colours; *ekʷos is the reconstructed Proto-Celtic ancestor of Gaelic each. English horse, German Pferd, Scandinavian hest and Romance caballo/cheval are separate sets. An asterisk marks a reconstructed form; “loan ?” marks a possible borrowing. Other unresolved histories are explained in the entry notes.
+- Common nouns and important alternatives are selected. Both Russian лошадь and конь are now displayed, with their different word origins. Irish capall and Scottish Gaelic each intentionally illustrate different histories.
+- Colour groups follow the ancestry and routes shown in the legend, including loans; shared colour is not proof of direct inheritance. The PIE horse noun has separate Scottish Gaelic, Iranian and Greek route colours; *ekʷos is the reconstructed Proto-Celtic ancestor of Gaelic each. English horse, German Pferd, Scandinavian hest and Romance caballo/cheval are separate sets. An asterisk marks a reconstructed form; “loan ?” marks a possible borrowing. Other unresolved histories are explained in the entry notes.
 - The caballus/*kaballos group has separate Romance, Celtic and Albanian route colours without making every Celtic word a direct Latin loan. Finnic and Caucasian proposed Indo-European links remain unresolved. Some origin sets stop at an attested local word.
 - The Syriac, Mandaic and Tifinagh labels and the full legend are shaped to vector outlines for reliable PNG/SVG export. Other words remain editable SVG text. Non-Latin words retain parenthesized romanized readings.
 
@@ -75,10 +81,11 @@ Export PNG at 6,000, 9,000 or 12,000 pixels wide or save SVG. Default compositio
 ## Data
 
 - `dist/data/lexicon.json`: selected nouns, romanizations, origin sets, schematic chains, references and uncertainty notes.
-- `dist/data/territories.geojson`: 180 generalized geometry features with provenance. The historical La Palma reference fill from the snow map is omitted.
+- `dist/data/territories.geojson`: the generalized geometry features and the explicitly attributed Romanian census supplement. The historical La Palma reference fill from the snow map is omitted.
 - `dist/data/land-reference.geojson`: complete country-reference layer below the language footprints.
 - `dist/data/geometry-sources.json` and `map-coverage.json`: source epochs, geography and inherited continuous-coverage method. Geography comes from the attributed snow-atlas build; it is not new fieldwork.
 - `dist/data/source-catalog.json`: complete linked source list.
+- `dist/data/romanian-hungarian-2021.json`: selected census units, language shares, denominator, threshold and source attribution.
 - `dist/vendor/`: D3, Gentium Plus and Noto fonts, vector typography and licenses.
 
 ## GitHub Pages
@@ -104,8 +111,8 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 
 {chr(10).join(f'- [{x["title"]}]({x["url"]}) — {x.get("license",x.get("usedFor",""))}.' for x in catalog['typographySoftwareLicense'])}
 
-Wiktionary material is identified as CC BY-SA 4.0. Geography attributed by Glottography is CC BY 4.0; Natural Earth is public domain. Dictionaries, fieldwork and other publications retain their own terms. Original explanatory summaries and brief lexical facts are attributed individually. D3 and font notices remain in `dist/vendor/`. No blanket license is asserted over mixed third-party data.
+Wiktionary material is identified as CC BY-SA 4.0. Geography attributed by Glottography is CC BY 4.0; the Romanian INS/ISPMN supplement is separately attributed with its source terms in the supplement record. Natural Earth is public domain. Dictionaries, fieldwork and other publications retain their own terms. Original explanatory summaries and brief lexical facts are attributed individually. D3 and font notices remain in `dist/vendor/`. No blanket license is asserted over mixed third-party data.
 '''
 (ROOT/'README.md').write_text(readme,encoding='utf-8')
-(ROOT/'READ ME.txt').write_text('HORSE — A WORD MAP\n\nOpen Horse Atlas.cmd launches a local server. The poster has 105 selected words and 34 word-origin sets, with linked references in README.md and on the page. Exports retain the compact legend. See entry notes for unresolved etymologies and local source limitations.\n',encoding='utf-8')
+(ROOT/'READ ME.txt').write_text(f'HORSE — A WORD MAP\n\nOpen Horse Atlas.cmd launches a local server. The poster has {len(lex["languages"])} selected word entries and {len(lex["roots"])} word-origin sets, with linked references in README.md and on the page. Exports retain the compact legend. See entry notes for unresolved etymologies and local source limitations.\n',encoding='utf-8')
 print('References rebuilt:',len(records))

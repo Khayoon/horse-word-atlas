@@ -1,0 +1,1838 @@
+{
+  "title": "Hungarian language-area revision in Romania",
+  "censusYear": 2021,
+  "accessed": "2026-10-19",
+  "publisher": "ISPMN / Institutul pentru Studierea Problemelor Minorităților Naționale",
+  "dataOrigin": "Romanian National Institute of Statistics, RPL 2021 table 2.03.2",
+  "mapUrl": "https://www.ispmn.gov.ro/maps2022",
+  "inputUrl": "https://ispmn.gov.ro/maps_2022/data/uat_merged_simp02.json",
+  "inputSha256": "a8e21a8c56dc07e451786c01dfc6f743d63b4f2971eba2ce46d8ce035ee66cbc",
+  "method": "Administrative units with more than 50% Hungarian mother tongue among respondents whose mother tongue is known (ISPMN lmbRelHu, INS RPL 2021 table 2.03.2). This is a transparent cartographic selection, not a boundary of all Hungarian speakers. Missing responses are excluded by the source percentage. Minority communities below this threshold are not asserted absent. The main Székely component is separate from smaller western border communities.",
+  "thresholdPercent": 50,
+  "thresholdOperator": ">",
+  "denominator": "Respondents with known mother tongue, matching ISPMN lmbRelHu",
+  "selectedAdministrativeUnits": 202,
+  "oldRomanianHungarianAreaDegrees": 7.420451859536203,
+  "newAreaDegrees": 1.7605982437373384,
+  "sourceLicense": "No explicit dataset license stated on the map page; source attribution retained. This supplement is not represented as part of the Glottography CC BY 4.0 data.",
+  "units": [
+    {
+      "siruta": 63553,
+      "name": "Comandău",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 92.22,
+      "hungarianMotherTongueCount": 735.0,
+      "residentPopulation": 822,
+      "unknownMotherTongueShare": 3.04
+    },
+    {
+      "siruta": 63937,
+      "name": "Boroșneu Mare",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 97.46,
+      "hungarianMotherTongueCount": 2993.0,
+      "residentPopulation": 3186,
+      "unknownMotherTongueShare": 3.61
+    },
+    {
+      "siruta": 64238,
+      "name": "Chichiș",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 54.35,
+      "hungarianMotherTongueCount": 799.0,
+      "residentPopulation": 1540,
+      "unknownMotherTongueShare": 4.55
+    },
+    {
+      "siruta": 65011,
+      "name": "Zagon",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 50.13,
+      "hungarianMotherTongueCount": 2279.0,
+      "residentPopulation": 4924,
+      "unknownMotherTongueShare": 7.68
+    },
+    {
+      "siruta": 64639,
+      "name": "Ozun",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 86.93,
+      "hungarianMotherTongueCount": 3412.0,
+      "residentPopulation": 4213,
+      "unknownMotherTongueShare": 6.84
+    },
+    {
+      "siruta": 64773,
+      "name": "Reci",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 97.31,
+      "hungarianMotherTongueCount": 2131.0,
+      "residentPopulation": 2259,
+      "unknownMotherTongueShare": 3.05
+    },
+    {
+      "siruta": 64005,
+      "name": "Brateș",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 97.96,
+      "hungarianMotherTongueCount": 1346.0,
+      "residentPopulation": 1409,
+      "unknownMotherTongueShare": 2.48
+    },
+    {
+      "siruta": 63526,
+      "name": "Covasna",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 66.15,
+      "hungarianMotherTongueCount": 5586.0,
+      "residentPopulation": 9208,
+      "unknownMotherTongueShare": 8.29
+    },
+    {
+      "siruta": 63394,
+      "name": "Sfântu Gheorghe",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 78.87,
+      "hungarianMotherTongueCount": 35014.0,
+      "residentPopulation": 50080,
+      "unknownMotherTongueShare": 11.36
+    },
+    {
+      "siruta": 64568,
+      "name": "Moacșa",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 97.83,
+      "hungarianMotherTongueCount": 1172.0,
+      "residentPopulation": 1239,
+      "unknownMotherTongueShare": 3.31
+    },
+    {
+      "siruta": 65048,
+      "name": "Zăbala",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 79.5,
+      "hungarianMotherTongueCount": 3222.0,
+      "residentPopulation": 4332,
+      "unknownMotherTongueShare": 6.44
+    },
+    {
+      "siruta": 65113,
+      "name": "Arcuș",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 95.31,
+      "hungarianMotherTongueCount": 1545.0,
+      "residentPopulation": 1722,
+      "unknownMotherTongueShare": 5.87
+    },
+    {
+      "siruta": 64318,
+      "name": "Ghelința",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 98.78,
+      "hungarianMotherTongueCount": 4691.0,
+      "residentPopulation": 4917,
+      "unknownMotherTongueShare": 3.42
+    },
+    {
+      "siruta": 64345,
+      "name": "Ghidfalău",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 98.17,
+      "hungarianMotherTongueCount": 2358.0,
+      "residentPopulation": 2614,
+      "unknownMotherTongueShare": 8.11
+    },
+    {
+      "siruta": 64130,
+      "name": "Catalina",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 98.45,
+      "hungarianMotherTongueCount": 3048.0,
+      "residentPopulation": 3200,
+      "unknownMotherTongueShare": 3.25
+    },
+    {
+      "siruta": 65147,
+      "name": "Dalnic",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 100.11,
+      "hungarianMotherTongueCount": 880.0,
+      "residentPopulation": 896,
+      "unknownMotherTongueShare": 1.9
+    },
+    {
+      "siruta": 64906,
+      "name": "Valea Crișului",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 98.63,
+      "hungarianMotherTongueCount": 2162.0,
+      "residentPopulation": 2354,
+      "unknownMotherTongueShare": 6.88
+    },
+    {
+      "siruta": 63777,
+      "name": "Aita Mare",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 93.24,
+      "hungarianMotherTongueCount": 1490.0,
+      "residentPopulation": 1626,
+      "unknownMotherTongueShare": 1.72
+    },
+    {
+      "siruta": 64602,
+      "name": "Ojdula",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 95.23,
+      "hungarianMotherTongueCount": 3217.0,
+      "residentPopulation": 3482,
+      "unknownMotherTongueShare": 2.99
+    },
+    {
+      "siruta": 63893,
+      "name": "Bodoc",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 96.64,
+      "hungarianMotherTongueCount": 2274.0,
+      "residentPopulation": 2481,
+      "unknownMotherTongueShare": 5.16
+    },
+    {
+      "siruta": 64194,
+      "name": "Cernat",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 99.0,
+      "hungarianMotherTongueCount": 3777.0,
+      "residentPopulation": 3936,
+      "unknownMotherTongueShare": 3.07
+    },
+    {
+      "siruta": 63740,
+      "name": "Târgu Secuiesc",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 94.08,
+      "hungarianMotherTongueCount": 13990.0,
+      "residentPopulation": 16243,
+      "unknownMotherTongueShare": 8.45
+    },
+    {
+      "siruta": 64504,
+      "name": "Malnaș",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 94.43,
+      "hungarianMotherTongueCount": 916.0,
+      "residentPopulation": 1024,
+      "unknownMotherTongueShare": 5.27
+    },
+    {
+      "siruta": 65139,
+      "name": "Micfalău",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 97.82,
+      "hungarianMotherTongueCount": 1526.0,
+      "residentPopulation": 1635,
+      "unknownMotherTongueShare": 4.59
+    },
+    {
+      "siruta": 64096,
+      "name": "Brețcu",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 75.99,
+      "hungarianMotherTongueCount": 2301.0,
+      "residentPopulation": 3132,
+      "unknownMotherTongueShare": 3.32
+    },
+    {
+      "siruta": 64871,
+      "name": "Turia",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 99.05,
+      "hungarianMotherTongueCount": 3425.0,
+      "residentPopulation": 3622,
+      "unknownMotherTongueShare": 4.53
+    },
+    {
+      "siruta": 65121,
+      "name": "Bixad",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 96.94,
+      "hungarianMotherTongueCount": 1490.0,
+      "residentPopulation": 1585,
+      "unknownMotherTongueShare": 3.03
+    },
+    {
+      "siruta": 83428,
+      "name": "Băile Tușnad",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 92.38,
+      "hungarianMotherTongueCount": 1164.0,
+      "residentPopulation": 1372,
+      "unknownMotherTongueShare": 8.16
+    },
+    {
+      "siruta": 64826,
+      "name": "Sânzieni",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 99.27,
+      "hungarianMotherTongueCount": 4236.0,
+      "residentPopulation": 4408,
+      "unknownMotherTongueShare": 3.2
+    },
+    {
+      "siruta": 64461,
+      "name": "Lemnia",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 98.29,
+      "hungarianMotherTongueCount": 1608.0,
+      "residentPopulation": 1708,
+      "unknownMotherTongueShare": 4.22
+    },
+    {
+      "siruta": 85243,
+      "name": "Ocland",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.5,
+      "hungarianMotherTongueCount": 1183.0,
+      "residentPopulation": 1270,
+      "unknownMotherTongueShare": 6.38
+    },
+    {
+      "siruta": 64719,
+      "name": "Poian",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 99.37,
+      "hungarianMotherTongueCount": 1573.0,
+      "residentPopulation": 1647,
+      "unknownMotherTongueShare": 3.89
+    },
+    {
+      "siruta": 64997,
+      "name": "Vârghiș",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 99.5,
+      "hungarianMotherTongueCount": 1383.0,
+      "residentPopulation": 1472,
+      "unknownMotherTongueShare": 5.57
+    },
+    {
+      "siruta": 63802,
+      "name": "Bățani",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 85.16,
+      "hungarianMotherTongueCount": 3661.0,
+      "residentPopulation": 4588,
+      "unknownMotherTongueShare": 6.3
+    },
+    {
+      "siruta": 84380,
+      "name": "Dârjiu",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.76,
+      "hungarianMotherTongueCount": 794.0,
+      "residentPopulation": 851,
+      "unknownMotherTongueShare": 5.52
+    },
+    {
+      "siruta": 86446,
+      "name": "Cozmeni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.05,
+      "hungarianMotherTongueCount": 1875.0,
+      "residentPopulation": 2125,
+      "unknownMotherTongueShare": 10.92
+    },
+    {
+      "siruta": 86222,
+      "name": "Ulieș",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.78,
+      "hungarianMotherTongueCount": 971.0,
+      "residentPopulation": 1068,
+      "unknownMotherTongueShare": 7.96
+    },
+    {
+      "siruta": 64041,
+      "name": "Brăduț",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 68.9,
+      "hungarianMotherTongueCount": 3214.0,
+      "residentPopulation": 4923,
+      "unknownMotherTongueShare": 5.24
+    },
+    {
+      "siruta": 85840,
+      "name": "Sânsimion",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.35,
+      "hungarianMotherTongueCount": 3188.0,
+      "residentPopulation": 3407,
+      "unknownMotherTongueShare": 5.81
+    },
+    {
+      "siruta": 86519,
+      "name": "Sântimbru",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.54,
+      "hungarianMotherTongueCount": 1962.0,
+      "residentPopulation": 2066,
+      "unknownMotherTongueShare": 4.6
+    },
+    {
+      "siruta": 86487,
+      "name": "Porumbeni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.25,
+      "hungarianMotherTongueCount": 1712.0,
+      "residentPopulation": 1800,
+      "unknownMotherTongueShare": 4.17
+    },
+    {
+      "siruta": 85582,
+      "name": "Secuieni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 96.89,
+      "hungarianMotherTongueCount": 2520.0,
+      "residentPopulation": 2707,
+      "unknownMotherTongueShare": 3.92
+    },
+    {
+      "siruta": 85056,
+      "name": "Merești",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.82,
+      "hungarianMotherTongueCount": 1175.0,
+      "residentPopulation": 1243,
+      "unknownMotherTongueShare": 4.34
+    },
+    {
+      "siruta": 85127,
+      "name": "Mugeni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.94,
+      "hungarianMotherTongueCount": 3079.0,
+      "residentPopulation": 3329,
+      "unknownMotherTongueShare": 6.52
+    },
+    {
+      "siruta": 83525,
+      "name": "Cristuru Secuiesc",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.04,
+      "hungarianMotherTongueCount": 7937.0,
+      "residentPopulation": 8797,
+      "unknownMotherTongueShare": 7.97
+    },
+    {
+      "siruta": 84923,
+      "name": "Mărtiniș",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.1,
+      "hungarianMotherTongueCount": 2629.0,
+      "residentPopulation": 2817,
+      "unknownMotherTongueShare": 5.82
+    },
+    {
+      "siruta": 85680,
+      "name": "Sâncrăieni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.99,
+      "hungarianMotherTongueCount": 2256.0,
+      "residentPopulation": 2476,
+      "unknownMotherTongueShare": 7.96
+    },
+    {
+      "siruta": 5210,
+      "name": "Lopadea Nouă",
+      "county": "Alba",
+      "hungarianMotherTongueShareKnown": 53.42,
+      "hungarianMotherTongueCount": 1210.0,
+      "residentPopulation": 2359,
+      "unknownMotherTongueShare": 3.98
+    },
+    {
+      "siruta": 84629,
+      "name": "Lueta",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.88,
+      "hungarianMotherTongueCount": 3207.0,
+      "residentPopulation": 3338,
+      "unknownMotherTongueShare": 3.8
+    },
+    {
+      "siruta": 83197,
+      "name": "Feliceni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.14,
+      "hungarianMotherTongueCount": 3114.0,
+      "residentPopulation": 3448,
+      "unknownMotherTongueShare": 8.9
+    },
+    {
+      "siruta": 83133,
+      "name": "Odorheiu Secuiesc",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 97.6,
+      "hungarianMotherTongueCount": 27887.0,
+      "residentPopulation": 31335,
+      "unknownMotherTongueShare": 8.82
+    },
+    {
+      "siruta": 86479,
+      "name": "Leliceni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 94.09,
+      "hungarianMotherTongueCount": 2227.0,
+      "residentPopulation": 2471,
+      "unknownMotherTongueShare": 4.21
+    },
+    {
+      "siruta": 83151,
+      "name": "Brădești",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.11,
+      "hungarianMotherTongueCount": 1994.0,
+      "residentPopulation": 2122,
+      "unknownMotherTongueShare": 5.18
+    },
+    {
+      "siruta": 120174,
+      "name": "Vețca",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 90.31,
+      "hungarianMotherTongueCount": 671.0,
+      "residentPopulation": 753,
+      "unknownMotherTongueShare": 1.33
+    },
+    {
+      "siruta": 86501,
+      "name": "Satu Mare",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.79,
+      "hungarianMotherTongueCount": 1926.0,
+      "residentPopulation": 1995,
+      "unknownMotherTongueShare": 3.26
+    },
+    {
+      "siruta": 85467,
+      "name": "Săcel",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 74.29,
+      "hungarianMotherTongueCount": 812.0,
+      "residentPopulation": 1140,
+      "unknownMotherTongueShare": 4.12
+    },
+    {
+      "siruta": 116938,
+      "name": "Gănești",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 67.29,
+      "hungarianMotherTongueCount": 2000.0,
+      "residentPopulation": 3131,
+      "unknownMotherTongueShare": 5.08
+    },
+    {
+      "siruta": 83320,
+      "name": "Miercurea Ciuc",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 82.51,
+      "hungarianMotherTongueCount": 25156.0,
+      "residentPopulation": 34484,
+      "unknownMotherTongueShare": 11.59
+    },
+    {
+      "siruta": 115771,
+      "name": "Bichiș",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 54.69,
+      "hungarianMotherTongueCount": 373.0,
+      "residentPopulation": 715,
+      "unknownMotherTongueShare": 4.62
+    },
+    {
+      "siruta": 118209,
+      "name": "Mica",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 50.84,
+      "hungarianMotherTongueCount": 2372.0,
+      "residentPopulation": 4821,
+      "unknownMotherTongueShare": 3.22
+    },
+    {
+      "siruta": 85984,
+      "name": "Șimonești",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.78,
+      "hungarianMotherTongueCount": 3241.0,
+      "residentPopulation": 3416,
+      "unknownMotherTongueShare": 3.95
+    },
+    {
+      "siruta": 83847,
+      "name": "Avrămești",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.24,
+      "hungarianMotherTongueCount": 2101.0,
+      "residentPopulation": 2324,
+      "unknownMotherTongueShare": 8.91
+    },
+    {
+      "siruta": 83981,
+      "name": "Ciucsângeorgiu",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.33,
+      "hungarianMotherTongueCount": 4566.0,
+      "residentPopulation": 4876,
+      "unknownMotherTongueShare": 5.72
+    },
+    {
+      "siruta": 86461,
+      "name": "Ciceu",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.59,
+      "hungarianMotherTongueCount": 2520.0,
+      "residentPopulation": 2711,
+      "unknownMotherTongueShare": 5.72
+    },
+    {
+      "siruta": 119661,
+      "name": "Suplac",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 52.88,
+      "hungarianMotherTongueCount": 1028.0,
+      "residentPopulation": 2047,
+      "unknownMotherTongueShare": 5.03
+    },
+    {
+      "siruta": 83749,
+      "name": "Vlăhița",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.12,
+      "hungarianMotherTongueCount": 6097.0,
+      "residentPopulation": 6468,
+      "unknownMotherTongueShare": 4.9
+    },
+    {
+      "siruta": 12912,
+      "name": "Dorobanți",
+      "county": "Arad",
+      "hungarianMotherTongueShareKnown": 87.13,
+      "hungarianMotherTongueCount": 1266.0,
+      "residentPopulation": 1509,
+      "unknownMotherTongueShare": 3.71
+    },
+    {
+      "siruta": 85626,
+      "name": "Siculeni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 95.84,
+      "hungarianMotherTongueCount": 2303.0,
+      "residentPopulation": 2511,
+      "unknownMotherTongueShare": 4.3
+    },
+    {
+      "siruta": 83963,
+      "name": "Căpâlnița",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.24,
+      "hungarianMotherTongueCount": 1954.0,
+      "residentPopulation": 2036,
+      "unknownMotherTongueShare": 3.29
+    },
+    {
+      "siruta": 116796,
+      "name": "Fântânele",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 97.37,
+      "hungarianMotherTongueCount": 4630.0,
+      "residentPopulation": 4854,
+      "unknownMotherTongueShare": 2.04
+    },
+    {
+      "siruta": 119331,
+      "name": "Sângeorgiu de Pădure",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 81.88,
+      "hungarianMotherTongueCount": 3679.0,
+      "residentPopulation": 4875,
+      "unknownMotherTongueShare": 7.84
+    },
+    {
+      "siruta": 86495,
+      "name": "Racu",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.48,
+      "hungarianMotherTongueCount": 1535.0,
+      "residentPopulation": 1599,
+      "unknownMotherTongueShare": 3.5
+    },
+    {
+      "siruta": 84415,
+      "name": "Frumoasa",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 97.98,
+      "hungarianMotherTongueCount": 3343.0,
+      "residentPopulation": 3581,
+      "unknownMotherTongueShare": 4.72
+    },
+    {
+      "siruta": 84264,
+      "name": "Dealu",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.17,
+      "hungarianMotherTongueCount": 3948.0,
+      "residentPopulation": 4104,
+      "unknownMotherTongueShare": 3.0
+    },
+    {
+      "siruta": 6592,
+      "name": "Râmetea",
+      "county": "Alba",
+      "hungarianMotherTongueShareKnown": 88.52,
+      "hungarianMotherTongueCount": 879.0,
+      "residentPopulation": 1015,
+      "unknownMotherTongueShare": 2.17
+    },
+    {
+      "siruta": 114970,
+      "name": "Acățari",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 87.43,
+      "hungarianMotherTongueCount": 4425.0,
+      "residentPopulation": 5170,
+      "unknownMotherTongueShare": 2.11
+    },
+    {
+      "siruta": 84825,
+      "name": "Lupeni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.59,
+      "hungarianMotherTongueCount": 4338.0,
+      "residentPopulation": 4547,
+      "unknownMotherTongueShare": 4.2
+    },
+    {
+      "siruta": 86438,
+      "name": "Mădăraș",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.06,
+      "hungarianMotherTongueCount": 2008.0,
+      "residentPopulation": 2093,
+      "unknownMotherTongueShare": 3.15
+    },
+    {
+      "siruta": 118511,
+      "name": "Neaua",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 99.41,
+      "hungarianMotherTongueCount": 1170.0,
+      "residentPopulation": 1231,
+      "unknownMotherTongueShare": 4.39
+    },
+    {
+      "siruta": 120487,
+      "name": "Corunca",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 51.92,
+      "hungarianMotherTongueCount": 2025.0,
+      "residentPopulation": 4407,
+      "unknownMotherTongueShare": 11.5
+    },
+    {
+      "siruta": 117042,
+      "name": "Ghindari",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 96.93,
+      "hungarianMotherTongueCount": 2749.0,
+      "residentPopulation": 3034,
+      "unknownMotherTongueShare": 6.53
+    },
+    {
+      "siruta": 84237,
+      "name": "Dănești",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.26,
+      "hungarianMotherTongueCount": 2020.0,
+      "residentPopulation": 2079,
+      "unknownMotherTongueShare": 2.12
+    },
+    {
+      "siruta": 83785,
+      "name": "Atid",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.7,
+      "hungarianMotherTongueCount": 2319.0,
+      "residentPopulation": 2594,
+      "unknownMotherTongueShare": 10.33
+    },
+    {
+      "siruta": 84175,
+      "name": "Corund",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.74,
+      "hungarianMotherTongueCount": 6216.0,
+      "residentPopulation": 6394,
+      "unknownMotherTongueShare": 2.53
+    },
+    {
+      "siruta": 86366,
+      "name": "Zetea",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.4,
+      "hungarianMotherTongueCount": 5459.0,
+      "residentPopulation": 5729,
+      "unknownMotherTongueShare": 4.14
+    },
+    {
+      "siruta": 84754,
+      "name": "Lunca de Sus",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.84,
+      "hungarianMotherTongueCount": 3074.0,
+      "residentPopulation": 3218,
+      "unknownMotherTongueShare": 3.36
+    },
+    {
+      "siruta": 120478,
+      "name": "Chibed",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 99.52,
+      "hungarianMotherTongueCount": 1645.0,
+      "residentPopulation": 1730,
+      "unknownMotherTongueShare": 4.45
+    },
+    {
+      "siruta": 118281,
+      "name": "Miercurea Nirajului",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 87.62,
+      "hungarianMotherTongueCount": 4397.0,
+      "residentPopulation": 5414,
+      "unknownMotherTongueShare": 7.31
+    },
+    {
+      "siruta": 86311,
+      "name": "Vărșag",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.13,
+      "hungarianMotherTongueCount": 1595.0,
+      "residentPopulation": 1652,
+      "unknownMotherTongueShare": 2.6
+    },
+    {
+      "siruta": 118637,
+      "name": "Papiu Ilarian",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 57.71,
+      "hungarianMotherTongueCount": 468.0,
+      "residentPopulation": 827,
+      "unknownMotherTongueShare": 1.93
+    },
+    {
+      "siruta": 120496,
+      "name": "Sărățeni",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 97.13,
+      "hungarianMotherTongueCount": 1522.0,
+      "residentPopulation": 1625,
+      "unknownMotherTongueShare": 3.57
+    },
+    {
+      "siruta": 85074,
+      "name": "Mihăileni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 85.03,
+      "hungarianMotherTongueCount": 2056.0,
+      "residentPopulation": 2593,
+      "unknownMotherTongueShare": 6.75
+    },
+    {
+      "siruta": 120511,
+      "name": "Bereni",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 99.28,
+      "hungarianMotherTongueCount": 1096.0,
+      "residentPopulation": 1188,
+      "unknownMotherTongueShare": 7.07
+    },
+    {
+      "siruta": 84102,
+      "name": "Cârța",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.47,
+      "hungarianMotherTongueCount": 2433.0,
+      "residentPopulation": 2527,
+      "unknownMotherTongueShare": 3.21
+    },
+    {
+      "siruta": 114417,
+      "name": "Sângeorgiu de Mureș",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 55.55,
+      "hungarianMotherTongueCount": 4186.0,
+      "residentPopulation": 9688,
+      "unknownMotherTongueShare": 22.22
+    },
+    {
+      "siruta": 120076,
+      "name": "Vărgata",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 91.04,
+      "hungarianMotherTongueCount": 1361.0,
+      "residentPopulation": 1681,
+      "unknownMotherTongueShare": 11.06
+    },
+    {
+      "siruta": 118691,
+      "name": "Pănet",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 78.93,
+      "hungarianMotherTongueCount": 4225.0,
+      "residentPopulation": 5725,
+      "unknownMotherTongueShare": 6.5
+    },
+    {
+      "siruta": 120502,
+      "name": "Mădăraș",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 81.15,
+      "hungarianMotherTongueCount": 1102.0,
+      "residentPopulation": 1475,
+      "unknownMotherTongueShare": 7.93
+    },
+    {
+      "siruta": 86453,
+      "name": "Tomești",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.54,
+      "hungarianMotherTongueCount": 2364.0,
+      "residentPopulation": 2430,
+      "unknownMotherTongueShare": 2.26
+    },
+    {
+      "siruta": 116652,
+      "name": "Ernei",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 83.66,
+      "hungarianMotherTongueCount": 4445.0,
+      "residentPopulation": 5843,
+      "unknownMotherTongueShare": 9.07
+    },
+    {
+      "siruta": 85341,
+      "name": "Praid",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.02,
+      "hungarianMotherTongueCount": 5988.0,
+      "residentPopulation": 6542,
+      "unknownMotherTongueShare": 6.62
+    },
+    {
+      "siruta": 117505,
+      "name": "Hodoșa",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 88.13,
+      "hungarianMotherTongueCount": 980.0,
+      "residentPopulation": 1179,
+      "unknownMotherTongueShare": 5.68
+    },
+    {
+      "siruta": 31609,
+      "name": "Tărcaia",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 55.38,
+      "hungarianMotherTongueCount": 952.0,
+      "residentPopulation": 1799,
+      "unknownMotherTongueShare": 4.45
+    },
+    {
+      "siruta": 114854,
+      "name": "Sovata",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 90.14,
+      "hungarianMotherTongueCount": 8179.0,
+      "residentPopulation": 9703,
+      "unknownMotherTongueShare": 6.48
+    },
+    {
+      "siruta": 84086,
+      "name": "Ciumani",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.41,
+      "hungarianMotherTongueCount": 3727.0,
+      "residentPopulation": 3881,
+      "unknownMotherTongueShare": 3.4
+    },
+    {
+      "siruta": 84656,
+      "name": "Lunca de Jos",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.36,
+      "hungarianMotherTongueCount": 4816.0,
+      "residentPopulation": 5093,
+      "unknownMotherTongueShare": 4.83
+    },
+    {
+      "siruta": 117113,
+      "name": "Glodeni",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 78.7,
+      "hungarianMotherTongueCount": 2742.0,
+      "residentPopulation": 3678,
+      "unknownMotherTongueShare": 5.27
+    },
+    {
+      "siruta": 12849,
+      "name": "Zerind",
+      "county": "Arad",
+      "hungarianMotherTongueShareKnown": 85.24,
+      "hungarianMotherTongueCount": 1063.0,
+      "residentPopulation": 1299,
+      "unknownMotherTongueShare": 4.0
+    },
+    {
+      "siruta": 117177,
+      "name": "Gornești",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 81.08,
+      "hungarianMotherTongueCount": 3819.0,
+      "residentPopulation": 5072,
+      "unknownMotherTongueShare": 7.14
+    },
+    {
+      "siruta": 22718,
+      "name": "Ghimeș-Făget",
+      "county": "Bacău",
+      "hungarianMotherTongueShareKnown": 64.68,
+      "hungarianMotherTongueCount": 3108.0,
+      "residentPopulation": 4928,
+      "unknownMotherTongueShare": 2.5
+    },
+    {
+      "siruta": 85920,
+      "name": "Suseni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 94.59,
+      "hungarianMotherTongueCount": 4527.0,
+      "residentPopulation": 4944,
+      "unknownMotherTongueShare": 3.2
+    },
+    {
+      "siruta": 85760,
+      "name": "Sândominic",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.58,
+      "hungarianMotherTongueCount": 5401.0,
+      "residentPopulation": 5667,
+      "unknownMotherTongueShare": 4.29
+    },
+    {
+      "siruta": 59327,
+      "name": "Săvădisla",
+      "county": "Cluj",
+      "hungarianMotherTongueShareKnown": 51.73,
+      "hungarianMotherTongueCount": 2047.0,
+      "residentPopulation": 4196,
+      "unknownMotherTongueShare": 5.7
+    },
+    {
+      "siruta": 120316,
+      "name": "Voivodeni",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 66.4,
+      "hungarianMotherTongueCount": 988.0,
+      "residentPopulation": 1575,
+      "unknownMotherTongueShare": 5.52
+    },
+    {
+      "siruta": 84558,
+      "name": "Joseni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.05,
+      "hungarianMotherTongueCount": 4910.0,
+      "residentPopulation": 5268,
+      "unknownMotherTongueShare": 5.9
+    },
+    {
+      "siruta": 84594,
+      "name": "Lăzarea",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 96.11,
+      "hungarianMotherTongueCount": 2992.0,
+      "residentPopulation": 3313,
+      "unknownMotherTongueShare": 6.04
+    },
+    {
+      "siruta": 85412,
+      "name": "Remetea",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.89,
+      "hungarianMotherTongueCount": 5719.0,
+      "residentPopulation": 5953,
+      "unknownMotherTongueShare": 2.86
+    },
+    {
+      "siruta": 83561,
+      "name": "Gheorgheni",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 90.27,
+      "hungarianMotherTongueCount": 12187.0,
+      "residentPopulation": 15884,
+      "unknownMotherTongueShare": 15.0
+    },
+    {
+      "siruta": 59434,
+      "name": "Sâncraiu",
+      "county": "Cluj",
+      "hungarianMotherTongueShareKnown": 78.46,
+      "hungarianMotherTongueCount": 1191.0,
+      "residentPopulation": 1558,
+      "unknownMotherTongueShare": 2.57
+    },
+    {
+      "siruta": 58204,
+      "name": "Izvoru Crișului",
+      "county": "Cluj",
+      "hungarianMotherTongueShareKnown": 83.42,
+      "hungarianMotherTongueCount": 1132.0,
+      "residentPopulation": 1424,
+      "unknownMotherTongueShare": 4.71
+    },
+    {
+      "siruta": 115147,
+      "name": "Aluniș",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 64.3,
+      "hungarianMotherTongueCount": 1933.0,
+      "residentPopulation": 3058,
+      "unknownMotherTongueShare": 1.7
+    },
+    {
+      "siruta": 84344,
+      "name": "Ditrău",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.45,
+      "hungarianMotherTongueCount": 5020.0,
+      "residentPopulation": 5284,
+      "unknownMotherTongueShare": 4.47
+    },
+    {
+      "siruta": 26975,
+      "name": "Salonta",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 58.77,
+      "hungarianMotherTongueCount": 8501.0,
+      "residentPopulation": 15792,
+      "unknownMotherTongueShare": 8.4
+    },
+    {
+      "siruta": 59416,
+      "name": "Sic",
+      "county": "Cluj",
+      "hungarianMotherTongueShareKnown": 94.94,
+      "hungarianMotherTongueCount": 2066.0,
+      "residentPopulation": 2234,
+      "unknownMotherTongueShare": 2.6
+    },
+    {
+      "siruta": 32161,
+      "name": "Paleu",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 55.81,
+      "hungarianMotherTongueCount": 1931.0,
+      "residentPopulation": 3765,
+      "unknownMotherTongueShare": 8.1
+    },
+    {
+      "siruta": 32660,
+      "name": "Braniștea",
+      "county": "Bistrița-Năsăud",
+      "hungarianMotherTongueShareKnown": 60.22,
+      "hungarianMotherTongueCount": 1565.0,
+      "residentPopulation": 2780,
+      "unknownMotherTongueShare": 6.51
+    },
+    {
+      "siruta": 27631,
+      "name": "Borș",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 84.56,
+      "hungarianMotherTongueCount": 3460.0,
+      "residentPopulation": 4267,
+      "unknownMotherTongueShare": 4.1
+    },
+    {
+      "siruta": 28415,
+      "name": "Cetariu",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 78.62,
+      "hungarianMotherTongueCount": 1456.0,
+      "residentPopulation": 2035,
+      "unknownMotherTongueShare": 8.99
+    },
+    {
+      "siruta": 27436,
+      "name": "Biharia",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 81.07,
+      "hungarianMotherTongueCount": 3340.0,
+      "residentPopulation": 4393,
+      "unknownMotherTongueShare": 6.21
+    },
+    {
+      "siruta": 143021,
+      "name": "Vârșolț",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 66.83,
+      "hungarianMotherTongueCount": 1328.0,
+      "residentPopulation": 2069,
+      "unknownMotherTongueShare": 3.96
+    },
+    {
+      "siruta": 32153,
+      "name": "Tămășeu",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 83.24,
+      "hungarianMotherTongueCount": 1594.0,
+      "residentPopulation": 1990,
+      "unknownMotherTongueShare": 3.77
+    },
+    {
+      "siruta": 142284,
+      "name": "Pericei",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 59.55,
+      "hungarianMotherTongueCount": 1967.0,
+      "residentPopulation": 3497,
+      "unknownMotherTongueShare": 5.55
+    },
+    {
+      "siruta": 31011,
+      "name": "Sălard",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 73.38,
+      "hungarianMotherTongueCount": 3029.0,
+      "residentPopulation": 4305,
+      "unknownMotherTongueShare": 4.11
+    },
+    {
+      "siruta": 32187,
+      "name": "Roșiori",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 61.95,
+      "hungarianMotherTongueCount": 1542.0,
+      "residentPopulation": 2653,
+      "unknownMotherTongueShare": 6.18
+    },
+    {
+      "siruta": 28610,
+      "name": "Sâniob",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 64.65,
+      "hungarianMotherTongueCount": 1375.0,
+      "residentPopulation": 2237,
+      "unknownMotherTongueShare": 4.92
+    },
+    {
+      "siruta": 141376,
+      "name": "Hereclean",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 53.05,
+      "hungarianMotherTongueCount": 1991.0,
+      "residentPopulation": 3941,
+      "unknownMotherTongueShare": 4.77
+    },
+    {
+      "siruta": 140958,
+      "name": "Dobrin",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 76.57,
+      "hungarianMotherTongueCount": 1173.0,
+      "residentPopulation": 1573,
+      "unknownMotherTongueShare": 2.61
+    },
+    {
+      "siruta": 140440,
+      "name": "Camăr",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 93.97,
+      "hungarianMotherTongueCount": 1496.0,
+      "residentPopulation": 1618,
+      "unknownMotherTongueShare": 1.61
+    },
+    {
+      "siruta": 140477,
+      "name": "Carastelec",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 88.47,
+      "hungarianMotherTongueCount": 898.0,
+      "residentPopulation": 1044,
+      "unknownMotherTongueShare": 2.78
+    },
+    {
+      "siruta": 140583,
+      "name": "Coșeiu",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 54.82,
+      "hungarianMotherTongueCount": 580.0,
+      "residentPopulation": 1110,
+      "unknownMotherTongueShare": 4.68
+    },
+    {
+      "siruta": 142854,
+      "name": "Șamșud",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 88.31,
+      "hungarianMotherTongueCount": 1549.0,
+      "residentPopulation": 1785,
+      "unknownMotherTongueShare": 1.74
+    },
+    {
+      "siruta": 142881,
+      "name": "Șărmășag",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 61.23,
+      "hungarianMotherTongueCount": 2847.0,
+      "residentPopulation": 4772,
+      "unknownMotherTongueShare": 2.56
+    },
+    {
+      "siruta": 142550,
+      "name": "Sălățig",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 58.01,
+      "hungarianMotherTongueCount": 1326.0,
+      "residentPopulation": 2404,
+      "unknownMotherTongueShare": 4.91
+    },
+    {
+      "siruta": 27169,
+      "name": "Petreu",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 71.71,
+      "hungarianMotherTongueCount": 2165.0,
+      "residentPopulation": 3080,
+      "unknownMotherTongueShare": 1.98
+    },
+    {
+      "siruta": 29092,
+      "name": "Diosig",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 66.22,
+      "hungarianMotherTongueCount": 4096.0,
+      "residentPopulation": 6546,
+      "unknownMotherTongueShare": 5.51
+    },
+    {
+      "siruta": 30915,
+      "name": "Săcueni",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 92.14,
+      "hungarianMotherTongueCount": 9211.0,
+      "residentPopulation": 10720,
+      "unknownMotherTongueShare": 6.74
+    },
+    {
+      "siruta": 137844,
+      "name": "Hodod",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 77.5,
+      "hungarianMotherTongueCount": 2163.0,
+      "residentPopulation": 2914,
+      "unknownMotherTongueShare": 4.22
+    },
+    {
+      "siruta": 32045,
+      "name": "Viișoara",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 81.84,
+      "hungarianMotherTongueCount": 1023.0,
+      "residentPopulation": 1269,
+      "unknownMotherTongueShare": 1.5
+    },
+    {
+      "siruta": 27908,
+      "name": "Buduslău",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 98.5,
+      "hungarianMotherTongueCount": 1703.0,
+      "residentPopulation": 1799,
+      "unknownMotherTongueShare": 3.89
+    },
+    {
+      "siruta": 28497,
+      "name": "Cherechiu",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 97.24,
+      "hungarianMotherTongueCount": 2115.0,
+      "residentPopulation": 2248,
+      "unknownMotherTongueShare": 3.25
+    },
+    {
+      "siruta": 137130,
+      "name": "Bogdand",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 57.15,
+      "hungarianMotherTongueCount": 1527.0,
+      "residentPopulation": 2715,
+      "unknownMotherTongueShare": 1.58
+    },
+    {
+      "siruta": 138538,
+      "name": "Pir",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 69.65,
+      "hungarianMotherTongueCount": 948.0,
+      "residentPopulation": 1413,
+      "unknownMotherTongueShare": 3.68
+    },
+    {
+      "siruta": 30988,
+      "name": "Sălacea",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 98.14,
+      "hungarianMotherTongueCount": 2794.0,
+      "residentPopulation": 2941,
+      "unknownMotherTongueShare": 3.2
+    },
+    {
+      "siruta": 138770,
+      "name": "Săcășeni",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 50.66,
+      "hungarianMotherTongueCount": 536.0,
+      "residentPopulation": 1134,
+      "unknownMotherTongueShare": 6.7
+    },
+    {
+      "siruta": 31565,
+      "name": "Tarcea",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 87.94,
+      "hungarianMotherTongueCount": 2152.0,
+      "residentPopulation": 2510,
+      "unknownMotherTongueShare": 2.51
+    },
+    {
+      "siruta": 136713,
+      "name": "Acâș",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 75.43,
+      "hungarianMotherTongueCount": 1949.0,
+      "residentPopulation": 2728,
+      "unknownMotherTongueShare": 5.28
+    },
+    {
+      "siruta": 31333,
+      "name": "Șimian",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 87.41,
+      "hungarianMotherTongueCount": 2938.0,
+      "residentPopulation": 3540,
+      "unknownMotherTongueShare": 5.06
+    },
+    {
+      "siruta": 136768,
+      "name": "Andrid",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 59.25,
+      "hungarianMotherTongueCount": 1397.0,
+      "residentPopulation": 2455,
+      "unknownMotherTongueShare": 3.95
+    },
+    {
+      "siruta": 32027,
+      "name": "Valea lui Mihai",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 88.5,
+      "hungarianMotherTongueCount": 7586.0,
+      "residentPopulation": 8969,
+      "unknownMotherTongueShare": 4.43
+    },
+    {
+      "siruta": 29001,
+      "name": "Curtuișeni",
+      "county": "Bihor",
+      "hungarianMotherTongueShareKnown": 70.04,
+      "hungarianMotherTongueCount": 2462.0,
+      "residentPopulation": 3657,
+      "unknownMotherTongueShare": 3.88
+    },
+    {
+      "siruta": 138501,
+      "name": "Petrești",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 88.63,
+      "hungarianMotherTongueCount": 1162.0,
+      "residentPopulation": 1388,
+      "unknownMotherTongueShare": 5.55
+    },
+    {
+      "siruta": 139107,
+      "name": "Tiream",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 55.94,
+      "hungarianMotherTongueCount": 1069.0,
+      "residentPopulation": 2068,
+      "unknownMotherTongueShare": 7.59
+    },
+    {
+      "siruta": 138663,
+      "name": "Sanislău",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 57.68,
+      "hungarianMotherTongueCount": 1738.0,
+      "residentPopulation": 3223,
+      "unknownMotherTongueShare": 6.52
+    },
+    {
+      "siruta": 179677,
+      "name": "Cămin",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 94.29,
+      "hungarianMotherTongueCount": 1140.0,
+      "residentPopulation": 1250,
+      "unknownMotherTongueShare": 3.28
+    },
+    {
+      "siruta": 139250,
+      "name": "Urziceni",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 91.02,
+      "hungarianMotherTongueCount": 1236.0,
+      "residentPopulation": 1407,
+      "unknownMotherTongueShare": 3.48
+    },
+    {
+      "siruta": 137540,
+      "name": "Culciu",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 53.53,
+      "hungarianMotherTongueCount": 1859.0,
+      "residentPopulation": 3712,
+      "unknownMotherTongueShare": 6.44
+    },
+    {
+      "siruta": 136553,
+      "name": "Căpleni",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 96.85,
+      "hungarianMotherTongueCount": 2706.0,
+      "residentPopulation": 2851,
+      "unknownMotherTongueShare": 2.0
+    },
+    {
+      "siruta": 137675,
+      "name": "Dorolț",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 92.73,
+      "hungarianMotherTongueCount": 3213.0,
+      "residentPopulation": 3755,
+      "unknownMotherTongueShare": 7.72
+    },
+    {
+      "siruta": 179873,
+      "name": "Agriș",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 67.07,
+      "hungarianMotherTongueCount": 1061.0,
+      "residentPopulation": 1758,
+      "unknownMotherTongueShare": 10.01
+    },
+    {
+      "siruta": 137960,
+      "name": "Lazuri",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 79.74,
+      "hungarianMotherTongueCount": 4321.0,
+      "residentPopulation": 5977,
+      "unknownMotherTongueShare": 9.34
+    },
+    {
+      "siruta": 107715,
+      "name": "Câmpulung la Tisa",
+      "county": "Maramureș",
+      "hungarianMotherTongueShareKnown": 80.5,
+      "hungarianMotherTongueCount": 1775.0,
+      "residentPopulation": 2308,
+      "unknownMotherTongueShare": 4.46
+    },
+    {
+      "siruta": 180028,
+      "name": "Porumbești",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 76.04,
+      "hungarianMotherTongueCount": 1682.0,
+      "residentPopulation": 2362,
+      "unknownMotherTongueShare": 6.35
+    },
+    {
+      "siruta": 116590,
+      "name": "Eremitu",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 91.95,
+      "hungarianMotherTongueCount": 3483.0,
+      "residentPopulation": 3952,
+      "unknownMotherTongueShare": 4.15
+    },
+    {
+      "siruta": 118094,
+      "name": "Măgherani",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 97.41,
+      "hungarianMotherTongueCount": 1205.0,
+      "residentPopulation": 1332,
+      "unknownMotherTongueShare": 7.13
+    },
+    {
+      "siruta": 116983,
+      "name": "Gheorghe Doja",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 77.55,
+      "hungarianMotherTongueCount": 2266.0,
+      "residentPopulation": 3101,
+      "unknownMotherTongueShare": 5.77
+    },
+    {
+      "siruta": 116288,
+      "name": "Crăciunești",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 71.98,
+      "hungarianMotherTongueCount": 2816.0,
+      "residentPopulation": 4338,
+      "unknownMotherTongueShare": 9.82
+    },
+    {
+      "siruta": 118753,
+      "name": "Păsăreni",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 88.86,
+      "hungarianMotherTongueCount": 1467.0,
+      "residentPopulation": 1758,
+      "unknownMotherTongueShare": 6.09
+    },
+    {
+      "siruta": 116867,
+      "name": "Gălești",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 91.94,
+      "hungarianMotherTongueCount": 1951.0,
+      "residentPopulation": 2271,
+      "unknownMotherTongueShare": 6.56
+    },
+    {
+      "siruta": 83491,
+      "name": "Borsec",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 74.24,
+      "hungarianMotherTongueCount": 1700.0,
+      "residentPopulation": 2391,
+      "unknownMotherTongueShare": 4.22
+    },
+    {
+      "siruta": 86188,
+      "name": "Tușnad",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.05,
+      "hungarianMotherTongueCount": 1862.0,
+      "residentPopulation": 2006,
+      "unknownMotherTongueShare": 5.33
+    },
+    {
+      "siruta": 64425,
+      "name": "Ilieni",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 85.4,
+      "hungarianMotherTongueCount": 1773.0,
+      "residentPopulation": 2181,
+      "unknownMotherTongueShare": 4.81
+    },
+    {
+      "siruta": 140627,
+      "name": "Crasna",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 68.16,
+      "hungarianMotherTongueCount": 3836.0,
+      "residentPopulation": 6024,
+      "unknownMotherTongueShare": 6.57
+    },
+    {
+      "siruta": 180037,
+      "name": "Boghiș",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 67.36,
+      "hungarianMotherTongueCount": 1257.0,
+      "residentPopulation": 1909,
+      "unknownMotherTongueShare": 2.25
+    },
+    {
+      "siruta": 142239,
+      "name": "Nușfalău",
+      "county": "Sălaj",
+      "hungarianMotherTongueShareKnown": 65.91,
+      "hungarianMotherTongueCount": 2413.0,
+      "residentPopulation": 3772,
+      "unknownMotherTongueShare": 2.94
+    },
+    {
+      "siruta": 59880,
+      "name": "Unguraș",
+      "county": "Cluj",
+      "hungarianMotherTongueShareKnown": 61.16,
+      "hungarianMotherTongueCount": 1463.0,
+      "residentPopulation": 2443,
+      "unknownMotherTongueShare": 2.09
+    },
+    {
+      "siruta": 63447,
+      "name": "Baraolt",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 97.48,
+      "hungarianMotherTongueCount": 6849.0,
+      "residentPopulation": 7730,
+      "unknownMotherTongueShare": 9.11
+    },
+    {
+      "siruta": 138351,
+      "name": "Orașu Nou",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 66.74,
+      "hungarianMotherTongueCount": 2127.0,
+      "residentPopulation": 3389,
+      "unknownMotherTongueShare": 5.96
+    },
+    {
+      "siruta": 65105,
+      "name": "Mereni",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 98.23,
+      "hungarianMotherTongueCount": 1218.0,
+      "residentPopulation": 1268,
+      "unknownMotherTongueShare": 2.21
+    },
+    {
+      "siruta": 65154,
+      "name": "Estelnic",
+      "county": "Covasna",
+      "hungarianMotherTongueShareKnown": 98.63,
+      "hungarianMotherTongueCount": 1080.0,
+      "residentPopulation": 1111,
+      "unknownMotherTongueShare": 1.44
+    },
+    {
+      "siruta": 136964,
+      "name": "Beltiug",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 54.86,
+      "hungarianMotherTongueCount": 1547.0,
+      "residentPopulation": 3021,
+      "unknownMotherTongueShare": 6.65
+    },
+    {
+      "siruta": 137032,
+      "name": "Berveni",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 70.18,
+      "hungarianMotherTongueCount": 2118.0,
+      "residentPopulation": 3143,
+      "unknownMotherTongueShare": 3.98
+    },
+    {
+      "siruta": 179882,
+      "name": "Ciumești",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 92.5,
+      "hungarianMotherTongueCount": 1085.0,
+      "residentPopulation": 1193,
+      "unknownMotherTongueShare": 1.68
+    },
+    {
+      "siruta": 137728,
+      "name": "Foieni",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 95.47,
+      "hungarianMotherTongueCount": 1603.0,
+      "residentPopulation": 1725,
+      "unknownMotherTongueShare": 2.67
+    },
+    {
+      "siruta": 136526,
+      "name": "Carei",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 58.19,
+      "hungarianMotherTongueCount": 9712.0,
+      "residentPopulation": 18957,
+      "unknownMotherTongueShare": 11.96
+    },
+    {
+      "siruta": 138805,
+      "name": "Săuca",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 52.74,
+      "hungarianMotherTongueCount": 703.0,
+      "residentPopulation": 1477,
+      "unknownMotherTongueShare": 9.75
+    },
+    {
+      "siruta": 138039,
+      "name": "Livada",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 70.28,
+      "hungarianMotherTongueCount": 3730.0,
+      "residentPopulation": 5892,
+      "unknownMotherTongueShare": 9.93
+    },
+    {
+      "siruta": 139214,
+      "name": "Turulung",
+      "county": "Satu Mare",
+      "hungarianMotherTongueShareKnown": 72.95,
+      "hungarianMotherTongueCount": 2233.0,
+      "residentPopulation": 3409,
+      "unknownMotherTongueShare": 10.21
+    },
+    {
+      "siruta": 85788,
+      "name": "Sânmartin",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 99.07,
+      "hungarianMotherTongueCount": 2129.0,
+      "residentPopulation": 2227,
+      "unknownMotherTongueShare": 3.5
+    },
+    {
+      "siruta": 85289,
+      "name": "Plăieșii de Jos",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.39,
+      "hungarianMotherTongueCount": 2688.0,
+      "residentPopulation": 2819,
+      "unknownMotherTongueShare": 3.09
+    },
+    {
+      "siruta": 58721,
+      "name": "Moldovenești",
+      "county": "Cluj",
+      "hungarianMotherTongueShareKnown": 53.3,
+      "hungarianMotherTongueCount": 1495.0,
+      "residentPopulation": 3076,
+      "unknownMotherTongueShare": 8.81
+    },
+    {
+      "siruta": 83375,
+      "name": "Păuleni-Ciuc",
+      "county": "Harghita",
+      "hungarianMotherTongueShareKnown": 98.8,
+      "hungarianMotherTongueCount": 1888.0,
+      "residentPopulation": 2057,
+      "unknownMotherTongueShare": 7.1
+    },
+    {
+      "siruta": 115637,
+      "name": "Bălăușeri",
+      "county": "Mureș",
+      "hungarianMotherTongueShareKnown": 68.27,
+      "hungarianMotherTongueCount": 3193.0,
+      "residentPopulation": 4852,
+      "unknownMotherTongueShare": 3.61
+    }
+  ]
+}

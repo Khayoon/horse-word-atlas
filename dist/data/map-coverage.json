@@ -20,6 +20,7 @@
     "aeb",
     "apc",
     "arb",
+    "arq",
     "arz",
     "aze",
     "bal",
@@ -154,5 +155,5 @@
     "Country borders and land coastlines retain the supplied Natural Earth resolution. No new ethnic boundaries are inferred.",
     "Minority and regional source polygons must be drawn above this base to preserve cross-border ranges and enclaves."
   ],
-  "geographyReuse": "The unchanged land-reference geometry and its existing spatial coverage checks are reused from the snow atlas."
+  "geographyReuse": "Continuous land geometry is unchanged. Algeria now uses the arq vernacular lexical reference; the old Hungarian area within Romania is replaced by the separately attributed 2021 mother-tongue-majority supplement."
 }
