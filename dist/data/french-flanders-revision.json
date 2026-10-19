@@ -1,0 +1,36 @@
+{
+  "title": "French Flanders display revision",
+  "accessed": "2026-10-19",
+  "method": "Removed the atlas Dutch/Flemish solid footprint only inside the Natural Earth France boundary. The existing French reference background is visible there. A French Flemish peerd point at Quaëdypre preserves minority-language presence without inventing a modern majority-speaking boundary. Dutch/Flemish areas outside France are unchanged. This is an editorial display choice, not a new census or an assertion that Flemish has disappeared.",
+  "removedAreaDegrees": 0.10566058971130543,
+  "removedBounds": [
+    2.240916697135316,
+    50.6895,
+    3.1764863062101636,
+    51.08890334360753
+  ],
+  "referencePoint": [
+    2.454,
+    50.936
+  ],
+  "referencePointPlace": "Quaëdypre, France",
+  "sources": [
+    {
+      "title": "CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance",
+      "url": "https://entrelangues.modyco.fr/index.php/Flamand_occidental"
+    },
+    {
+      "title": "French Ministry of Culture: regional languages, including West Flemish",
+      "url": "https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales"
+    },
+    {
+      "title": "ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)",
+      "url": "https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50"
+    }
+  ],
+  "geometrySources": [
+    "Glottography / Asher & Moseley 2007, CC BY 4.0",
+    "Natural Earth country boundary, public domain"
+  ],
+  "countCaveat": "Older speaker estimates reported by Entrelangues are not treated as a current count or used to calculate a speaker-area polygon."
+}

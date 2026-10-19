@@ -1,3 +1,3 @@
 HORSE — A WORD MAP
 
-Open Horse Atlas.cmd launches a local server. The poster has 112 selected word entries and 35 word-origin sets, with linked references in README.md and on the page. Exports retain the compact legend. See entry notes for unresolved etymologies and local source limitations.
+Open Horse Atlas.cmd launches a local server. The poster has 114 selected word entries and 35 word-origin sets, with linked references in README.md and on the page. Exports retain the compact legend. See entry notes for unresolved etymologies and local source limitations.

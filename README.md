@@ -4,7 +4,7 @@
 
 ![Horse word map](dist/assets/horse-map-preview.png)
 
-A flat landscape linguistic map of words for **horse** across Europe and its neighbours: **112 selected language/variety entries** and **35 word-origin sets**. It reuses the snow atlas’s language geography, compact Gentium Plus legend and high-resolution export layout.
+A flat landscape linguistic map of words for **horse** across Europe and its neighbours: **114 selected language/variety entries** and **35 word-origin sets**. It reuses the snow atlas’s language geography, compact Gentium Plus legend and high-resolution export layout.
 
 ## Reading the map
 
@@ -12,6 +12,8 @@ A flat landscape linguistic map of words for **horse** across Europe and its nei
 - The caballus / *kaballos family has a shared heading and three separate route colours: Romance, Celtic and Albanian. Romance words continue Latin caballus; Albanian kalë is a Latin loan. The related Celtic terms retain their individual histories and disputed early borrowing directions in the entry notes.
 - Published overlapping footprints remain above a complete Natural Earth reference fill. Inside Romania, the old Hungarian atlas area is replaced by INS RPL 2021 data mapped by ISPMN: administrative units above 50% Hungarian mother tongue among known responses. This separates the Székely enclave from smaller western pockets, and does not claim speakers below that threshold are absent. The exact selection is in data/romanian-hungarian-2021.json. Other features retain their original source epochs, including the Kurdish 1750 supplements.
 - Greece, Russia and Kazakhstan show coexisting words with different origins using diagonal stripes and colour bars beneath the words. Stripe widths are decorative, not population or usage proportions. Russian конь is displayed alongside лошадь; Sardinian cuaddu supplements Nuorese cabaddu; Flemish peerd / peird supplements standard Dutch paard. Algeria now uses عود (ʿūd, Arabizi 3oud) rather than the standard-Arabic ḥiṣān reference.
+- French Flanders uses the French reference background. Its former solid Dutch/Flemish footprint is removed inside France; French Flemish peerd survives as a minority reference point at Quaëdypre. This acknowledges minority use without inventing a modern majority-speaking boundary or treating older speaker counts as current. The exact display revision is documented in data/french-flanders-revision.json.
+- Hungarian ló (stem lov-) and Khanty ԓов (Kazym łow, often simplified lov) share the Ugric horse-word set and colour. The Khanty source footprint combines varieties: the Kazym citation form is a reference, not a claim of uniform spelling or a dialect boundary. The remote origin before Ugric is unresolved.
 - Kazakh жылқы is a general species / livestock term and occurs in жылқы еті, horse meat. Ат is especially a riding or working horse, traditionally male / gelded. These are usage tendencies, not a strict meat-versus-riding opposition.
 - Romanizations under non-Latin words are reading aids, not IPA. Maaloula shows ܣܘܣܬ̤ܐ with (sūsča), an editorial Syriac rendering of Arnold’s attested transcription using the documented ܬ̤ = č convention. This is a script choice, not a directly quoted native spelling or a universal Maaloula standard; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.
 - No reliable indigenous Canarian horse term was verified. The earlier snow word tener? is not reused: this version retains the modern Spanish reference on the islands.
@@ -34,6 +36,7 @@ Export PNG at 6,000, 9,000 or 12,000 pixels wide or save SVG. Default compositio
 - `dist/data/land-reference.geojson`: complete country-reference layer below the language footprints.
 - `dist/data/geometry-sources.json` and `map-coverage.json`: source epochs, geography and inherited continuous-coverage method. Geography comes from the attributed snow-atlas build; it is not new fieldwork.
 - `dist/data/source-catalog.json`: complete linked source list.
+- `dist/data/french-flanders-revision.json`: French Flanders display method, sources and minority reference point.
 - `dist/data/romanian-hungarian-2021.json`: selected census units, language shares, denominator, threshold and source attribution.
 - `dist/vendor/`: D3, Gentium Plus and Noto fonts, vector typography and licenses.
 
@@ -51,11 +54,12 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - **Natural Earth 1:50m Admin 0 – Countries** — Complete reference-language land fill underneath language polygons; country boundaries are not linguistic boundaries. [Source download](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/) · [Terms of use](https://www.naturalearthdata.com/about/terms-of-use/)
 - **Glottolog 5.3: language reference locations** — Reference points for Maaloula Western Neo-Aramaic and Assyrian Neo-Aramaic; locations do not define speaker-area boundaries. [Western Neo-Aramaic](https://glottolog.org/resource/languoid/id/west2763) · [Assyrian Neo-Aramaic](https://glottolog.org/resource/languoid/id/assy1241)
 - **Romanian INS RPL 2021 mother-tongue data, table 2.03.2, mapped by ISPMN** — Replacement Hungarian footprint within Romania: 202 administrative units with >50% Hungarian mother tongue among known responses; Székely enclave and smaller western pockets. [ISPMN census map and methodology](https://www.ispmn.gov.ro/maps2022) · [Exact map geometry and census attributes](https://ispmn.gov.ro/maps_2022/data/uat_merged_simp02.json) · [Romanian census definitive results](https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive/)
+- **French Ministry of Culture; CNRS MoDyCo Entrelangues; ANVT–ILRF** — Removed the atlas Dutch/Flemish solid footprint only inside the Natural Earth France boundary. The existing French reference background is visible there. A French Flemish peerd point at Quaëdypre preserves minority-language presence without inventing a modern majority-speaking boundary. Dutch/Flemish areas outside France are unchanged. This is an editorial display choice, not a new census or an assertion that Flemish has disappeared. [CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance](https://entrelangues.modyco.fr/index.php/Flamand_occidental) · [French Ministry of Culture: regional languages, including West Flemish](https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales) · [ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)](https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50)
 
 ### Lexical and historical references
 
 <details>
-<summary>All 143 references</summary>
+<summary>All 148 references</summary>
 
 - [Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fh%E2%82%81%C3%A9%E1%B8%B1wos) — PIE horse word.
 - [Encyclopaedia Iranica: ASB i., Iranian horse terminology](https://www.iranicaonline.org/articles/asb-pre-islamic-iran/) — PIE horse word.
@@ -90,6 +94,8 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: hevonen (Finnish)](https://en.wiktionary.org/wiki/hevonen#Finnish) — Finnish; Finnic.
 - [Wiktionary: ló (Hungarian)](https://en.wiktionary.org/wiki/l%C3%B3#Hungarian) — Hungarian; Ugric.
 - [Wiktionary: Reconstruction:Proto-Ugric/luɣǝ](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Ugric%2Flu%C9%A3%C7%9D) — Ugric.
+- [HUN-REN, Új magyar etimológiai szótár: ló, Ugric inheritance and Khanty/Mansi cognates](https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e) — Hungarian; Hungarian (Romania, Székely area); Khanty (Kazym word reference); Ugric.
+- [V. N. Solovar 2014, Khanty–Russian Dictionary (Kazym dialect), p. 154: ԓов, horse](https://ouipiir.ru/sites/default/files/docs/635-1402.pdf) — Khanty (Kazym word reference); Ugric.
 - [Wiktionary: вал (Udmurt)](https://en.wiktionary.org/wiki/%D0%B2%D0%B0%D0%BB#Udmurt) — Udmurt; Permic.
 - [Wiktionary: вӧв (Komi-Zyrian)](https://en.wiktionary.org/wiki/%D0%B2%D3%A7%D0%B2#Komi-Zyrian) — Komi-Zyrian; Permic.
 - [Wiktionary: имне (Eastern Mari)](https://en.wiktionary.org/wiki/%D0%B8%D0%BC%D0%BD%D0%B5#Eastern_Mari) — Meadow Mari; Mari.
@@ -124,6 +130,7 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Vlaams Woordenboek: peerd, with peird and regional pronunciation variants](https://www.vlaamswoordenboek.be/woordenboek-artikel/10184) — Dutch; Flemish Dutch regional forms.
 - [Vlaams Woordenboek: peird, with Antwerp, Hageland and other regional forms](https://www.vlaamswoordenboek.be/woordenboek-artikel/4021) — Dutch; Flemish Dutch regional forms.
 - [Devos and Vandekerckhove, West-Vlaams: regional peerd forms](https://dev.dialectloket.be/wp-content/uploads/2014/05/devo007west01_01.pdf) — Dutch; Flemish Dutch regional forms.
+- [CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance](https://entrelangues.modyco.fr/index.php/Flamand_occidental) — Dutch; Flemish Dutch regional forms; French Flemish (minority reference).
 - [Wiktionary: Päerd (Luxembourgish)](https://en.wiktionary.org/wiki/P%C3%A4erd#Luxembourgish) — Luxembourgish.
 - [Wiktionary: hest (Danish)](https://en.wiktionary.org/wiki/hest#Danish) — Danish.
 - [Wiktionary: häst (Swedish)](https://en.wiktionary.org/wiki/h%C3%A4st#Swedish) — Swedish.
@@ -200,6 +207,8 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Centre for the Greek Language: Liddell–Scott, Ancient Greek ἵππος](https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82) — Greek (learned ίππος).
 - [Wiktionary: конь, inherited Slavic horse word](https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Russian) — Russian (конь).
 - [ISPMN / Romanian INS: 2021 census mother-tongue map by administrative unit](https://www.ispmn.gov.ro/maps2022) — Hungarian (Romania, Székely area).
+- [ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)](https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50) — French Flemish (minority reference).
+- [French Ministry of Culture: regional languages, including West Flemish](https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales) — French Flemish (minority reference).
 
 </details>
 

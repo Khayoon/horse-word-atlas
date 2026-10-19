@@ -341,7 +341,7 @@
       "form": "*luɣǝ",
       "gloss": "horse",
       "color": "#d9b66c",
-      "description": "Hungarian ló belongs with the Ugric horse set. An early Tocharian connection has been proposed, but is not made a settled origin on this map.",
+      "description": "Hungarian ló (stem lov-) and Khanty ԓов (Kazym łow, often simplified lov) belong to the same inherited Ugric horse-word set, also represented in Mansi. The Hungarian etymological dictionary reconstructs *luβɜ or *luγɜ. The shared Ugric set is secure; its earlier donor and remote origin are unresolved. Proposed Tocharian or Caucasian connections are not presented as established.",
       "sources": [
         {
           "title": "Wiktionary: ló (Hungarian)",
@@ -350,9 +350,17 @@
         {
           "title": "Wiktionary: Reconstruction:Proto-Ugric/luɣǝ",
           "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Ugric%2Flu%C9%A3%C7%9D"
+        },
+        {
+          "title": "HUN-REN, Új magyar etimológiai szótár: ló, Ugric inheritance and Khanty/Mansi cognates",
+          "url": "https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e"
+        },
+        {
+          "title": "V. N. Solovar 2014, Khanty–Russian Dictionary (Kazym dialect), p. 154: ԓов, horse",
+          "url": "https://ouipiir.ru/sites/default/files/docs/635-1402.pdf"
         }
       ],
-      "legend": "Ugric *luɣǝ · “horse”"
+      "legend": "Ugric *luɣǝ · “horse” → ló / łow"
     },
     {
       "id": "permic-horse",
@@ -810,9 +818,13 @@
         {
           "title": "Devos and Vandekerckhove, West-Vlaams: regional peerd forms",
           "url": "https://dev.dialectloket.be/wp-content/uploads/2014/05/devo007west01_01.pdf"
+        },
+        {
+          "title": "CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance",
+          "url": "https://entrelangues.modyco.fr/index.php/Flamand_occidental"
         }
       ],
-      "notes": "Paard is the standard Dutch form. In Flanders, peerd, peird and further local forms are documented. A separate regional label shows peerd / peird without inventing a uniform Flemish dialect boundary; these words share the paraverēdus history.",
+      "notes": "Paard is the standard Dutch form. In Flanders, peerd, peird and further local forms are documented. A separate regional label shows peerd / peird without inventing a uniform Flemish dialect boundary; these words share the paraverēdus history. French Flanders is no longer painted as a continuous Dutch/Flemish area: French is dominant there. A separate French Flemish minority reference point preserves the regional word without asserting a majority-language territory.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -2335,9 +2347,13 @@
         {
           "title": "Wiktionary: ló (Hungarian)",
           "url": "https://en.wiktionary.org/wiki/l%C3%B3#Hungarian"
+        },
+        {
+          "title": "HUN-REN, Új magyar etimológiai szótár: ló, Ugric inheritance and Khanty/Mansi cognates",
+          "url": "https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e"
         }
       ],
-      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented. Hungarian ló, with stem lov- as in plural lovak, is cognate with Khanty ԓов (Kazym łow) and Mansi forms. The common Ugric set does not establish a deeper Indo-European origin.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -3888,7 +3904,7 @@
         3.8,
         50.95
       ],
-      "notes": "Paard is the standard Dutch form. In Flanders, peerd, peird and further local forms are documented. A separate regional label shows peerd / peird without inventing a uniform Flemish dialect boundary; these words share the paraverēdus history.",
+      "notes": "Paard is the standard Dutch form. In Flanders, peerd, peird and further local forms are documented. A separate regional label shows peerd / peird without inventing a uniform Flemish dialect boundary; these words share the paraverēdus history. French Flanders is no longer painted as a continuous Dutch/Flemish area: French is dominant there. A separate French Flemish minority reference point preserves the regional word without asserting a majority-language territory.",
       "sources": [
         {
           "title": "Vlaams Woordenboek: peerd, with peird and regional pronunciation variants",
@@ -3901,6 +3917,10 @@
         {
           "title": "Devos and Vandekerckhove, West-Vlaams: regional peerd forms",
           "url": "https://dev.dialectloket.be/wp-content/uploads/2014/05/devo007west01_01.pdf"
+        },
+        {
+          "title": "CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance",
+          "url": "https://entrelangues.modyco.fr/index.php/Flamand_occidental"
         }
       ],
       "chain": [
@@ -3969,11 +3989,15 @@
         25.6,
         46.35
       ],
-      "notes": "The same Hungarian word ló is labelled in the Székely area of Romania. Its new footprint is a census-derived supplement: Romanian administrative units with more than 50% Hungarian mother tongue among known-language responses in the 2021 census. Smaller border communities are retained separately; no continuous corridor from Hungary to the Székely enclave is asserted.",
+      "notes": "The same Hungarian word ló is labelled in the Székely area of Romania. Its new footprint is a census-derived supplement: Romanian administrative units with more than 50% Hungarian mother tongue among known-language responses in the 2021 census. Smaller border communities are retained separately; no continuous corridor from Hungary to the Székely enclave is asserted. Hungarian ló, with stem lov- as in plural lovak, is cognate with Khanty ԓов (Kazym łow) and Mansi forms. The common Ugric set does not establish a deeper Indo-European origin.",
       "sources": [
         {
           "title": "ISPMN / Romanian INS: 2021 census mother-tongue map by administrative unit",
           "url": "https://www.ispmn.gov.ro/maps2022"
+        },
+        {
+          "title": "HUN-REN, Új magyar etimológiai szótár: ló, Ugric inheritance and Khanty/Mansi cognates",
+          "url": "https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e"
         }
       ],
       "chain": [
@@ -3987,6 +4011,87 @@
         }
       ],
       "mapSize": 19
+    },
+    {
+      "id": "kca",
+      "name": "Khanty (Kazym word reference)",
+      "native": "Ханты ясаӈ",
+      "family": "Uralic",
+      "branch": "Ugric",
+      "word": "ԓов",
+      "romanization": "łow",
+      "root": "ugric-horse",
+      "mapAnchor": [
+        65.8,
+        63.7
+      ],
+      "mapSize": 23,
+      "sources": [
+        {
+          "title": "V. N. Solovar 2014, Khanty–Russian Dictionary (Kazym dialect), p. 154: ԓов, horse",
+          "url": "https://ouipiir.ru/sites/default/files/docs/635-1402.pdf"
+        },
+        {
+          "title": "HUN-REN, Új magyar etimológiai szótár: ló, Ugric inheritance and Khanty/Mansi cognates",
+          "url": "https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e"
+        }
+      ],
+      "notes": "Solovar’s Kazym dictionary records ԓов, horse/stallion (p. 154). The reading łow is often simplified as lov. This is cognate with Hungarian ló / lov- and Mansi forms. Khanty varieties differ in their sounds and spellings; this label uses a Kazym citation form. The broad published Khanty footprint combines varieties and must not be read as a Kazym dialect boundary.",
+      "chain": [
+        {
+          "label": "Ugric comparative set",
+          "form": "*luɣǝ (also *luβɜ)"
+        },
+        {
+          "label": "Khanty · Kazym",
+          "form": "ԓов (łow)"
+        }
+      ]
+    },
+    {
+      "id": "vls-fr",
+      "name": "French Flemish (minority reference)",
+      "native": "Fransch Vlaemsch",
+      "family": "Indo-European",
+      "branch": "Germanic · West Germanic",
+      "word": "peerd",
+      "romanization": "",
+      "root": "post-horse",
+      "mapAnchor": [
+        2.454,
+        50.936
+      ],
+      "mapSize": 14,
+      "mapPoint": true,
+      "sources": [
+        {
+          "title": "ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)",
+          "url": "https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50"
+        },
+        {
+          "title": "CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance",
+          "url": "https://entrelangues.modyco.fr/index.php/Flamand_occidental"
+        },
+        {
+          "title": "French Ministry of Culture: regional languages, including West Flemish",
+          "url": "https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales"
+        }
+      ],
+      "notes": "A reference point at Quaëdypre in French Flanders represents surviving French Flemish use, not a majority-speaking enclave or an exclusive territorial boundary. ANVT–ILRF documents peerd in local usage. French is dominant in the region; older speaker-count estimates are uncertain and are not used to infer a precise modern speaker boundary.",
+      "chain": [
+        {
+          "label": "Late Latin",
+          "form": "paraverēdus"
+        },
+        {
+          "label": "Middle Dutch",
+          "form": "perert / pert"
+        },
+        {
+          "label": "French Flemish",
+          "form": "peerd"
+        }
+      ]
     }
   ],
   "methodology": {

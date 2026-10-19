@@ -26,7 +26,9 @@
     "Added separate Northern Kurdish and Central Kurdish DiACL/TITUS traditional areas (source 98 and 99, reference year 1750), clipped to the poster window, simplified at 0.008 degrees, coordinates rounded to four decimals with validity repair. Original 2007 atlas features remain separate.",
     "Joined existing Turōyō source area turo1239 to tru. No new Aramaic speaker boundaries were drawn; omitted the snow map’s La Palma historical reference fill.",
     "Removed the original Hungarian footprint inside Romania and replaced it with the 2021 mother-tongue-majority selection; retained original Hungarian geometry elsewhere.",
-    "Clipped the broad Arabic footprint at Algeria’s country boundary to assign the Algerian vernacular reference, preserving independently mapped Berber areas."
+    "Clipped the broad Arabic footprint at Algeria’s country boundary to assign the Algerian vernacular reference, preserving independently mapped Berber areas.",
+    "Removed the Dutch/Flemish solid area inside France; retained the French reference background and added a minority reference-point word. No new modern speaker boundary is inferred.",
+    "Joined the existing published Khanty (Ostyak) aggregate, normalized under surg1248, to the Khanty lexical reference kca; Kazym word selection and source variety aggregation are explicitly documented."
   ],
   "limitations": [
     "Speaker areas reflect an atlas published in 2007, not a current census, majority-language estimate or official boundary.",
@@ -43,7 +45,7 @@
     "No indigenous Canarian horse term is asserted. The Canary Islands retain the modern Spanish reference background."
   ],
   "featureCount": 182,
-  "lexicalJoinCount": 91,
+  "lexicalJoinCount": 92,
   "supplements": [
     {
       "id": "glottography-carling2025diacl",
@@ -93,6 +95,22 @@
       "method": "Administrative units with more than 50% Hungarian mother tongue among respondents whose mother tongue is known (ISPMN lmbRelHu, INS RPL 2021 table 2.03.2). This is a transparent cartographic selection, not a boundary of all Hungarian speakers. Missing responses are excluded by the source percentage. Minority communities below this threshold are not asserted absent. The main Székely component is separate from smaller western border communities.",
       "selectedAdministrativeUnits": 202,
       "featureCount": 1
+    },
+    {
+      "id": "french-flanders-display-revision",
+      "title": "French Flanders display revision",
+      "method": "Removed the atlas Dutch/Flemish solid footprint only inside the Natural Earth France boundary. The existing French reference background is visible there. A French Flemish peerd point at Quaëdypre preserves minority-language presence without inventing a modern majority-speaking boundary. Dutch/Flemish areas outside France are unchanged. This is an editorial display choice, not a new census or an assertion that Flemish has disappeared.",
+      "record": "french-flanders-revision.json",
+      "sources": [
+        {
+          "title": "CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance",
+          "url": "https://entrelangues.modyco.fr/index.php/Flamand_occidental"
+        },
+        {
+          "title": "French Ministry of Culture: regional languages, including West Flemish",
+          "url": "https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales"
+        }
+      ]
     }
   ],
   "lexiconWithoutTerritory": [
@@ -111,7 +129,8 @@
     "myz",
     "scn",
     "sco",
-    "vec"
+    "vec",
+    "vls-fr"
   ],
-  "horseMapNote": "The snow atlas geography is retained except for the documented 2021 Romanian Hungarian supplement and Algeria’s vernacular lexical join. Variant labels do not invent geographic partitions."
+  "horseMapNote": "Retained atlas geography with documented revisions for Romanian Hungarian census areas, French Flanders display and Algerian vocabulary. The existing Khanty aggregate now has a sourced Ugric horse-word join; no Khanty dialect border is invented."
 }
