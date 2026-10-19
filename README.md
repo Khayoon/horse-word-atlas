@@ -4,7 +4,7 @@
 
 ![Horse word map](dist/assets/horse-map-preview.png)
 
-A flat landscape linguistic map of words for **horse** across Europe and its neighbours: **125 selected language/variety entries** and **36 word-origin sets**. It reuses the snow atlas’s language geography, compact Gentium Plus legend and high-resolution export layout.
+A flat landscape linguistic map of words for **horse** across Europe and its neighbours: **128 selected language/variety entries** and **38 word-origin sets**. It reuses the snow atlas’s language geography, compact Gentium Plus legend and high-resolution export layout.
 
 ## Reading the map
 
@@ -16,6 +16,8 @@ A flat landscape linguistic map of words for **horse** across Europe and its nei
 - Hungarian ló (stem lov-), Khanty ԓов (Kazym łow, often simplified lov) and Northern Mansi лув (luw) share the Ugric horse-word set and colour. The Khanty source footprint combines varieties: the Kazym citation form is a reference, not a claim of uniform spelling or a dialect boundary. The remote origin before Ugric is unresolved.
 - Gilaki, Iranian Talyshi and Mazandarani have separate اسب (asb) labels using their published atlas areas. These are documented regional forms with normalized Persian-script displays, not uniform orthographies for every included dialect. Iranian-internal borrowing histories remain qualified.
 - North Africa is lexically diverse: Moroccan عود shares the Algerian ʿawd origin, including Arabic-derived Kabyle aɛudiw. Tunisian and Benghazi Libyan حصان belong to the ḥiṣān set. Rif yis continues the ayis set; Nafusi agmár and Ghadames aǧmar form a separate Berber set. Guellala Djerba leḥṣan is an Arabic loan. Hassaniya written فرس has a separate faras colour; its (frs) label is consonant-only transliteration, with exact local vocalization unverified. The detailed regional audit is in data/north-africa-review.json.
+- Romanian Romani grast (Turda and Kalderaš references) and German Sinti graj (Hameln reference) are cognate Armenian loans and share one origin colour. The 58 small Romanian markers use INS RPL 2021 mother-tongue data, selecting UATs above 20% among known responses. Equal-size markers are a cartographic selection, not ethnic territories, complete speaker coverage, population proportions or a claim that all communities use one dialect. Full selection and source limits: data/romani-domari-review.json.
+- Domari is distinct from Romani. Aleppo agōra belongs to an inherited Indo-Aryan ghōṭa set; Matras and Kelzi (2024) transcribe it agorà. The Aleppo point is a source-community reference and does not map current population after wartime dispersal. A Damascus/Sayyida Zainab marker records older community evidence, with no independently verified modern local horse form. No modern Iraqi Kawliya horse lexeme was verified. Historical Duman asp from an Altun Kupri informant in Newbold (1856) is documented in the audit, without equating that record with modern Kawliya speech.
 - Kazakh жылқы is a general species / livestock term and occurs in жылқы еті, horse meat. Ат is especially a riding or working horse, traditionally male / gelded. These are usage tendencies, not a strict meat-versus-riding opposition.
 - Romanizations under non-Latin words are reading aids, not IPA. Maaloula shows ܣܘܣܬ̤ܐ with (sūsča), an editorial Syriac rendering of Arnold’s attested transcription using the documented ܬ̤ = č convention. This is a script choice, not a directly quoted native spelling or a universal Maaloula standard; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.
 - No reliable indigenous Canarian horse term was verified. The earlier snow word tener? is not reused: this version retains the modern Spanish reference on the islands.
@@ -38,6 +40,7 @@ Export PNG at 6,000, 9,000 or 12,000 pixels wide or save SVG. Default compositio
 - `dist/data/land-reference.geojson`: complete country-reference layer below the language footprints.
 - `dist/data/geometry-sources.json` and `map-coverage.json`: source epochs, geography and inherited continuous-coverage method. Geography comes from the attributed snow-atlas build; it is not new fieldwork.
 - `dist/data/source-catalog.json`: complete linked source list.
+- `dist/data/romani-domari-review.json`: minority-reference words, census selection and language distinctions.
 - `dist/data/north-africa-review.json`: regional words, sources, origin groups and the Hassaniya pronunciation limit.
 - `dist/data/french-flanders-revision.json`: French Flanders display method, sources and minority reference point.
 - `dist/data/romanian-hungarian-2021.json`: selected census units, language shares, denominator, threshold and source attribution.
@@ -58,11 +61,13 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - **Glottolog 5.3: language reference locations** — Reference points for Maaloula Western Neo-Aramaic and Assyrian Neo-Aramaic; locations do not define speaker-area boundaries. [Western Neo-Aramaic](https://glottolog.org/resource/languoid/id/west2763) · [Assyrian Neo-Aramaic](https://glottolog.org/resource/languoid/id/assy1241)
 - **Romanian INS RPL 2021 mother-tongue data, table 2.03.2, mapped by ISPMN** — Replacement Hungarian footprint within Romania: 202 administrative units with >50% Hungarian mother tongue among known responses; Székely enclave and smaller western pockets. [ISPMN census map and methodology](https://www.ispmn.gov.ro/maps2022) · [Exact map geometry and census attributes](https://ispmn.gov.ro/maps_2022/data/uat_merged_simp02.json) · [Romanian census definitive results](https://www.recensamantromania.ro/rezultate-rpl-2021/rezultate-definitive/)
 - **French Ministry of Culture; CNRS MoDyCo Entrelangues; ANVT–ILRF** — Removed the atlas Dutch/Flemish solid footprint only inside the Natural Earth France boundary. The existing French reference background is visible there. A French Flemish peerd point at Quaëdypre preserves minority-language presence without inventing a modern majority-speaking boundary. Dutch/Flemish areas outside France are unchanged. This is an editorial display choice, not a new census or an assertion that Flemish has disappeared. [CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance](https://entrelangues.modyco.fr/index.php/Flamand_occidental) · [French Ministry of Culture: regional languages, including West Flemish](https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales) · [ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)](https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50)
+- **Romanian Romani mother-tongue community markers, INS RPL 2021 / ISPMN** — 58 representative interior points of census administrative units above 20% Romani mother tongue among known responses. Equal marker size; no commune-wide territory or uniform local dialect is inferred. Ethnic Roma counts are not substituted for language data. [Census map and method](https://www.ispmn.gov.ro/maps2022) · [Exact census geometry and attributes](https://www.ispmn.gov.ro/maps_2022/data/uat_merged_simp02.json) · [Selection audit](dist/data/romani-domari-review.json)
+- **Domari and Iraqi Kawliya community-reference review** — Aleppo word and source-community reference; older Sayyida Zainab/Damascus presence. Historical Duman asp from Altun Kupri is not assigned to modern Kawliya. No contemporary Iraqi community-specific horse word was verified. [Newbold (1856), The Gypsies of Egypt, pp. 303–304: historical Duman informant from Altun Kupri, asp, horse](https://domari.org/wp-content/uploads/2024/06/newbold_1856_the_gypsies_of_egypt.pdf) · [Minority Rights Group (2017), Iraqi Kawliyah communities, including Al-Qadissiya and Baghdad/Basra/Mosul surroundings](https://www.refworld.org/reference/countryrep/mrgi/2017/en/107422) · [Edgcumbe (2024), MERI Policy Paper 6(2), pp. 5–6: heterogeneous Iraqi community identities](https://www.meri-k.org/wp-content/uploads/2024/01/MERI-Policy-Paper-vol.6-no.2-1.pdf) · [Herin 2012, Aleppo and Damascus references](https://journals.dartmouth.edu/journals/xmlpage/1/article/412?htmlOnce=yes) · [Groome historical Damascus source](https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf)
 
 ### Lexical and historical references
 
 <details>
-<summary>All 164 references</summary>
+<summary>All 174 references</summary>
 
 - [Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fh%E2%82%81%C3%A9%E1%B8%B1wos) — PIE horse word.
 - [Encyclopaedia Iranica: ASB i., Iranian horse terminology](https://www.iranicaonline.org/articles/asb-pre-islamic-iran/) — PIE horse word.
@@ -94,6 +99,9 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: άλογο (Greek)](https://en.wiktionary.org/wiki/%CE%AC%CE%BB%CE%BF%CE%B3%CE%BF#Greek) — Greek; Greek.
 - [Wiktionary: ձի (Old Armenian)](https://en.wiktionary.org/wiki/%D5%B1%D5%AB#Old_Armenian) — Armenian.
 - [Wiktionary: Reconstruction:Proto-Indo-European/ǵʰéyos](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2F%C7%B5%CA%B0%C3%A9yos) — Armenian.
+- [Halwachs, Klinge and Schrammel-Leber (2013), RomIdent Paper 3, p. 10 table 2: Romani horse cognates and Armenian loan origin](https://www.kratylos.org/~raphael/romani/virtuallibrary/librarydb/web/files/pdfs/356/Paper3.pdf#page=11) — Romani (Romania; Turda and Kalderaš references); Sinti Romani (Hameln, Germany); Armenian loan into Romani.
+- [Manchester Romani Project: Early Romani, Armenian loan grast](https://www.kratylos.org/~raphael/romani/whatis/language/earlyromani.html) — Romani (Romania; Turda and Kalderaš references); Sinti Romani (Hameln, Germany); Armenian loan into Romani.
+- [ArmDict English–Armenian dictionary: beast of burden, գրաստ](https://www.armdict.com/dictionary/english-armenian/beast) — Armenian loan into Romani.
 - [Wiktionary: бӕх (Ossetian)](https://en.wiktionary.org/wiki/%D0%B1%D3%95%D1%85#Ossetian) — Ossetian; Ossetian.
 - [Wiktionary: Reconstruction:Proto-Finnic/hëpo](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Finnic%2Fh%C3%ABpo) — Finnic.
 - [Wiktionary: hevonen (Finnish)](https://en.wiktionary.org/wiki/hevonen#Finnish) — Finnish; Finnic.
@@ -135,6 +143,9 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: шив (Lezgi)](https://en.wiktionary.org/wiki/%D1%88%D0%B8%D0%B2#Lezgi) — Lezgian; Lezgian.
 - [Wiktionary: чву (Lak)](https://en.wiktionary.org/wiki/%D1%87%D0%B2%D1%83#Lak) — Lak; Lak.
 - [Wiktionary: мөрн (Kalmyk)](https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D1%80%D0%BD#Kalmyk) — Kalmyk; Mongolic.
+- [Herin (2012), The Domari Language of Aleppo, p. 17: agor-es / agor-en from Indo-Aryan ghota; p. 2: Damascus community](https://journals.dartmouth.edu/journals/xmlpage/1/article/412?htmlOnce=yes) — Domari (Aleppo word; Damascus community reference); Indo-Aryan ghota set.
+- [Herin (2016), Elements of Domari Dialectology, p. 46 table 7: northern (a)gora, southern gori](https://domari.org/wp-content/uploads/2026/08/bruno_herin_2016_elements_of_domari_dialectology_mediterranean_language_review_23.pdf) — Domari (Aleppo word; Damascus community reference); Indo-Aryan ghota set.
+- [Matras and Kelzi (2024), The Dom language of Aleppo, pp. 9–10: agora in the authors transcription; pp. 4–5: diaspora and source-speaker limits](https://domari.org/wp-content/uploads/2024/10/matras-kelzi-2024-dom-language-of-aleppo-preliminary-sketch.pdf) — Domari (Aleppo word; Damascus community reference); Indo-Aryan ghota set.
 - [Wiktionary: horse (Scots)](https://en.wiktionary.org/wiki/horse#Scots) — Scots.
 - [Vlaams Woordenboek: peerd, with peird and regional pronunciation variants](https://www.vlaamswoordenboek.be/woordenboek-artikel/10184) — Dutch; Flemish Dutch regional forms.
 - [Vlaams Woordenboek: peird, with Antwerp, Hageland and other regional forms](https://www.vlaamswoordenboek.be/woordenboek-artikel/4021) — Dutch; Flemish Dutch regional forms.
@@ -219,7 +230,7 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Glosbe, Mandaic Professional entry: ࡎࡅࡎࡉࡀ](https://glosbe.com/en/mid/horse) — Mandaic (Mandaean liturgical reference).
 - [Centre for the Greek Language: Liddell–Scott, Ancient Greek ἵππος](https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82) — Greek (learned ίππος).
 - [Wiktionary: конь, inherited Slavic horse word](https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Russian) — Russian (конь).
-- [ISPMN / Romanian INS: 2021 census mother-tongue map by administrative unit](https://www.ispmn.gov.ro/maps2022) — Hungarian (Romania, Székely area).
+- [ISPMN / Romanian INS: 2021 census mother-tongue map by administrative unit](https://www.ispmn.gov.ro/maps2022) — Hungarian (Romania, Székely area); Romani (Romania; Turda and Kalderaš references).
 - [ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)](https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50) — French Flemish (minority reference).
 - [French Ministry of Culture: regional languages, including West Flemish](https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales) — French Flemish (minority reference).
 - [Shabani and Taghipour (2023), Nominal linkers in Gilaki, pp. 2 and 5: Eshkevarat asb](https://twpl.library.utoronto.ca/index.php/twpl/article/download/41689/31976/112601) — Gilaki.
@@ -228,6 +239,10 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Ali-Asghar Rostamnezhad Nashali, original Mazandarani proverbs using اسب](https://neshele.blogfa.com/post/20) — Mazandarani.
 - [Kossmann, WOLD Tarifiyt: akiđā, horse, coexisting Moroccan Arabic loan](https://wold.clld.org/word/7212059950182598) — Tarifiyt / Rif (inherited word).
 - [Brugnatelli (2010), Guellala Djerba Berber dictionary manuscript, p. 28: leḥṣan](https://fr.scribd.com/document/369483266/Dictionnaire-Brugnatelli-Djerba-Berbere) — Djerba Berber (Guellala reference).
+- [Sumi (2017), The influence of the Romanian language on the Romani idiom of Turda, p. 94: grast, horse](https://www.diacronia.ro/ro/indexing/details/A26086/pdf#page=10) — Romani (Romania; Turda and Kalderaš references).
+- [Manchester Romani Project, Sinti dialect sampler: Hameln, Germany, Holzinger 1993](https://www.kratylos.org/~raphael/romani/interactive/sampler/d901.html) — Sinti Romani (Hameln, Germany).
+- [Elšík and Matras, Modals in Romani, p. 20 example 28: Hameln Sinti grajes, horse.ACC, citing Holzinger 1993:325](https://www.kratylos.org/~raphael/romani/downloads/2/Elsik-Matras_Modals%20in%20Romani.pdf#page=20) — Sinti Romani (Hameln, Germany).
+- [Groome (1891), Persian and Syrian Gypsies, p. 25: historical Damascus horse phrases collected in 1881](https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf) — Domari (Aleppo word; Damascus community reference).
 
 </details>
 

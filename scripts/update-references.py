@@ -28,12 +28,14 @@ for x in catalog['typographySoftwareLicense']:
 (DATA/'source-catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def e(v):return html.escape(str(v),quote=True)
 def a(url,title):return f'<a href="{e(url)}" target="_blank" rel="noopener">{e(title)}</a>'
+
+def mdurl(url):return 'dist/'+url[2:] if url.startswith('./') else url
 def uses(item):return '; '.join(x['name'] for x in item['languageUses']+item['rootUses'])
 geo=[];geomd=[]
 for item in catalog['geography']:
  title=item.get('citation',item['title']);refs=' · '.join(a(x['url'],x['label']) for x in item['urls'])
  geo.append(f'<li><strong>{e(title)}</strong><p>{e(item["usedFor"])} {e(item.get("license",""))}</p><p>{refs}</p></li>')
- geomd.append(f'- **{title}** — {item["usedFor"]} '+ ' · '.join(f'[{x["label"]}]({x["url"]})' for x in item['urls']))
+ geomd.append(f'- **{title}** — {item["usedFor"]} '+ ' · '.join(f'[{x["label"]}]({mdurl(x["url"])})' for x in item['urls']))
 notes=[
 'The PIE horse noun *h₁éḱwos has separate Scottish Gaelic, Iranian and Greek route colours. Greek learned ίππος (Ancient ἵππος, híppos) is displayed alongside everyday άλογο. These are selected surviving lineages, not an exhaustive list: Latin equus is another.',
 'The caballus / *kaballos family has a shared heading and three separate route colours: Romance, Celtic and Albanian. Romance words continue Latin caballus; Albanian kalë is a Latin loan. The related Celtic terms retain their individual histories and disputed early borrowing directions in the entry notes.',
@@ -43,6 +45,8 @@ notes=[
 'Hungarian ló (stem lov-), Khanty ԓов (Kazym łow, often simplified lov) and Northern Mansi лув (luw) share the Ugric horse-word set and colour. The Khanty source footprint combines varieties: the Kazym citation form is a reference, not a claim of uniform spelling or a dialect boundary. The remote origin before Ugric is unresolved.',
 'Gilaki, Iranian Talyshi and Mazandarani have separate اسب (asb) labels using their published atlas areas. These are documented regional forms with normalized Persian-script displays, not uniform orthographies for every included dialect. Iranian-internal borrowing histories remain qualified.',
 'North Africa is lexically diverse: Moroccan عود shares the Algerian ʿawd origin, including Arabic-derived Kabyle aɛudiw. Tunisian and Benghazi Libyan حصان belong to the ḥiṣān set. Rif yis continues the ayis set; Nafusi agmár and Ghadames aǧmar form a separate Berber set. Guellala Djerba leḥṣan is an Arabic loan. Hassaniya written فرس has a separate faras colour; its (frs) label is consonant-only transliteration, with exact local vocalization unverified. The detailed regional audit is in data/north-africa-review.json.',
+'Romanian Romani grast (Turda and Kalderaš references) and German Sinti graj (Hameln reference) are cognate Armenian loans and share one origin colour. The 58 small Romanian markers use INS RPL 2021 mother-tongue data, selecting UATs above 20% among known responses. Equal-size markers are a cartographic selection, not ethnic territories, complete speaker coverage, population proportions or a claim that all communities use one dialect. Full selection and source limits: data/romani-domari-review.json.',
+'Domari is distinct from Romani. Aleppo agōra belongs to an inherited Indo-Aryan ghōṭa set; Matras and Kelzi (2024) transcribe it agorà. The Aleppo point is a source-community reference and does not map current population after wartime dispersal. A Damascus/Sayyida Zainab marker records older community evidence, with no independently verified modern local horse form. No modern Iraqi Kawliya horse lexeme was verified. Historical Duman asp from an Altun Kupri informant in Newbold (1856) is documented in the audit, without equating that record with modern Kawliya speech.',
 'Kazakh жылқы is a general species / livestock term and occurs in жылқы еті, horse meat. Ат is especially a riding or working horse, traditionally male / gelded. These are usage tendencies, not a strict meat-versus-riding opposition.',
 'Romanizations under non-Latin words are reading aids, not IPA. Maaloula shows ܣܘܣܬ̤ܐ with (sūsča), an editorial Syriac rendering of Arnold’s attested transcription using the documented ܬ̤ = č convention. This is a script choice, not a directly quoted native spelling or a universal Maaloula standard; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.',
 'No reliable indigenous Canarian horse term was verified. The earlier snow word tener? is not reused: this version retains the modern Spanish reference on the islands.',
@@ -89,6 +93,7 @@ Export PNG at 6,000, 9,000 or 12,000 pixels wide or save SVG. Default compositio
 - `dist/data/land-reference.geojson`: complete country-reference layer below the language footprints.
 - `dist/data/geometry-sources.json` and `map-coverage.json`: source epochs, geography and inherited continuous-coverage method. Geography comes from the attributed snow-atlas build; it is not new fieldwork.
 - `dist/data/source-catalog.json`: complete linked source list.
+- `dist/data/romani-domari-review.json`: minority-reference words, census selection and language distinctions.
 - `dist/data/north-africa-review.json`: regional words, sources, origin groups and the Hassaniya pronunciation limit.
 - `dist/data/french-flanders-revision.json`: French Flanders display method, sources and minority reference point.
 - `dist/data/romanian-hungarian-2021.json`: selected census units, language shares, denominator, threshold and source attribution.

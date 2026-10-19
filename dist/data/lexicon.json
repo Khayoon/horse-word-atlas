@@ -310,6 +310,29 @@
       "legend": "Armenian *ǵʰéyos · “horse; steed”"
     },
     {
+      "id": "romani-grast",
+      "label": "Armenian loan into Romani",
+      "form": "grast",
+      "gloss": "pack animal; beast of burden",
+      "color": "#8b6b8f",
+      "legend": "Armenian grast · “pack animal” → Romani",
+      "description": "Romani grast, gras, gra and graj are cognate forms of an early Armenian loan. The selected Romanian grast and German Sinti graj share this origin colour. This is a distinct word history from Armenian dzi on the map. Different Romani varieties are not assumed to have unrelated horse nouns simply because they live in different countries.",
+      "sources": [
+        {
+          "title": "Halwachs, Klinge and Schrammel-Leber (2013), RomIdent Paper 3, p. 10 table 2: Romani horse cognates and Armenian loan origin",
+          "url": "https://www.kratylos.org/~raphael/romani/virtuallibrary/librarydb/web/files/pdfs/356/Paper3.pdf#page=11"
+        },
+        {
+          "title": "Manchester Romani Project: Early Romani, Armenian loan grast",
+          "url": "https://www.kratylos.org/~raphael/romani/whatis/language/earlyromani.html"
+        },
+        {
+          "title": "ArmDict English–Armenian dictionary: beast of burden, գրաստ",
+          "url": "https://www.armdict.com/dictionary/english-armenian/beast"
+        }
+      ]
+    },
+    {
       "id": "ossetian-horse",
       "label": "Ossetian",
       "form": "bæx",
@@ -752,6 +775,29 @@
         }
       ],
       "legend": "Mongolic *morin · “horse”"
+    },
+    {
+      "id": "domari-ghota",
+      "label": "Indo-Aryan ghota set",
+      "form": "ghōṭa",
+      "gloss": "horse",
+      "color": "#6f9d96",
+      "legend": "Indo-Aryan ghōṭa · “horse” → Domari",
+      "description": "Aleppo Domari agōra belongs to the inherited Indo-Aryan ghōṭa horse-word set documented by Herin. It is distinct from the Armenian grast loan found in Romani varieties, and is not assigned to the PIE h1ekwos set merely because Domari is Indo-European. Its more remote ancestry is not asserted.",
+      "sources": [
+        {
+          "title": "Herin (2012), The Domari Language of Aleppo, p. 17: agor-es / agor-en from Indo-Aryan ghota; p. 2: Damascus community",
+          "url": "https://journals.dartmouth.edu/journals/xmlpage/1/article/412?htmlOnce=yes"
+        },
+        {
+          "title": "Herin (2016), Elements of Domari Dialectology, p. 46 table 7: northern (a)gora, southern gori",
+          "url": "https://domari.org/wp-content/uploads/2026/08/bruno_herin_2016_elements_of_domari_dialectology_mediterranean_language_review_23.pdf"
+        },
+        {
+          "title": "Matras and Kelzi (2024), The Dom language of Aleppo, pp. 9–10: agora in the authors transcription; pp. 4–5: diaspora and source-speaker limits",
+          "url": "https://domari.org/wp-content/uploads/2024/10/matras-kelzi-2024-dom-language-of-aleppo-preliminary-sketch.pdf"
+        }
+      ]
     }
   ],
   "languages": [
@@ -4538,12 +4584,806 @@
           "form": "aǧmar"
         }
       ]
+    },
+    {
+      "id": "rom-ro",
+      "name": "Romani (Romania; Turda and Kalderaš references)",
+      "family": "Indo-European",
+      "branch": "Indo-Aryan",
+      "word": "grast",
+      "romanization": "",
+      "root": "romani-grast",
+      "mapAnchor": [
+        23.80958,
+        46.58515
+      ],
+      "mapPoint": true,
+      "mapSize": 19,
+      "minorityLocations": [
+        {
+          "name": "Covăsinț",
+          "county": "Arad",
+          "sirsup": 10514,
+          "anchor": [
+            21.592,
+            46.20715
+          ],
+          "motherTongueCount": 689,
+          "percentOfKnownMotherTongue": 29.63
+        },
+        {
+          "name": "Șepreuș",
+          "county": "Arad",
+          "sirsup": 12224,
+          "anchor": [
+            21.72234,
+            46.5629
+          ],
+          "motherTongueCount": 582,
+          "percentOfKnownMotherTongue": 22.42
+        },
+        {
+          "name": "Corbasca",
+          "county": "Bacău",
+          "sirsup": 21971,
+          "anchor": [
+            27.13609,
+            46.29315
+          ],
+          "motherTongueCount": 2098,
+          "percentOfKnownMotherTongue": 48.25
+        },
+        {
+          "name": "Parava",
+          "county": "Bacău",
+          "sirsup": 24034,
+          "anchor": [
+            26.96427,
+            46.30855
+          ],
+          "motherTongueCount": 781,
+          "percentOfKnownMotherTongue": 25.37
+        },
+        {
+          "name": "Valea Seacă",
+          "county": "Bacău",
+          "sirsup": 26083,
+          "anchor": [
+            27.05916,
+            46.25215
+          ],
+          "motherTongueCount": 1358,
+          "percentOfKnownMotherTongue": 41.67
+        },
+        {
+          "name": "Buciumi",
+          "county": "Bacău",
+          "sirsup": 26338,
+          "anchor": [
+            26.7901,
+            46.19295
+          ],
+          "motherTongueCount": 698,
+          "percentOfKnownMotherTongue": 22.19
+        },
+        {
+          "name": "Avram Iancu",
+          "county": "Bihor",
+          "sirsup": 27285,
+          "anchor": [
+            21.52786,
+            46.66415
+          ],
+          "motherTongueCount": 690,
+          "percentOfKnownMotherTongue": 25.12
+        },
+        {
+          "name": "Batăr",
+          "county": "Bihor",
+          "sirsup": 27383,
+          "anchor": [
+            21.79749,
+            46.7104
+          ],
+          "motherTongueCount": 1564,
+          "percentOfKnownMotherTongue": 35.04
+        },
+        {
+          "name": "Husasău de Tinca",
+          "county": "Bihor",
+          "sirsup": 29662,
+          "anchor": [
+            21.89746,
+            46.86245
+          ],
+          "motherTongueCount": 784,
+          "percentOfKnownMotherTongue": 35.06
+        },
+        {
+          "name": "Ineu",
+          "county": "Bihor",
+          "sirsup": 29724,
+          "anchor": [
+            22.10142,
+            47.1015
+          ],
+          "motherTongueCount": 1558,
+          "percentOfKnownMotherTongue": 35.99
+        },
+        {
+          "name": "Lăzăreni",
+          "county": "Bihor",
+          "sirsup": 29813,
+          "anchor": [
+            22.05229,
+            46.86015
+          ],
+          "motherTongueCount": 1000,
+          "percentOfKnownMotherTongue": 29.49
+        },
+        {
+          "name": "Șoimi",
+          "county": "Bihor",
+          "sirsup": 31422,
+          "anchor": [
+            22.13689,
+            46.65365
+          ],
+          "motherTongueCount": 790,
+          "percentOfKnownMotherTongue": 35.47
+        },
+        {
+          "name": "Tinca",
+          "county": "Bihor",
+          "sirsup": 31789,
+          "anchor": [
+            21.90173,
+            46.7592
+          ],
+          "motherTongueCount": 1659,
+          "percentOfKnownMotherTongue": 24.89
+        },
+        {
+          "name": "Coșula",
+          "county": "Botoșani",
+          "sirsup": 39975,
+          "anchor": [
+            26.77614,
+            47.60075
+          ],
+          "motherTongueCount": 797,
+          "percentOfKnownMotherTongue": 26.46
+        },
+        {
+          "name": "Ormeniș",
+          "county": "Brașov",
+          "sirsup": 41541,
+          "anchor": [
+            25.52055,
+            46.01065
+          ],
+          "motherTongueCount": 629,
+          "percentOfKnownMotherTongue": 31.93
+        },
+        {
+          "name": "Calvini",
+          "county": "Buzău",
+          "sirsup": 45753,
+          "anchor": [
+            26.28141,
+            45.24955
+          ],
+          "motherTongueCount": 947,
+          "percentOfKnownMotherTongue": 23.09
+        },
+        {
+          "name": "Răcășdia",
+          "county": "Caraș-Severin",
+          "sirsup": 53675,
+          "anchor": [
+            21.5776,
+            44.99665
+          ],
+          "motherTongueCount": 536,
+          "percentOfKnownMotherTongue": 29.76
+        },
+        {
+          "name": "Ticvaniu Mare",
+          "county": "Caraș-Severin",
+          "sirsup": 54305,
+          "anchor": [
+            21.64039,
+            45.1709
+          ],
+          "motherTongueCount": 747,
+          "percentOfKnownMotherTongue": 44.23
+        },
+        {
+          "name": "Vărădia",
+          "county": "Caraș-Severin",
+          "sirsup": 54500,
+          "anchor": [
+            21.51586,
+            45.0963
+          ],
+          "motherTongueCount": 378,
+          "percentOfKnownMotherTongue": 31.29
+        },
+        {
+          "name": "Cojocna",
+          "county": "Cluj",
+          "sirsup": 57350,
+          "anchor": [
+            23.84243,
+            46.73815
+          ],
+          "motherTongueCount": 886,
+          "percentOfKnownMotherTongue": 23.99
+        },
+        {
+          "name": "Sânpaul",
+          "county": "Cluj",
+          "sirsup": 59586,
+          "anchor": [
+            23.39911,
+            46.90345
+          ],
+          "motherTongueCount": 443,
+          "percentOfKnownMotherTongue": 20.76
+        },
+        {
+          "name": "Cojasca",
+          "county": "Dâmbovița",
+          "sirsup": 66697,
+          "anchor": [
+            25.84412,
+            44.71705
+          ],
+          "motherTongueCount": 1494,
+          "percentOfKnownMotherTongue": 22.58
+        },
+        {
+          "name": "Amărăștii de Jos",
+          "county": "Dolj",
+          "sirsup": 70637,
+          "anchor": [
+            24.20112,
+            43.92765
+          ],
+          "motherTongueCount": 1552,
+          "percentOfKnownMotherTongue": 32.99
+        },
+        {
+          "name": "Bârca",
+          "county": "Dolj",
+          "sirsup": 70940,
+          "anchor": [
+            23.63726,
+            43.9736
+          ],
+          "motherTongueCount": 969,
+          "percentOfKnownMotherTongue": 28.6
+        },
+        {
+          "name": "Calopăr",
+          "county": "Dolj",
+          "sirsup": 71457,
+          "anchor": [
+            23.73624,
+            44.1645
+          ],
+          "motherTongueCount": 882,
+          "percentOfKnownMotherTongue": 27.35
+        },
+        {
+          "name": "Cerăt",
+          "county": "Dolj",
+          "sirsup": 71698,
+          "anchor": [
+            23.66231,
+            44.0778
+          ],
+          "motherTongueCount": 693,
+          "percentOfKnownMotherTongue": 20.66
+        },
+        {
+          "name": "Sadova",
+          "county": "Dolj",
+          "sirsup": 73996,
+          "anchor": [
+            23.96502,
+            43.8815
+          ],
+          "motherTongueCount": 1887,
+          "percentOfKnownMotherTongue": 25.22
+        },
+        {
+          "name": "Catane",
+          "county": "Dolj",
+          "sirsup": 74842,
+          "anchor": [
+            23.41981,
+            43.9207
+          ],
+          "motherTongueCount": 1136,
+          "percentOfKnownMotherTongue": 62.04
+        },
+        {
+          "name": "Coțofenii din Față",
+          "county": "Dolj",
+          "sirsup": 74875,
+          "anchor": [
+            23.65331,
+            44.45105
+          ],
+          "motherTongueCount": 718,
+          "percentOfKnownMotherTongue": 36.86
+        },
+        {
+          "name": "Brăhășești",
+          "county": "Galați",
+          "sirsup": 75766,
+          "anchor": [
+            27.35059,
+            46.04775
+          ],
+          "motherTongueCount": 5312,
+          "percentOfKnownMotherTongue": 72.75
+        },
+        {
+          "name": "Lungani",
+          "county": "Iași",
+          "sirsup": 97722,
+          "anchor": [
+            27.15079,
+            47.1565
+          ],
+          "motherTongueCount": 2598,
+          "percentOfKnownMotherTongue": 44.49
+        },
+        {
+          "name": "Bărcănești",
+          "county": "Ialomița",
+          "sirsup": 101056,
+          "anchor": [
+            26.65143,
+            44.60355
+          ],
+          "motherTongueCount": 820,
+          "percentOfKnownMotherTongue": 24.54
+        },
+        {
+          "name": "Sărulești",
+          "county": "Călărași",
+          "sirsup": 104886,
+          "anchor": [
+            26.64446,
+            44.41665
+          ],
+          "motherTongueCount": 677,
+          "percentOfKnownMotherTongue": 24.07
+        },
+        {
+          "name": "Gârla Mare",
+          "county": "Mehedinți",
+          "sirsup": 111783,
+          "anchor": [
+            22.77305,
+            44.22455
+          ],
+          "motherTongueCount": 1392,
+          "percentOfKnownMotherTongue": 46.87
+        },
+        {
+          "name": "Jiana",
+          "county": "Mehedinți",
+          "sirsup": 112548,
+          "anchor": [
+            22.72623,
+            44.36875
+          ],
+          "motherTongueCount": 751,
+          "percentOfKnownMotherTongue": 20.76
+        },
+        {
+          "name": "Punghina",
+          "county": "Mehedinți",
+          "sirsup": 113395,
+          "anchor": [
+            22.94798,
+            44.30395
+          ],
+          "motherTongueCount": 521,
+          "percentOfKnownMotherTongue": 28.28
+        },
+        {
+          "name": "Beica de Jos",
+          "county": "Mureș",
+          "sirsup": 115708,
+          "anchor": [
+            24.84369,
+            46.71945
+          ],
+          "motherTongueCount": 522,
+          "percentOfKnownMotherTongue": 22.02
+        },
+        {
+          "name": "Coroisânmărtin",
+          "county": "Mureș",
+          "sirsup": 116171,
+          "anchor": [
+            24.59481,
+            46.39385
+          ],
+          "motherTongueCount": 321,
+          "percentOfKnownMotherTongue": 26.44
+        },
+        {
+          "name": "Crăciunești",
+          "county": "Mureș",
+          "sirsup": 116288,
+          "anchor": [
+            24.57665,
+            46.46335
+          ],
+          "motherTongueCount": 842,
+          "percentOfKnownMotherTongue": 21.52
+        },
+        {
+          "name": "Fărăgău",
+          "county": "Mureș",
+          "sirsup": 116723,
+          "anchor": [
+            24.49939,
+            46.7589
+          ],
+          "motherTongueCount": 911,
+          "percentOfKnownMotherTongue": 59.23
+        },
+        {
+          "name": "Mica",
+          "county": "Mureș",
+          "sirsup": 118209,
+          "anchor": [
+            24.42097,
+            46.3423
+          ],
+          "motherTongueCount": 1311,
+          "percentOfKnownMotherTongue": 28.1
+        },
+        {
+          "name": "Ogra",
+          "county": "Mureș",
+          "sirsup": 118575,
+          "anchor": [
+            24.31829,
+            46.44085
+          ],
+          "motherTongueCount": 990,
+          "percentOfKnownMotherTongue": 45.06
+        },
+        {
+          "name": "Sânpaul",
+          "county": "Mureș",
+          "sirsup": 119466,
+          "anchor": [
+            24.37608,
+            46.4489
+          ],
+          "motherTongueCount": 1047,
+          "percentOfKnownMotherTongue": 26.77
+        },
+        {
+          "name": "Bahna",
+          "county": "Neamț",
+          "sirsup": 121153,
+          "anchor": [
+            26.78537,
+            46.76225
+          ],
+          "motherTongueCount": 544,
+          "percentOfKnownMotherTongue": 21.21
+        },
+        {
+          "name": "Grădinari",
+          "county": "Olt",
+          "sirsup": 127171,
+          "anchor": [
+            24.27299,
+            44.56805
+          ],
+          "motherTongueCount": 613,
+          "percentOfKnownMotherTongue": 28.63
+        },
+        {
+          "name": "Sângeru",
+          "county": "Prahova",
+          "sirsup": 135244,
+          "anchor": [
+            26.3443,
+            45.13595
+          ],
+          "motherTongueCount": 1133,
+          "percentOfKnownMotherTongue": 23.55
+        },
+        {
+          "name": "Socond",
+          "county": "Satu Mare",
+          "sirsup": 138869,
+          "anchor": [
+            23.0014,
+            47.53665
+          ],
+          "motherTongueCount": 1006,
+          "percentOfKnownMotherTongue": 39.9
+        },
+        {
+          "name": "Terebești",
+          "county": "Satu Mare",
+          "sirsup": 139054,
+          "anchor": [
+            22.75015,
+            47.6712
+          ],
+          "motherTongueCount": 414,
+          "percentOfKnownMotherTongue": 23.21
+        },
+        {
+          "name": "Tătărăștii de Sus",
+          "county": "Teleorman",
+          "sirsup": 154665,
+          "anchor": [
+            25.1266,
+            44.4026
+          ],
+          "motherTongueCount": 533,
+          "percentOfKnownMotherTongue": 20.39
+        },
+        {
+          "name": "Checea",
+          "county": "Timiș",
+          "sirsup": 159375,
+          "anchor": [
+            20.83251,
+            45.7202
+          ],
+          "motherTongueCount": 775,
+          "percentOfKnownMotherTongue": 36.98
+        },
+        {
+          "name": "Murgeni",
+          "county": "Vaslui",
+          "sirsup": 164981,
+          "anchor": [
+            28.00797,
+            46.1989
+          ],
+          "motherTongueCount": 1630,
+          "percentOfKnownMotherTongue": 28.17
+        },
+        {
+          "name": "Slobozia Bradului",
+          "county": "Vrancea",
+          "sirsup": 177655,
+          "anchor": [
+            27.04003,
+            45.48125
+          ],
+          "motherTongueCount": 6992,
+          "percentOfKnownMotherTongue": 84.67
+        },
+        {
+          "name": "Borănești",
+          "county": "Ialomița",
+          "sirsup": 179784,
+          "anchor": [
+            26.59083,
+            44.64265
+          ],
+          "motherTongueCount": 666,
+          "percentOfKnownMotherTongue": 30.01
+        },
+        {
+          "name": "Coltău",
+          "county": "Maramureș",
+          "sirsup": 179846,
+          "anchor": [
+            23.52105,
+            47.59205
+          ],
+          "motherTongueCount": 1202,
+          "percentOfKnownMotherTongue": 41.19
+        },
+        {
+          "name": "Ciceu - Mihăiești",
+          "county": "Bistrița-Năsăud",
+          "sirsup": 179953,
+          "anchor": [
+            23.95062,
+            47.21905
+          ],
+          "motherTongueCount": 226,
+          "percentOfKnownMotherTongue": 20.55
+        },
+        {
+          "name": "Porumbești",
+          "county": "Satu Mare",
+          "sirsup": 180028,
+          "anchor": [
+            22.96819,
+            47.9746
+          ],
+          "motherTongueCount": 489,
+          "percentOfKnownMotherTongue": 22.11
+        },
+        {
+          "name": "Boghiș",
+          "county": "Sălaj",
+          "sirsup": 180037,
+          "anchor": [
+            22.74473,
+            47.1617
+          ],
+          "motherTongueCount": 485,
+          "percentOfKnownMotherTongue": 25.99
+        },
+        {
+          "name": "Bărbulești",
+          "county": "Ialomița",
+          "sirsup": 180064,
+          "anchor": [
+            26.59719,
+            44.7394
+          ],
+          "motherTongueCount": 6229,
+          "percentOfKnownMotherTongue": 94.39
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sumi (2017), The influence of the Romanian language on the Romani idiom of Turda, p. 94: grast, horse",
+          "url": "https://www.diacronia.ro/ro/indexing/details/A26086/pdf#page=10"
+        },
+        {
+          "title": "Halwachs, Klinge and Schrammel-Leber (2013), RomIdent Paper 3, p. 10 table 2: Romani horse cognates and Armenian loan origin",
+          "url": "https://www.kratylos.org/~raphael/romani/virtuallibrary/librarydb/web/files/pdfs/356/Paper3.pdf#page=11"
+        },
+        {
+          "title": "Manchester Romani Project: Early Romani, Armenian loan grast",
+          "url": "https://www.kratylos.org/~raphael/romani/whatis/language/earlyromani.html"
+        },
+        {
+          "title": "ISPMN, Romanian INS RPL 2021 tables 2.02.2 and 2.03.2: ethnicity and mother tongue are separate indicators",
+          "url": "https://www.ispmn.gov.ro/maps2022"
+        }
+      ],
+      "notes": "Grast is directly documented in Carpathian Romani at Poiana–Turda by Sumi (2017, p. 94), and independently in Kalderaš Romani by the comparative source. The small scattered markers select the 58 Romanian census administrative units where Romani mother tongue exceeds 20% of known mother-tongue responses in RPL 2021. Markers are representative interior points, with equal display size; they do not fill whole communes, encode population size, establish dialect boundaries, or imply absence elsewhere. Ethnic Roma totals are not used as a proxy for Romani speakers. The Turda word is a lexical reference, not a claim that all selected settlements speak one uniform variety.",
+      "chain": [
+        {
+          "label": "Early Armenian loan",
+          "form": "grast"
+        },
+        {
+          "label": "Romani cognate set",
+          "form": "grast / gras / gra / graj"
+        },
+        {
+          "label": "Romanian references",
+          "form": "grast"
+        }
+      ]
+    },
+    {
+      "id": "rmo-de",
+      "name": "Sinti Romani (Hameln, Germany)",
+      "family": "Indo-European",
+      "branch": "Indo-Aryan",
+      "word": "graj",
+      "romanization": "",
+      "root": "romani-grast",
+      "mapAnchor": [
+        9.36,
+        52.1
+      ],
+      "mapPoint": true,
+      "mapSize": 18,
+      "sources": [
+        {
+          "title": "Halwachs, Klinge and Schrammel-Leber (2013), RomIdent Paper 3, p. 10 table 2: Romani horse cognates and Armenian loan origin",
+          "url": "https://www.kratylos.org/~raphael/romani/virtuallibrary/librarydb/web/files/pdfs/356/Paper3.pdf#page=11"
+        },
+        {
+          "title": "Manchester Romani Project, Sinti dialect sampler: Hameln, Germany, Holzinger 1993",
+          "url": "https://www.kratylos.org/~raphael/romani/interactive/sampler/d901.html"
+        },
+        {
+          "title": "Elšík and Matras, Modals in Romani, p. 20 example 28: Hameln Sinti grajes, horse.ACC, citing Holzinger 1993:325",
+          "url": "https://www.kratylos.org/~raphael/romani/downloads/2/Elsik-Matras_Modals%20in%20Romani.pdf#page=20"
+        },
+        {
+          "title": "Manchester Romani Project: Early Romani, Armenian loan grast",
+          "url": "https://www.kratylos.org/~raphael/romani/whatis/language/earlyromani.html"
+        }
+      ],
+      "notes": "The Manchester sampler identifies a German Sinti reference community at Hameln. Local accusative grajes is documented by Holzinger (1993:325), cited in Elsik and Matras; nominative graj is supplied by the comparative Sinti table. The marker is a documented linguistic reference, not a territorial boundary or a claim that Hameln has the largest Sinti population. Western Sinti graj is cognate with Romanian grast, not a separate deep horse-word origin.",
+      "chain": [
+        {
+          "label": "Early Armenian loan",
+          "form": "grast"
+        },
+        {
+          "label": "Romani cognate set",
+          "form": "grast / graj"
+        },
+        {
+          "label": "German Sinti reference",
+          "form": "graj (ACC grajes)"
+        }
+      ]
+    },
+    {
+      "id": "rmt-sy",
+      "name": "Domari (Aleppo word; Damascus community reference)",
+      "family": "Indo-European",
+      "branch": "Indo-Aryan",
+      "word": "agōra",
+      "romanization": "",
+      "root": "domari-ghota",
+      "mapPoint": true,
+      "mapAnchor": [
+        37.14,
+        36.23
+      ],
+      "mapSize": 18,
+      "minorityLocations": [
+        {
+          "name": "Sayyida Zainab, Damascus region",
+          "anchor": [
+            36.34,
+            33.45
+          ],
+          "note": "Community reference documented in older sources; exact present-day local horse form was not verified. Aleppo agōra is the displayed lexical reference, not an independent Damascus elicitation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Herin (2012), The Domari Language of Aleppo, p. 17: agor-es / agor-en from Indo-Aryan ghota; p. 2: Damascus community",
+          "url": "https://journals.dartmouth.edu/journals/xmlpage/1/article/412?htmlOnce=yes"
+        },
+        {
+          "title": "Herin (2016), Elements of Domari Dialectology, p. 46 table 7: northern (a)gora, southern gori",
+          "url": "https://domari.org/wp-content/uploads/2026/08/bruno_herin_2016_elements_of_domari_dialectology_mediterranean_language_review_23.pdf"
+        },
+        {
+          "title": "Matras and Kelzi (2024), The Dom language of Aleppo, pp. 9–10: agora in the authors transcription; pp. 4–5: diaspora and source-speaker limits",
+          "url": "https://domari.org/wp-content/uploads/2024/10/matras-kelzi-2024-dom-language-of-aleppo-preliminary-sketch.pdf"
+        },
+        {
+          "title": "Groome (1891), Persian and Syrian Gypsies, p. 25: historical Damascus horse phrases collected in 1881",
+          "url": "https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf"
+        }
+      ],
+      "notes": "Agōra follows the northern citation (a)gōra in Herin (2016, p. 46); the stem agōr- is directly attested in Aleppo by Herin (2012). Matras and Kelzi (2024) use agorà; their à marks vowel quality rather than just stress. Scholarly Latin transcription is retained rather than inventing an Arabic spelling. The Aleppo anchor is a documented reference community; the 2024 source describes extensive post-2011 dispersal, so this is not a current population boundary. The additional Sayyida Zainab/Damascus dot records community presence in older sources, not a verified contemporary Damascus horse word. Groome’s Damascus-origin 1881 material contains historical unsegmented horse phrases, which are preserved in the audit rather than made into a modern lemma. Domari and European Romani are distinct languages.",
+      "chain": [
+        {
+          "label": "Inherited Indo-Aryan horse-word set",
+          "form": "ghōṭa"
+        },
+        {
+          "label": "Northern Domari citation",
+          "form": "(a)gōra"
+        },
+        {
+          "label": "Aleppo references",
+          "form": "agōra / agorà"
+        }
+      ]
     }
   ],
   "methodology": {
     "title": "Lexical and etymological method",
     "asOf": "2026-10-19",
-    "scope": "112 selected horse word / regional reference entries across Europe and neighbouring regions, including coexisting words with different histories.",
+    "scope": "128 selected horse word / regional reference entries across Europe and neighbouring regions, including coexisting words and dispersed minority communities.",
     "comparison": "Colours follow displayed etymological routes. The PIE horse noun has separate Scottish Gaelic, Iranian and Greek routes. Caballus has separate Romance, Celtic and Albanian routes. In Greece, Russia and Kazakhstan, diagonal stripes show coexisting words with different origins in the same language area; the stripe proportions are decorative, not usage statistics. Small colour bars beneath those word labels identify their respective roots.",
     "chains": "Chains are schematic, not complete dated sound histories. Borrowing and derivation are noted; shared colour does not imply direct inheritance. Asterisks mark reconstructed, unattested forms. Alternate words keep their own origin chains; geographic coexistence is not a claim of cognacy.",
     "uncertainty": "An asterisk marks a reconstructed form. The legend uses “loan ?” for a possible borrowing. Other uncertainties, including disputed deeper origins and early borrowing directions, are explained in the entry notes rather than abbreviated in the legend. The origin of caballus/*kaballos and the deeper origin of English horse are disputed. Finnic *hëpo is not automatically merged with PIE *h₁éḱwos. Early Iranian relationships proposed for Caucasian horse words remain proposals. No indigenous Canarian horse word was verified; that label and its historical island-reference fill are omitted, leaving the modern Spanish reference layer. The former snow gloss tener? is not reused.",

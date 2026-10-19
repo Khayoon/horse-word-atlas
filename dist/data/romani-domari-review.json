@@ -1,0 +1,755 @@
+{
+  "title": "Romani and Domari minority references",
+  "checked": "2026-10-19",
+  "romania": {
+    "source": "https://www.ispmn.gov.ro/maps_2022/data/uat_merged_simp02.json",
+    "sourceSha256": "a8e21a8c56dc07e451786c01dfc6f743d63b4f2971eba2ce46d8ce035ee66cbc",
+    "method": "Equal-size markers at representative interior points of census UATs with lmbRelRoma > 20. This is a visible selection, not a complete distribution or a majority-language fill. Percentages use known mother-tongue responses; ethnicity fields are not used. The lexical reference grast does not assert uniform dialect usage at every point.",
+    "referenceYear": 2021,
+    "thresholdPercent": 20,
+    "count": 58,
+    "locations": [
+      {
+        "name": "Covăsinț",
+        "county": "Arad",
+        "sirsup": 10514,
+        "anchor": [
+          21.592,
+          46.20715
+        ],
+        "motherTongueCount": 689,
+        "percentOfKnownMotherTongue": 29.63
+      },
+      {
+        "name": "Șepreuș",
+        "county": "Arad",
+        "sirsup": 12224,
+        "anchor": [
+          21.72234,
+          46.5629
+        ],
+        "motherTongueCount": 582,
+        "percentOfKnownMotherTongue": 22.42
+      },
+      {
+        "name": "Corbasca",
+        "county": "Bacău",
+        "sirsup": 21971,
+        "anchor": [
+          27.13609,
+          46.29315
+        ],
+        "motherTongueCount": 2098,
+        "percentOfKnownMotherTongue": 48.25
+      },
+      {
+        "name": "Parava",
+        "county": "Bacău",
+        "sirsup": 24034,
+        "anchor": [
+          26.96427,
+          46.30855
+        ],
+        "motherTongueCount": 781,
+        "percentOfKnownMotherTongue": 25.37
+      },
+      {
+        "name": "Valea Seacă",
+        "county": "Bacău",
+        "sirsup": 26083,
+        "anchor": [
+          27.05916,
+          46.25215
+        ],
+        "motherTongueCount": 1358,
+        "percentOfKnownMotherTongue": 41.67
+      },
+      {
+        "name": "Buciumi",
+        "county": "Bacău",
+        "sirsup": 26338,
+        "anchor": [
+          26.7901,
+          46.19295
+        ],
+        "motherTongueCount": 698,
+        "percentOfKnownMotherTongue": 22.19
+      },
+      {
+        "name": "Avram Iancu",
+        "county": "Bihor",
+        "sirsup": 27285,
+        "anchor": [
+          21.52786,
+          46.66415
+        ],
+        "motherTongueCount": 690,
+        "percentOfKnownMotherTongue": 25.12
+      },
+      {
+        "name": "Batăr",
+        "county": "Bihor",
+        "sirsup": 27383,
+        "anchor": [
+          21.79749,
+          46.7104
+        ],
+        "motherTongueCount": 1564,
+        "percentOfKnownMotherTongue": 35.04
+      },
+      {
+        "name": "Husasău de Tinca",
+        "county": "Bihor",
+        "sirsup": 29662,
+        "anchor": [
+          21.89746,
+          46.86245
+        ],
+        "motherTongueCount": 784,
+        "percentOfKnownMotherTongue": 35.06
+      },
+      {
+        "name": "Ineu",
+        "county": "Bihor",
+        "sirsup": 29724,
+        "anchor": [
+          22.10142,
+          47.1015
+        ],
+        "motherTongueCount": 1558,
+        "percentOfKnownMotherTongue": 35.99
+      },
+      {
+        "name": "Lăzăreni",
+        "county": "Bihor",
+        "sirsup": 29813,
+        "anchor": [
+          22.05229,
+          46.86015
+        ],
+        "motherTongueCount": 1000,
+        "percentOfKnownMotherTongue": 29.49
+      },
+      {
+        "name": "Șoimi",
+        "county": "Bihor",
+        "sirsup": 31422,
+        "anchor": [
+          22.13689,
+          46.65365
+        ],
+        "motherTongueCount": 790,
+        "percentOfKnownMotherTongue": 35.47
+      },
+      {
+        "name": "Tinca",
+        "county": "Bihor",
+        "sirsup": 31789,
+        "anchor": [
+          21.90173,
+          46.7592
+        ],
+        "motherTongueCount": 1659,
+        "percentOfKnownMotherTongue": 24.89
+      },
+      {
+        "name": "Coșula",
+        "county": "Botoșani",
+        "sirsup": 39975,
+        "anchor": [
+          26.77614,
+          47.60075
+        ],
+        "motherTongueCount": 797,
+        "percentOfKnownMotherTongue": 26.46
+      },
+      {
+        "name": "Ormeniș",
+        "county": "Brașov",
+        "sirsup": 41541,
+        "anchor": [
+          25.52055,
+          46.01065
+        ],
+        "motherTongueCount": 629,
+        "percentOfKnownMotherTongue": 31.93
+      },
+      {
+        "name": "Calvini",
+        "county": "Buzău",
+        "sirsup": 45753,
+        "anchor": [
+          26.28141,
+          45.24955
+        ],
+        "motherTongueCount": 947,
+        "percentOfKnownMotherTongue": 23.09
+      },
+      {
+        "name": "Răcășdia",
+        "county": "Caraș-Severin",
+        "sirsup": 53675,
+        "anchor": [
+          21.5776,
+          44.99665
+        ],
+        "motherTongueCount": 536,
+        "percentOfKnownMotherTongue": 29.76
+      },
+      {
+        "name": "Ticvaniu Mare",
+        "county": "Caraș-Severin",
+        "sirsup": 54305,
+        "anchor": [
+          21.64039,
+          45.1709
+        ],
+        "motherTongueCount": 747,
+        "percentOfKnownMotherTongue": 44.23
+      },
+      {
+        "name": "Vărădia",
+        "county": "Caraș-Severin",
+        "sirsup": 54500,
+        "anchor": [
+          21.51586,
+          45.0963
+        ],
+        "motherTongueCount": 378,
+        "percentOfKnownMotherTongue": 31.29
+      },
+      {
+        "name": "Cojocna",
+        "county": "Cluj",
+        "sirsup": 57350,
+        "anchor": [
+          23.84243,
+          46.73815
+        ],
+        "motherTongueCount": 886,
+        "percentOfKnownMotherTongue": 23.99
+      },
+      {
+        "name": "Sânpaul",
+        "county": "Cluj",
+        "sirsup": 59586,
+        "anchor": [
+          23.39911,
+          46.90345
+        ],
+        "motherTongueCount": 443,
+        "percentOfKnownMotherTongue": 20.76
+      },
+      {
+        "name": "Cojasca",
+        "county": "Dâmbovița",
+        "sirsup": 66697,
+        "anchor": [
+          25.84412,
+          44.71705
+        ],
+        "motherTongueCount": 1494,
+        "percentOfKnownMotherTongue": 22.58
+      },
+      {
+        "name": "Amărăștii de Jos",
+        "county": "Dolj",
+        "sirsup": 70637,
+        "anchor": [
+          24.20112,
+          43.92765
+        ],
+        "motherTongueCount": 1552,
+        "percentOfKnownMotherTongue": 32.99
+      },
+      {
+        "name": "Bârca",
+        "county": "Dolj",
+        "sirsup": 70940,
+        "anchor": [
+          23.63726,
+          43.9736
+        ],
+        "motherTongueCount": 969,
+        "percentOfKnownMotherTongue": 28.6
+      },
+      {
+        "name": "Calopăr",
+        "county": "Dolj",
+        "sirsup": 71457,
+        "anchor": [
+          23.73624,
+          44.1645
+        ],
+        "motherTongueCount": 882,
+        "percentOfKnownMotherTongue": 27.35
+      },
+      {
+        "name": "Cerăt",
+        "county": "Dolj",
+        "sirsup": 71698,
+        "anchor": [
+          23.66231,
+          44.0778
+        ],
+        "motherTongueCount": 693,
+        "percentOfKnownMotherTongue": 20.66
+      },
+      {
+        "name": "Sadova",
+        "county": "Dolj",
+        "sirsup": 73996,
+        "anchor": [
+          23.96502,
+          43.8815
+        ],
+        "motherTongueCount": 1887,
+        "percentOfKnownMotherTongue": 25.22
+      },
+      {
+        "name": "Catane",
+        "county": "Dolj",
+        "sirsup": 74842,
+        "anchor": [
+          23.41981,
+          43.9207
+        ],
+        "motherTongueCount": 1136,
+        "percentOfKnownMotherTongue": 62.04
+      },
+      {
+        "name": "Coțofenii din Față",
+        "county": "Dolj",
+        "sirsup": 74875,
+        "anchor": [
+          23.65331,
+          44.45105
+        ],
+        "motherTongueCount": 718,
+        "percentOfKnownMotherTongue": 36.86
+      },
+      {
+        "name": "Brăhășești",
+        "county": "Galați",
+        "sirsup": 75766,
+        "anchor": [
+          27.35059,
+          46.04775
+        ],
+        "motherTongueCount": 5312,
+        "percentOfKnownMotherTongue": 72.75
+      },
+      {
+        "name": "Lungani",
+        "county": "Iași",
+        "sirsup": 97722,
+        "anchor": [
+          27.15079,
+          47.1565
+        ],
+        "motherTongueCount": 2598,
+        "percentOfKnownMotherTongue": 44.49
+      },
+      {
+        "name": "Bărcănești",
+        "county": "Ialomița",
+        "sirsup": 101056,
+        "anchor": [
+          26.65143,
+          44.60355
+        ],
+        "motherTongueCount": 820,
+        "percentOfKnownMotherTongue": 24.54
+      },
+      {
+        "name": "Sărulești",
+        "county": "Călărași",
+        "sirsup": 104886,
+        "anchor": [
+          26.64446,
+          44.41665
+        ],
+        "motherTongueCount": 677,
+        "percentOfKnownMotherTongue": 24.07
+      },
+      {
+        "name": "Gârla Mare",
+        "county": "Mehedinți",
+        "sirsup": 111783,
+        "anchor": [
+          22.77305,
+          44.22455
+        ],
+        "motherTongueCount": 1392,
+        "percentOfKnownMotherTongue": 46.87
+      },
+      {
+        "name": "Jiana",
+        "county": "Mehedinți",
+        "sirsup": 112548,
+        "anchor": [
+          22.72623,
+          44.36875
+        ],
+        "motherTongueCount": 751,
+        "percentOfKnownMotherTongue": 20.76
+      },
+      {
+        "name": "Punghina",
+        "county": "Mehedinți",
+        "sirsup": 113395,
+        "anchor": [
+          22.94798,
+          44.30395
+        ],
+        "motherTongueCount": 521,
+        "percentOfKnownMotherTongue": 28.28
+      },
+      {
+        "name": "Beica de Jos",
+        "county": "Mureș",
+        "sirsup": 115708,
+        "anchor": [
+          24.84369,
+          46.71945
+        ],
+        "motherTongueCount": 522,
+        "percentOfKnownMotherTongue": 22.02
+      },
+      {
+        "name": "Coroisânmărtin",
+        "county": "Mureș",
+        "sirsup": 116171,
+        "anchor": [
+          24.59481,
+          46.39385
+        ],
+        "motherTongueCount": 321,
+        "percentOfKnownMotherTongue": 26.44
+      },
+      {
+        "name": "Crăciunești",
+        "county": "Mureș",
+        "sirsup": 116288,
+        "anchor": [
+          24.57665,
+          46.46335
+        ],
+        "motherTongueCount": 842,
+        "percentOfKnownMotherTongue": 21.52
+      },
+      {
+        "name": "Fărăgău",
+        "county": "Mureș",
+        "sirsup": 116723,
+        "anchor": [
+          24.49939,
+          46.7589
+        ],
+        "motherTongueCount": 911,
+        "percentOfKnownMotherTongue": 59.23
+      },
+      {
+        "name": "Mica",
+        "county": "Mureș",
+        "sirsup": 118209,
+        "anchor": [
+          24.42097,
+          46.3423
+        ],
+        "motherTongueCount": 1311,
+        "percentOfKnownMotherTongue": 28.1
+      },
+      {
+        "name": "Ogra",
+        "county": "Mureș",
+        "sirsup": 118575,
+        "anchor": [
+          24.31829,
+          46.44085
+        ],
+        "motherTongueCount": 990,
+        "percentOfKnownMotherTongue": 45.06
+      },
+      {
+        "name": "Sânpaul",
+        "county": "Mureș",
+        "sirsup": 119466,
+        "anchor": [
+          24.37608,
+          46.4489
+        ],
+        "motherTongueCount": 1047,
+        "percentOfKnownMotherTongue": 26.77
+      },
+      {
+        "name": "Bahna",
+        "county": "Neamț",
+        "sirsup": 121153,
+        "anchor": [
+          26.78537,
+          46.76225
+        ],
+        "motherTongueCount": 544,
+        "percentOfKnownMotherTongue": 21.21
+      },
+      {
+        "name": "Grădinari",
+        "county": "Olt",
+        "sirsup": 127171,
+        "anchor": [
+          24.27299,
+          44.56805
+        ],
+        "motherTongueCount": 613,
+        "percentOfKnownMotherTongue": 28.63
+      },
+      {
+        "name": "Sângeru",
+        "county": "Prahova",
+        "sirsup": 135244,
+        "anchor": [
+          26.3443,
+          45.13595
+        ],
+        "motherTongueCount": 1133,
+        "percentOfKnownMotherTongue": 23.55
+      },
+      {
+        "name": "Socond",
+        "county": "Satu Mare",
+        "sirsup": 138869,
+        "anchor": [
+          23.0014,
+          47.53665
+        ],
+        "motherTongueCount": 1006,
+        "percentOfKnownMotherTongue": 39.9
+      },
+      {
+        "name": "Terebești",
+        "county": "Satu Mare",
+        "sirsup": 139054,
+        "anchor": [
+          22.75015,
+          47.6712
+        ],
+        "motherTongueCount": 414,
+        "percentOfKnownMotherTongue": 23.21
+      },
+      {
+        "name": "Tătărăștii de Sus",
+        "county": "Teleorman",
+        "sirsup": 154665,
+        "anchor": [
+          25.1266,
+          44.4026
+        ],
+        "motherTongueCount": 533,
+        "percentOfKnownMotherTongue": 20.39
+      },
+      {
+        "name": "Checea",
+        "county": "Timiș",
+        "sirsup": 159375,
+        "anchor": [
+          20.83251,
+          45.7202
+        ],
+        "motherTongueCount": 775,
+        "percentOfKnownMotherTongue": 36.98
+      },
+      {
+        "name": "Murgeni",
+        "county": "Vaslui",
+        "sirsup": 164981,
+        "anchor": [
+          28.00797,
+          46.1989
+        ],
+        "motherTongueCount": 1630,
+        "percentOfKnownMotherTongue": 28.17
+      },
+      {
+        "name": "Slobozia Bradului",
+        "county": "Vrancea",
+        "sirsup": 177655,
+        "anchor": [
+          27.04003,
+          45.48125
+        ],
+        "motherTongueCount": 6992,
+        "percentOfKnownMotherTongue": 84.67
+      },
+      {
+        "name": "Borănești",
+        "county": "Ialomița",
+        "sirsup": 179784,
+        "anchor": [
+          26.59083,
+          44.64265
+        ],
+        "motherTongueCount": 666,
+        "percentOfKnownMotherTongue": 30.01
+      },
+      {
+        "name": "Coltău",
+        "county": "Maramureș",
+        "sirsup": 179846,
+        "anchor": [
+          23.52105,
+          47.59205
+        ],
+        "motherTongueCount": 1202,
+        "percentOfKnownMotherTongue": 41.19
+      },
+      {
+        "name": "Ciceu - Mihăiești",
+        "county": "Bistrița-Năsăud",
+        "sirsup": 179953,
+        "anchor": [
+          23.95062,
+          47.21905
+        ],
+        "motherTongueCount": 226,
+        "percentOfKnownMotherTongue": 20.55
+      },
+      {
+        "name": "Porumbești",
+        "county": "Satu Mare",
+        "sirsup": 180028,
+        "anchor": [
+          22.96819,
+          47.9746
+        ],
+        "motherTongueCount": 489,
+        "percentOfKnownMotherTongue": 22.11
+      },
+      {
+        "name": "Boghiș",
+        "county": "Sălaj",
+        "sirsup": 180037,
+        "anchor": [
+          22.74473,
+          47.1617
+        ],
+        "motherTongueCount": 485,
+        "percentOfKnownMotherTongue": 25.99
+      },
+      {
+        "name": "Bărbulești",
+        "county": "Ialomița",
+        "sirsup": 180064,
+        "anchor": [
+          26.59719,
+          44.7394
+        ],
+        "motherTongueCount": 6229,
+        "percentOfKnownMotherTongue": 94.39
+      }
+    ],
+    "sourceTerms": "INS RPL 2021 data mapped by ISPMN; no blanket Glottography CC BY license is asserted for this supplement."
+  },
+  "westernRomani": {
+    "reference": "Hameln, Germany",
+    "word": "graj",
+    "evidence": "Nominative Sinti graj plus Hameln accusative grajes; a documented reference community, not a population maximum.",
+    "sources": [
+      {
+        "title": "Halwachs, Klinge and Schrammel-Leber (2013), RomIdent Paper 3, p. 10 table 2: Romani horse cognates and Armenian loan origin",
+        "url": "https://www.kratylos.org/~raphael/romani/virtuallibrary/librarydb/web/files/pdfs/356/Paper3.pdf#page=11"
+      },
+      {
+        "title": "Manchester Romani Project, Sinti dialect sampler: Hameln, Germany, Holzinger 1993",
+        "url": "https://www.kratylos.org/~raphael/romani/interactive/sampler/d901.html"
+      },
+      {
+        "title": "Elsik and Matras, Modals in Romani, p. 20 example 28: Hameln Sinti grajes, horse.ACC, citing Holzinger 1993:325",
+        "url": "https://www.kratylos.org/~raphael/romani/downloads/2/Elsik-Matras_Modals%20in%20Romani.pdf#page=20"
+      }
+    ]
+  },
+  "linguisticDistinction": "Romani varieties share the Armenian grast loan set. Domari is a distinct Indo-Aryan language; its documented horse word is researched separately.",
+  "syrianDomari": {
+    "word": "agōra",
+    "alternateTranscription": "agorà (Matras and Kelzi 2024); à represents vowel quality",
+    "lexicalReference": "Aleppo",
+    "origin": "domari-ghota",
+    "communityReferences": [
+      {
+        "name": "Aleppo, Ashrafiyye reference",
+        "anchor": [
+          37.14,
+          36.23
+        ],
+        "status": "Documented source community; extensive post-2011 dispersal described by the 2024 source."
+      },
+      {
+        "name": "Sayyida Zainab, Damascus region",
+        "anchor": [
+          36.34,
+          33.45
+        ],
+        "status": "Older community evidence; no exact contemporary Damascus horse lexeme verified."
+      }
+    ],
+    "historicalDamascusEvidence": {
+      "collected": 1881,
+      "published": 1891,
+      "phrases": [
+        {
+          "form": "gordagoreih",
+          "gloss": "a good horse"
+        },
+        {
+          "form": "sheuecgoreih",
+          "gloss": "a bad horse"
+        }
+      ],
+      "caveat": "Groome prints phrases without segmentation; extracting goreih is an inference, not a checked modern citation form."
+    },
+    "sources": [
+      {
+        "title": "Herin (2012), The Domari Language of Aleppo, p. 17: agor-es / agor-en from Indo-Aryan ghota; p. 2: Damascus community",
+        "url": "https://journals.dartmouth.edu/journals/xmlpage/1/article/412?htmlOnce=yes"
+      },
+      {
+        "title": "Herin (2016), Elements of Domari Dialectology, p. 46 table 7: northern (a)gora, southern gori",
+        "url": "https://domari.org/wp-content/uploads/2026/08/bruno_herin_2016_elements_of_domari_dialectology_mediterranean_language_review_23.pdf"
+      },
+      {
+        "title": "Matras and Kelzi (2024), The Dom language of Aleppo, pp. 9–10: agora in the authors transcription; pp. 4–5: diaspora and source-speaker limits",
+        "url": "https://domari.org/wp-content/uploads/2024/10/matras-kelzi-2024-dom-language-of-aleppo-preliminary-sketch.pdf"
+      },
+      {
+        "title": "Groome (1891), Persian and Syrian Gypsies, p. 25: historical Damascus horse phrases collected in 1881",
+        "url": "https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf"
+      }
+    ]
+  },
+  "iraqiKawliya": {
+    "status": "Modern community-specific horse lexeme not verified; no word or language boundary has been invented.",
+    "communityPresence": "Al-Qadissiya and around Baghdad, Basra and Mosul are documented in the 2017 community report, with heterogeneous identities discussed in later fieldwork.",
+    "historicalComparison": {
+      "word": "asp",
+      "sourceLabel": "Duman",
+      "informantOrigin": "Altun Kupri, described as in the Baghdad pashalik; not Baghdad city",
+      "year": 1856,
+      "caveat": "This historical record cannot establish present-day Kawliya vocabulary, language identity or a universal shift to Arabic."
+    },
+    "sources": [
+      {
+        "title": "Newbold (1856), The Gypsies of Egypt, pp. 303–304: historical Duman informant from Altun Kupri, asp, horse",
+        "url": "https://domari.org/wp-content/uploads/2024/06/newbold_1856_the_gypsies_of_egypt.pdf"
+      },
+      {
+        "title": "Minority Rights Group (2017), Iraqi Kawliyah communities, including Al-Qadissiya and Baghdad/Basra/Mosul surroundings",
+        "url": "https://www.refworld.org/reference/countryrep/mrgi/2017/en/107422"
+      },
+      {
+        "title": "Edgcumbe (2024), MERI Policy Paper 6(2), pp. 5–6: heterogeneous Iraqi community identities",
+        "url": "https://www.meri-k.org/wp-content/uploads/2024/01/MERI-Policy-Paper-vol.6-no.2-1.pdf"
+      }
+    ]
+  }
+}

@@ -3,12 +3,12 @@
   "schemaVersion": 1,
   "generatedFrom": "Horse lexicon and reused, attributed snow-atlas geometry",
   "counts": {
-    "languages": 125,
-    "wordOriginSets": 36,
-    "lexicalCanonicalSources": 164,
+    "languages": 128,
+    "wordOriginSets": 38,
+    "lexicalCanonicalSources": 174,
     "languageAreaFeatures": 185,
     "documentedLexicalJoins": 101,
-    "displayedOriginGroups": 40
+    "displayedOriginGroups": 42
   },
   "geography": [
     {
@@ -150,6 +150,52 @@
         {
           "label": "ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)",
           "url": "https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50"
+        }
+      ]
+    },
+    {
+      "title": "Romanian Romani mother-tongue community markers, INS RPL 2021 / ISPMN",
+      "usedFor": "58 representative interior points of census administrative units above 20% Romani mother tongue among known responses. Equal marker size; no commune-wide territory or uniform local dialect is inferred. Ethnic Roma counts are not substituted for language data.",
+      "license": "No explicit dataset license stated on the map page; source attribution retained. This is separately attributed from the Glottography CC BY data.",
+      "urls": [
+        {
+          "label": "Census map and method",
+          "url": "https://www.ispmn.gov.ro/maps2022"
+        },
+        {
+          "label": "Exact census geometry and attributes",
+          "url": "https://www.ispmn.gov.ro/maps_2022/data/uat_merged_simp02.json"
+        },
+        {
+          "label": "Selection audit",
+          "url": "./data/romani-domari-review.json"
+        }
+      ]
+    },
+    {
+      "title": "Domari and Iraqi Kawliya community-reference review",
+      "usedFor": "Aleppo word and source-community reference; older Sayyida Zainab/Damascus presence. Historical Duman asp from Altun Kupri is not assigned to modern Kawliya. No contemporary Iraqi community-specific horse word was verified.",
+      "license": "Published scholarly and community reports retain their respective terms. Brief facts and original summaries are attributed.",
+      "urls": [
+        {
+          "label": "Newbold (1856), The Gypsies of Egypt, pp. 303–304: historical Duman informant from Altun Kupri, asp, horse",
+          "url": "https://domari.org/wp-content/uploads/2024/06/newbold_1856_the_gypsies_of_egypt.pdf"
+        },
+        {
+          "label": "Minority Rights Group (2017), Iraqi Kawliyah communities, including Al-Qadissiya and Baghdad/Basra/Mosul surroundings",
+          "url": "https://www.refworld.org/reference/countryrep/mrgi/2017/en/107422"
+        },
+        {
+          "label": "Edgcumbe (2024), MERI Policy Paper 6(2), pp. 5–6: heterogeneous Iraqi community identities",
+          "url": "https://www.meri-k.org/wp-content/uploads/2024/01/MERI-Policy-Paper-vol.6-no.2-1.pdf"
+        },
+        {
+          "label": "Herin 2012, Aleppo and Damascus references",
+          "url": "https://journals.dartmouth.edu/journals/xmlpage/1/article/412?htmlOnce=yes"
+        },
+        {
+          "label": "Groome historical Damascus source",
+          "url": "https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf"
         }
       ]
     }
@@ -631,6 +677,60 @@
     },
     {
       "id": "L031",
+      "url": "https://www.kratylos.org/~raphael/romani/virtuallibrary/librarydb/web/files/pdfs/356/Paper3.pdf#page=11",
+      "title": "Halwachs, Klinge and Schrammel-Leber (2013), RomIdent Paper 3, p. 10 table 2: Romani horse cognates and Armenian loan origin",
+      "rootUses": [
+        {
+          "id": "romani-grast",
+          "name": "Armenian loan into Romani"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "rom-ro",
+          "name": "Romani (Romania; Turda and Kalderaš references)"
+        },
+        {
+          "id": "rmo-de",
+          "name": "Sinti Romani (Hameln, Germany)"
+        }
+      ]
+    },
+    {
+      "id": "L032",
+      "url": "https://www.kratylos.org/~raphael/romani/whatis/language/earlyromani.html",
+      "title": "Manchester Romani Project: Early Romani, Armenian loan grast",
+      "rootUses": [
+        {
+          "id": "romani-grast",
+          "name": "Armenian loan into Romani"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "rom-ro",
+          "name": "Romani (Romania; Turda and Kalderaš references)"
+        },
+        {
+          "id": "rmo-de",
+          "name": "Sinti Romani (Hameln, Germany)"
+        }
+      ]
+    },
+    {
+      "id": "L033",
+      "url": "https://www.armdict.com/dictionary/english-armenian/beast",
+      "title": "ArmDict English–Armenian dictionary: beast of burden, գրաստ",
+      "rootUses": [
+        {
+          "id": "romani-grast",
+          "name": "Armenian loan into Romani"
+        }
+      ],
+      "languageUses": []
+    },
+    {
+      "id": "L034",
       "url": "https://en.wiktionary.org/wiki/%D0%B1%D3%95%D1%85#Ossetian",
       "title": "Wiktionary: бӕх (Ossetian)",
       "rootUses": [
@@ -647,7 +747,7 @@
       ]
     },
     {
-      "id": "L032",
+      "id": "L035",
       "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Finnic%2Fh%C3%ABpo",
       "title": "Wiktionary: Reconstruction:Proto-Finnic/hëpo",
       "rootUses": [
@@ -659,7 +759,7 @@
       "languageUses": []
     },
     {
-      "id": "L033",
+      "id": "L036",
       "url": "https://en.wiktionary.org/wiki/hevonen#Finnish",
       "title": "Wiktionary: hevonen (Finnish)",
       "rootUses": [
@@ -676,7 +776,7 @@
       ]
     },
     {
-      "id": "L034",
+      "id": "L037",
       "url": "https://en.wiktionary.org/wiki/l%C3%B3#Hungarian",
       "title": "Wiktionary: ló (Hungarian)",
       "rootUses": [
@@ -693,7 +793,7 @@
       ]
     },
     {
-      "id": "L035",
+      "id": "L038",
       "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Ugric%2Flu%C9%A3%C7%9D",
       "title": "Wiktionary: Reconstruction:Proto-Ugric/luɣǝ",
       "rootUses": [
@@ -705,7 +805,7 @@
       "languageUses": []
     },
     {
-      "id": "L036",
+      "id": "L039",
       "url": "https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e",
       "title": "HUN-REN, Új magyar etimológiai szótár: ló, Ugric inheritance and Khanty/Mansi cognates",
       "rootUses": [
@@ -734,7 +834,7 @@
       ]
     },
     {
-      "id": "L037",
+      "id": "L040",
       "url": "https://ouipiir.ru/sites/default/files/docs/635-1402.pdf",
       "title": "V. N. Solovar 2014, Khanty–Russian Dictionary (Kazym dialect), p. 154: ԓов, horse",
       "rootUses": [
@@ -751,7 +851,7 @@
       ]
     },
     {
-      "id": "L038",
+      "id": "L041",
       "url": "https://mansy-audio-dic.ouipiir.ru/",
       "title": "Ob-Ugric Institute, short Mansi–Russian dictionary: лув, horse",
       "rootUses": [
@@ -768,7 +868,7 @@
       ]
     },
     {
-      "id": "L039",
+      "id": "L042",
       "url": "https://en.wiktionary.org/wiki/%D0%B2%D0%B0%D0%BB#Udmurt",
       "title": "Wiktionary: вал (Udmurt)",
       "rootUses": [
@@ -785,7 +885,7 @@
       ]
     },
     {
-      "id": "L040",
+      "id": "L043",
       "url": "https://en.wiktionary.org/wiki/%D0%B2%D3%A7%D0%B2#Komi-Zyrian",
       "title": "Wiktionary: вӧв (Komi-Zyrian)",
       "rootUses": [
@@ -802,7 +902,7 @@
       ]
     },
     {
-      "id": "L041",
+      "id": "L044",
       "url": "https://en.wiktionary.org/wiki/%D0%B8%D0%BC%D0%BD%D0%B5#Eastern_Mari",
       "title": "Wiktionary: имне (Eastern Mari)",
       "rootUses": [
@@ -819,7 +919,7 @@
       ]
     },
     {
-      "id": "L042",
+      "id": "L045",
       "url": "https://copius.univie.ac.at/etymology/slides_13_samo.pdf",
       "title": "COPIUS, Samoyedic historical phonology: *juntå → Tundra Nenets juna/juno",
       "rootUses": [
@@ -836,7 +936,7 @@
       ]
     },
     {
-      "id": "L043",
+      "id": "L046",
       "url": "https://en.wiktionary.org/wiki/zaldi#Basque",
       "title": "Wiktionary: zaldi (Basque)",
       "rootUses": [
@@ -853,7 +953,7 @@
       ]
     },
     {
-      "id": "L044",
+      "id": "L047",
       "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic",
       "title": "Wiktionary: حصان (Arabic)",
       "rootUses": [
@@ -874,7 +974,7 @@
       ]
     },
     {
-      "id": "L045",
+      "id": "L048",
       "url": "https://journals.uco.es/index.php/edna/article/download/8302/7778",
       "title": "Lameen Souag (2002), The Algerian Arabic of Dellys: ʕud / ʕwad, horse, appendix p. 33",
       "rootUses": [
@@ -891,7 +991,7 @@
       ]
     },
     {
-      "id": "L046",
+      "id": "L049",
       "url": "https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%AF#Algerian_Arabic",
       "title": "Wiktionary: Algerian Arabic عود, from Arabic ʕawd, a camel trained for riding",
       "rootUses": [
@@ -908,7 +1008,7 @@
       ]
     },
     {
-      "id": "L047",
+      "id": "L050",
       "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf",
       "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
       "rootUses": [
@@ -949,7 +1049,7 @@
       ]
     },
     {
-      "id": "L048",
+      "id": "L051",
       "url": "https://darijadictionary.com/en/index/horse-in-moroccan-arabic-darija/",
       "title": "Darija Dictionary: عود, horse, with native audio",
       "rootUses": [
@@ -966,7 +1066,7 @@
       ]
     },
     {
-      "id": "L049",
+      "id": "L052",
       "url": "https://files.eric.ed.gov/fulltext/ED294423.pdf#page=269",
       "title": "Peace Corps (1979), Hassaniya Arabic handbook, p. 249: written فرس, horse",
       "rootUses": [
@@ -983,7 +1083,7 @@
       ]
     },
     {
-      "id": "L050",
+      "id": "L053",
       "url": "https://en.wiktionary.org/wiki/%D7%A1%D7%95%D7%A1#Hebrew",
       "title": "Wiktionary: סוס (Hebrew)",
       "rootUses": [
@@ -1000,7 +1100,7 @@
       ]
     },
     {
-      "id": "L051",
+      "id": "L054",
       "url": "https://en.wiktionary.org/wiki/%DC%A3%DC%98%DC%A3%DC%9D%DC%90#Classical_Syriac",
       "title": "Wiktionary: ܣܘܣܝܐ (Classical Syriac)",
       "rootUses": [
@@ -1012,7 +1112,7 @@
       "languageUses": []
     },
     {
-      "id": "L052",
+      "id": "L055",
       "url": "https://cal.huc.edu/oneentry.php?lemma=swsy%20N&cits=all",
       "title": "Comprehensive Aramaic Lexicon, swsy horse",
       "rootUses": [
@@ -1024,7 +1124,7 @@
       "languageUses": []
     },
     {
-      "id": "L053",
+      "id": "L056",
       "url": "https://en.wiktionary.org/wiki/%C5%BCiemel#Maltese",
       "title": "Wiktionary: żiemel (Maltese)",
       "rootUses": [
@@ -1041,7 +1141,7 @@
       ]
     },
     {
-      "id": "L054",
+      "id": "L057",
       "url": "https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B5%A2%E2%B5%89%E2%B5%99#Central_Atlas_Tamazight",
       "title": "Wiktionary: ⴰⵢⵉⵙ (Central Atlas Tamazight)",
       "rootUses": [
@@ -1058,7 +1158,7 @@
       ]
     },
     {
-      "id": "L055",
+      "id": "L058",
       "url": "https://en.wiktionary.org/wiki/ayyis#Tashelhit",
       "title": "Wiktionary: ayyis (Tashelhit)",
       "rootUses": [
@@ -1075,7 +1175,7 @@
       ]
     },
     {
-      "id": "L056",
+      "id": "L059",
       "url": "https://www.temehu.com/imazighen/dictionaries/Amawals/tamazight-english-dictionary-acf.pdf",
       "title": "Tamazight–English Dictionary, horse: ayyis",
       "rootUses": [
@@ -1087,7 +1187,7 @@
       "languageUses": []
     },
     {
-      "id": "L057",
+      "id": "L060",
       "url": "https://wold.clld.org/word/7212058936344482",
       "title": "Kossmann, WOLD Tarifiyt: yis, horse, Common Berber; no evidence of borrowing",
       "rootUses": [
@@ -1104,7 +1204,7 @@
       ]
     },
     {
-      "id": "L058",
+      "id": "L061",
       "url": "https://orientalberber.wordpress.com/category/nefusa/",
       "title": "Marijn van Putten, Nefusa Text: The story of the wild animals, agmár, horse, analysing Beguinot 1942",
       "rootUses": [
@@ -1121,7 +1221,7 @@
       ]
     },
     {
-      "id": "L059",
+      "id": "L062",
       "url": "https://en.wiktionary.org/wiki/Reconstruction%3AProto-Turkic%2Fat",
       "title": "Wiktionary: Reconstruction:Proto-Turkic/at",
       "rootUses": [
@@ -1138,7 +1238,7 @@
       ]
     },
     {
-      "id": "L060",
+      "id": "L063",
       "url": "https://en.wiktionary.org/wiki/at#Turkish",
       "title": "Wiktionary: at (Turkish)",
       "rootUses": [
@@ -1155,7 +1255,7 @@
       ]
     },
     {
-      "id": "L061",
+      "id": "L064",
       "url": "https://en.wiktionary.org/wiki/%D0%B6%D1%8B%D0%BB%D2%9B%D1%8B#Kazakh",
       "title": "Wiktionary: жылқы (Kazakh)",
       "rootUses": [
@@ -1172,7 +1272,7 @@
       ]
     },
     {
-      "id": "L062",
+      "id": "L065",
       "url": "https://en.wiktionary.org/wiki/%E1%83%AA%E1%83%AE%E1%83%94%E1%83%9C%E1%83%98#Georgian",
       "title": "Wiktionary: ცხენი (Georgian)",
       "rootUses": [
@@ -1189,7 +1289,7 @@
       ]
     },
     {
-      "id": "L063",
+      "id": "L066",
       "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D0%B2%D1%80#Chechen",
       "title": "Wiktionary: говр (Chechen)",
       "rootUses": [
@@ -1206,7 +1306,7 @@
       ]
     },
     {
-      "id": "L064",
+      "id": "L067",
       "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D0%B2%D1%80#Ingush",
       "title": "Wiktionary: говр (Ingush)",
       "rootUses": [
@@ -1223,7 +1323,7 @@
       ]
     },
     {
-      "id": "L065",
+      "id": "L068",
       "url": "https://en.wiktionary.org/wiki/%D1%88%D1%8B#East_Circassian",
       "title": "Wiktionary: шы (East Circassian)",
       "rootUses": [
@@ -1240,7 +1340,7 @@
       ]
     },
     {
-      "id": "L066",
+      "id": "L069",
       "url": "https://en.wiktionary.org/wiki/%D1%88%D1%8B#West_Circassian",
       "title": "Wiktionary: шы (West Circassian)",
       "rootUses": [
@@ -1257,7 +1357,7 @@
       ]
     },
     {
-      "id": "L067",
+      "id": "L070",
       "url": "https://en.wiktionary.org/wiki/%D1%87%D1%83#Avar",
       "title": "Wiktionary: чу (Avar)",
       "rootUses": [
@@ -1274,7 +1374,7 @@
       ]
     },
     {
-      "id": "L068",
+      "id": "L071",
       "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D1%87%D0%B8#Dargwa",
       "title": "Wiktionary: урчи (Dargwa)",
       "rootUses": [
@@ -1291,7 +1391,7 @@
       ]
     },
     {
-      "id": "L069",
+      "id": "L072",
       "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B8%D0%B2#Lezgi",
       "title": "Wiktionary: шив (Lezgi)",
       "rootUses": [
@@ -1308,7 +1408,7 @@
       ]
     },
     {
-      "id": "L070",
+      "id": "L073",
       "url": "https://en.wiktionary.org/wiki/%D1%87%D0%B2%D1%83#Lak",
       "title": "Wiktionary: чву (Lak)",
       "rootUses": [
@@ -1325,7 +1425,7 @@
       ]
     },
     {
-      "id": "L071",
+      "id": "L074",
       "url": "https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D1%80%D0%BD#Kalmyk",
       "title": "Wiktionary: мөрн (Kalmyk)",
       "rootUses": [
@@ -1342,7 +1442,58 @@
       ]
     },
     {
-      "id": "L072",
+      "id": "L075",
+      "url": "https://journals.dartmouth.edu/journals/xmlpage/1/article/412?htmlOnce=yes",
+      "title": "Herin (2012), The Domari Language of Aleppo, p. 17: agor-es / agor-en from Indo-Aryan ghota; p. 2: Damascus community",
+      "rootUses": [
+        {
+          "id": "domari-ghota",
+          "name": "Indo-Aryan ghota set"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "rmt-sy",
+          "name": "Domari (Aleppo word; Damascus community reference)"
+        }
+      ]
+    },
+    {
+      "id": "L076",
+      "url": "https://domari.org/wp-content/uploads/2026/08/bruno_herin_2016_elements_of_domari_dialectology_mediterranean_language_review_23.pdf",
+      "title": "Herin (2016), Elements of Domari Dialectology, p. 46 table 7: northern (a)gora, southern gori",
+      "rootUses": [
+        {
+          "id": "domari-ghota",
+          "name": "Indo-Aryan ghota set"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "rmt-sy",
+          "name": "Domari (Aleppo word; Damascus community reference)"
+        }
+      ]
+    },
+    {
+      "id": "L077",
+      "url": "https://domari.org/wp-content/uploads/2024/10/matras-kelzi-2024-dom-language-of-aleppo-preliminary-sketch.pdf",
+      "title": "Matras and Kelzi (2024), The Dom language of Aleppo, pp. 9–10: agora in the authors transcription; pp. 4–5: diaspora and source-speaker limits",
+      "rootUses": [
+        {
+          "id": "domari-ghota",
+          "name": "Indo-Aryan ghota set"
+        }
+      ],
+      "languageUses": [
+        {
+          "id": "rmt-sy",
+          "name": "Domari (Aleppo word; Damascus community reference)"
+        }
+      ]
+    },
+    {
+      "id": "L078",
       "url": "https://en.wiktionary.org/wiki/horse#Scots",
       "title": "Wiktionary: horse (Scots)",
       "rootUses": [],
@@ -1354,7 +1505,7 @@
       ]
     },
     {
-      "id": "L073",
+      "id": "L079",
       "url": "https://www.vlaamswoordenboek.be/woordenboek-artikel/10184",
       "title": "Vlaams Woordenboek: peerd, with peird and regional pronunciation variants",
       "rootUses": [],
@@ -1370,7 +1521,7 @@
       ]
     },
     {
-      "id": "L074",
+      "id": "L080",
       "url": "https://www.vlaamswoordenboek.be/woordenboek-artikel/4021",
       "title": "Vlaams Woordenboek: peird, with Antwerp, Hageland and other regional forms",
       "rootUses": [],
@@ -1386,7 +1537,7 @@
       ]
     },
     {
-      "id": "L075",
+      "id": "L081",
       "url": "https://dev.dialectloket.be/wp-content/uploads/2014/05/devo007west01_01.pdf",
       "title": "Devos and Vandekerckhove, West-Vlaams: regional peerd forms",
       "rootUses": [],
@@ -1402,7 +1553,7 @@
       ]
     },
     {
-      "id": "L076",
+      "id": "L082",
       "url": "https://entrelangues.modyco.fr/index.php/Flamand_occidental",
       "title": "CNRS MoDyCo, Entrelangues: West Flemish, minority use and French dominance",
       "rootUses": [],
@@ -1422,7 +1573,7 @@
       ]
     },
     {
-      "id": "L077",
+      "id": "L083",
       "url": "https://en.wiktionary.org/wiki/P%C3%A4erd#Luxembourgish",
       "title": "Wiktionary: Päerd (Luxembourgish)",
       "rootUses": [],
@@ -1434,7 +1585,7 @@
       ]
     },
     {
-      "id": "L078",
+      "id": "L084",
       "url": "https://en.wiktionary.org/wiki/hest#Danish",
       "title": "Wiktionary: hest (Danish)",
       "rootUses": [],
@@ -1446,7 +1597,7 @@
       ]
     },
     {
-      "id": "L079",
+      "id": "L085",
       "url": "https://en.wiktionary.org/wiki/h%C3%A4st#Swedish",
       "title": "Wiktionary: häst (Swedish)",
       "rootUses": [],
@@ -1458,7 +1609,7 @@
       ]
     },
     {
-      "id": "L080",
+      "id": "L086",
       "url": "https://en.wiktionary.org/wiki/hest#Norwegian_Bokmål",
       "title": "Wiktionary: hest (Norwegian Bokmål)",
       "rootUses": [],
@@ -1470,7 +1621,7 @@
       ]
     },
     {
-      "id": "L081",
+      "id": "L087",
       "url": "https://en.wiktionary.org/wiki/hestur#Icelandic",
       "title": "Wiktionary: hestur (Icelandic)",
       "rootUses": [],
@@ -1482,7 +1633,7 @@
       ]
     },
     {
-      "id": "L082",
+      "id": "L088",
       "url": "https://en.wiktionary.org/wiki/hestur#Faroese",
       "title": "Wiktionary: hestur (Faroese)",
       "rootUses": [],
@@ -1494,7 +1645,7 @@
       ]
     },
     {
-      "id": "L083",
+      "id": "L089",
       "url": "https://en.wiktionary.org/wiki/caballo#Spanish",
       "title": "Wiktionary: caballo (Spanish)",
       "rootUses": [],
@@ -1506,7 +1657,7 @@
       ]
     },
     {
-      "id": "L084",
+      "id": "L090",
       "url": "https://en.wiktionary.org/wiki/cavalo#Portuguese",
       "title": "Wiktionary: cavalo (Portuguese)",
       "rootUses": [],
@@ -1518,7 +1669,7 @@
       ]
     },
     {
-      "id": "L085",
+      "id": "L091",
       "url": "https://en.wiktionary.org/wiki/cabalo#Galician",
       "title": "Wiktionary: cabalo (Galician)",
       "rootUses": [],
@@ -1530,7 +1681,7 @@
       ]
     },
     {
-      "id": "L086",
+      "id": "L092",
       "url": "https://en.wiktionary.org/wiki/cavall#Catalan",
       "title": "Wiktionary: cavall (Catalan)",
       "rootUses": [],
@@ -1542,7 +1693,7 @@
       ]
     },
     {
-      "id": "L087",
+      "id": "L093",
       "url": "https://en.wiktionary.org/wiki/caval#Occitan",
       "title": "Wiktionary: caval (Occitan)",
       "rootUses": [],
@@ -1554,7 +1705,7 @@
       ]
     },
     {
-      "id": "L088",
+      "id": "L094",
       "url": "https://en.wiktionary.org/wiki/cavallo#Italian",
       "title": "Wiktionary: cavallo (Italian)",
       "rootUses": [],
@@ -1566,7 +1717,7 @@
       ]
     },
     {
-      "id": "L089",
+      "id": "L095",
       "url": "https://en.wiktionary.org/wiki/cavaddu#Sicilian",
       "title": "Wiktionary: cavaddu (Sicilian)",
       "rootUses": [],
@@ -1578,7 +1729,7 @@
       ]
     },
     {
-      "id": "L090",
+      "id": "L096",
       "url": "https://en.wiktionary.org/wiki/cabaddu",
       "title": "Wiktionary: cabaddu, Nuorese form; Campidanese cuaddu and other regional variants",
       "rootUses": [],
@@ -1594,7 +1745,7 @@
       ]
     },
     {
-      "id": "L091",
+      "id": "L097",
       "url": "https://www.sardegnacultura.it/sc/articulu/celebrazioni-in-onore-di-sant-elena-a-quartu-sant-elena",
       "title": "Sardinian regional cultural portal: cuaddu in Quartu Sant’Elena usage",
       "rootUses": [],
@@ -1610,7 +1761,7 @@
       ]
     },
     {
-      "id": "L092",
+      "id": "L098",
       "url": "https://en.wiktionary.org/wiki/cava%C5%82o#Venetan",
       "title": "Wiktionary: cavało (Venetan)",
       "rootUses": [],
@@ -1622,7 +1773,7 @@
       ]
     },
     {
-      "id": "L093",
+      "id": "L099",
       "url": "https://en.wiktionary.org/wiki/cjaval#Friulian",
       "title": "Wiktionary: cjaval (Friulian)",
       "rootUses": [],
@@ -1634,7 +1785,7 @@
       ]
     },
     {
-      "id": "L094",
+      "id": "L100",
       "url": "https://en.wiktionary.org/wiki/chaval#Romansh",
       "title": "Wiktionary: chaval (Romansh)",
       "rootUses": [],
@@ -1646,7 +1797,7 @@
       ]
     },
     {
-      "id": "L095",
+      "id": "L101",
       "url": "https://en.wiktionary.org/wiki/caballu#Asturian",
       "title": "Wiktionary: caballu (Asturian)",
       "rootUses": [],
@@ -1658,7 +1809,7 @@
       ]
     },
     {
-      "id": "L096",
+      "id": "L102",
       "url": "https://en.wiktionary.org/wiki/caballo#Aragonese",
       "title": "Wiktionary: caballo (Aragonese)",
       "rootUses": [],
@@ -1670,7 +1821,7 @@
       ]
     },
     {
-      "id": "L097",
+      "id": "L103",
       "url": "https://en.wiktionary.org/wiki/cheval#French",
       "title": "Wiktionary: cheval (French)",
       "rootUses": [],
@@ -1682,7 +1833,7 @@
       ]
     },
     {
-      "id": "L098",
+      "id": "L104",
       "url": "https://en.wiktionary.org/wiki/cal#Romanian",
       "title": "Wiktionary: cal (Romanian)",
       "rootUses": [],
@@ -1694,7 +1845,7 @@
       ]
     },
     {
-      "id": "L099",
+      "id": "L105",
       "url": "https://gramota.ru/poisk?dicts%5B0%5D=48&mode=slovari&query=%D0%BA%D0%BE%D0%BD%D1%8C&simple=0",
       "title": "Gramota: конь, riding horse, male horse and poetic/specialist uses",
       "rootUses": [],
@@ -1710,7 +1861,7 @@
       ]
     },
     {
-      "id": "L100",
+      "id": "L106",
       "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Belarusian",
       "title": "Wiktionary: конь (Belarusian)",
       "rootUses": [],
@@ -1722,7 +1873,7 @@
       ]
     },
     {
-      "id": "L101",
+      "id": "L107",
       "url": "https://en.wiktionary.org/wiki/ko%C5%84#Polish",
       "title": "Wiktionary: koń (Polish)",
       "rootUses": [],
@@ -1734,7 +1885,7 @@
       ]
     },
     {
-      "id": "L102",
+      "id": "L108",
       "url": "https://en.wiktionary.org/wiki/k%C5%AF%C5%88#Czech",
       "title": "Wiktionary: kůň (Czech)",
       "rootUses": [],
@@ -1746,7 +1897,7 @@
       ]
     },
     {
-      "id": "L103",
+      "id": "L109",
       "url": "https://en.wiktionary.org/wiki/k%C3%B4%C5%88#Slovak",
       "title": "Wiktionary: kôň (Slovak)",
       "rootUses": [],
@@ -1758,7 +1909,7 @@
       ]
     },
     {
-      "id": "L104",
+      "id": "L110",
       "url": "https://en.wiktionary.org/wiki/konj#Slovene",
       "title": "Wiktionary: konj (Slovene)",
       "rootUses": [],
@@ -1770,7 +1921,7 @@
       ]
     },
     {
-      "id": "L105",
+      "id": "L111",
       "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD#Bulgarian",
       "title": "Wiktionary: кон (Bulgarian)",
       "rootUses": [],
@@ -1782,7 +1933,7 @@
       ]
     },
     {
-      "id": "L106",
+      "id": "L112",
       "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D1%9A#Macedonian",
       "title": "Wiktionary: коњ (Macedonian)",
       "rootUses": [],
@@ -1794,7 +1945,7 @@
       ]
     },
     {
-      "id": "L107",
+      "id": "L113",
       "url": "https://en.wiktionary.org/wiki/k%C3%B3%C5%84#Upper_Sorbian",
       "title": "Wiktionary: kóń (Upper Sorbian)",
       "rootUses": [],
@@ -1806,7 +1957,7 @@
       ]
     },
     {
-      "id": "L108",
+      "id": "L114",
       "url": "https://en.wiktionary.org/wiki/k%C3%B3%C5%84#Lower_Sorbian",
       "title": "Wiktionary: kóń (Lower Sorbian)",
       "rootUses": [],
@@ -1818,7 +1969,7 @@
       ]
     },
     {
-      "id": "L109",
+      "id": "L115",
       "url": "https://en.wiktionary.org/wiki/k%C3%B3%C5%84#Kashubian",
       "title": "Wiktionary: kóń (Kashubian)",
       "rootUses": [],
@@ -1830,7 +1981,7 @@
       ]
     },
     {
-      "id": "L110",
+      "id": "L116",
       "url": "https://en.wiktionary.org/wiki/cabbyl#Manx",
       "title": "Wiktionary: cabbyl (Manx)",
       "rootUses": [],
@@ -1842,7 +1993,7 @@
       ]
     },
     {
-      "id": "L111",
+      "id": "L117",
       "url": "https://en.wiktionary.org/wiki/marc%27h#Breton",
       "title": "Wiktionary: marc’h (Breton)",
       "rootUses": [],
@@ -1854,7 +2005,7 @@
       ]
     },
     {
-      "id": "L112",
+      "id": "L118",
       "url": "https://en.wiktionary.org/wiki/margh#Cornish",
       "title": "Wiktionary: margh (Cornish)",
       "rootUses": [],
@@ -1866,7 +2017,7 @@
       ]
     },
     {
-      "id": "L113",
+      "id": "L119",
       "url": "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/search.html?lq=%CE%B9%CF%80%CF%80%CE%BF",
       "title": "Centre for the Greek Language: Triantafyllidis, ιππο- and learned compounds",
       "rootUses": [],
@@ -1882,7 +2033,7 @@
       ]
     },
     {
-      "id": "L114",
+      "id": "L120",
       "url": "https://en.wiktionary.org/wiki/%D5%B1%D5%AB#Armenian",
       "title": "Wiktionary: ձի (Armenian)",
       "rootUses": [],
@@ -1894,7 +2045,7 @@
       ]
     },
     {
-      "id": "L115",
+      "id": "L121",
       "url": "https://en.wiktionary.org/wiki/kal%C3%AB#Albanian",
       "title": "Wiktionary: kalë (Albanian)",
       "rootUses": [],
@@ -1906,7 +2057,7 @@
       ]
     },
     {
-      "id": "L116",
+      "id": "L122",
       "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D8%A8#Persian",
       "title": "Wiktionary: اسب (Persian)",
       "rootUses": [],
@@ -1918,7 +2069,7 @@
       ]
     },
     {
-      "id": "L117",
+      "id": "L123",
       "url": "https://en.wiktionary.org/wiki/hesp#Northern_Kurdish",
       "title": "Wiktionary: hesp (Northern Kurdish)",
       "rootUses": [],
@@ -1930,7 +2081,7 @@
       ]
     },
     {
-      "id": "L118",
+      "id": "L124",
       "url": "https://en.wiktionary.org/wiki/hobune#Estonian",
       "title": "Wiktionary: hobune (Estonian)",
       "rootUses": [],
@@ -1942,7 +2093,7 @@
       ]
     },
     {
-      "id": "L119",
+      "id": "L125",
       "url": "https://en.wiktionary.org/wiki/hebo#Karelian",
       "title": "Wiktionary: hebo (Karelian)",
       "rootUses": [],
@@ -1954,7 +2105,7 @@
       ]
     },
     {
-      "id": "L120",
+      "id": "L126",
       "url": "https://en.wiktionary.org/wiki/hebo#Veps",
       "title": "Wiktionary: hebo (Veps)",
       "rootUses": [],
@@ -1966,7 +2117,7 @@
       ]
     },
     {
-      "id": "L121",
+      "id": "L127",
       "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Tunisian_Arabic",
       "title": "Wiktionary: حصان (Tunisian Arabic)",
       "rootUses": [],
@@ -1978,7 +2129,7 @@
       ]
     },
     {
-      "id": "L122",
+      "id": "L128",
       "url": "https://doi.org/10.1515/flin-2016-0021",
       "title": "Čéplö et al. (2016), Mutual intelligibility of spoken Maltese, Libyan Arabic and Tunisian Arabic, Appendix A W002C01",
       "rootUses": [],
@@ -1994,7 +2145,7 @@
       ]
     },
     {
-      "id": "L123",
+      "id": "L129",
       "url": "https://www.ocf.berkeley.edu/~abenkato/publications.html",
       "title": "Adam Benkato, author publication list linking the full Tunisia/Libya study, item 26",
       "rootUses": [],
@@ -2010,7 +2161,7 @@
       ]
     },
     {
-      "id": "L124",
+      "id": "L130",
       "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Egyptian_Arabic",
       "title": "Wiktionary: حصان (Egyptian Arabic)",
       "rootUses": [],
@@ -2022,7 +2173,7 @@
       ]
     },
     {
-      "id": "L125",
+      "id": "L131",
       "url": "https://aidacatania.unict.it/AIDA16_Booklet_of_Abstracts_09_06_2026_DEF.pdf",
       "title": "AIDA16 Booklet of Abstracts (2026), Baghdadi Arabic plant names: il-ḥiṣān in horse-tail, p.60",
       "rootUses": [],
@@ -2034,7 +2185,7 @@
       ]
     },
     {
-      "id": "L126",
+      "id": "L132",
       "url": "https://en.wiktionary.org/wiki/at#Azerbaijani",
       "title": "Wiktionary: at (Azerbaijani)",
       "rootUses": [],
@@ -2046,7 +2197,7 @@
       ]
     },
     {
-      "id": "L127",
+      "id": "L133",
       "url": "https://sozdikqor.kz/soz?a=AT1&id=114416",
       "title": "Sozdikqor / Қазақ әдеби тілінің сөздігі: ат, a male riding or working horse",
       "rootUses": [],
@@ -2062,7 +2213,7 @@
       ]
     },
     {
-      "id": "L128",
+      "id": "L134",
       "url": "https://sozdikqor.kz/soz?a=Jylqy+eti&id=405726",
       "title": "Sozdikqor / Қазақ әдеби тілінің сөздігі: жылқы еті, horse meat",
       "rootUses": [],
@@ -2078,7 +2229,7 @@
       ]
     },
     {
-      "id": "L129",
+      "id": "L135",
       "url": "https://atau.kz/docs/3003.pdf",
       "title": "Berdibek, Kazakh toponymic lexicon: жылқы as an equine livestock species",
       "rootUses": [],
@@ -2094,7 +2245,7 @@
       ]
     },
     {
-      "id": "L130",
+      "id": "L136",
       "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%82#Tatar",
       "title": "Wiktionary: ат (Tatar)",
       "rootUses": [],
@@ -2106,7 +2257,7 @@
       ]
     },
     {
-      "id": "L131",
+      "id": "L137",
       "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%82#Bashkir",
       "title": "Wiktionary: ат (Bashkir)",
       "rootUses": [],
@@ -2118,7 +2269,7 @@
       ]
     },
     {
-      "id": "L132",
+      "id": "L138",
       "url": "https://en.wiktionary.org/wiki/at#Crimean_Tatar",
       "title": "Wiktionary: at (Crimean Tatar)",
       "rootUses": [],
@@ -2130,7 +2281,7 @@
       ]
     },
     {
-      "id": "L133",
+      "id": "L139",
       "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%82#Kyrgyz",
       "title": "Wiktionary: ат (Kyrgyz)",
       "rootUses": [],
@@ -2142,7 +2293,7 @@
       ]
     },
     {
-      "id": "L134",
+      "id": "L140",
       "url": "https://centrederechercheberbere.fr/aures.html",
       "title": "Centre de Recherche Berbère, Aures: comparison of Chaoui yis and Kabyle aɛudiw",
       "rootUses": [],
@@ -2154,7 +2305,7 @@
       ]
     },
     {
-      "id": "L135",
+      "id": "L141",
       "url": "https://amawal.numidya.net/amawal/a/Goi4tKpe/a%C9%9Bawdiw",
       "title": "Amawal, Kabyle dictionary: aɛawdiw / aɛudiw",
       "rootUses": [],
@@ -2166,7 +2317,7 @@
       ]
     },
     {
-      "id": "L136",
+      "id": "L142",
       "url": "https://en.wiktionary.org/wiki/at#Turkmen",
       "title": "Wiktionary: at (Turkmen)",
       "rootUses": [],
@@ -2178,7 +2329,7 @@
       ]
     },
     {
-      "id": "L137",
+      "id": "L143",
       "url": "https://ru.wiktionary.org/wiki/%D0%B0%D1%82#%D0%9A%D0%B0%D1%80%D0%B0%D1%87%D0%B0%D0%B5%D0%B2%D0%BE-%D0%B1%D0%B0%D0%BB%D0%BA%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9",
       "title": "Wiktionary (Russian), ат: Karachay-Balkar horse noun",
       "rootUses": [],
@@ -2190,7 +2341,7 @@
       ]
     },
     {
-      "id": "L138",
+      "id": "L144",
       "url": "https://www.elbrusoid.net/articles/poznat/393388/",
       "title": "Ethnocultural study of ат, horse, in Karachay-Balkar phraseology",
       "rootUses": [],
@@ -2202,7 +2353,7 @@
       ]
     },
     {
-      "id": "L139",
+      "id": "L145",
       "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%82#Kumyk",
       "title": "Wiktionary: ат (Kumyk)",
       "rootUses": [],
@@ -2214,7 +2365,7 @@
       ]
     },
     {
-      "id": "L140",
+      "id": "L146",
       "url": "https://en.wiktionary.org/wiki/%D8%A7%D8%B3%D9%BE#Baluchi",
       "title": "Wiktionary: اسپ (Baluchi)",
       "rootUses": [],
@@ -2226,7 +2377,7 @@
       ]
     },
     {
-      "id": "L141",
+      "id": "L147",
       "url": "https://lori-shomali.blogfa.com/post/36",
       "title": "Northern Luri/Feyli speaker word comparison: اسپ = horse",
       "rootUses": [],
@@ -2238,7 +2389,7 @@
       ]
     },
     {
-      "id": "L142",
+      "id": "L148",
       "url": "https://en.wiktionary.org/wiki/%F0%90%8E%A0%F0%90%8E%BF%F0%90%8E%B1#Old_Persian",
       "title": "Wiktionary: 𐎠𐎿𐎱 (Old Persian)",
       "rootUses": [],
@@ -2250,7 +2401,7 @@
       ]
     },
     {
-      "id": "L143",
+      "id": "L149",
       "url": "https://vajehyab.com/bakhtiari/%D8%A7%D8%B3%D8%A8",
       "title": "Vajehyab, Bakhtiari dictionary: اسب /asb/",
       "rootUses": [],
@@ -2262,7 +2413,7 @@
       ]
     },
     {
-      "id": "L144",
+      "id": "L150",
       "url": "https://en.wiktionary.org/wiki/%D8%A6%DB%95%D8%B3%D9%BE#Central_Kurdish",
       "title": "Wiktionary: ئەسپ (Central Kurdish)",
       "rootUses": [],
@@ -2274,7 +2425,7 @@
       ]
     },
     {
-      "id": "L145",
+      "id": "L151",
       "url": "https://books.openbookpublishers.com/10.11647/obp.0464.31.pdf",
       "title": "Werner Arnold (2025), Animals in the Western Neo-Aramaic Proverbs of Maʿlūla, appendix: horse (sūsča)",
       "rootUses": [],
@@ -2286,7 +2437,7 @@
       ]
     },
     {
-      "id": "L146",
+      "id": "L152",
       "url": "https://en.wikipedia.org/wiki/Western_Neo-Aramaic#Syriac_and_Arabic_alphabet",
       "title": "Western Neo-Aramaic writing systems: Syriac alphabet and ܬ̤ / č correspondence",
       "rootUses": [],
@@ -2298,7 +2449,7 @@
       ]
     },
     {
-      "id": "L147",
+      "id": "L153",
       "url": "https://en.wiktionary.org/wiki/%DC%92%DC%AA%DC%AC%CC%A4%DC%90",
       "title": "Wiktionary: Western Neo-Aramaic ܒܪܬ̤ܐ (berča), parallel use of ܬ̤ for č",
       "rootUses": [],
@@ -2310,7 +2461,7 @@
       ]
     },
     {
-      "id": "L148",
+      "id": "L154",
       "url": "https://scriptureearth.org/data/amw/PDF/amwMaLuliNT-web.pdf#page=1282",
       "title": "Ma’luli New Testament (2018), Syriac and Arabic scripts; Revelation 6:2, printed p. 1274 (PDF p. 1282)",
       "rootUses": [],
@@ -2322,7 +2473,7 @@
       ]
     },
     {
-      "id": "L149",
+      "id": "L155",
       "url": "https://en.wiktionary.org/wiki/%DC%A3%DC%98%DC%A3%DC%90#Assyrian_Neo-Aramaic",
       "title": "Wiktionary: ܣܘܣܐ (Assyrian Neo-Aramaic)",
       "rootUses": [],
@@ -2334,7 +2485,7 @@
       ]
     },
     {
-      "id": "L150",
+      "id": "L156",
       "url": "https://www.ub.edu/ipoa/wp-content/uploads/2021/07/20182AuOrBarsky.pdf",
       "title": "Barsky, Kalinin & Loesov (2018), The Basic Lexicon of Mlaḥsô: A Comparative Study, p.228, Turoyo susyo",
       "rootUses": [],
@@ -2346,7 +2497,7 @@
       ]
     },
     {
-      "id": "L151",
+      "id": "L157",
       "url": "https://sfarmele.de/?page=lernen",
       "title": "Sfar Mele, Turoyo learning vocabulary: Horse (Pferd), Susyo",
       "rootUses": [],
@@ -2358,7 +2509,7 @@
       ]
     },
     {
-      "id": "L152",
+      "id": "L158",
       "url": "https://qadaha.wordpress.com/wp-content/uploads/2021/03/nhura-dictionary-mandaic-english-mandaic.pdf#page=92",
       "title": "Qais Al-Saadi (2012), Nhura dictionary, printed p.91: Horse [susia]",
       "rootUses": [],
@@ -2370,7 +2521,7 @@
       ]
     },
     {
-      "id": "L153",
+      "id": "L159",
       "url": "https://glosbe.com/en/mid/horse",
       "title": "Glosbe, Mandaic Professional entry: ࡎࡅࡎࡉࡀ",
       "rootUses": [],
@@ -2382,7 +2533,7 @@
       ]
     },
     {
-      "id": "L154",
+      "id": "L160",
       "url": "https://www.greek-language.gr/digitalResources/ancient_greek/tools/liddell-scott/search.html?lq=%E1%BC%B5%CF%80%CF%80%CE%BF%CF%82",
       "title": "Centre for the Greek Language: Liddell–Scott, Ancient Greek ἵππος",
       "rootUses": [],
@@ -2394,7 +2545,7 @@
       ]
     },
     {
-      "id": "L155",
+      "id": "L161",
       "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BD%D1%8C#Russian",
       "title": "Wiktionary: конь, inherited Slavic horse word",
       "rootUses": [],
@@ -2406,7 +2557,7 @@
       ]
     },
     {
-      "id": "L156",
+      "id": "L162",
       "url": "https://www.ispmn.gov.ro/maps2022",
       "title": "ISPMN / Romanian INS: 2021 census mother-tongue map by administrative unit",
       "rootUses": [],
@@ -2414,11 +2565,15 @@
         {
           "id": "hun-ro",
           "name": "Hungarian (Romania, Székely area)"
+        },
+        {
+          "id": "rom-ro",
+          "name": "Romani (Romania; Turda and Kalderaš references)"
         }
       ]
     },
     {
-      "id": "L157",
+      "id": "L163",
       "url": "https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50",
       "title": "ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)",
       "rootUses": [],
@@ -2430,7 +2585,7 @@
       ]
     },
     {
-      "id": "L158",
+      "id": "L164",
       "url": "https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales",
       "title": "French Ministry of Culture: regional languages, including West Flemish",
       "rootUses": [],
@@ -2442,7 +2597,7 @@
       ]
     },
     {
-      "id": "L159",
+      "id": "L165",
       "url": "https://twpl.library.utoronto.ca/index.php/twpl/article/download/41689/31976/112601",
       "title": "Shabani and Taghipour (2023), Nominal linkers in Gilaki, pp. 2 and 5: Eshkevarat asb",
       "rootUses": [],
@@ -2454,7 +2609,7 @@
       ]
     },
     {
-      "id": "L160",
+      "id": "L166",
       "url": "https://baru.wiki/mohammadreza.pourjafari/neshane-ha-ye-masdari/",
       "title": "Mohammadreza Pourjafari, original Gilaki linguistic discussion: اَسب",
       "rootUses": [],
@@ -2466,7 +2621,7 @@
       ]
     },
     {
-      "id": "L161",
+      "id": "L167",
       "url": "https://twpl.library.utoronto.ca/index.php/twpl/article/download/41688/31980/112605",
       "title": "Taghipour and Nabati (2023), Nominal linkers in Taleshi, p. 9 example 29c: Pareh Sar asb",
       "rootUses": [],
@@ -2478,7 +2633,7 @@
       ]
     },
     {
-      "id": "L162",
+      "id": "L168",
       "url": "https://neshele.blogfa.com/post/20",
       "title": "Ali-Asghar Rostamnezhad Nashali, original Mazandarani proverbs using اسب",
       "rootUses": [],
@@ -2490,7 +2645,7 @@
       ]
     },
     {
-      "id": "L163",
+      "id": "L169",
       "url": "https://wold.clld.org/word/7212059950182598",
       "title": "Kossmann, WOLD Tarifiyt: akiđā, horse, coexisting Moroccan Arabic loan",
       "rootUses": [],
@@ -2502,7 +2657,7 @@
       ]
     },
     {
-      "id": "L164",
+      "id": "L170",
       "url": "https://fr.scribd.com/document/369483266/Dictionnaire-Brugnatelli-Djerba-Berbere",
       "title": "Brugnatelli (2010), Guellala Djerba Berber dictionary manuscript, p. 28: leḥṣan",
       "rootUses": [],
@@ -2510,6 +2665,54 @@
         {
           "id": "jrb",
           "name": "Djerba Berber (Guellala reference)"
+        }
+      ]
+    },
+    {
+      "id": "L171",
+      "url": "https://www.diacronia.ro/ro/indexing/details/A26086/pdf#page=10",
+      "title": "Sumi (2017), The influence of the Romanian language on the Romani idiom of Turda, p. 94: grast, horse",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "rom-ro",
+          "name": "Romani (Romania; Turda and Kalderaš references)"
+        }
+      ]
+    },
+    {
+      "id": "L172",
+      "url": "https://www.kratylos.org/~raphael/romani/interactive/sampler/d901.html",
+      "title": "Manchester Romani Project, Sinti dialect sampler: Hameln, Germany, Holzinger 1993",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "rmo-de",
+          "name": "Sinti Romani (Hameln, Germany)"
+        }
+      ]
+    },
+    {
+      "id": "L173",
+      "url": "https://www.kratylos.org/~raphael/romani/downloads/2/Elsik-Matras_Modals%20in%20Romani.pdf#page=20",
+      "title": "Elšík and Matras, Modals in Romani, p. 20 example 28: Hameln Sinti grajes, horse.ACC, citing Holzinger 1993:325",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "rmo-de",
+          "name": "Sinti Romani (Hameln, Germany)"
+        }
+      ]
+    },
+    {
+      "id": "L174",
+      "url": "https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf",
+      "title": "Groome (1891), Persian and Syrian Gypsies, p. 25: historical Damascus horse phrases collected in 1881",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "rmt-sy",
+          "name": "Domari (Aleppo word; Damascus community reference)"
         }
       ]
     }
