@@ -1,0 +1,122 @@
+{
+  "title": "North African horse-word review",
+  "checked": "2026-10-19",
+  "conclusion": "Algeria is not unique: Moroccan Arabic and the Arabic-derived Kabyle form share the ʿawd set. Tunisia and the Benghazi Libyan reference use the ḥiṣān set. Hassaniya written فرس belongs to a separate faras set. Berber varieties retain distinct inherited sets and Arabic loans.",
+  "regions": [
+    {
+      "region": "Algeria",
+      "language": "Algerian Arabic / Kabyle",
+      "forms": [
+        "عود (ʿūd)",
+        "aɛudiw"
+      ],
+      "origin": "arabic-awd",
+      "sources": [
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ]
+    },
+    {
+      "region": "Morocco",
+      "language": "Moroccan Arabic / Rif / Central Atlas Tamazight / Tachelhit",
+      "forms": [
+        "عود (ʿawd)",
+        "yis",
+        "ⴰⵢⵉⵙ (ayis)",
+        "ayyis"
+      ],
+      "origins": [
+        "arabic-awd",
+        "berber-horse"
+      ],
+      "sources": [
+        {
+          "title": "Darija Dictionary: عود, horse, with native audio",
+          "url": "https://darijadictionary.com/en/index/horse-in-moroccan-arabic-darija/"
+        },
+        {
+          "title": "Kossmann, WOLD Tarifiyt: yis, horse, Common Berber; no evidence of borrowing",
+          "url": "https://wold.clld.org/word/7212058936344482"
+        },
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ],
+      "caveat": "Rif also has akiđā, a distinct Moroccan Arabic loan from kid’ar, he-mule; no narrow synonym boundaries are inferred."
+    },
+    {
+      "region": "Tunisia",
+      "language": "Tunisian Arabic / Guellala Djerba Berber",
+      "forms": [
+        "حصان (ḥṣān; source transcription ḥsān)",
+        "leḥṣan"
+      ],
+      "origin": "arabic-hisan",
+      "sources": [
+        {
+          "title": "Čéplö et al. (2016), Mutual intelligibility of spoken Maltese, Libyan Arabic and Tunisian Arabic, Appendix A W002C01",
+          "url": "https://doi.org/10.1515/flin-2016-0021"
+        },
+        {
+          "title": "Adam Benkato, author publication list linking the full Tunisia/Libya study, item 26",
+          "url": "https://www.ocf.berkeley.edu/~abenkato/publications.html"
+        },
+        {
+          "title": "Brugnatelli (2010), Guellala Djerba Berber dictionary manuscript, p. 28: leḥṣan",
+          "url": "https://fr.scribd.com/document/369483266/Dictionnaire-Brugnatelli-Djerba-Berbere"
+        }
+      ],
+      "caveat": "Guellala is a reference point, not a new countrywide Berber boundary."
+    },
+    {
+      "region": "Libya",
+      "language": "Benghazi Arabic / Nafusi / Ghadames Berber",
+      "forms": [
+        "حصان (ḥṣān)",
+        "agmár",
+        "aǧmar"
+      ],
+      "origins": [
+        "arabic-hisan",
+        "berber-agmar"
+      ],
+      "sources": [
+        {
+          "title": "Čéplö et al. (2016), Mutual intelligibility of spoken Maltese, Libyan Arabic and Tunisian Arabic, Appendix A W002C01",
+          "url": "https://doi.org/10.1515/flin-2016-0021"
+        },
+        {
+          "title": "Adam Benkato, author publication list linking the full Tunisia/Libya study, item 26",
+          "url": "https://www.ocf.berkeley.edu/~abenkato/publications.html"
+        },
+        {
+          "title": "Marijn van Putten, Nefusa Text: The story of the wild animals, agmár, horse, analysing Beguinot 1942",
+          "url": "https://orientalberber.wordpress.com/category/nefusa/"
+        },
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ],
+      "caveat": "Benghazi evidence is an eastern Libyan lexical reference, not a claim of uniform Libya-wide vocabulary."
+    },
+    {
+      "region": "Western Sahara and visible northern Mauritania",
+      "language": "Hassaniya",
+      "word": "فرس",
+      "consonantTransliteration": "frs",
+      "origin": "arabic-faras",
+      "sources": [
+        {
+          "title": "Peace Corps (1979), Hassaniya Arabic handbook, p. 249: written فرس, horse",
+          "url": "https://files.eric.ed.gov/fulltext/ED294423.pdf#page=269"
+        }
+      ],
+      "readingStatus": "Written form verified; exact local vocalization not verified. Do not read frs as a full pronunciation."
+    }
+  ],
+  "geographicMethod": "Country reference fills and Arabic aggregate clips use existing Natural Earth boundaries as an explicit cartographic convention. Published Berber polygons are preserved, and new Ghadames/Guellala labels are points. No new modern ethnic or dialect boundaries are drawn."
+}

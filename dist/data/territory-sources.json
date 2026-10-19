@@ -24,7 +24,9 @@
     "Removed the original Hungarian footprint inside Romania and replaced it with the 2021 mother-tongue-majority selection; retained original Hungarian geometry elsewhere.",
     "Clipped the broad Arabic footprint at Algeria’s country boundary to assign the Algerian vernacular reference, preserving independently mapped Berber areas.",
     "Removed the Dutch/Flemish solid area inside France; retained the French reference background and added a minority reference-point word. No new modern speaker boundary is inferred.",
-    "Joined the existing published Khanty (Ostyak) aggregate, normalized under surg1248, to the Khanty lexical reference kca; Kazym word selection and source variety aggregation are explicitly documented."
+    "Joined the existing published Khanty (Ostyak) aggregate, normalized under surg1248, to the Khanty lexical reference kca; Kazym word selection and source variety aggregation are explicitly documented.",
+    "Joined the existing Mansi, Gilaki, Talysh, Mazanderani/Galeshi, Rif/Beni Iznasen and Nafusi atlas polygons to separately sourced lexical entries.",
+    "Clipped the broad Arabic aggregate at the existing Morocco, Libya, Western Sahara and Mauritania masks to assign regional lexical references; retained Berber geometries unchanged."
   ],
   "limitations": [
     "Speaker areas reflect an atlas published in 2007, not a current census, majority-language estimate or official boundary.",
@@ -35,8 +37,8 @@
     "Country borders, if displayed elsewhere, are context and are not used to construct these language areas.",
     "Occitan, Catalan, Cornish, Crimean Tatar, North Sami and Veps include explicitly marked traditional-area supplements. They must not be interpreted as contemporary majority-speaker distributions."
   ],
-  "featureCount": 182,
-  "lexicalJoinCount": 92,
+  "featureCount": 185,
+  "lexicalJoinCount": 101,
   "supplements": [
     {
       "id": "glottography-carling2025diacl",
@@ -103,18 +105,30 @@
     }
   ],
   "lexiconWithoutTerritory": [
+    "acm",
+    "aii",
+    "amw",
     "arg",
     "ast",
     "csb",
     "dsb",
+    "ell-hippos",
+    "gha",
     "glg",
     "glv",
     "hsb",
+    "jrb",
+    "kal",
+    "kaz-at",
     "kir",
+    "myz",
+    "nld-flemish",
+    "rus-kon",
     "scn",
     "sco",
+    "srd-cuaddu",
     "vec",
     "vls-fr"
   ],
-  "horseMapNote": "Retained atlas geography with documented revisions for Romanian Hungarian census areas, French Flanders display and Algerian vocabulary. The existing Khanty aggregate now has a sourced Ugric horse-word join; no Khanty dialect border is invented."
+  "horseMapNote": "Documented Romanian/French Flanders display revisions are retained. New regional word joins reuse existing atlas geometry; North African country references are lexical conventions, not new surveyed dialect borders."
 }

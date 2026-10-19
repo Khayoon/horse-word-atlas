@@ -21,7 +21,9 @@
     "apc",
     "arb",
     "arq",
+    "ary",
     "arz",
+    "ayl",
     "aze",
     "bal",
     "bel",
@@ -49,6 +51,7 @@
     "lav",
     "lit",
     "ltz",
+    "mey",
     "mkd",
     "mlt",
     "nld",
@@ -155,7 +158,8 @@
     "Country borders and land coastlines retain the supplied Natural Earth resolution. No new ethnic boundaries are inferred.",
     "Minority and regional source polygons must be drawn above this base to preserve cross-border ranges and enclaves."
   ],
-  "geographyReuse": "Continuous land geometry is unchanged. Algeria now uses the arq vernacular lexical reference; the old Hungarian area within Romania is replaced by the separately attributed 2021 mother-tongue-majority supplement.",
+  "geographyReuse": "Continuous land coverage and independent Berber polygons are preserved. Morocco, Libya, Western Sahara and Mauritania now have regional lexical references; existing Mansi and Caspian Iranian polygons gain sourced word joins.",
   "communityRevisionFrenchFlanders": "Removed the atlas Dutch/Flemish solid footprint only inside the Natural Earth France boundary. The existing French reference background is visible there. A French Flemish peerd point at Quaëdypre preserves minority-language presence without inventing a modern majority-speaking boundary. Dutch/Flemish areas outside France are unchanged. This is an editorial display choice, not a new census or an assertion that Flemish has disappeared.",
-  "communityRevisionKhanty": "Existing source aggregate joined to a documented Kazym horse word in the same Ugric origin set as Hungarian ló."
+  "communityRevisionKhanty": "Existing source aggregate joined to a documented Kazym horse word in the same Ugric origin set as Hungarian ló.",
+  "northAfricanReview": "north-africa-review.json"
 }

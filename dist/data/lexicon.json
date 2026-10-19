@@ -27,6 +27,14 @@
         {
           "title": "Wiktionary: Latin equus, inherited PIE horse noun",
           "url": "https://en.wiktionary.org/wiki/equus#Latin"
+        },
+        {
+          "title": "Ivanov (1999), Comparative Notes, PDF p. 36: Talysh, Gilyan and Mazandarani horse forms",
+          "url": "https://urkesh.org/attach/Ivanov1999a.pdf#page=36"
+        },
+        {
+          "title": "Cathcart (2015), Iranian Dialectology and Dialectometry, p. 135: Mazandarani asb",
+          "url": "https://escholarship.org/content/qt77w684h2/qt77w684h2.pdf"
         }
       ],
       "routes": [
@@ -46,7 +54,7 @@
           "gloss": "horse",
           "legend": "Iranian *Hácwah · “horse” → asb / hesp",
           "color": "#d8ad97",
-          "description": "PIE *h₁éḱwos → Proto-Indo-Iranian *Háćwas → Proto-Iranian *Hácwah → the selected asp/asb/hesp forms. Individual histories include Iranian-internal borrowing."
+          "description": "PIE *h₁éḱwos → Proto-Indo-Iranian *Háćwas → Proto-Iranian *Hácwah → the selected asp/asb/hesp forms. Individual histories include Iranian-internal borrowing. Gilaki, Iranian Talysh and Mazandarani asb are separately documented regional forms. The shared origin colour does not imply that each selected form has an uninterrupted inheritance history: Iranian-internal borrowing is possible."
         },
         {
           "id": "pie-greek",
@@ -341,7 +349,7 @@
       "form": "*luɣǝ",
       "gloss": "horse",
       "color": "#d9b66c",
-      "description": "Hungarian ló (stem lov-) and Khanty ԓов (Kazym łow, often simplified lov) belong to the same inherited Ugric horse-word set, also represented in Mansi. The Hungarian etymological dictionary reconstructs *luβɜ or *luγɜ. The shared Ugric set is secure; its earlier donor and remote origin are unresolved. Proposed Tocharian or Caucasian connections are not presented as established.",
+      "description": "Hungarian ló (stem lov-), Khanty ԓов (Kazym łow, often simplified lov) and Northern Mansi лув (luw) share the inherited Ugric horse-word set. The Hungarian etymological dictionary reconstructs *luβɜ or *luγɜ. Its earlier donor and remote origin remain unresolved; no definite deeper Indo-European ancestry is asserted.",
       "sources": [
         {
           "title": "Wiktionary: ló (Hungarian)",
@@ -358,9 +366,13 @@
         {
           "title": "V. N. Solovar 2014, Khanty–Russian Dictionary (Kazym dialect), p. 154: ԓов, horse",
           "url": "https://ouipiir.ru/sites/default/files/docs/635-1402.pdf"
+        },
+        {
+          "title": "Ob-Ugric Institute, short Mansi–Russian dictionary: лув, horse",
+          "url": "https://mansy-audio-dic.ouipiir.ru/"
         }
       ],
-      "legend": "Ugric *luɣǝ · “horse” → ló / łow"
+      "legend": "Ugric *luɣǝ · “horse” → ló / łow / luw"
     },
     {
       "id": "permic-horse",
@@ -454,9 +466,9 @@
       "label": "Arabic ʕawd horse word",
       "form": "ʕawd",
       "gloss": "camel trained for riding; horse",
-      "legend": "Arabic ʕawd · “riding camel” → ʿūd",
+      "legend": "Arabic ʕawd · “riding camel” → horse",
       "color": "#d0a57a",
-      "description": "Algerian عود is attested as ʕud in the Dellys dialect; ʕawd occurs in other transcriptions. Its proposed earlier Arabic sense is a camel trained for riding. This horse word is separate from ḥiṣān. The possible Kabyle connection remains a separate, explicitly tentative loan comparison.",
+      "description": "Maghrebi Arabic عود is represented by Algerian ʿūd and Moroccan ʿawd. The proposed earlier Arabic sense is a camel trained for riding. Kossmann (2013, pp. 149–150) explicitly derives Kabyle aɛawḏiw / aɛudiw from Maghrebi Arabic ɛǝwd(a), so the Kabyle loan shares this origin colour. These are distinct from the ḥiṣān and faras horse-word sets.",
       "sources": [
         {
           "title": "Lameen Souag (2002), The Algerian Arabic of Dellys: ʕud / ʕwad, horse, appendix p. 33",
@@ -465,6 +477,29 @@
         {
           "title": "Wiktionary: Algerian Arabic عود, from Arabic ʕawd, a camel trained for riding",
           "url": "https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%AF#Algerian_Arabic"
+        },
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        },
+        {
+          "title": "Darija Dictionary: عود, horse, with native audio",
+          "url": "https://darijadictionary.com/en/index/horse-in-moroccan-arabic-darija/"
+        }
+      ]
+    },
+    {
+      "id": "arabic-faras",
+      "label": "Arabic faras set",
+      "form": "faras",
+      "gloss": "horse; mare",
+      "color": "#cfbf85",
+      "legend": "Arabic faras · “horse; mare”",
+      "description": "The written Hassaniya horse word فرس is documented in the Peace Corps handbook, p. 249. It belongs to the Arabic faras horse-word set, distinct from ḥiṣān and ʿawd. The map uses frs as a consonant-only transliteration because the exact local vocalization has not been verified; it must not be read as an IPA pronunciation or silently replaced by the standard Arabic reading.",
+      "sources": [
+        {
+          "title": "Peace Corps (1979), Hassaniya Arabic handbook, p. 249: written فرس, horse",
+          "url": "https://files.eric.ed.gov/fulltext/ED294423.pdf#page=269"
         }
       ]
     },
@@ -507,31 +542,12 @@
       "legend": "Arabic zāmil · “horse; pack animal”"
     },
     {
-      "id": "kabyle-horse",
-      "label": "Kabyle",
-      "form": "aɛudiw",
-      "gloss": "horse; loan history ?",
-      "color": "#d5b5a1",
-      "description": "Kabyle aɛudiw is the selected dictionary horse term. North African Arabic ʿawd is often compared, but the exact early derivation is not settled here; this group is not merged with Berber ayis on visual or family similarity.",
-      "sources": [
-        {
-          "title": "Centre de Recherche Berbère, Aures: comparison of Chaoui yis and Kabyle aɛudiw",
-          "url": "https://centrederechercheberbere.fr/aures.html"
-        },
-        {
-          "title": "Amawal, Kabyle dictionary: aɛawdiw / aɛudiw",
-          "url": "https://amawal.numidya.net/amawal/a/Goi4tKpe/a%C9%9Bawdiw"
-        }
-      ],
-      "legend": "Kabyle aɛudiw · “horse”; loan ?"
-    },
-    {
       "id": "berber-horse",
       "label": "Berber",
       "form": "ayis / ayyis",
       "gloss": "horse",
       "color": "#e3b17f",
-      "description": "Central Atlas Tamazight ayis and Tachelhit ayyis belong to a shared Berber horse-word set. Deeper Indo-European connections have been proposed in scholarship, but are not established by the present map.",
+      "description": "Central Atlas Tamazight ayis, Tachelhit ayyis and Rif yis belong to the inherited Berber horse-word set. Kossmann distinguishes them from Arabic-derived horse words and from the agmar set. No speculative remote Indo-European etymology is asserted.",
       "sources": [
         {
           "title": "Wiktionary: ⴰⵢⵉⵙ (Central Atlas Tamazight)",
@@ -544,9 +560,36 @@
         {
           "title": "Tamazight–English Dictionary, horse: ayyis",
           "url": "https://www.temehu.com/imazighen/dictionaries/Amawals/tamazight-english-dictionary-acf.pdf"
+        },
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        },
+        {
+          "title": "Kossmann, WOLD Tarifiyt: yis, horse, Common Berber; no evidence of borrowing",
+          "url": "https://wold.clld.org/word/7212058936344482"
         }
       ],
       "legend": "Berber ayis / ayyis · “horse”"
+    },
+    {
+      "id": "berber-agmar",
+      "label": "Berber agmar set",
+      "form": "agmar / aǧmar",
+      "gloss": "horse",
+      "color": "#aaa275",
+      "legend": "Berber agmar / aǧmar · “horse”",
+      "description": "Nafusi agmár and Ghadames aǧmar are members of the Berber GMR horse-word set, separate from ayis / yis and from Arabic horse loans. The comparison stops at this Berber set; a Latin or other remote origin is not asserted.",
+      "sources": [
+        {
+          "title": "Marijn van Putten, Nefusa Text: The story of the wild animals, agmár, horse, analysing Beguinot 1942",
+          "url": "https://orientalberber.wordpress.com/category/nefusa/"
+        },
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ]
     },
     {
       "id": "turkic-at",
@@ -2488,7 +2531,7 @@
           "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic"
         }
       ],
-      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented.",
+      "notes": "A selected citation form for horse; regional synonyms and inflectional forms are not exhaustively represented. North African backgrounds now use separate Moroccan, Libyan and Hassaniya references rather than this standard-Arabic label.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -2500,8 +2543,8 @@
         }
       ],
       "mapAnchor": [
-        17,
-        28.6
+        41,
+        28.1
       ]
     },
     {
@@ -2571,9 +2614,17 @@
         {
           "title": "Wiktionary: حصان (Tunisian Arabic)",
           "url": "https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Tunisian_Arabic"
+        },
+        {
+          "title": "Čéplö et al. (2016), Mutual intelligibility of spoken Maltese, Libyan Arabic and Tunisian Arabic, Appendix A W002C01",
+          "url": "https://doi.org/10.1515/flin-2016-0021"
+        },
+        {
+          "title": "Adam Benkato, author publication list linking the full Tunisia/Libya study, item 26",
+          "url": "https://www.ocf.berkeley.edu/~abenkato/publications.html"
         }
       ],
-      "notes": "Ḥṣān is a Tunisian citation form. Other regional terms and the collective khēl are not exhaustively mapped.",
+      "notes": "The Tunisia/Libya comparison experiment transcribes Tunisian ḥsān (without an emphatic s in that transcription), beside Benghazi Libyan ḥṣān. The map keeps the normalized Arabic citation spelling حصان and reading ḥṣān. This belongs to the existing ḥiṣān origin set; it should not be replaced throughout Tunisia by Algerian/Moroccan ʿawd.",
       "chain": [
         {
           "label": "Comparative origin set",
@@ -2937,7 +2988,7 @@
       "branch": "Berber · Kabyle",
       "word": "aɛudiw",
       "romanization": "",
-      "root": "kabyle-horse",
+      "root": "arabic-awd",
       "sources": [
         {
           "title": "Centre de Recherche Berbère, Aures: comparison of Chaoui yis and Kabyle aɛudiw",
@@ -2946,17 +2997,21 @@
         {
           "title": "Amawal, Kabyle dictionary: aɛawdiw / aɛudiw",
           "url": "https://amawal.numidya.net/amawal/a/Goi4tKpe/a%C9%9Bawdiw"
-        }
-      ],
-      "notes": "The selected aɛudiw is a common Kabyle term documented by the Centre de Recherche Berbère. Agmar is not substituted merely because it occurs in other Berber languages.",
-      "chain": [
-        {
-          "label": "Comparative origin set",
-          "form": "aɛudiw"
         },
         {
-          "label": "Kabyle",
-          "form": "aɛudiw"
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ],
+      "notes": "Kabyle aɛudiw / aɛawḏiw is an Arabic loan according to Kossmann (2013, pp. 149–150), from Maghrebi ɛǝwd(a). It shares the Algerian/Moroccan Arabic origin colour; it is not assigned to inherited Berber ayis simply because the language is Berber.",
+      "chain": [
+        {
+          "label": "Maghrebi Arabic",
+          "form": "ɛǝwd(a)"
+        },
+        {
+          "label": "Kabyle loan",
+          "form": "aɛawḏiw / aɛudiw"
         }
       ]
     },
@@ -4090,6 +4145,397 @@
         {
           "label": "French Flemish",
           "form": "peerd"
+        }
+      ]
+    },
+    {
+      "id": "mns",
+      "name": "Northern Mansi",
+      "family": "Uralic",
+      "branch": "Ugric",
+      "word": "лув",
+      "romanization": "luw",
+      "root": "ugric-horse",
+      "mapAnchor": [
+        59.9716,
+        62.3057
+      ],
+      "sources": [
+        {
+          "title": "Ob-Ugric Institute, short Mansi–Russian dictionary: лув, horse",
+          "url": "https://mansy-audio-dic.ouipiir.ru/"
+        },
+        {
+          "title": "HUN-REN, Új magyar etimológiai szótár: ló, inherited Ugric cognates",
+          "url": "https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e"
+        }
+      ],
+      "notes": "Northern Mansi лув, horse, is recorded by the Ob-Ugric Institute dictionary. It is cognate with Hungarian ló / lov- and Khanty ԓов. The source footprint is the published Northern Mansi atlas area; no new speaker boundary is inferred.",
+      "mapSize": 23,
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*luɣǝ"
+        },
+        {
+          "label": "Northern Mansi",
+          "form": "лув"
+        }
+      ]
+    },
+    {
+      "id": "glk",
+      "name": "Gilaki",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "word": "اسب",
+      "romanization": "asb",
+      "root": "pie-horse",
+      "mapAnchor": [
+        49.8934,
+        37.2081
+      ],
+      "sources": [
+        {
+          "title": "Shabani and Taghipour (2023), Nominal linkers in Gilaki, pp. 2 and 5: Eshkevarat asb",
+          "url": "https://twpl.library.utoronto.ca/index.php/twpl/article/download/41689/31976/112601"
+        },
+        {
+          "title": "Mohammadreza Pourjafari, original Gilaki linguistic discussion: اَسب",
+          "url": "https://baru.wiki/mohammadreza.pourjafari/neshane-ha-ye-masdari/"
+        },
+        {
+          "title": "Ivanov (1999), Comparative Notes, PDF p. 36: Talysh, Gilyan and Mazandarani horse forms",
+          "url": "https://urkesh.org/attach/Ivanov1999a.pdf#page=36"
+        }
+      ],
+      "notes": "Selected asb form attested in Eshkevarat Gilaki; asp/asb varies regionally. The Persian-script display is normalized and corroborated by original Gilaki writing. The footprint is the atlas Gilaki umbrella area. Shared Iranian colour follows lexical history, including possible Iranian-internal borrowing.",
+      "mapSize": 17,
+      "etymologyBranch": "pie-iranian",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Gilaki",
+          "form": "اسب"
+        }
+      ]
+    },
+    {
+      "id": "tly",
+      "name": "Talyshi (Iranian word reference)",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "word": "اسب",
+      "romanization": "asb",
+      "root": "pie-horse",
+      "mapAnchor": [
+        48.8399,
+        37.8729
+      ],
+      "sources": [
+        {
+          "title": "Taghipour and Nabati (2023), Nominal linkers in Taleshi, p. 9 example 29c: Pareh Sar asb",
+          "url": "https://twpl.library.utoronto.ca/index.php/twpl/article/download/41688/31980/112605"
+        },
+        {
+          "title": "Ivanov (1999), Comparative Notes, PDF p. 36: Talysh, Gilyan and Mazandarani horse forms",
+          "url": "https://urkesh.org/attach/Ivanov1999a.pdf#page=36"
+        }
+      ],
+      "notes": "Selected asb form attested in Pareh Sar, Iran. The unvowelled Persian-script display is an editorial normalization of the attested transcription. Asp occurs elsewhere in Talysh. The source atlas aggregate spans Iran and Azerbaijan and does not represent uniform dialect spelling or the exact range of the Pareh Sar variety.",
+      "mapSize": 17,
+      "etymologyBranch": "pie-iranian",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Talyshi (Iranian word reference)",
+          "form": "اسب"
+        }
+      ]
+    },
+    {
+      "id": "mzn",
+      "name": "Mazandarani",
+      "family": "Indo-European",
+      "branch": "Indo-Iranian · Iranian",
+      "word": "اسب",
+      "romanization": "asb",
+      "root": "pie-horse",
+      "mapAnchor": [
+        52.5484,
+        36.1268
+      ],
+      "sources": [
+        {
+          "title": "Cathcart (2015), Iranian Dialectology and Dialectometry, p. 135: Mazandarani asb",
+          "url": "https://escholarship.org/content/qt77w684h2/qt77w684h2.pdf"
+        },
+        {
+          "title": "Ivanov (1999), Comparative Notes, PDF p. 36: Talysh, Gilyan and Mazandarani horse forms",
+          "url": "https://urkesh.org/attach/Ivanov1999a.pdf#page=36"
+        },
+        {
+          "title": "Ali-Asghar Rostamnezhad Nashali, original Mazandarani proverbs using اسب",
+          "url": "https://neshele.blogfa.com/post/20"
+        }
+      ],
+      "notes": "Selected asb form with normalized Persian-script display. The source footprint combines Mazanderani and Galeshi atlas areas; it is not a uniform dialect survey. The common Iranian origin set does not settle individual dialect borrowing histories.",
+      "mapSize": 18,
+      "etymologyBranch": "pie-iranian",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "*h₁éḱwos"
+        },
+        {
+          "label": "Mazandarani",
+          "form": "اسب"
+        }
+      ]
+    },
+    {
+      "id": "ary",
+      "name": "Moroccan Arabic",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "عود",
+      "romanization": "ʿawd",
+      "root": "arabic-awd",
+      "mapAnchor": [
+        -7.4,
+        33.4
+      ],
+      "sources": [
+        {
+          "title": "Darija Dictionary: عود, horse, with native audio",
+          "url": "https://darijadictionary.com/en/index/horse-in-moroccan-arabic-darija/"
+        },
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ],
+      "notes": "Moroccan Darija عود, ʿawd, is a documented ordinary horse term. Thus Algeria is not unique in using this origin set. This is a vernacular reference rather than an exhaustive regional synonym inventory.",
+      "mapSize": 23,
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ʕawd"
+        },
+        {
+          "label": "Moroccan Arabic",
+          "form": "عود"
+        }
+      ]
+    },
+    {
+      "id": "ayl",
+      "name": "Libyan Arabic (Benghazi reference)",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "حصان",
+      "romanization": "ḥṣān",
+      "root": "arabic-hisan",
+      "mapAnchor": [
+        18,
+        29.4
+      ],
+      "sources": [
+        {
+          "title": "Čéplö et al. (2016), Mutual intelligibility of spoken Maltese, Libyan Arabic and Tunisian Arabic, Appendix A W002C01",
+          "url": "https://doi.org/10.1515/flin-2016-0021"
+        },
+        {
+          "title": "Adam Benkato, author publication list linking the full Tunisia/Libya study, item 26",
+          "url": "https://www.ocf.berkeley.edu/~abenkato/publications.html"
+        }
+      ],
+      "notes": "The comparison experiment records Benghazi ḥṣān. It is a documented eastern Libyan reference; the country background does not assert that every Libyan dialect uses the same form. Regional words and Berber languages remain separate.",
+      "mapSize": 24,
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ḥiṣān"
+        },
+        {
+          "label": "Libyan Arabic (Benghazi reference)",
+          "form": "حصان"
+        }
+      ]
+    },
+    {
+      "id": "mey",
+      "name": "Hassaniya (written-word reference)",
+      "family": "Afro-Asiatic",
+      "branch": "Semitic · Arabic",
+      "word": "فرس",
+      "romanization": "frs",
+      "root": "arabic-faras",
+      "mapAnchor": [
+        -10.7,
+        27.25
+      ],
+      "sources": [
+        {
+          "title": "Peace Corps (1979), Hassaniya Arabic handbook, p. 249: written فرس, horse",
+          "url": "https://files.eric.ed.gov/fulltext/ED294423.pdf#page=269"
+        }
+      ],
+      "notes": "The Peace Corps Hassaniya handbook records written فرس, horse, on p. 249. Frs transliterates only its consonants; exact local vowels and pronunciation remain unverified. This selected written-word reference is used for Western Sahara and the visible part of Mauritania; it is not a claim of uniform usage or a new linguistic border.",
+      "mapSize": 21,
+      "readingStatus": "consonantal transliteration; local vocalization unverified",
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "faras"
+        },
+        {
+          "label": "Hassaniya (written-word reference)",
+          "form": "فرس"
+        }
+      ]
+    },
+    {
+      "id": "rif",
+      "name": "Tarifiyt / Rif (inherited word)",
+      "family": "Afro-Asiatic",
+      "branch": "Berber",
+      "word": "yis",
+      "romanization": "",
+      "root": "berber-horse",
+      "mapAnchor": [
+        -3.1,
+        35.16
+      ],
+      "sources": [
+        {
+          "title": "Kossmann, WOLD Tarifiyt: yis, horse, Common Berber; no evidence of borrowing",
+          "url": "https://wold.clld.org/word/7212058936344482"
+        },
+        {
+          "title": "Kossmann, WOLD Tarifiyt: akiđā, horse, coexisting Moroccan Arabic loan",
+          "url": "https://wold.clld.org/word/7212059950182598"
+        },
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ],
+      "notes": "WOLD records yis as the inherited Common Berber horse word, without an archaic restriction. It also records coexisting akiđā, borrowed from Moroccan Arabic kid’ar, he-mule; that different origin is documented here but is not assigned the yis colour. This label selects the inherited word, not every regional synonym.",
+      "mapSize": 17,
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ayis / ayyis"
+        },
+        {
+          "label": "Tarifiyt / Rif (inherited word)",
+          "form": "yis"
+        }
+      ]
+    },
+    {
+      "id": "jbn",
+      "name": "Nafusi",
+      "family": "Afro-Asiatic",
+      "branch": "Berber",
+      "word": "agmár",
+      "romanization": "",
+      "root": "berber-agmar",
+      "mapAnchor": [
+        12.3966,
+        31.5019
+      ],
+      "sources": [
+        {
+          "title": "Marijn van Putten, Nefusa Text: The story of the wild animals, agmár, horse, analysing Beguinot 1942",
+          "url": "https://orientalberber.wordpress.com/category/nefusa/"
+        },
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ],
+      "notes": "Agmár is explicitly glossed horse in Marijn van Putten’s analysis of the Nefusa text in Beguinot 1942. The attested scholarly Latin transcription is displayed. This is the GMR word set, distinct from ayis and Arabic loans.",
+      "mapSize": 19,
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "agmar / aǧmar"
+        },
+        {
+          "label": "Nafusi",
+          "form": "agmár"
+        }
+      ]
+    },
+    {
+      "id": "jrb",
+      "name": "Djerba Berber (Guellala reference)",
+      "family": "Afro-Asiatic",
+      "branch": "Berber",
+      "word": "leḥṣan",
+      "romanization": "",
+      "root": "arabic-hisan",
+      "mapAnchor": [
+        10.85,
+        33.7
+      ],
+      "sources": [
+        {
+          "title": "Brugnatelli (2010), Guellala Djerba Berber dictionary manuscript, p. 28: leḥṣan",
+          "url": "https://fr.scribd.com/document/369483266/Dictionnaire-Brugnatelli-Djerba-Berbere"
+        }
+      ],
+      "notes": "Brugnatelli’s Guellala dictionary records leḥṣan, horse, plural leḥṣunnaḍ. This is an Arabic ḥṣān loan. The source’s Latin scholarly orthography is retained; e denotes schwa. The point identifies Guellala; no new exclusive village-language territory is asserted.",
+      "mapPoint": true,
+      "mapSize": 16,
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "ḥiṣān"
+        },
+        {
+          "label": "Djerba Berber (Guellala reference)",
+          "form": "leḥṣan"
+        }
+      ]
+    },
+    {
+      "id": "gha",
+      "name": "Ghadames Berber",
+      "family": "Afro-Asiatic",
+      "branch": "Berber",
+      "word": "aǧmar",
+      "romanization": "",
+      "root": "berber-agmar",
+      "mapAnchor": [
+        9.5,
+        30.13
+      ],
+      "sources": [
+        {
+          "title": "Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans",
+          "url": "https://amyaz.fr/uploads/66db4e13ca98e.pdf"
+        }
+      ],
+      "notes": "Kossmann (2013, p. 150) records Ghadames aǧmar. The attested Latin scholarly spelling is retained. This reference point has no newly invented language-area polygon.",
+      "mapPoint": true,
+      "mapSize": 18,
+      "chain": [
+        {
+          "label": "Comparative origin set",
+          "form": "agmar / aǧmar"
+        },
+        {
+          "label": "Ghadames Berber",
+          "form": "aǧmar"
         }
       ]
     }

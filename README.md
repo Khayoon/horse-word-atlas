@@ -4,7 +4,7 @@
 
 ![Horse word map](dist/assets/horse-map-preview.png)
 
-A flat landscape linguistic map of words for **horse** across Europe and its neighbours: **114 selected language/variety entries** and **35 word-origin sets**. It reuses the snow atlas’s language geography, compact Gentium Plus legend and high-resolution export layout.
+A flat landscape linguistic map of words for **horse** across Europe and its neighbours: **125 selected language/variety entries** and **36 word-origin sets**. It reuses the snow atlas’s language geography, compact Gentium Plus legend and high-resolution export layout.
 
 ## Reading the map
 
@@ -13,7 +13,9 @@ A flat landscape linguistic map of words for **horse** across Europe and its nei
 - Published overlapping footprints remain above a complete Natural Earth reference fill. Inside Romania, the old Hungarian atlas area is replaced by INS RPL 2021 data mapped by ISPMN: administrative units above 50% Hungarian mother tongue among known responses. This separates the Székely enclave from smaller western pockets, and does not claim speakers below that threshold are absent. The exact selection is in data/romanian-hungarian-2021.json. Other features retain their original source epochs, including the Kurdish 1750 supplements.
 - Greece, Russia and Kazakhstan show coexisting words with different origins using diagonal stripes and colour bars beneath the words. Stripe widths are decorative, not population or usage proportions. Russian конь is displayed alongside лошадь; Sardinian cuaddu supplements Nuorese cabaddu; Flemish peerd / peird supplements standard Dutch paard. Algeria now uses عود (ʿūd, Arabizi 3oud) rather than the standard-Arabic ḥiṣān reference.
 - French Flanders uses the French reference background. Its former solid Dutch/Flemish footprint is removed inside France; French Flemish peerd survives as a minority reference point at Quaëdypre. This acknowledges minority use without inventing a modern majority-speaking boundary or treating older speaker counts as current. The exact display revision is documented in data/french-flanders-revision.json.
-- Hungarian ló (stem lov-) and Khanty ԓов (Kazym łow, often simplified lov) share the Ugric horse-word set and colour. The Khanty source footprint combines varieties: the Kazym citation form is a reference, not a claim of uniform spelling or a dialect boundary. The remote origin before Ugric is unresolved.
+- Hungarian ló (stem lov-), Khanty ԓов (Kazym łow, often simplified lov) and Northern Mansi лув (luw) share the Ugric horse-word set and colour. The Khanty source footprint combines varieties: the Kazym citation form is a reference, not a claim of uniform spelling or a dialect boundary. The remote origin before Ugric is unresolved.
+- Gilaki, Iranian Talyshi and Mazandarani have separate اسب (asb) labels using their published atlas areas. These are documented regional forms with normalized Persian-script displays, not uniform orthographies for every included dialect. Iranian-internal borrowing histories remain qualified.
+- North Africa is lexically diverse: Moroccan عود shares the Algerian ʿawd origin, including Arabic-derived Kabyle aɛudiw. Tunisian and Benghazi Libyan حصان belong to the ḥiṣān set. Rif yis continues the ayis set; Nafusi agmár and Ghadames aǧmar form a separate Berber set. Guellala Djerba leḥṣan is an Arabic loan. Hassaniya written فرس has a separate faras colour; its (frs) label is consonant-only transliteration, with exact local vocalization unverified. The detailed regional audit is in data/north-africa-review.json.
 - Kazakh жылқы is a general species / livestock term and occurs in жылқы еті, horse meat. Ат is especially a riding or working horse, traditionally male / gelded. These are usage tendencies, not a strict meat-versus-riding opposition.
 - Romanizations under non-Latin words are reading aids, not IPA. Maaloula shows ܣܘܣܬ̤ܐ with (sūsča), an editorial Syriac rendering of Arnold’s attested transcription using the documented ܬ̤ = č convention. This is a script choice, not a directly quoted native spelling or a universal Maaloula standard; Mandaic susia is a literary/liturgical reference near Basra. Points indicate reference locations where suitable polygons were not verified.
 - No reliable indigenous Canarian horse term was verified. The earlier snow word tener? is not reused: this version retains the modern Spanish reference on the islands.
@@ -36,6 +38,7 @@ Export PNG at 6,000, 9,000 or 12,000 pixels wide or save SVG. Default compositio
 - `dist/data/land-reference.geojson`: complete country-reference layer below the language footprints.
 - `dist/data/geometry-sources.json` and `map-coverage.json`: source epochs, geography and inherited continuous-coverage method. Geography comes from the attributed snow-atlas build; it is not new fieldwork.
 - `dist/data/source-catalog.json`: complete linked source list.
+- `dist/data/north-africa-review.json`: regional words, sources, origin groups and the Hassaniya pronunciation limit.
 - `dist/data/french-flanders-revision.json`: French Flanders display method, sources and minority reference point.
 - `dist/data/romanian-hungarian-2021.json`: selected census units, language shares, denominator, threshold and source attribution.
 - `dist/vendor/`: D3, Gentium Plus and Noto fonts, vector typography and licenses.
@@ -59,13 +62,15 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 ### Lexical and historical references
 
 <details>
-<summary>All 148 references</summary>
+<summary>All 164 references</summary>
 
 - [Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Indo-European%2Fh%E2%82%81%C3%A9%E1%B8%B1wos) — PIE horse word.
 - [Encyclopaedia Iranica: ASB i., Iranian horse terminology](https://www.iranicaonline.org/articles/asb-pre-islamic-iran/) — PIE horse word.
 - [Wiktionary: Scottish Gaelic each, via Old Irish ech and Proto-Celtic *ekʷos](https://en.wiktionary.org/wiki/each#Scottish_Gaelic) — Scottish Gaelic; PIE horse word.
 - [Wiktionary: Greek ίππος, another surviving PIE horse-word reflex](https://en.wiktionary.org/wiki/%CE%AF%CF%80%CF%80%CE%BF%CF%82#Greek) — Greek (learned ίππος); PIE horse word.
 - [Wiktionary: Latin equus, inherited PIE horse noun](https://en.wiktionary.org/wiki/equus#Latin) — PIE horse word.
+- [Ivanov (1999), Comparative Notes, PDF p. 36: Talysh, Gilyan and Mazandarani horse forms](https://urkesh.org/attach/Ivanov1999a.pdf#page=36) — Gilaki; Talyshi (Iranian word reference); Mazandarani; PIE horse word.
+- [Cathcart (2015), Iranian Dialectology and Dialectometry, p. 135: Mazandarani asb](https://escholarship.org/content/qt77w684h2/qt77w684h2.pdf) — Mazandarani; PIE horse word.
 - [Wiktionary: caballus](https://en.wiktionary.org/wiki/caballus) — Caballus word-family.
 - [Wiktionary: capall (Irish)](https://en.wiktionary.org/wiki/capall#Irish) — Irish; Caballus word-family.
 - [Wiktionary: ceffyl (Welsh)](https://en.wiktionary.org/wiki/ceffyl#Welsh) — Welsh; Caballus word-family.
@@ -94,8 +99,9 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: hevonen (Finnish)](https://en.wiktionary.org/wiki/hevonen#Finnish) — Finnish; Finnic.
 - [Wiktionary: ló (Hungarian)](https://en.wiktionary.org/wiki/l%C3%B3#Hungarian) — Hungarian; Ugric.
 - [Wiktionary: Reconstruction:Proto-Ugric/luɣǝ](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Ugric%2Flu%C9%A3%C7%9D) — Ugric.
-- [HUN-REN, Új magyar etimológiai szótár: ló, Ugric inheritance and Khanty/Mansi cognates](https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e) — Hungarian; Hungarian (Romania, Székely area); Khanty (Kazym word reference); Ugric.
+- [HUN-REN, Új magyar etimológiai szótár: ló, Ugric inheritance and Khanty/Mansi cognates](https://uesz.nytud.hu/index.html?uuid=c14ded34-7c44-1014-a8d2-ae24c20aeb7e) — Hungarian; Hungarian (Romania, Székely area); Khanty (Kazym word reference); Northern Mansi; Ugric.
 - [V. N. Solovar 2014, Khanty–Russian Dictionary (Kazym dialect), p. 154: ԓов, horse](https://ouipiir.ru/sites/default/files/docs/635-1402.pdf) — Khanty (Kazym word reference); Ugric.
+- [Ob-Ugric Institute, short Mansi–Russian dictionary: лув, horse](https://mansy-audio-dic.ouipiir.ru/) — Northern Mansi; Ugric.
 - [Wiktionary: вал (Udmurt)](https://en.wiktionary.org/wiki/%D0%B2%D0%B0%D0%BB#Udmurt) — Udmurt; Permic.
 - [Wiktionary: вӧв (Komi-Zyrian)](https://en.wiktionary.org/wiki/%D0%B2%D3%A7%D0%B2#Komi-Zyrian) — Komi-Zyrian; Permic.
 - [Wiktionary: имне (Eastern Mari)](https://en.wiktionary.org/wiki/%D0%B8%D0%BC%D0%BD%D0%B5#Eastern_Mari) — Meadow Mari; Mari.
@@ -104,15 +110,18 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: حصان (Arabic)](https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Arabic) — Arabic (standard reference); Mesopotamian Arabic; Arabic.
 - [Lameen Souag (2002), The Algerian Arabic of Dellys: ʕud / ʕwad, horse, appendix p. 33](https://journals.uco.es/index.php/edna/article/download/8302/7778) — Algerian Arabic; Arabic ʕawd horse word.
 - [Wiktionary: Algerian Arabic عود, from Arabic ʕawd, a camel trained for riding](https://en.wiktionary.org/wiki/%D8%B9%D9%88%D8%AF#Algerian_Arabic) — Algerian Arabic; Arabic ʕawd horse word.
+- [Kossmann (2013), The Arabic Influence on Northern Berber, pp. 149–150: horse words and Arabic loans](https://amyaz.fr/uploads/66db4e13ca98e.pdf) — Kabyle; Moroccan Arabic; Tarifiyt / Rif (inherited word); Nafusi; Ghadames Berber; Arabic ʕawd horse word; Berber; Berber agmar set.
+- [Darija Dictionary: عود, horse, with native audio](https://darijadictionary.com/en/index/horse-in-moroccan-arabic-darija/) — Moroccan Arabic; Arabic ʕawd horse word.
+- [Peace Corps (1979), Hassaniya Arabic handbook, p. 249: written فرس, horse](https://files.eric.ed.gov/fulltext/ED294423.pdf#page=269) — Hassaniya (written-word reference); Arabic faras set.
 - [Wiktionary: סוס (Hebrew)](https://en.wiktionary.org/wiki/%D7%A1%D7%95%D7%A1#Hebrew) — Hebrew; Hebrew & Aramaic.
 - [Wiktionary: ܣܘܣܝܐ (Classical Syriac)](https://en.wiktionary.org/wiki/%DC%A3%DC%98%DC%A3%DC%9D%DC%90#Classical_Syriac) — Hebrew & Aramaic.
 - [Comprehensive Aramaic Lexicon, swsy horse](https://cal.huc.edu/oneentry.php?lemma=swsy%20N&cits=all) — Hebrew & Aramaic.
 - [Wiktionary: żiemel (Maltese)](https://en.wiktionary.org/wiki/%C5%BCiemel#Maltese) — Maltese; Arabic → Maltese.
-- [Centre de Recherche Berbère, Aures: comparison of Chaoui yis and Kabyle aɛudiw](https://centrederechercheberbere.fr/aures.html) — Kabyle; Kabyle.
-- [Amawal, Kabyle dictionary: aɛawdiw / aɛudiw](https://amawal.numidya.net/amawal/a/Goi4tKpe/a%C9%9Bawdiw) — Kabyle; Kabyle.
 - [Wiktionary: ⴰⵢⵉⵙ (Central Atlas Tamazight)](https://en.wiktionary.org/wiki/%E2%B4%B0%E2%B5%A2%E2%B5%89%E2%B5%99#Central_Atlas_Tamazight) — Central Atlas Tamazight; Berber.
 - [Wiktionary: ayyis (Tashelhit)](https://en.wiktionary.org/wiki/ayyis#Tashelhit) — Tachelhit; Berber.
 - [Tamazight–English Dictionary, horse: ayyis](https://www.temehu.com/imazighen/dictionaries/Amawals/tamazight-english-dictionary-acf.pdf) — Berber.
+- [Kossmann, WOLD Tarifiyt: yis, horse, Common Berber; no evidence of borrowing](https://wold.clld.org/word/7212058936344482) — Tarifiyt / Rif (inherited word); Berber.
+- [Marijn van Putten, Nefusa Text: The story of the wild animals, agmár, horse, analysing Beguinot 1942](https://orientalberber.wordpress.com/category/nefusa/) — Nafusi; Berber agmar set.
 - [Wiktionary: Reconstruction:Proto-Turkic/at](https://en.wiktionary.org/wiki/Reconstruction%3AProto-Turkic%2Fat) — Uzbek; Turkic.
 - [Wiktionary: at (Turkish)](https://en.wiktionary.org/wiki/at#Turkish) — Turkish; Turkic.
 - [Wiktionary: жылқы (Kazakh)](https://en.wiktionary.org/wiki/%D0%B6%D1%8B%D0%BB%D2%9B%D1%8B#Kazakh) — Kazakh; Turkic.
@@ -176,6 +185,8 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: hebo (Karelian)](https://en.wiktionary.org/wiki/hebo#Karelian) — Karelian.
 - [Wiktionary: hebo (Veps)](https://en.wiktionary.org/wiki/hebo#Veps) — Veps.
 - [Wiktionary: حصان (Tunisian Arabic)](https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Tunisian_Arabic) — Tunisian Arabic.
+- [Čéplö et al. (2016), Mutual intelligibility of spoken Maltese, Libyan Arabic and Tunisian Arabic, Appendix A W002C01](https://doi.org/10.1515/flin-2016-0021) — Tunisian Arabic; Libyan Arabic (Benghazi reference).
+- [Adam Benkato, author publication list linking the full Tunisia/Libya study, item 26](https://www.ocf.berkeley.edu/~abenkato/publications.html) — Tunisian Arabic; Libyan Arabic (Benghazi reference).
 - [Wiktionary: حصان (Egyptian Arabic)](https://en.wiktionary.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86#Egyptian_Arabic) — Egyptian Arabic.
 - [AIDA16 Booklet of Abstracts (2026), Baghdadi Arabic plant names: il-ḥiṣān in horse-tail, p.60](https://aidacatania.unict.it/AIDA16_Booklet_of_Abstracts_09_06_2026_DEF.pdf) — Mesopotamian Arabic.
 - [Wiktionary: at (Azerbaijani)](https://en.wiktionary.org/wiki/at#Azerbaijani) — Azerbaijani.
@@ -186,6 +197,8 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [Wiktionary: ат (Bashkir)](https://en.wiktionary.org/wiki/%D0%B0%D1%82#Bashkir) — Bashkir.
 - [Wiktionary: at (Crimean Tatar)](https://en.wiktionary.org/wiki/at#Crimean_Tatar) — Crimean Tatar.
 - [Wiktionary: ат (Kyrgyz)](https://en.wiktionary.org/wiki/%D0%B0%D1%82#Kyrgyz) — Kyrgyz.
+- [Centre de Recherche Berbère, Aures: comparison of Chaoui yis and Kabyle aɛudiw](https://centrederechercheberbere.fr/aures.html) — Kabyle.
+- [Amawal, Kabyle dictionary: aɛawdiw / aɛudiw](https://amawal.numidya.net/amawal/a/Goi4tKpe/a%C9%9Bawdiw) — Kabyle.
 - [Wiktionary: at (Turkmen)](https://en.wiktionary.org/wiki/at#Turkmen) — Turkmen.
 - [Wiktionary (Russian), ат: Karachay-Balkar horse noun](https://ru.wiktionary.org/wiki/%D0%B0%D1%82#%D0%9A%D0%B0%D1%80%D0%B0%D1%87%D0%B0%D0%B5%D0%B2%D0%BE-%D0%B1%D0%B0%D0%BB%D0%BA%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9) — Karachay-Balkar.
 - [Ethnocultural study of ат, horse, in Karachay-Balkar phraseology](https://www.elbrusoid.net/articles/poznat/393388/) — Karachay-Balkar.
@@ -209,6 +222,12 @@ The workflow in `.github/workflows/pages.yml` deploys `dist/` when `main` change
 - [ISPMN / Romanian INS: 2021 census mother-tongue map by administrative unit](https://www.ispmn.gov.ro/maps2022) — Hungarian (Romania, Székely area).
 - [ANVT–ILRF: French Flemish peerd in local usage (Quaëdypre)](https://anvt.org/vl/nieuws/55-nieuws-van-de-anvt?start=50) — French Flemish (minority reference).
 - [French Ministry of Culture: regional languages, including West Flemish](https://www.culture.gouv.fr/thematiques/langue-francaise-et-langues-de-france/agir-pour-les-langues/promouvoir-les-langues-de-france/langues-regionales) — French Flemish (minority reference).
+- [Shabani and Taghipour (2023), Nominal linkers in Gilaki, pp. 2 and 5: Eshkevarat asb](https://twpl.library.utoronto.ca/index.php/twpl/article/download/41689/31976/112601) — Gilaki.
+- [Mohammadreza Pourjafari, original Gilaki linguistic discussion: اَسب](https://baru.wiki/mohammadreza.pourjafari/neshane-ha-ye-masdari/) — Gilaki.
+- [Taghipour and Nabati (2023), Nominal linkers in Taleshi, p. 9 example 29c: Pareh Sar asb](https://twpl.library.utoronto.ca/index.php/twpl/article/download/41688/31980/112605) — Talyshi (Iranian word reference).
+- [Ali-Asghar Rostamnezhad Nashali, original Mazandarani proverbs using اسب](https://neshele.blogfa.com/post/20) — Mazandarani.
+- [Kossmann, WOLD Tarifiyt: akiđā, horse, coexisting Moroccan Arabic loan](https://wold.clld.org/word/7212059950182598) — Tarifiyt / Rif (inherited word).
+- [Brugnatelli (2010), Guellala Djerba Berber dictionary manuscript, p. 28: leḥṣan](https://fr.scribd.com/document/369483266/Dictionnaire-Brugnatelli-Djerba-Berbere) — Djerba Berber (Guellala reference).
 
 </details>
 
