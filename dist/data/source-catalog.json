@@ -5,7 +5,7 @@
   "counts": {
     "languages": 128,
     "wordOriginSets": 38,
-    "lexicalCanonicalSources": 174,
+    "lexicalCanonicalSources": 176,
     "languageAreaFeatures": 185,
     "documentedLexicalJoins": 101,
     "displayedOriginGroups": 42
@@ -196,6 +196,21 @@
         {
           "label": "Groome historical Damascus source",
           "url": "https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Balkan and Eastern European Romani reference communities",
+      "usedFor": "Twelve approximate town locators in Serbia, Kosovo, North Macedonia, Bulgaria, Albania, Greece, Montenegro, Croatia, Slovakia, Hungary and Moldova. The RMS documentation samples are not population-density measurements or a complete distribution. Local grast is directly attested at Parakalamos; individual evidence limits are in the minority-reference audit.",
+      "license": "The linguistic sources retain their own terms; reference facts and approximate editorial town locators are attributed. No surveyed ethnic boundaries are drawn.",
+      "urls": [
+        {
+          "label": "RMS sample inventory",
+          "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+        },
+        {
+          "label": "Parakalamos primary field study",
+          "url": "https://www.kratylos.org/~raphael/romani/downloads/2/Matras_Parakal.pdf#page=14"
         }
       ]
     }
@@ -688,7 +703,7 @@
       "languageUses": [
         {
           "id": "rom-ro",
-          "name": "Romani (Romania; Turda and Kalderaš references)"
+          "name": "Romani (grast reference; dispersed communities)"
         },
         {
           "id": "rmo-de",
@@ -709,7 +724,7 @@
       "languageUses": [
         {
           "id": "rom-ro",
-          "name": "Romani (Romania; Turda and Kalderaš references)"
+          "name": "Romani (grast reference; dispersed communities)"
         },
         {
           "id": "rmo-de",
@@ -2568,7 +2583,7 @@
         },
         {
           "id": "rom-ro",
-          "name": "Romani (Romania; Turda and Kalderaš references)"
+          "name": "Romani (grast reference; dispersed communities)"
         }
       ]
     },
@@ -2676,12 +2691,36 @@
       "languageUses": [
         {
           "id": "rom-ro",
-          "name": "Romani (Romania; Turda and Kalderaš references)"
+          "name": "Romani (grast reference; dispersed communities)"
         }
       ]
     },
     {
       "id": "L172",
+      "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html",
+      "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "rom-ro",
+          "name": "Romani (grast reference; dispersed communities)"
+        }
+      ]
+    },
+    {
+      "id": "L173",
+      "url": "https://www.kratylos.org/~raphael/romani/downloads/2/Matras_Parakal.pdf#page=14",
+      "title": "Matras (2004), The Romani dialect of Parakalamos, p. 72: grast, horse",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "rom-ro",
+          "name": "Romani (grast reference; dispersed communities)"
+        }
+      ]
+    },
+    {
+      "id": "L174",
       "url": "https://www.kratylos.org/~raphael/romani/interactive/sampler/d901.html",
       "title": "Manchester Romani Project, Sinti dialect sampler: Hameln, Germany, Holzinger 1993",
       "rootUses": [],
@@ -2693,7 +2732,7 @@
       ]
     },
     {
-      "id": "L173",
+      "id": "L175",
       "url": "https://www.kratylos.org/~raphael/romani/downloads/2/Elsik-Matras_Modals%20in%20Romani.pdf#page=20",
       "title": "Elšík and Matras, Modals in Romani, p. 20 example 28: Hameln Sinti grajes, horse.ACC, citing Holzinger 1993:325",
       "rootUses": [],
@@ -2705,7 +2744,7 @@
       ]
     },
     {
-      "id": "L174",
+      "id": "L176",
       "url": "https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf",
       "title": "Groome (1891), Persian and Syrian Gypsies, p. 25: historical Damascus horse phrases collected in 1881",
       "rootUses": [],

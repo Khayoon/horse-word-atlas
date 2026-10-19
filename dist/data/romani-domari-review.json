@@ -751,5 +751,230 @@
         "url": "https://www.meri-k.org/wp-content/uploads/2024/01/MERI-Policy-Paper-vol.6-no.2-1.pdf"
       }
     ]
-  }
+  },
+  "balkanAndEasternReferences": {
+    "method": "Twelve equal-size approximate town locators from the primary RMS inventory. They document language-reference communities, not current population counts, density or complete distribution. Romanian census selection and linguistic sample selection are explicitly different. Displayed grast is a reference form; individual word-evidence qualifications are retained below.",
+    "count": 12,
+    "locations": [
+      {
+        "name": "Deronje",
+        "country": "Serbia",
+        "variety": "Gurbetsky",
+        "referenceCode": "YU-002",
+        "anchor": [
+          19.22,
+          45.455
+        ],
+        "note": "Gurbetsky Romani, RMS YU-002. Comparative Gurbet gra; the local horse response was not independently recovered. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Beočin",
+        "country": "Serbia",
+        "variety": "Bugurdži Arli",
+        "referenceCode": "YU-012",
+        "anchor": [
+          19.72,
+          45.19
+        ],
+        "note": "Bugurdži Arli Romani, RMS YU-012. Comparative Arlije/Bugurdži gras; the local horse response was not independently recovered. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Gjilan / Gnjilane",
+        "country": "Kosovo",
+        "variety": "Kosovan Arli",
+        "referenceCode": "YU-016",
+        "anchor": [
+          21.47,
+          42.46
+        ],
+        "note": "Kosovan Arli Romani, RMS YU-016. Comparative Arlije gras; the local horse response was not independently recovered. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Šutka, Skopje",
+        "country": "North Macedonia",
+        "variety": "Arli",
+        "referenceCode": "MK-003",
+        "anchor": [
+          21.42,
+          42.04
+        ],
+        "note": "Arli Romani, RMS MK-003. Comparative Arlije gras; the local horse response was not independently recovered. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Sofia",
+        "country": "Bulgaria",
+        "variety": "Sofia Erli",
+        "referenceCode": "BG-024",
+        "anchor": [
+          23.32,
+          42.7
+        ],
+        "note": "Sofia Erli Romani, RMS BG-024. Community documentation; no independently recovered local horse lemma. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Fier / Fieri",
+        "country": "Albania",
+        "variety": "Mečkari",
+        "referenceCode": "AL-001",
+        "anchor": [
+          19.56,
+          40.72
+        ],
+        "note": "Mečkari Romani, RMS AL-001. Community documentation; no independently recovered local horse lemma. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Parakalamos",
+        "country": "Greece",
+        "variety": "Romacilikanes",
+        "referenceCode": "GR-002",
+        "anchor": [
+          20.565,
+          39.875
+        ],
+        "note": "Romacilikanes Romani, RMS GR-002. Local grast is directly documented in Matras (2004), p. 72. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          },
+          {
+            "title": "Matras (2004), The Romani dialect of Parakalamos, p. 72: grast, horse",
+            "url": "https://www.kratylos.org/~raphael/romani/downloads/2/Matras_Parakal.pdf#page=14"
+          }
+        ]
+      },
+      {
+        "name": "Budva",
+        "country": "Montenegro",
+        "variety": "Gurbet",
+        "referenceCode": "YU-017",
+        "anchor": [
+          18.84,
+          42.29
+        ],
+        "note": "Gurbet Romani, RMS YU-017. Comparative Gurbet gra; the local horse response was not independently recovered. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Čakovec",
+        "country": "Croatia",
+        "variety": "Gurbet",
+        "referenceCode": "HR-001",
+        "anchor": [
+          16.43,
+          46.385
+        ],
+        "note": "Gurbet Romani, RMS HR-001. Comparative Gurbet gra; the local horse response was not independently recovered. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Krompachy",
+        "country": "Slovakia",
+        "variety": "East Slovak",
+        "referenceCode": "SK-011",
+        "anchor": [
+          20.875,
+          48.915
+        ],
+        "note": "East Slovak Romani, RMS SK-011. Comparative East Slovak grast; the local horse response was not independently recovered. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Győr",
+        "country": "Hungary",
+        "variety": "Lovari",
+        "referenceCode": "HU-004",
+        "anchor": [
+          17.635,
+          47.685
+        ],
+        "note": "Lovari Romani, RMS HU-004. Community documentation; no independently recovered local horse lemma. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      },
+      {
+        "name": "Chișinău / Kišinev",
+        "country": "Moldova",
+        "variety": "Laješa / Kišinevcy",
+        "referenceCode": "MD-001",
+        "anchor": [
+          28.835,
+          47.01
+        ],
+        "note": "Laješa / Kišinevcy Romani, RMS MD-001. Community documentation; no independently recovered local horse lemma. Approximate town locator; this is a documented language sample, not a population-density estimate.",
+        "sources": [
+          {
+            "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+            "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Manchester Romani Project, RMS dialect sample inventory: documented community reference locations",
+        "url": "https://www.kratylos.org/~raphael/romani/db/dialects.html"
+      },
+      {
+        "title": "Matras (2004), The Romani dialect of Parakalamos, p. 72: grast, horse",
+        "url": "https://www.kratylos.org/~raphael/romani/downloads/2/Matras_Parakal.pdf#page=14"
+      }
+    ]
+  },
+  "markerPresentation": "The word labels have explicit Romani, Sinti Romani and Domari captions. Damascus has a named outlined community pin, a leader and reserved space so the Aramaic label cannot cover it. Its historical-community caveat remains unchanged."
 }
