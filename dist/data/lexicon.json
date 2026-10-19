@@ -6,7 +6,7 @@
       "form": "*h₁éḱwos",
       "gloss": "horse",
       "color": "#d8ad97",
-      "description": "The PIE horse noun *h₁éḱwos is shown with separate Celtic and Iranian routes and colours. Scottish Gaelic each continues Proto-Celtic *ekʷos through Old Irish ech; Iranian asp/asb/hesp words continue Proto-Iranian *Hácwah through different histories, including Iranian-internal borrowing. These are the two lineages represented by the map’s selected labels, not the only surviving reflexes. Greek ίππος and Latin equus also continue this PIE noun; the selected Greek άλογο and Romance caballus words have other origins. Proposed Finnic and Caucasian links remain unresolved.",
+      "description": "The PIE horse noun *h₁éḱwos is shown with separate Scottish Gaelic and Iranian routes and colours. Scottish Gaelic each continues Proto-Celtic *ekʷos through Old Irish ech; Iranian asp/asb/hesp words continue Proto-Iranian *Hácwah through different histories, including Iranian-internal borrowing. These are the two lineages represented by the map’s selected labels, not the only surviving reflexes. Greek ίππος and Latin equus also continue this PIE noun; the selected Greek άλογο and Romance caballus words have other origins. Proposed Finnic and Caucasian links remain unresolved.",
       "sources": [
         {
           "title": "Wiktionary: Reconstruction:Proto-Indo-European/h₁éḱwos",
@@ -35,7 +35,7 @@
           "label": "Scottish Gaelic route",
           "form": "*ekʷos",
           "gloss": "horse",
-          "legend": "Celtic *ekʷos → Scottish Gaelic each",
+          "legend": "Scottish Gaelic · *ekʷos → each",
           "color": "#7da8ad",
           "description": "The displayed modern word each is Scottish Gaelic. Its ancestor *ekʷos is reconstructed Proto-Celtic, not a Scottish Gaelic word: PIE *h₁éḱwos → Proto-Celtic *ekʷos → Old Irish ech → Scottish Gaelic each."
         },
@@ -3645,7 +3645,7 @@
     "title": "Lexical and etymological method",
     "asOf": "2026-10-18",
     "scope": "105 selected horse words across Europe and neighbouring regions. The same generalized language geography as the snow map is reused. A representative common noun is selected, with important male-horse, collective and regional distinctions noted.",
-    "comparison": "Colours follow the displayed etymological routes. The PIE horse noun has separate Celtic and Iranian routes under its common ancestor. The caballus / *kaballos word-family likewise has separate Romance, Celtic and Albanian routes under a shared heading; Celtic borrowing directions are not presented as settled. Language branch colouring remains available as a comparison.",
+    "comparison": "Colours follow the displayed etymological routes. The PIE horse noun has separate Scottish Gaelic and Iranian routes under its common ancestor. The caballus / *kaballos word-family likewise has separate Romance, Celtic and Albanian routes under a shared heading; Celtic borrowing directions are not presented as settled. Language branch colouring remains available as a comparison.",
     "chains": "Chains are schematic, not complete dated sound histories. Borrowing and derivation are noted; shared colour does not imply direct inheritance. Asterisks mark reconstructed, unattested forms.",
     "uncertainty": "An asterisk marks a reconstructed form. The legend uses “loan ?” for a possible borrowing. Other uncertainties, including disputed deeper origins and early borrowing directions, are explained in the entry notes rather than abbreviated in the legend. The origin of caballus/*kaballos and the deeper origin of English horse are disputed. Finnic *hëpo is not automatically merged with PIE *h₁éḱwos. Early Iranian relationships proposed for Caucasian horse words remain proposals. No indigenous Canarian horse word was verified; that label and its historical island-reference fill are omitted, leaving the modern Spanish reference layer. The former snow gloss tener? is not reused.",
     "standards": "Non-Latin labels retain native scripts with a parenthesized romanized reading beneath. Scholarly Latin transcriptions are used where no reliable native spelling was checked. Romanizations are not IPA. Northern Luri uses a local speaker wordlist; the Iraqi reference ḥiṣān is also attested in a Baghdadi Arabic study, without asserting uniform regional vowels. Mandaic is literary/liturgical. The Maaloula label uses an editorial Syriac rendering of Arnold’s attested sūsča, with the spelling convention and its limits documented in that entry.",
