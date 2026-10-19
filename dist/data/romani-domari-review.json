@@ -725,7 +725,8 @@
         "title": "Groome (1891), Persian and Syrian Gypsies, p. 25: historical Damascus horse phrases collected in 1881",
         "url": "https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf"
       }
-    ]
+    ],
+    "displayNote": "The Damascus reference repeats Aleppo agōra with the same unboxed Domari caption and word style. This is an explicitly shared lexical reference, not new Damascus lexical evidence."
   },
   "iraqiKawliya": {
     "status": "Modern community-specific horse lexeme not verified; no word or language boundary has been invented.",
@@ -739,6 +740,10 @@
     },
     "sources": [
       {
+        "title": "Reuters (2018), Children of Iraq’s Kawliya go to school after 14-year hiatus: Al-Zuhoor village, Diwaniya",
+        "url": "https://www.reutersconnect.com/item/children-of-iraqs-kawliya-go-to-school-after-14-year-hiatus/dGFnOnJldXRlcnMuY29tLDIwMTg6bmV3c21sX1ZBOEJUSjRVVA"
+      },
+      {
         "title": "Newbold (1856), The Gypsies of Egypt, pp. 303–304: historical Duman informant from Altun Kupri, asp, horse",
         "url": "https://domari.org/wp-content/uploads/2024/06/newbold_1856_the_gypsies_of_egypt.pdf"
       },
@@ -750,7 +755,40 @@
         "title": "Edgcumbe (2024), MERI Policy Paper 6(2), pp. 5–6: heterogeneous Iraqi community identities",
         "url": "https://www.meri-k.org/wp-content/uploads/2024/01/MERI-Policy-Paper-vol.6-no.2-1.pdf"
       }
-    ]
+    ],
+    "mapRepresentation": {
+      "id": "kawliya-iq",
+      "name": "Kawliya (Iraq)",
+      "mapCaption": "Kawliya",
+      "anchor": [
+        44.92,
+        31.99
+      ],
+      "mapOffset": [
+        -15,
+        28
+      ],
+      "notes": "No modern Iraqi Kawliya-specific word for horse has been verified. The open marker records documented community presence only and is not assigned a horse-word origin colour. Newbold (1856) recorded asp from a Duman informant from Altun Kupri; that historical northern Iraqi record is not substituted for present-day Kawliya speech in southern Iraq. Iraqi communities have varied language practices and identities.",
+      "locationNote": "Approximate Diwaniyah regional reference, not an exact village coordinate, boundary or current population estimate. Reuters reported from Al-Zuhoor village, Diwaniya, in 2018; Minority Rights Group documents communities in Al-Qadissiya.",
+      "sources": [
+        {
+          "title": "Reuters (2018), Children of Iraq’s Kawliya go to school after 14-year hiatus: Al-Zuhoor village, Diwaniya",
+          "url": "https://www.reutersconnect.com/item/children-of-iraqs-kawliya-go-to-school-after-14-year-hiatus/dGFnOnJldXRlcnMuY29tLDIwMTg6bmV3c21sX1ZBOEJUSjRVVA"
+        },
+        {
+          "title": "Newbold (1856), The Gypsies of Egypt, pp. 303–304: historical Duman informant from Altun Kupri, asp, horse",
+          "url": "https://domari.org/wp-content/uploads/2024/06/newbold_1856_the_gypsies_of_egypt.pdf"
+        },
+        {
+          "title": "Minority Rights Group (2017), Iraqi Kawliyah communities, including Al-Qadissiya and Baghdad/Basra/Mosul surroundings",
+          "url": "https://www.refworld.org/reference/countryrep/mrgi/2017/en/107422"
+        },
+        {
+          "title": "Edgcumbe (2024), MERI Policy Paper 6(2), pp. 5–6: heterogeneous Iraqi community identities",
+          "url": "https://www.meri-k.org/wp-content/uploads/2024/01/MERI-Policy-Paper-vol.6-no.2-1.pdf"
+        }
+      ]
+    }
   },
   "balkanAndEasternReferences": {
     "method": "Twelve equal-size approximate town locators from the primary RMS inventory. They document language-reference communities, not current population counts, density or complete distribution. Romanian census selection and linguistic sample selection are explicitly different. Displayed grast is a reference form; individual word-evidence qualifications are retained below.",
@@ -976,5 +1014,5 @@
       }
     ]
   },
-  "markerPresentation": "The word labels have explicit Romani, Sinti Romani and Domari captions. Damascus has a named outlined community pin, a leader and reserved space so the Aramaic label cannot cover it. Its historical-community caveat remains unchanged."
+  "markerPresentation": "Romani, Sinti Romani and both Domari word references use the same unboxed caption and word style. Damascus repeats the Aleppo lexical reference with a leader to its community marker; it has no place-name caption or background box. A neutral open Kawliya marker near Diwaniyah documents community presence without assigning an unverified horse word or origin colour."
 }

@@ -135,5 +135,5 @@
   ],
   "horseMapNote": "Documented Romanian/French Flanders display revisions are retained. New regional word joins reuse existing atlas geometry; North African country references are lexical conventions, not new surveyed dialect borders.",
   "minorityCommunityReferenceAudit": "romani-domari-review.json",
-  "minorityCommunityMarkerCount": 71
+  "minorityCommunityMarkerCount": 72
 }

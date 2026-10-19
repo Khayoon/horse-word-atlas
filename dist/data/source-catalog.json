@@ -5,7 +5,7 @@
   "counts": {
     "languages": 128,
     "wordOriginSets": 38,
-    "lexicalCanonicalSources": 176,
+    "lexicalCanonicalSources": 180,
     "languageAreaFeatures": 185,
     "documentedLexicalJoins": 101,
     "displayedOriginGroups": 42
@@ -174,9 +174,13 @@
     },
     {
       "title": "Domari and Iraqi Kawliya community-reference review",
-      "usedFor": "Aleppo word and source-community reference; older Sayyida Zainab/Damascus presence. Historical Duman asp from Altun Kupri is not assigned to modern Kawliya. No contemporary Iraqi community-specific horse word was verified.",
+      "usedFor": "Syrian Domari agōra is an Aleppo lexical reference, also repeated beside the older Damascus community marker. Iraqi Kawliya have a labelled open community-only marker at an approximate Diwaniyah regional reference, supported by Reuters reporting from Al-Zuhoor (2018) and Minority Rights Group (2017). No modern Kawliya horse word was verified; historical Duman asp is kept separate.",
       "license": "Published scholarly and community reports retain their respective terms. Brief facts and original summaries are attributed.",
       "urls": [
+        {
+          "label": "Reuters (2018), Children of Iraq’s Kawliya go to school after 14-year hiatus: Al-Zuhoor village, Diwaniya",
+          "url": "https://www.reutersconnect.com/item/children-of-iraqs-kawliya-go-to-school-after-14-year-hiatus/dGFnOnJldXRlcnMuY29tLDIwMTg6bmV3c21sX1ZBOEJUSjRVVA"
+        },
         {
           "label": "Newbold (1856), The Gypsies of Egypt, pp. 303–304: historical Duman informant from Altun Kupri, asp, horse",
           "url": "https://domari.org/wp-content/uploads/2024/06/newbold_1856_the_gypsies_of_egypt.pdf"
@@ -2752,6 +2756,54 @@
         {
           "id": "rmt-sy",
           "name": "Domari (Aleppo word; Damascus community reference)"
+        }
+      ]
+    },
+    {
+      "id": "L177",
+      "url": "https://www.reutersconnect.com/item/children-of-iraqs-kawliya-go-to-school-after-14-year-hiatus/dGFnOnJldXRlcnMuY29tLDIwMTg6bmV3c21sX1ZBOEJUSjRVVA",
+      "title": "Reuters (2018), Children of Iraq’s Kawliya go to school after 14-year hiatus: Al-Zuhoor village, Diwaniya",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "kawliya-iq",
+          "name": "Kawliya (Iraq)"
+        }
+      ]
+    },
+    {
+      "id": "L178",
+      "url": "https://domari.org/wp-content/uploads/2024/06/newbold_1856_the_gypsies_of_egypt.pdf",
+      "title": "Newbold (1856), The Gypsies of Egypt, pp. 303–304: historical Duman informant from Altun Kupri, asp, horse",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "kawliya-iq",
+          "name": "Kawliya (Iraq)"
+        }
+      ]
+    },
+    {
+      "id": "L179",
+      "url": "https://www.refworld.org/reference/countryrep/mrgi/2017/en/107422",
+      "title": "Minority Rights Group (2017), Iraqi Kawliyah communities, including Al-Qadissiya and Baghdad/Basra/Mosul surroundings",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "kawliya-iq",
+          "name": "Kawliya (Iraq)"
+        }
+      ]
+    },
+    {
+      "id": "L180",
+      "url": "https://www.meri-k.org/wp-content/uploads/2024/01/MERI-Policy-Paper-vol.6-no.2-1.pdf",
+      "title": "Edgcumbe (2024), MERI Policy Paper 6(2), pp. 5–6: heterogeneous Iraqi community identities",
+      "rootUses": [],
+      "languageUses": [
+        {
+          "id": "kawliya-iq",
+          "name": "Kawliya (Iraq)"
         }
       ]
     }

@@ -162,6 +162,6 @@
   "communityRevisionFrenchFlanders": "Removed the atlas Dutch/Flemish solid footprint only inside the Natural Earth France boundary. The existing French reference background is visible there. A French Flemish peerd point at Quaëdypre preserves minority-language presence without inventing a modern majority-speaking boundary. Dutch/Flemish areas outside France are unchanged. This is an editorial display choice, not a new census or an assertion that Flemish has disappeared.",
   "communityRevisionKhanty": "Existing source aggregate joined to a documented Kazym horse word in the same Ugric origin set as Hungarian ló.",
   "northAfricanReview": "north-africa-review.json",
-  "minorityCommunityMarkerCount": 71,
+  "minorityCommunityMarkerCount": 72,
   "minorityReferenceAudit": "romani-domari-review.json"
 }

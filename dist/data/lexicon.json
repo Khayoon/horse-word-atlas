@@ -5561,9 +5561,9 @@
             33.45
           ],
           "note": "Community reference documented in older sources; exact present-day local horse form was not verified. Aleppo agōra is the displayed lexical reference, not an independent Damascus elicitation.",
-          "mapCaption": "Domari · Damascus",
+          "mapCaption": "Domari",
           "mapOffset": [
-            47,
+            40,
             35
           ]
         }
@@ -5586,7 +5586,7 @@
           "url": "https://domari.org/wp-content/uploads/2024/09/groome_1891_persian_and_syrian_gypsies.pdf"
         }
       ],
-      "notes": "Agōra follows the northern citation (a)gōra in Herin (2016, p. 46); the stem agōr- is directly attested in Aleppo by Herin (2012). Matras and Kelzi (2024) use agorà; their à marks vowel quality rather than just stress. Scholarly Latin transcription is retained rather than inventing an Arabic spelling. The Aleppo anchor is a documented reference community; the 2024 source describes extensive post-2011 dispersal, so this is not a current population boundary. The additional Sayyida Zainab/Damascus dot records community presence in older sources, not a verified contemporary Damascus horse word. Groome’s Damascus-origin 1881 material contains historical unsegmented horse phrases, which are preserved in the audit rather than made into a modern lemma. Domari and European Romani are distinct languages.",
+      "notes": "Agōra follows the northern citation (a)gōra in Herin (2016, p. 46); the stem agōr- is directly attested in Aleppo by Herin (2012). Matras and Kelzi (2024) use agorà; their à marks vowel quality rather than just stress. Scholarly Latin transcription is retained rather than inventing an Arabic spelling. The Aleppo anchor is a documented reference community; the 2024 source describes extensive post-2011 dispersal, so this is not a current population boundary. The additional Sayyida Zainab/Damascus dot records community presence in older sources, not a verified contemporary Damascus horse word. Groome’s Damascus-origin 1881 material contains historical unsegmented horse phrases, which are preserved in the audit rather than made into a modern lemma. Domari and European Romani are distinct languages. At the Damascus community reference, the same agōra reference label is repeated for legibility; it is not an independently elicited Damascus form.",
       "chain": [
         {
           "label": "Inherited Indo-Aryan horse-word set",
@@ -5618,5 +5618,40 @@
     "standards": "Non-Latin labels retain native scripts with a parenthesized romanized reading beneath. Scholarly Latin transcriptions are used where no reliable native spelling was checked. Romanizations are not IPA. Northern Luri uses a local speaker wordlist; the Iraqi reference ḥiṣān is also attested in a Baghdadi Arabic study, without asserting uniform regional vowels. Mandaic is literary/liturgical. The Maaloula label uses an editorial Syriac rendering of Arnold’s attested sūsča, with the spelling convention and its limits documented in that entry.",
     "sources": "Wiktionary is a community-edited secondary reference. Entries are linked individually, with institutional and primary lexical sources for key unusual varieties. Research records and the source catalog retain the distinction between checked forms and unresolved deeper histories.",
     "license": "Brief lexical facts and original explanatory summaries with attribution. Wiktionary is CC BY-SA 4.0; third-party dictionaries and research retain their own terms."
-  }
+  },
+  "communityReferences": [
+    {
+      "id": "kawliya-iq",
+      "name": "Kawliya (Iraq)",
+      "mapCaption": "Kawliya",
+      "anchor": [
+        44.92,
+        31.99
+      ],
+      "mapOffset": [
+        -15,
+        28
+      ],
+      "notes": "No modern Iraqi Kawliya-specific word for horse has been verified. The open marker records documented community presence only and is not assigned a horse-word origin colour. Newbold (1856) recorded asp from a Duman informant from Altun Kupri; that historical northern Iraqi record is not substituted for present-day Kawliya speech in southern Iraq. Iraqi communities have varied language practices and identities.",
+      "locationNote": "Approximate Diwaniyah regional reference, not an exact village coordinate, boundary or current population estimate. Reuters reported from Al-Zuhoor village, Diwaniya, in 2018; Minority Rights Group documents communities in Al-Qadissiya.",
+      "sources": [
+        {
+          "title": "Reuters (2018), Children of Iraq’s Kawliya go to school after 14-year hiatus: Al-Zuhoor village, Diwaniya",
+          "url": "https://www.reutersconnect.com/item/children-of-iraqs-kawliya-go-to-school-after-14-year-hiatus/dGFnOnJldXRlcnMuY29tLDIwMTg6bmV3c21sX1ZBOEJUSjRVVA"
+        },
+        {
+          "title": "Newbold (1856), The Gypsies of Egypt, pp. 303–304: historical Duman informant from Altun Kupri, asp, horse",
+          "url": "https://domari.org/wp-content/uploads/2024/06/newbold_1856_the_gypsies_of_egypt.pdf"
+        },
+        {
+          "title": "Minority Rights Group (2017), Iraqi Kawliyah communities, including Al-Qadissiya and Baghdad/Basra/Mosul surroundings",
+          "url": "https://www.refworld.org/reference/countryrep/mrgi/2017/en/107422"
+        },
+        {
+          "title": "Edgcumbe (2024), MERI Policy Paper 6(2), pp. 5–6: heterogeneous Iraqi community identities",
+          "url": "https://www.meri-k.org/wp-content/uploads/2024/01/MERI-Policy-Paper-vol.6-no.2-1.pdf"
+        }
+      ]
+    }
+  ]
 }
