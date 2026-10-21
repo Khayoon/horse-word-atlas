@@ -20,6 +20,15 @@
   const offsets={'vls-fr':[-35,25],amw:[-15,8],aii:[-22,55],tru:[-55,-22],myz:[0,0],gnc:[15,-16],eus:[-43,-5],por:[-11,0],glg:[-29,-14],ast:[-8,-32],arg:[5,-23],cat:[9,9],oci:[2,-8],bre:[-18,-3],cym:[-31,2],cor:[-28,18],gla:[-20,-2],glv:[-43,0],fry:[-15,-24],nld:[-17,8],ltz:[-18,14],hsb:[12,-1],dsb:[16,-27],csb:[19,-9],roh:[-21,6],vec:[-2,14],fur:[21,-8],slv:[0,-2],hbs:[0,5],sqi:[-7,10],mkd:[4,11],mlt:[-13,19],heb:[-20,1],kat:[-11,-8],hye:[6,10],aze:[25,5],oss:[-9,-15],che:[18,-15],inh:[-20,-27],kbd:[-17,-34],krc:[-30,-17],ava:[29,-15],dar:[52,0],lbe:[11,26],lez:[42,21],kum:[51,-30],ady:[-31,-8]};
   const important=['eng','spa','fra','deu','ita','rus','ukr','pol','fin','swe','nor','tur','kaz','pes','arb','arz','tuk','kpv','yrk','cat','oci','eus','hun','ron','ell','hye','kat','bal','kmr','kal'];
   const localSizes={amw:18,aii:18,tru:18,myz:20,gnc:20,sqi:18,mkd:17,kat:20,hye:22,aze:20,oss:16,che:18,ava:16,dar:16,lez:18,lbe:15,inh:16,kbd:16,ady:16,krc:18,kum:17};
+  // Compact local annotations: apply after layout so the Caucasus stays unchanged.
+  const middleEastPlacements={
+    tur:{offset:[0,0],leader:false,point:false},kmr:{offset:[4,-8],leader:false,point:false},
+    apc:{offset:[18,4],leader:false},acm:{offset:[0,0],leader:false,point:false},
+    amw:{offset:[-43,4],leader:false},aii:{offset:[-5,42],leader:true,endOffset:[0,-20]},
+    heb:{offset:[-20,1],leader:false},
+    'rmt-sy':{offset:[33,10],leader:false},
+    'rmt-sy:community':{offset:[35,36],leader:false}
+  };
   const rootColors={};
   const branchColors={'Indo-Aryan':'#9cadb6',Germanic:'#96c8d4',Romance:'#e7b39f',Slavic:'#acb6d5',Baltic:'#c0ce95',Celtic:'#a5c49b',Uralic:'#e6cf87',Semitic:'#e8c69a',Turkic:'#b2d0ba',Kartvelian:'#bea1ca',Berber:'#e3b17f',Basque:'#dd9990',Hellenic:'#c9abd5',Armenian:'#baa8ce',Albanian:'#dcadaf',Iranian:'#d8ad97',Nakh:'#bda8a0',Circassian:'#9eb6bb',Mongolic:'#d9c59e',Eskimo:'#cadcdb'};
   let lex,metadata,coverage,lands,features,legendTitles,nativeWords,languages,byId,byRoot,variants,svg,world,labelsLayer,legendLayer,basePaths,areaPaths,countryLines,projection,path,zoom,transform;
@@ -144,6 +153,7 @@
       g.on('click',()=>showCommunity(community)).on('keydown',e=>{if(e.key==='Enter')showCommunity(community);});
     }
     const list=[...languages.filter(l=>anchorsFor(l)),...communityWords].sort((a,b)=>rank(a.id)-rank(b.id));
+    const placedLabels=[];
     const candidates=[[0,0],[0,-20],[0,20],[-22,0],[22,0],[-29,-22],[29,-22],[-29,22],[29,22],[0,-40],[0,40],[-48,-15],[48,-15],[-48,20],[48,20],[-65,-30],[65,-30],[-65,30],[65,30],[0,-60],[0,60],[-80,0],[80,0],[-80,-50],[80,-50],[-80,50],[80,50],[0,-90],[0,90],[-105,0],[105,0]];
     for(const l of list){
       const a=anchorsFor(l);if(a[0]<-27||a[0]>68||a[1]<25||a[1]>75)continue;
@@ -177,6 +187,24 @@
       if(roman)addText(g,`(${roman})`,x,y+romanOffset,romanSize,{'class':'reading-label','font-family':'Arial, sans-serif','text-anchor':'middle',direction:'ltr','font-weight':400,'paint-order':'stroke',stroke:'#faf9f2','stroke-width':1.4,'stroke-linejoin':'round',fill:'#38555b'});
       g.on('click',()=>showWord(l.id)).on('keydown',e=>{if(e.key==='Enter')showWord(l.id);});
       if((focused&&key(l)!==focused)||(search&&!matches(l)))g.attr('opacity',.22);
+      placedLabels.push({g,l,raw,x,y});
+    }
+    for(const {g,l,raw,x,y} of placedLabels){
+      const placement=middleEastPlacements[l.mapCommunity?`${l.id}:community`:l.id];
+      if(!placement){
+        if(['pes','bal','lrc','luz','bqi','ckb'].includes(l.id))g.selectAll('.label-leader,.anchor-dot').remove();
+        continue;
+      }
+      const [ox,oy]=placement.offset,dx=raw[0]+ox-x,dy=raw[1]+oy-y;
+      g.attr('transform',`translate(${dx},${dy})`).attr('data-placement','middle-east');
+      g.selectAll('.label-leader').remove();
+      // The word moves, while its geographic point remains at its source location.
+      let point=g.select('.reference-location,.anchor-dot');
+      if(point.empty())point=node(g,'circle',{r:l.mapPoint?3.2:1.5,fill:l.mapPoint?color(l):'#536a68',stroke:l.mapPoint?'#fbfaf4':'none','stroke-width':.8,'class':l.mapPoint?'reference-location':'anchor-dot'});
+      point.attr('cx',raw[0]-dx).attr('cy',raw[1]-dy);
+      if(placement.point===false)point.remove();
+      if(placement.leader){const [ex,ey]=placement.endOffset||[0,-5];g.insert('line',':first-child').attr('class','label-leader').attr('x1',raw[0]-dx).attr('y1',raw[1]-dy).attr('x2',x+ex).attr('y2',y+ey).attr('stroke','#516b6d').attr('stroke-width',.7).attr('opacity',.65);}
+      if(!l.mapCommunity)labelPoints.set(l.id,{x:raw[0]+ox,y:raw[1]+oy});
     }
   }
   function matches(l){return `${l.name} ${l.native||''} ${l.word} ${l.romanization||''} ${l.id}`.toLowerCase().includes(search);}
