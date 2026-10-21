@@ -23,11 +23,12 @@
   // Compact local annotations: apply after layout so the Caucasus stays unchanged.
   const middleEastPlacements={
     tur:{offset:[0,0],leader:false,point:false},kmr:{offset:[4,-8],leader:false,point:false},
-    apc:{offset:[18,4],leader:false},acm:{offset:[0,0],leader:false,point:false},
+    apc:{offset:[18,4],leader:false},acm:{offset:[-20,0],leader:false,point:false},
     amw:{offset:[-43,4],leader:false},aii:{offset:[-5,42],leader:true,endOffset:[0,-20]},
     heb:{offset:[-20,1],leader:false},
     'rmt-sy':{offset:[33,10],leader:false},
-    'rmt-sy:community':{offset:[35,36],leader:false}
+    'rmt-sy:community':{offset:[35,36],leader:false},
+    'kawliya-iq':{offset:[39,4],leader:false}
   };
   const rootColors={};
   const branchColors={'Indo-Aryan':'#9cadb6',Germanic:'#96c8d4',Romance:'#e7b39f',Slavic:'#acb6d5',Baltic:'#c0ce95',Celtic:'#a5c49b',Uralic:'#e6cf87',Semitic:'#e8c69a',Turkic:'#b2d0ba',Kartvelian:'#bea1ca',Berber:'#e3b17f',Basque:'#dd9990',Hellenic:'#c9abd5',Armenian:'#baa8ce',Albanian:'#dcadaf',Iranian:'#d8ad97',Nakh:'#bda8a0',Circassian:'#9eb6bb',Mongolic:'#d9c59e',Eskimo:'#cadcdb'};
@@ -143,11 +144,12 @@
     for(const community of lex.communityReferences||[]){
       const p=transform.apply(projection(community.anchor));
       if(p[0]<345||p[0]>1780||p[1]<28||p[1]>1022)continue;
-      const size=11,width=textWidth(community.mapCaption,size,600,'Arial'),offset=community.mapOffset||[0,18],x=p[0]+offset[0],y=p[1]+offset[1];
+      const placement=middleEastPlacements[community.id];
+      const size=11,width=textWidth(community.mapCaption,size,600,'Arial'),offset=placement?.offset||community.mapOffset||[0,18],x=p[0]+offset[0],y=p[1]+offset[1];
       occupied.push([x-width/2-4,y-13,x+width/2+4,y+4],[p[0]-5,p[1]-5,p[0]+5,p[1]+5]);
       const g=node(labelsLayer,'g',{'class':'community-reference','data-community':community.id,role:'button',tabindex:0,'aria-label':`${community.name}: community reference; horse word unverified`});
       node(g,'title',{},community.notes);
-      node(g,'line',{x1:p[0],y1:p[1],x2:x,y2:y-6,stroke:'#516b6d','stroke-width':.7,opacity:.65});
+      if(placement?.leader!==false)node(g,'line',{x1:p[0],y1:p[1],x2:x,y2:y-6,stroke:'#516b6d','stroke-width':.7,opacity:.65});
       node(g,'circle',{'class':'minority-community community-only-marker',cx:p[0],cy:p[1],r:3.2,fill:'none',stroke:'#35575b','stroke-width':1.1,'pointer-events':'all'});
       addText(g,community.mapCaption,x,y,size,{'class':'minority-caption','font-family':'Arial, sans-serif','font-weight':600,'text-anchor':'middle',fill:'#35575b','paint-order':'stroke',stroke:'#fbfaf4','stroke-width':2.5,'stroke-linejoin':'round'});
       g.on('click',()=>showCommunity(community)).on('keydown',e=>{if(e.key==='Enter')showCommunity(community);});
